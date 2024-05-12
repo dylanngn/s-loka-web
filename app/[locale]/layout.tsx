@@ -7,6 +7,7 @@ import { Locale, i18n } from '@/i18n-config';
 import { Footer } from '@/app/[locale]/components/Footer';
 import { Header } from '@/app/[locale]/components/Header';
 import { getDictionary } from '@/server/get-dictionary';
+export const runtime = 'edge';
 
 export async function generateStaticParams() {
   return i18n.locales.map((locale) => ({ lang: locale }));
