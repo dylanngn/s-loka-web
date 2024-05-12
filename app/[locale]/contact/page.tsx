@@ -5,7 +5,7 @@ import { AreaField, TextField } from '@/components/Fields';
 import { useFormState, useFormStatus } from 'react-dom';
 import { createContactRequest } from '@/server/post-contact-request';
 
-export function SubmitButton({ label }: { label: string }) {
+function SubmitButton({ label }: { label: string }) {
   const { pending } = useFormStatus();
   return (
     <div className="mt-10 flex justify-center" aria-disabled={pending}>
