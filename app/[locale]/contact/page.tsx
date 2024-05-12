@@ -22,7 +22,7 @@ export default function Contact() {
 
   return (
     <Container id="contact">
-      <div className="mx-auto max-w-2xl text-center">
+      {/* <div className="mx-auto max-w-2xl text-center">
         <h2 className="text-xl font-semibold text-slate-900">{title}</h2>
       </div>
       <form action={formAction} className="mx-auto my-6 max-w-2xl sm:my-8">
@@ -78,7 +78,7 @@ export default function Contact() {
         <p aria-live="polite" className="sr-only" role="status">
           {state?.message}
         </p>
-      </form>
+      </form> */}
     </Container>
   );
 }
