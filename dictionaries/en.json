@@ -1,0 +1,236 @@
+{
+  "Hero": {
+    "greeting": "Xin chào",
+    "message": "Tại đây có giải pháp ngôn ngữ toàn cầu dành riêng cho doanh nghiệp của bạn!"
+  },
+  "Records": {
+    "title": "Những con số ấn tượng",
+    "items": {
+      "partners": {
+        "title": "Cộng tác viên dịch thuật"
+      },
+      "words": {
+        "title": "Số từ đã dịch"
+      },
+      "satisfaction": {
+        "title": "Sự hài lòng"
+      },
+      "pairs": {
+        "title": "Cặp ngôn ngữ đã cung cấp"
+      }
+    }
+  },
+  "Partners": {
+    "title": "Khách hàng của chúng tôi"
+  },
+  "Missions": {
+    "title": "Khai phóng tất cả sức mạnh ngôn ngữ",
+    "items": {
+      "understand": {
+        "title": "Hiểu về yêu cầu",
+        "description": "Luôn tìm các thấu hiểu doanh nghiệp và đối tượng thị trường chuyển đổi ngôn ngữ"
+      },
+      "provide": {
+        "title": "Cung cấp giải pháp",
+        "description": "Khai phóng sức mạnh của ngôn ngữ bản địa để tạo ra giải pháp bản địa hoá ngôn ngữ tốt nhất"
+      },
+      "unleash": {
+        "title": "Khai phóng giá trị",
+        "description": "Giá trị ngôn ngữ được khai phóng không chỉ trong từ ngữ, ngữ cảnh mà còn là bản sắc"
+      }
+    }
+  },
+  "ContactForm": {
+    "title": "Biểu mẫu điền thông tin liên hệ báo giá",
+    "fields": {
+      "name": "Họ và tên",
+      "email": "Email",
+      "phone": "Số điện thoại",
+      "company": "Tên công ty",
+      "website": "Website công ty",
+      "message": "Để lại lời nhắn cho chúng tôi"
+    },
+    "submit": "Gửi yêu cầu"
+  },
+  "Menu": {
+    "priceButton": "BÁO GIÁ",
+    "home": {
+      "title": "TRANG CHỦ",
+      "href": "/"
+    },
+    "solution": {
+      "title": "GIẢI PHÁP",
+      "href": "/giai-phap",
+      "sub": {
+        "localization": {
+          "title": "BẢN ĐỊA HÓA",
+          "href": "/giai-phap/ban-dia-hoa",
+          "sub": {
+            "game": {
+              "title": "Trò chơi (Game)",
+              "href": "/giai-phap/ban-dia-hoa/tro-choi"
+            },
+            "website": {
+              "title": "Website",
+              "href": "/giai-phap/ban-dia-hoa/website"
+            },
+            "mobileApp": {
+              "title": "Mobile App",
+              "href": "/giai-phap/ban-dia-hoa/mobile-app"
+            },
+            "media": {
+              "title": "Ấn phẩm media",
+              "href": "/giai-phap/ban-dia-hoa/an-pham-media"
+            }
+          }
+        },
+        "translation": {
+          "title": "DỊCH THUẬT",
+          "href": "/giai-phap/dich-thuat",
+          "sub": {
+            "major": {
+              "title": "Dịch thuật chuyên ngành",
+              "href": "/giai-phap/dich-thuat/dich-thuat-chuyen-nganh"
+            },
+            "notary": {
+              "title": "Dịch thuật công chứng",
+              "href": "/giai-phap/dich-thuat/dich-thuat-cong-chung"
+            }
+          }
+        },
+        "interpretation": {
+          "title": "PHIÊN DỊCH",
+          "href": "/giai-phap/phien-dich",
+          "sub": {
+            "accompanying": {
+              "title": "Phiên dịch tháp tùng",
+              "href": "/giai-phap/phien-dich/phien-dich-thap-tung"
+            },
+            "hospitality": {
+              "title": "Phiên dịch lữ hành",
+              "href": "/giai-phap/phien-dich/phien-dich-lu-hanh"
+            },
+            "travel": {
+              "title": "Phiên dịch du lịch",
+              "href": "/giai-phap/phien-dich/phien-dich-du-lich"
+            },
+            "business": {
+              "title": "Phiên dịch kinh doanh",
+              "href": "/giai-phap/phien-dich/phien-dich-kinh-doanh"
+            },
+            "trading": {
+              "title": "Phiên dịch triển lãm thương mại",
+              "href": "/giai-phap/phien-dich/phien-dich-trien-lam-thuong-mai"
+            },
+            "parallel": {
+              "title": "Phiên dịch song song",
+              "href": "/giai-phap/phien-dich/phien-dich-song-song"
+            }
+          }
+        },
+        "creativeTranslation": {
+          "title": "DỊCH SÁNG TẠO",
+          "href": "/giai-phap/dich-sang-tao",
+          "sub": {
+            "definition": {
+              "title": "Dịch sáng tạo là gì?",
+              "href": "/giai-phap/dich-sang-tao/dich-sang-tao-la-gi"
+            },
+            "mechanism": {
+              "title": "Cơ chế tiến hành dịch sáng tạo",
+              "href": "/giai-phap/dich-sang-tao/co-tien-hanh-dich-sang-tao"
+            },
+            "localizationMarketing": {
+              "title": "Bản địa hoá marketing",
+              "href": "/giai-phap/dich-sang-tao/ban-dia-hoa-marketing"
+            },
+            "localizationGame": {
+              "title": "Bản địa hoá Game",
+              "href": "/giai-phap/dich-sang-tao/ban-dia-hoa-game"
+            },
+            "localizationUIUX": {
+              "title": "Bản địa hoá UI/UX App",
+              "href": "/giai-phap/dich-sang-tao/ban-dia-hoa-ui-ux-app"
+            },
+            "copywriting": {
+              "title": "Copy writing",
+              "href": "/giai-phap/dich-sang-tao/copy-writing"
+            },
+            "contentWriting": {
+              "title": "Content writing",
+              "href": "/giai-phap/dich-sang-tao/content-writing"
+            }
+          }
+        },
+        "BPO": {
+          "title": "BPO",
+          "href": "/giai-phap/bpo",
+          "sub": {
+            "supportAI": {
+              "title": "Hỗ trợ AI",
+              "href": "/giai-phap/bpo/ho-tro-ai"
+            },
+            "callCenter": {
+              "title": "Call Center",
+              "href": "/giai-phap/bpo/call-center"
+            },
+            "digitalize": {
+              "title": "Số hóa tài liệu",
+              "href": "/giai-phap/bpo/so-hoa-tai-lieu"
+            }
+          }
+        }
+      }
+    },
+    "service": {
+      "title": "CHUYÊN NGÀNH",
+      "href": "/chuyen-nganh",
+      "sub": {
+        "hotelService": {
+          "title": "Dịch vụ khách sạn",
+          "href": "/chuyen-nganh/dich-vu-khach-san"
+        },
+        "financeBanking": {
+          "title": "Tài chính - Ngân hàng",
+          "href": "/chuyen-nganh/tai-chinh-ngan-hang"
+        },
+        "automation": {
+          "title": "Tự động hóa",
+          "href": "/chuyen-nganh/tu-dong-hoa"
+        },
+        "carManufacturing": {
+          "title": "Sản xuất ô tô",
+          "href": "/chuyen-nganh/san-xuat-o-to"
+        },
+        "lifeScience": {
+          "title": "Khoa học đời sống",
+          "href": "/chuyen-nganh/khoa-hoc-doi-song"
+        },
+        "retail": {
+          "title": "Bán lẻ",
+          "href": "/chuyen-nganh/ban-le"
+        },
+        "ecommerce": {
+          "title": "Thương mại điện tử",
+          "href": "/chuyen-nganh/thuong-mai-dien-tu"
+        },
+        "energy": {
+          "title": "Năng lượng",
+          "href": "/chuyen-nganh/nang-luong"
+        },
+        "advertising": {
+          "title": "Quảng cáo & Marketing",
+          "href": "/chuyen-nganh/quang-cao"
+        },
+        "IT": {
+          "title": "Công nghệ thông tin",
+          "href": "/chuyen-nganh/cong-nghe-thong-tin"
+        }
+      }
+    },
+    "about": {
+      "title": "THÔNG TIN S-LOKA",
+      "href": "/thong-tin"
+    }
+  }
+}
