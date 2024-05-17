@@ -1,42 +1,146 @@
 {
-  "Hero": {
-    "greeting": "Xin chào",
-    "message": "Tại đây có giải pháp ngôn ngữ toàn cầu dành riêng cho doanh nghiệp của bạn!"
-  },
-  "Records": {
-    "title": "Những con số ấn tượng",
-    "items": {
-      "partners": {
-        "title": "Cộng tác viên dịch thuật"
-      },
-      "words": {
-        "title": "Số từ đã dịch"
-      },
-      "satisfaction": {
-        "title": "Sự hài lòng"
-      },
-      "pairs": {
-        "title": "Cặp ngôn ngữ đã cung cấp"
+  "Home": {
+    "Hero": {
+      "title": "S-LOKA",
+      "message": "Xin chào",
+      "description": "Tại đây có giải pháp ngôn ngữ toàn cầu dành riêng cho doanh nghiệp của bạn!"
+    },
+    "Records": {
+      "title": "Những con số ấn tượng",
+      "items": {
+        "partners": {
+          "title": "Cộng tác viên dịch thuật"
+        },
+        "words": {
+          "title": "Số từ đã dịch"
+        },
+        "satisfaction": {
+          "title": "Sự hài lòng"
+        },
+        "pairs": {
+          "title": "Cặp ngôn ngữ đã cung cấp"
+        }
       }
+    },
+    "Partners": {
+      "title": "Khách hàng của chúng tôi"
+    },
+    "Missions": {
+      "title": "Khai phóng tất cả sức mạnh ngôn ngữ",
+      "items": {
+        "understand": {
+          "title": "Hiểu về yêu cầu",
+          "description": "Luôn tìm các thấu hiểu doanh nghiệp và đối tượng thị trường chuyển đổi ngôn ngữ"
+        },
+        "provide": {
+          "title": "Cung cấp giải pháp",
+          "description": "Khai phóng sức mạnh của ngôn ngữ bản địa để tạo ra giải pháp bản địa hoá ngôn ngữ tốt nhất"
+        },
+        "unleash": {
+          "title": "Khai phóng giá trị",
+          "description": "Giá trị ngôn ngữ được khai phóng không chỉ trong từ ngữ, ngữ cảnh mà còn là bản sắc"
+        }
+      }
+    },
+    "Solutions": {
+      "title": "Cơ chế tiến hành dịch sáng tạo",
+      "item": {
+        "localization": {
+          "title": "Bản địa hoá",
+          "href": "/giai-phap/ban-dia-hoa"
+        },
+        "translation": {
+          "title": "Dịch thuật",
+          "href": "/giai-phap/dich-thuat"
+        },
+        "interpretation": {
+          "title": "Phiên dịch",
+          "href": "/giai-phap/phien-dich"
+        },
+        "creativeTranslation": {
+          "title": "Dịch sáng tạo",
+          "href": "/giai-phap/dich-sang-tao"
+        },
+        "BPO": {
+          "title": "BPO",
+          "href": "/giai-phap/bpo"
+        }
+      }
+    },
+    "ContactForm": {
+      "title": "Biểu mẫu điền thông tin liên hệ báo giá",
+      "fields": {
+        "name": "Họ và tên",
+        "email": "Email",
+        "phone": "Số điện thoại",
+        "company": "Tên công ty",
+        "website": "Website công ty",
+        "message": "Để lại lời nhắn cho chúng tôi"
+      },
+      "buttonLabel": "Gửi yêu cầu"
     }
   },
-  "Partners": {
-    "title": "Khách hàng của chúng tôi"
-  },
-  "Missions": {
-    "title": "Khai phóng tất cả sức mạnh ngôn ngữ",
-    "items": {
-      "understand": {
-        "title": "Hiểu về yêu cầu",
-        "description": "Luôn tìm các thấu hiểu doanh nghiệp và đối tượng thị trường chuyển đổi ngôn ngữ"
+  "Career": {
+    "Hero": {
+      "title": "Tuyển dụng",
+      "message": "tại S-LOKA",
+      "description": "Xây dựng con đường sự nghiệp dịch thuật rực rỡ của bạn với chúng tôi!"
+    },
+    "Main": {
+      "Introduction": {
+        "title": "Xây dựng một khởi đầu mới",
+        "description1": "Bạn đang tìm kiếm một công ty dịch vụ dịch thuật đúng chuyên môn của mình, cần một môi trường làm việc năng động, sáng tạo? Bạn đang là sinh viên các trường Đại học chuyên ngành ngôn ngữ, muốn tìm kiếm cơ hội việc làm ngành dịch thuật ngay từ khi còn ngồi trên giảng đường? Hãy ứng tuyển vào S-LOKA ngay hôm nay để xây dựng con đường sự nghiệp rực rỡ của mình.",
+        "description2": "Được thành lập vào tháng 01 năm 2024, S-LOKA ra đời với định hướng trở thành một nhà cung cấp dịch vụ dịch thuật chuyên nghiệp, đẳng cấp.",
+        "description3": "S-LOKA hiểu rằng, nhân sự là yếu tố quan trọng tạo nên thành công của một doanh nghiệp, vì thế S-LOKA luôn chào đón các nhân tài đang học tập và sinh sống trên toàn thế giới."
       },
-      "provide": {
-        "title": "Cung cấp giải pháp",
-        "description": "Khai phóng sức mạnh của ngôn ngữ bản địa để tạo ra giải pháp bản địa hoá ngôn ngữ tốt nhất"
-      },
-      "unleash": {
-        "title": "Khai phóng giá trị",
-        "description": "Giá trị ngôn ngữ được khai phóng không chỉ trong từ ngữ, ngữ cảnh mà còn là bản sắc"
+      "Values": {
+        "title": "Giá trị công việc tại S-LOKA",
+        "items": {
+          "environment": {
+            "name": "Môi trường thân thiện, vui vẻ, năng động"
+          },
+          "path": {
+            "name": "Lộ trình thăng tiến, hỗ trợ phát triển"
+          },
+          "paid": {
+            "name": "Thu nhập xứng đáng"
+          },
+          "culture": {
+            "name": "Văn hoá cởi mở, thẳng thắn"
+          },
+          "regconize": {
+            "name": "Công nhận nỗ lực"
+          },
+          "development": {
+            "name": "Phát huy, rèn luyện kỹ năng mềm, kỹ năng chuyên môn"
+          }
+        }
+      }
+    },
+    "Detail": {
+      "button": {
+        "back": "Trở về trang trước"
+      }
+    },
+    "Footer": {
+      "title": "Danh sách vị trí tuyển dụng",
+      "description": "S-LOKA luôn mở rộng các cơ hội việc làm cho tất cả mọi độ  tuổi, đặc biệt là các sinh viên năm cuối để giúp các bạn có thể trau dồi kinh nghiệm ngay từ khi còn trên ghế nhà trường.",
+      "sections": {
+        "fulltime": {
+          "title": "Full-Time"
+        },
+        "parttime": {
+          "title": "Part-Time"
+        },
+        "contractor": {
+          "title": "Cộng Tác Viên"
+        },
+        "internship": {
+          "title": "Thực Tập Sinh"
+        },
+        "card": {
+          "outdate": " Ngày hết hạn"
+        }
       }
     }
   },

@@ -7,7 +7,7 @@ import {
   EnvelopeIcon,
   MapPinIcon,
 } from '@heroicons/react/24/outline';
-import { SOCIALS, SOLUTIONS } from '@/constants/menu';
+import { SOCIALS } from '@/constants/menu';
 import { BackgroundImage } from '@/components/BackgroundImage';
 import { getDictionary } from '@/server/get-dictionary';
 import { Locale } from '@/i18n-config';

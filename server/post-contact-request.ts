@@ -4,6 +4,15 @@ import parsePhoneNumber from 'libphonenumber-js';
 import { revalidatePath } from 'next/cache';
 import { z } from 'zod';
 
+export type ContactRequest = {
+  name: string;
+  phone: string;
+  company: string;
+  website: string;
+  email: string;
+  message: string;
+};
+
 const zPhoneNumber = z.string().transform((value, ctx) => {
   const phoneNumber = parsePhoneNumber(value, {
     defaultCountry: 'VN',
@@ -20,7 +29,7 @@ const zPhoneNumber = z.string().transform((value, ctx) => {
   return phoneNumber.formatInternational();
 });
 
-export async function createContactRequest(prevState: any, formData: any) {
+export async function createContactRequest(prevState: any, formData: FormData) {
   const schema = z.object({
     name: z.string().min(3),
     phone: zPhoneNumber,

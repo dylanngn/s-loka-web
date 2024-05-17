@@ -1,3 +1,4 @@
+import { Container } from '@/components/Container';
 import { Badge } from '@/components/icons/Badge';
 import { Clipper } from '@/components/icons/Clipper';
 import { Message } from '@/components/icons/Message';
@@ -11,15 +12,13 @@ const ICONS = {
 } as any;
 
 export async function Missions({ lang }: { lang: Locale }) {
-  const dict = await getDictionary(lang);
+  const dict = (await getDictionary(lang))['Home']['Missions'];
   return (
-    <section className="mx-auto max-w-5xl px-4 pb-16 pt-20 text-center sm:px-6 lg:px-8 lg:pt-24">
-      <h2 className="text-xl font-semibold text-slate-900">
-        {dict.Missions.title}
-      </h2>
+    <Container className="pb-16 pt-20 text-center lg:pt-24">
+      <h2 className="text-xl font-semibold text-slate-900">{dict.title}</h2>
       <div className="sm:mt-18 mx-auto mt-16 max-w-2xl lg:mt-20 lg:max-w-none">
         <dl className="grid max-w-xl grid-cols-1 gap-x-12 gap-y-16 lg:max-w-none lg:grid-cols-3">
-          {Object.entries(dict.Missions.items).map(([key, value]) => {
+          {Object.entries(dict.items).map(([key, value]) => {
             const Icon = ICONS[key];
             return (
               <div key={key} className="flex flex-col">
@@ -40,6 +39,6 @@ export async function Missions({ lang }: { lang: Locale }) {
           })}
         </dl>
       </div>
-    </section>
+    </Container>
   );
 }
