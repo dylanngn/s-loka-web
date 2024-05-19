@@ -19,7 +19,24 @@ const nextConfig = {
     ],
   },
   async rewrites() {
-    return [];
+    return [
+      // {
+      //   source: '/*:path/tuyen-dung',
+      //   destination: '/:path/careers',
+      // },
+      {
+        source: '/vi/tuyen-dung',
+        destination: '/vi/career',
+      },
+      {
+        source: '/vi/tuyen-dung/:slug',
+        destination: '/vi/career/:slug',
+      },
+      // {
+      //   source: "/vi/lien-he",
+      //   destination: "/en/contact",
+      // },
+    ];
   },
 };
 
