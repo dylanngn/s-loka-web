@@ -1,9 +1,13 @@
+'use client';
+
 import clsx from 'clsx';
 
 export function SuggestionTabs({
   tabs,
+  onChangeTab,
 }: {
-  tabs: { name: string; href: string; current: boolean }[];
+  tabs: { key: string; name: string; current: boolean }[];
+  onChangeTab: (tab: string) => void;
 }) {
   return (
     <>
@@ -17,6 +21,7 @@ export function SuggestionTabs({
           name="tabs"
           className="block w-full rounded-md border-gray-300 focus:border-primary-500 focus:ring-primary-500"
           defaultValue={tabs.find((tab) => tab.current)?.name}
+          onChange={(e) => onChangeTab(e.target.value)}
         >
           {tabs.map((tab) => (
             <option key={tab.name}>{tab.name}</option>
@@ -25,20 +30,18 @@ export function SuggestionTabs({
       </div>
       <div className="hidden sm:block">
         <nav
-          className="isolate flex divide-x divide-gray-200 rounded-full shadow"
+          className="border flex 0 rounded-full isolate space-x-2 border-slate-400 overflow-hidden"
           aria-label="Tabs"
         >
           {tabs.map((tab, tabIdx) => (
-            <a
+            <button
+              onClick={() => onChangeTab(tab.key)}
               key={tab.name}
-              href={tab.href}
               className={clsx(
                 tab.current
-                  ? 'text-gray-900'
-                  : 'text-gray-500 hover:text-gray-700',
-                tabIdx === 0 ? 'rounded-l-full' : '',
-                tabIdx === tabs.length - 1 ? 'rounded-r-full' : '',
-                'group relative min-w-0 flex-1 overflow-hidden bg-white py-4 px-4 text-center text-sm font-medium hover:bg-gray-50 focus:z-10'
+                  ? 'border border-slate-400 bg-slate-200 font-medium'
+                  : '',
+                'group relative min-w-0 rounded-full flex-1 bg-white py-2 px-4 text-center text-sm'
               )}
               aria-current={tab.current ? 'page' : undefined}
             >
@@ -50,7 +53,7 @@ export function SuggestionTabs({
                   'absolute inset-x-0 bottom-0 h-0.5'
                 )}
               />
-            </a>
+            </button>
           ))}
         </nav>
       </div>
