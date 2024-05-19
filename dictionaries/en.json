@@ -122,7 +122,7 @@
         "back": "Trở về trang trước"
       }
     },
-    "Footer": {
+    "Suggestion": {
       "title": "Danh sách vị trí tuyển dụng",
       "description": "S-LOKA luôn mở rộng các cơ hội việc làm cho tất cả mọi độ  tuổi, đặc biệt là các sinh viên năm cuối để giúp các bạn có thể trau dồi kinh nghiệm ngay từ khi còn trên ghế nhà trường.",
       "sections": {
@@ -137,10 +137,10 @@
         },
         "internship": {
           "title": "Thực Tập Sinh"
-        },
-        "card": {
-          "outdate": " Ngày hết hạn"
         }
+      },
+      "card": {
+        "outdate": " Ngày hết hạn"
       }
     }
   },

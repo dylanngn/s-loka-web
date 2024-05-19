@@ -9,21 +9,17 @@ if (process.env.NODE_ENV === 'development') {
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'media-cdn.s-loka.com',
+        pathname: '/s-loka-cms/production/images/**',
+      },
+    ],
+  },
   async rewrites() {
-    return [
-      // {
-      //   source: '/*:path/tuyen-dung',
-      //   destination: '/:path/careers',
-      // },
-      // {
-      //   source: '/(.*)/tuyen-dung',
-      //   destination: '/vi/careers',
-      // },
-      // {
-      //   source: "/vi/lien-he",
-      //   destination: "/en/contact",
-      // },
-    ];
+    return [];
   },
 };
 

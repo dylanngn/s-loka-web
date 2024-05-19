@@ -1,22 +1,20 @@
 import Link from 'next/link';
-import { Button } from '../../components/Button';
+import { Button } from '@/components/Button';
+import { Container } from '@/components/Container';
 
 export default function NotFound() {
   return (
-    <div>
+    <Container className="text-center pb-16">
       <div className="flex">
         <Link href="/" aria-label="Home"></Link>
       </div>
-      <p className="mt-20 text-sm font-medium text-gray-700">404</p>
-      <h1 className="mt-3 text-lg font-semibold text-gray-900">
-        Page not found
-      </h1>
+      <h1 className="mt-20 text-lg font-semibold text-gray-900">404</h1>
       <p className="mt-3 text-sm text-gray-700">
-        Sorry, we couldn’t find the page you’re looking for.
+        Xin lỗi, trang này hiện không tồn tại.
       </p>
       <Button href="/" className="mt-10">
-        Go back home
+        Về trang chủ
       </Button>
-    </div>
+    </Container>
   );
 }

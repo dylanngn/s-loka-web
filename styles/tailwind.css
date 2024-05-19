@@ -10,25 +10,25 @@
   }
 }
 
-@property --ctv {
+@property --partners {
   syntax: '<integer>';
   initial-value: 0;
   inherits: false;
 }
 
-@property --w {
+@property --words {
   syntax: '<integer>';
   initial-value: 0;
   inherits: false;
 }
 
-@property --satisfy {
+@property --satisfaction {
   syntax: '<integer>';
   initial-value: 0;
   inherits: false;
 }
 
-@property --pair {
+@property --pairs {
   syntax: '<integer>';
   initial-value: 0;
   inherits: false;
@@ -36,15 +36,15 @@
 
 @keyframes counter {
   from {
-    --ctv: 0;
-    --w: 0;
-    --satisfy: 0;
-    --pair: 0;
+    --partners: 0;
+    --words: 0;
+    --satisfaction: 0;
+    --pairs: 0;
   }
   to {
-    --ctv: 74;
-    --w: 197265;
-    --satisfy: 100;
-    --pair: 50;
+    --partners: 74;
+    --words: 197265;
+    --satisfaction: 100;
+    --pairs: 50;
   }
 }
