@@ -10,41 +10,8 @@
   }
 }
 
-@property --partners {
+@property --num {
   syntax: '<integer>';
   initial-value: 0;
   inherits: false;
-}
-
-@property --words {
-  syntax: '<integer>';
-  initial-value: 0;
-  inherits: false;
-}
-
-@property --satisfaction {
-  syntax: '<integer>';
-  initial-value: 0;
-  inherits: false;
-}
-
-@property --pairs {
-  syntax: '<integer>';
-  initial-value: 0;
-  inherits: false;
-}
-
-@keyframes counter {
-  from {
-    --partners: 0;
-    --words: 0;
-    --satisfaction: 0;
-    --pairs: 0;
-  }
-  to {
-    --partners: 74;
-    --words: 197265;
-    --satisfaction: 100;
-    --pairs: 50;
-  }
 }

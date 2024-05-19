@@ -18,12 +18,17 @@ const nextConfig = {
       },
     ],
   },
+  async redirects() {
+    return [
+      {
+        source: '/en/tuyen-dung',
+        destination: '/vi/tuyen-dung',
+        permanent: true,
+      },
+    ];
+  },
   async rewrites() {
     return [
-      // {
-      //   source: '/*:path/tuyen-dung',
-      //   destination: '/:path/careers',
-      // },
       {
         source: '/vi/tuyen-dung',
         destination: '/vi/career',
@@ -32,10 +37,6 @@ const nextConfig = {
         source: '/vi/tuyen-dung/:slug',
         destination: '/vi/career/:slug',
       },
-      // {
-      //   source: "/vi/lien-he",
-      //   destination: "/en/contact",
-      // },
     ];
   },
 };
