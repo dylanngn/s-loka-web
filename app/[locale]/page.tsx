@@ -1,11 +1,11 @@
 import { getDictionary } from '@/server/get-dictionary';
 import { Locale } from '@/i18n-config';
 import { Hero } from '@/components/Hero';
-import { Records } from './components/Records';
-import { Missions } from './components/Missions';
-import { Partners } from './components/Partners';
-import { Solutions } from './components/Solutions';
-import ContactForm from './components/ContactForm';
+import { Records } from '@/components/Records';
+import { Missions } from '@/components/Missions';
+import { Partners } from '@/components/Partners';
+import { Solutions } from '@/components/Solutions';
+import ContactForm from '@/components/ContactForm';
 
 export default async function IndexPage({
   params: { lang },

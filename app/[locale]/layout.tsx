@@ -2,10 +2,9 @@ import type { Metadata } from 'next';
 import { Inter, Lexend } from 'next/font/google';
 import clsx from 'clsx';
 import '@/styles/tailwind.css';
-import Script from 'next/script';
 import { Locale, i18n } from '@/i18n-config';
-import { Footer } from '@/app/[locale]/components/Footer';
-import { Header } from '@/app/[locale]/components/Header';
+import { Footer } from '@/components/Footer';
+import { Header } from '@/components/Header';
 import { getDictionary } from '@/server/get-dictionary';
 export const runtime = 'edge';
 

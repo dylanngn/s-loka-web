@@ -1,4 +1,4 @@
-import { SuggestionsGrid } from './components/SuggestionGrid';
+import { SuggestionsGrid } from '@/components/SuggestionGrid';
 import { Container } from '@/components/Container';
 import { Hero } from '@/components/Hero';
 import { Locale } from '@/i18n-config';
@@ -13,11 +13,11 @@ export default async function CareerLayout({
   params: { lang: Locale };
 }>) {
   const jobs = await getAllJob();
-  const heroDict = (await getDictionary(lang))['Career']['Hero'];
+  const dict = await getDictionary(lang);
   const suggestionDict = (await getDictionary(lang))['Career']['Suggestion'];
   return (
     <>
-      <Hero {...heroDict} />
+      <Hero {...dict.Career.Hero} />
       {children}
       <Container className="text-center mt-16 pb-16">
         <h2 className="text-xl font-semibold text-slate-900">

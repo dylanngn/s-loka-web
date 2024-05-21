@@ -1,4 +1,4 @@
-import { BackButton } from '@/app/[locale]/career/[slug]/components/BackButton';
+import { BackButton } from '@/components/CareerBackButton';
 import { Container } from '@/components/Container';
 import { Locale } from '@/i18n-config';
 import { getAllJob } from '@/server/get-all-job';
