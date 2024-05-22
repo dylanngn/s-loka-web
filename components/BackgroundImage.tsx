@@ -13,7 +13,7 @@ export function BackgroundImage({
   return (
     <div className={clsx('relative', 'overflow-hidden', className)} {...props}>
       <div className="absolute inset-0">{image}</div>
-      <div className="flex h-full justify-center">{children}</div>
+      <div className="h-full">{children}</div>
     </div>
   );
 }
