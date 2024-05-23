@@ -10,8 +10,41 @@
   }
 }
 
-@property --num {
+@property --num-partners {
   syntax: '<integer>';
   initial-value: 0;
   inherits: false;
+}
+
+@property --num-words {
+  syntax: '<integer>';
+  initial-value: 0;
+  inherits: false;
+}
+
+@property --num-satisfaction {
+  syntax: '<integer>';
+  initial-value: 0;
+  inherits: false;
+}
+
+@property --num-pairs {
+  syntax: '<integer>';
+  initial-value: 0;
+  inherits: false;
+}
+
+@keyframes counter {
+  from {
+    --num-partners: 0;
+    --num-words: 0;
+    --num-satisfaction: 0;
+    --num-pairs: 0;
+  }
+  to {
+    --num-partners: 74;
+    --num-words: 197265;
+    --num-satisfaction: 100;
+    --num-pairs: 50;
+  }
 }

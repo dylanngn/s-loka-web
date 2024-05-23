@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 type HeroProps = {
   title: string;
-  message: string;
+  message?: string;
   description: string;
 };
 
@@ -74,7 +74,7 @@ export function Hero({ title, message, description }: HeroProps) {
           {message}
         </span>
       </h1>
-      <div className="text-s mt-16 font-light">{description}</div>
+      <p className="text-s mt-16 font-light">{description}</p>
     </motion.section>
   );
 }

@@ -30,7 +30,7 @@ export function Header({
     <header className="pt-8 pb-6 shadow-sm">
       <nav className="relative z-50 flex justify-between mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
         <div className="flex items-center md:gap-x-12">
-          <a href="#" aria-label="Home">
+          <a href="/" aria-label="Home">
             <Image src={logo} alt="Home" className="h-10 w-auto" />
           </a>
         </div>

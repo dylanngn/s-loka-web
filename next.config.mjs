@@ -37,6 +37,18 @@ const nextConfig = {
         source: '/vi/tuyen-dung/:slug',
         destination: '/vi/career/:slug',
       },
+      {
+        source: '/vi/ve-chung-toi',
+        destination: '/vi/about',
+      },
+      {
+        source: '/vi/giai-phap',
+        destination: '/vi/solution',
+      },
+      {
+        source: '/vi/giai-phap/:slug',
+        destination: '/vi/solution/:slug',
+      },
     ];
   },
 };

@@ -12,16 +12,23 @@ export default async function IndexPage({
 }: {
   params: { lang: Locale };
 }) {
-  const heroDict = (await getDictionary(lang))['Home']['Hero'];
-  const contactFormDict = (await getDictionary(lang))['Home']['ContactForm'];
+  const dict = await getDictionary(lang);
   return (
     <>
-      <Hero {...heroDict} />
+      <Hero {...dict.Home.Hero} />
       <Missions lang={lang} />
       <Solutions lang={lang} />
-      <Records lang={lang} />
-      <Partners lang={lang} />
-      <ContactForm {...contactFormDict} />
+      <Records
+        title={dict.Home.Records.title}
+        items={{
+          partners: dict.Home.Records.items.partners.title,
+          words: dict.Home.Records.items.words.title,
+          satisfaction: dict.Home.Records.items.satisfaction.title,
+          pairs: dict.Home.Records.items.pairs.title,
+        }}
+      />
+      <Partners title={dict.Partners.title} />
+      <ContactForm {...dict.ContactForm} />
     </>
   );
 }
