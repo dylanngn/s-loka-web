@@ -41,7 +41,7 @@
       }
     },
     "Solutions": {
-      "title": "Cơ chế tiến hành dịch sáng tạo",
+      "title": "Các giải pháp ngôn ngữ S-LOKA cung cấp",
       "item": {
         "localization": {
           "title": "Bản địa hoá",
@@ -88,8 +88,8 @@
           "path": {
             "name": "Lộ trình thăng tiến, hỗ trợ phát triển"
           },
-          "paid": {
-            "name": "Thu nhập xứng đáng"
+          "development": {
+            "name": "Phát huy, rèn luyện kỹ năng mềm, kỹ năng chuyên môn"
           },
           "culture": {
             "name": "Văn hoá cởi mở, thẳng thắn"
@@ -97,8 +97,8 @@
           "regconize": {
             "name": "Công nhận nỗ lực"
           },
-          "development": {
-            "name": "Phát huy, rèn luyện kỹ năng mềm, kỹ năng chuyên môn"
+          "paid": {
+            "name": "Thu nhập xứng đáng"
           }
         }
       }
@@ -133,7 +133,7 @@
   "About": {
     "Hero": {
       "title": "Về S-LOKA",
-      "description": "S-LOKA là một công ty dịch thuật chuyên nghiệp, đẳng cấp, chúng tôi cung cấp giải pháp ngôn ngữ toàn cầu dành riêng cho doanh nghiệp của bạn!"
+      "description": "Công ty cổ phần dịch vụ S-Loka đã hình thành và phát triển như thế nào?"
     },
     "Introduction": {
       "description1": "S-Loka được hình thành từ mong muốn xây dựng một công ty cung cấp dịch vụ dịch thuật chuyên nghiệp, lấy chất lượng làm uy tín và xây dựng một môi trường làm việc như ngôi nhà thứ hai cho các nhân sự tại S-Loka.",
@@ -141,7 +141,7 @@
     },
     "Mission": {
       "title": "Sứ mệnh",
-      "description": "Tầm nhìn của S-Loka là trở thành nhà cung cấp dịch vụ ngôn ngữ đang phát triển nhanh chóng, thiên về công nghệ, bảo mật và đổi mới, thích ứng để trở thành LPS tốt nhất của doanh nghiệp về dịch vụ chuyển đổi sáng tạo và bản địa hóa tại thị trường Việt Nam và khu vực vào năm 2025."
+      "description": "Sứ mệnh của S-Loka bắt nguồn từ cam kết cung cấp các dịch vụ ngôn ngữ một cách  an toàn, đổi mới và tích hợp công nghệ, nhằm thúc đẩy sự hiểu biết sâu sắc giữa các nền  văn hóa đa dạng với khả năng thích ứng bản địa hóa phù hợp và tạo ra một liên minh vững chắc giữa các nhà ngôn ngữ học và LSP tại Việt Nam."
     },
     "Vision": {
       "title": "Tầm nhìn",
@@ -149,7 +149,7 @@
     },
     "Values": {
       "title": "Giá trị cốt lõi",
-      "description": "Các giá trị cốt lõi của S-Loka tạo thành nền tảng cho triết lý dịch vụ của chúng tôi. Chúng tôi cam kết cung cấp: SIGMA Security - Bảo mật Innovation - Đổi mới Genuine - Thành thât Mastery - Chuyên môn Alliance - Đoàn kết",
+      "description": "Các giá trị cốt lõi của S-Loka tạo thành nền tảng cho triết lý dịch vụ của chúng tôi.",
       "guarantees": "Chúng tôi cam kết cung cấp:",
       "items": {
         "value1": {
@@ -197,33 +197,36 @@
   },
   "Solution": {
     "title": "Danh sách các giải pháp tại S-Loka",
+    "readMore": "Đọc thêm",
     "Hero": {
       "title": "Giải pháp",
-      "description": "S-LOKA là một công ty dịch thuật chuyên nghiệp, đẳng cấp, chúng tôi cung cấp giải pháp ngôn ngữ toàn cầu dành riêng cho doanh nghiệp của bạn!"
+      "description": "Sự tôn vinh thương hiệu và ngôn ngữ nằm trọn trong từng giải pháp tại S-Loka"
     },
     "Introduction": {
       "description1": "Khai phóng sức mạnh của ngôn ngữ là một trong những kim chỉ nam cho dịch vụ dịch thuật tại S-LOKA. Chúng tôi luôn đề cao sự sáng tạo, nhưng vẫn lưu giữ yếu tố bản địa, sắc tộc để tôn vinh những nét đẹp ngôn ngữ riêng.",
       "description2": "Các giải pháp luôn được thực hiện bởi những chuyên gia hàng đầu trong ngành dịch thuật, cùng đội ngũ quản trị dự án, sẽ giúp doanh nghiệp của bạn đem tiếng vang thương hiệu vượt xa hơn mong đợi."
     },
-    "Localization": {
-      "title": "Bản địa hoá",
-      "description": "Không chỉ dừng lại ở việc  dịch thuật, hãy cùng S-Loka tạo ra phiên bản mới cho  sản phẩm, dịch vụ cũng như thương hiệu của bạn trở nên thân thiện, dễ gần hơn nữa với thị trường nước ngoài."
-    },
-    "Translation": {
-      "title": "Dịch thuật",
-      "description": "Trở thành thương hiệu  nổi tiếng trên thị trường  toàn cầu bằng việc tin tưởng và hợp tác với S-Loka cho những vấn đề về dịch thuật của bạn. Liên hệ với chúng tôi ngay hôm nay để bắt đầu cuộc hành trình xuất sắc về  ngôn ngữ và thành công trên toàn cầu !"
-    },
-    "Interpretation": {
-      "title": "Phiên dịch",
-      "description": "Chúng tôi cung cấp các  dịch vụ phiên dịch riêng biệt cho từng nhu cầu cụ thể của từng khách hàng, giúp cho ngôn ngữ trở thành sợi dây liên kết bền chặt giữa bạn với đối tác và cộng đồng."
-    },
-    "CreativeTranslation": {
-      "title": "Dịch sáng tạo",
-      "description": "Kết hợp giữa Dịch Thuật và  Sáng Tạo,Dịch Sáng Tạo đem đến sự khác biệtbvà độc đáo  cho thương hiệu, sản phẩm  của bạn so với các bản  dịch thuật thông thường  khác."
-    },
-    "BPO": {
-      "title": "BPO",
-      "description": "S-Loka tự hào là người bạn đồng hành hỗ trợ các  doanh nghiệp trong các  hoạt động vận hành, từ đó tạo điều kiện cho doanh nghiệp tập trung toàn bộ nguồn lực và thời gian vào việc phát triển sản phẩm, dịch vụ cốt lõi."
+    "items": {
+      "Localization": {
+        "title": "Bản địa hoá",
+        "description": "Không chỉ dừng lại ở việc  dịch thuật, hãy cùng S-Loka tạo ra phiên bản mới cho  sản phẩm, dịch vụ cũng như thương hiệu của bạn trở nên thân thiện, dễ gần hơn nữa với thị trường nước ngoài."
+      },
+      "Translation": {
+        "title": "Dịch thuật",
+        "description": "Trở thành thương hiệu  nổi tiếng trên thị trường  toàn cầu bằng việc tin tưởng và hợp tác với S-Loka cho những vấn đề về dịch thuật của bạn. Liên hệ với chúng tôi ngay hôm nay để bắt đầu cuộc hành trình xuất sắc về  ngôn ngữ và thành công trên toàn cầu !"
+      },
+      "Interpretation": {
+        "title": "Phiên dịch",
+        "description": "Chúng tôi cung cấp các  dịch vụ phiên dịch riêng biệt cho từng nhu cầu cụ thể của từng khách hàng, giúp cho ngôn ngữ trở thành sợi dây liên kết bền chặt giữa bạn với đối tác và cộng đồng."
+      },
+      "CreativeTranslation": {
+        "title": "Dịch sáng tạo",
+        "description": "Kết hợp giữa Dịch Thuật và  Sáng Tạo,Dịch Sáng Tạo đem đến sự khác biệtbvà độc đáo  cho thương hiệu, sản phẩm  của bạn so với các bản  dịch thuật thông thường  khác."
+      },
+      "BPO": {
+        "title": "BPO",
+        "description": "S-Loka tự hào là người bạn đồng hành hỗ trợ các  doanh nghiệp trong các  hoạt động vận hành, từ đó tạo điều kiện cho doanh nghiệp tập trung toàn bộ nguồn lực và thời gian vào việc phát triển sản phẩm, dịch vụ cốt lõi."
+      }
     }
   },
   "Partners": {
@@ -232,7 +235,6 @@
   "Testimonial": {
     "title": "Lời chứng nhận từ khách hàng",
     "description": "Niềm tin từ khách hàng là tài sản vô giá cho S-LOKA, lời chứng thực cho chất lượng dịch vụ của chúng tôi luôn là nguồn động lực lớn trên con đường phát triển sự nghiệp cung cấp giải pháp ngôn ngữ",
-    "readMore": "Đọc thêm",
     "item1": {
       "name": "John Doven",
       "position": "CEO - Aetekren Hub",
@@ -241,7 +243,7 @@
     "item2": {
       "name": "Lemo Ten’ra",
       "position": "Marketing Manager - ABac Game",
-      "message": "Cái chúng tôi nhận được không chỉ là một  dịch vụ bản địa hoá, nó thật sự là văn hoá  ngôn ngữ!."
+      "message": "Cái chúng tôi nhận được không chỉ là một  dịch vụ bản địa hoá, nó thật sự là văn hoá  ngôn ngữ!"
     },
     "item3": {
       "name": "Mun Teo",

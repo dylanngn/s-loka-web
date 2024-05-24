@@ -1,6 +1,3 @@
-import type { Metadata } from 'next';
-import { Inter, Lexend } from 'next/font/google';
-import clsx from 'clsx';
 import '@/styles/tailwind.css';
 import { Locale, i18n } from '@/i18n-config';
 import { Footer } from '@/components/Footer';

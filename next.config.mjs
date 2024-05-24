@@ -25,6 +25,16 @@ const nextConfig = {
         destination: '/vi/tuyen-dung',
         permanent: true,
       },
+      {
+        source: '/en/giai-phap',
+        destination: '/vi/giai-phap',
+        permanent: true,
+      },
+      {
+        source: '/en/ve-chung-toi',
+        destination: '/vi/ve-chung-toi',
+        permanent: true,
+      },
     ];
   },
   async rewrites() {

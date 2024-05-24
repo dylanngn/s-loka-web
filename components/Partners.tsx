@@ -7,6 +7,7 @@ import mcDonaldImg from '@/images/brands/mc_donald.png';
 import totalImg from '@/images/brands/total.png';
 import petroVietnamImg from '@/images/brands/petro_vietnam.png';
 import phillipsHealthcareImg from '@/images/brands/phillips_healthcare.png';
+import { Container } from '@/components/Container';
 
 const PARTNERS = [
   {
@@ -45,9 +46,9 @@ const PARTNERS = [
 
 export async function Partners({ title }: { title: string }) {
   return (
-    <section className="pb-16 pt-20 text-center lg:pt-24">
+    <Container className="pb-16 mx-auto pt-20 text-center lg:pt-24">
       <h2 className="text-xl font-semibold text-slate-900">{title}</h2>
-      <div className="sm:12 sm:mt-18 mx-auto mt-16 inline-flex h-20 w-full max-w-2xl flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_124px,_black_calc(100%-124px),transparent_100%)] lg:mt-20 lg:h-24 lg:max-w-none">
+      <div className="sm:12 sm:mt-18 mx-auto mt-16 inline-flex h-20 w-full flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_124px,_black_calc(100%-124px),transparent_100%)] lg:mt-20 lg:h-24">
         <ul
           x-ref="logos"
           className="animate-infinite-scroll flex items-center justify-center md:justify-start [&_img]:max-w-none [&_li]:mx-8"
@@ -77,6 +78,6 @@ export async function Partners({ title }: { title: string }) {
           ))}
         </ul>
       </div>
-    </section>
+    </Container>
   );
 }

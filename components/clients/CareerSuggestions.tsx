@@ -1,14 +1,33 @@
 'use client';
-
+import { Container } from '@/components/Container';
 import clsx from 'clsx';
+import Link from 'next/link';
+import { useState } from 'react';
 
-export function SuggestionTabs({
-  tabs,
-  onChangeTab,
+export function Suggestions({
+  jobs,
+  sections,
 }: {
-  tabs: { key: string; name: string; current: boolean }[];
-  onChangeTab: (tab: string) => void;
+  jobs: any[];
+  sections: any;
 }) {
+  const [tabs, setTabs] = useState(
+    Object.entries(sections).map(([key, value]: [string, any]) => ({
+      key,
+      name: value?.title,
+      current: key === 'fulltime',
+    }))
+  );
+
+  const onChangeTab = (x: string) => {
+    setTabs((tabs) => {
+      return tabs.map((tab) => {
+        tab.current = tab.key === x;
+        return tab;
+      });
+    });
+  };
+
   return (
     <>
       <div className="sm:hidden">
@@ -28,7 +47,7 @@ export function SuggestionTabs({
           ))}
         </select>
       </div>
-      <div className="hidden sm:block">
+      <Container className="hidden sm:block">
         <nav
           className="border flex 0 rounded-full isolate space-x-2 border-slate-400 overflow-hidden"
           aria-label="Tabs"
@@ -56,7 +75,26 @@ export function SuggestionTabs({
             </button>
           ))}
         </nav>
-      </div>
+      </Container>
+      <Container className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-16 pb-16">
+        {jobs.map((job) => {
+          const parts = job.content_text.split('\n');
+          return (
+            <div key={job.id} className="text-left">
+              <Link
+                href={`/career/${job.url}`}
+                className="text-md text-blue-700 font-medium mb-2"
+              >
+                {job.title}
+              </Link>
+              <p className="mt-3 text-sm text-gray-600">
+                {parts[0].split(':')[1]}
+              </p>
+              <p className="mt-3 text-sm text-gray-600">{parts[11]}</p>
+            </div>
+          );
+        })}
+      </Container>
     </>
   );
 }

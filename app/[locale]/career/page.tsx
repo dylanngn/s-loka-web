@@ -1,8 +1,6 @@
 import { Container } from '@/components/Container';
 import { Locale } from '@/i18n-config';
 import { getDictionary } from '@/server/get-dictionary';
-import image1 from '@/images/career/img1.png';
-import Image from 'next/image';
 import {
   UserPlusIcon,
   ArrowTrendingUpIcon,
@@ -11,6 +9,7 @@ import {
   HandThumbUpIcon,
   HeartIcon,
 } from '@heroicons/react/24/outline';
+import { CareerImages } from '@/components/clients/CareerImages';
 
 const ICONS = {
   environment: UserPlusIcon,
@@ -38,11 +37,7 @@ export default async function CareerPage({
         </p>
       </Container>
       <Container className="flex sm:flex-row flex-col mt-16 sm:gap-16">
-        <Image
-          src={image1}
-          alt={'career image 1'}
-          className="h-64 grayscale hover:grayscale-0"
-        />
+        <CareerImages />
         <div>
           <p className="font-light leading-7 font-sm sm:mt-32 mt-4">
             {dict.Introduction.description2}

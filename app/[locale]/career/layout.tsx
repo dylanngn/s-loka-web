@@ -1,4 +1,4 @@
-import { SuggestionsGrid } from '@/components/SuggestionGrid';
+import { Suggestions } from '@/components/clients/CareerSuggestions';
 import { Container } from '@/components/Container';
 import { Hero } from '@/components/Hero';
 import { Locale } from '@/i18n-config';
@@ -26,8 +26,8 @@ export default async function CareerLayout({
         <p className="font-light leading-7 my-10">
           {suggestionDict.description}
         </p>
-        <SuggestionsGrid jobs={jobs} sections={suggestionDict.sections} />
       </Container>
+      <Suggestions jobs={jobs} sections={suggestionDict.sections} />
     </>
   );
 }

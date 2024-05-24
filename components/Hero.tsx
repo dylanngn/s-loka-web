@@ -74,7 +74,7 @@ export function Hero({ title, message, description }: HeroProps) {
           {message}
         </span>
       </h1>
-      <p className="text-s mt-16 font-light">{description}</p>
+      <p className="mt-16 text-lg font-light">{description}</p>
     </motion.section>
   );
 }

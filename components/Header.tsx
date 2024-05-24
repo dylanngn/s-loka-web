@@ -41,7 +41,7 @@ export function Header({
             <ServiceMenu {...service} />
             <NavLink href={about.href}>{about.label}</NavLink>
           </div>
-          <Button>{contact.label}</Button>
+          <Button href="#contact">{contact.label}</Button>
           <MobileMenu
             menu={[
               home,
