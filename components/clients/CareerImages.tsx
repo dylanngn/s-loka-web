@@ -1,6 +1,6 @@
 'use client';
 import Image from 'next/image';
-import image1 from '@/IMAGES/career/image1.jpg';
+import image1 from '@/images/career/image1.jpg';
 import image2 from '@/images/career/image2.jpg';
 import image3 from '@/images/career/image3.jpg';
 import image4 from '@/images/career/image4.jpg';
