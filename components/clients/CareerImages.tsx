@@ -1,11 +1,11 @@
 'use client';
 import Image from 'next/image';
-import image1 from '@/IMAGES/career/img1.jpg';
-import image2 from '@/images/career/img2.jpg';
-import image3 from '@/images/career/img3.jpg';
-import image4 from '@/images/career/img4.jpg';
-import image5 from '@/images/career/img5.jpg';
-import image6 from '@/images/career/img6.jpg';
+import image1 from '@/IMAGES/career/image1.jpg';
+import image2 from '@/images/career/image2.jpg';
+import image3 from '@/images/career/image3.jpg';
+import image4 from '@/images/career/image4.jpg';
+import image5 from '@/images/career/image5.jpg';
+import image6 from '@/images/career/image6.jpg';
 import { useEffect, useState } from 'react';
 const IMAGES = [image1, image2, image3, image4, image5, image6];
 
