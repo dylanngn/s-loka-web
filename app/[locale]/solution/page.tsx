@@ -8,7 +8,11 @@ import { Locale } from '@/i18n-config';
 import { getDictionary } from '@/server/get-dictionary';
 import Link from 'next/link';
 
-export default async function SolutionPage({ lang }: { lang: Locale }) {
+export default async function SolutionPage({
+  params: { lang },
+}: {
+  params: { lang: Locale };
+}) {
   const dict = await getDictionary(lang);
   return (
     <>
