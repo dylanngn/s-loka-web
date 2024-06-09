@@ -197,3 +197,31 @@ export function ServiceMenu({ label, href, items }: ServiceMenuProps) {
     </Popover>
   );
 }
+
+export type AboutMenuProps = MenuLink & {
+  items: MenuLink[];
+};
+
+export function AboutMenu({ label, href, items }: AboutMenuProps) {
+  const [openService, setOpenService] = useState(false);
+  return (
+    <Popover
+      onMouseEnter={() => setOpenService(true)}
+      onMouseLeave={() => setOpenService(false)}
+      as="div"
+    >
+      <NavLink href={href}>{label}</NavLink>
+      <MenuTransition open={openService}>
+        <PopoverPanel className="absolute -right-20 z-10 top-16 mt-0.5 flex w-screen max-w-max -translate-x-1/3 px-4 bg-white border-b-2 shadow-sm rounded-b-xl">
+          <div className="mx-auto grid grid-cols-1 gap-x-8 gap-y-2 px-2 py-4 lg:px-8">
+            {items.map((item) => (
+              <NavLink key={item.label} href={item.href}>
+                {item.label}
+              </NavLink>
+            ))}
+          </div>
+        </PopoverPanel>
+      </MenuTransition>
+    </Popover>
+  );
+}

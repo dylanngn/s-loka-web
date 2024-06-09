@@ -2,6 +2,8 @@ import Image from 'next/image';
 import { Button } from './Button';
 import { NavLink } from './NavLink';
 import {
+  AboutMenu,
+  AboutMenuProps,
   MenuLink,
   MobileMenu,
   ServiceMenu,
@@ -15,7 +17,7 @@ type HeaderProps = {
   home: MenuLink;
   solution: SolutionMenuProps;
   service: ServiceMenuProps;
-  about: MenuLink;
+  about: AboutMenuProps;
   contact: MenuLink;
 };
 
@@ -39,7 +41,7 @@ export function Header({
             <NavLink href={home.href}>{home.label}</NavLink>
             <SolutionMenu {...solution} />
             <ServiceMenu {...service} />
-            <NavLink href={about.href}>{about.label}</NavLink>
+            <AboutMenu {...about} />
           </div>
           <Button href="#contact">{contact.label}</Button>
           <MobileMenu

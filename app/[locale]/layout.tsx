@@ -18,7 +18,14 @@ export default async function LocaleLayout({
     <>
       <Header
         home={{ label: dict.home.title, href: dict.home.href }}
-        about={{ label: dict.about.title, href: dict.about.href }}
+        about={{
+          label: dict.about.title,
+          href: dict.about.href,
+          items: Object.values(dict.about.sub).map((sub) => ({
+            label: sub.title,
+            href: sub.href,
+          })),
+        }}
         contact={{ label: dict.priceButton, href: dict.priceButton }}
         service={{
           label: dict.service.title,

@@ -441,7 +441,29 @@
     },
     "about": {
       "title": "THÔNG TIN S-LOKA",
-      "href": "/vi/ve-chung-toi"
+      "href": "/vi/thong-tin",
+      "sub": {
+        "about": {
+          "title": "Về chúng tôi",
+          "href": "/vi/thong-tin/ve-chung-toi"
+        },
+        "story": {
+          "title": "Những câu chuyện thành công",
+          "href": "/vi/thong-tin/nhung-cau-chuyen-thanh-cong"
+        },
+        "post": {
+          "title": "Bài dọc",
+          "href": "/vi/thong-tin/bai-doc"
+        },
+        "partnership": {
+          "title": "Hợp tác",
+          "href": "/vi/thong-tin/hop-tac"
+        },
+        "career": {
+          "title": "Tuyển dụng",
+          "href": "/vi/thong-tin/tuyen-dung"
+        }
+      }
     }
   }
 }
