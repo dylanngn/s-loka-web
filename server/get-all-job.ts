@@ -1,12 +1,13 @@
+import { getRequestContext } from '@cloudflare/next-on-pages';
+
 export async function getAllJob() {
-    const res = await fetch('https://cms.s-loka.com/json/');
-    if (!res.ok) {
-        throw new Error('Failed to fetch data')
-      }
-      try {
-      const data = await res.json() as any
-        return data.items
-      } catch (error) {
-        throw new Error('No job found')
-      }
+  const db = getRequestContext().env.POSTS_DB;
+  console.log(db)
+    const stmt = db.prepare(`select * from items where status = 3`)
+    
+    if(!stmt) {
+      return []
+    }
+
+    return stmt.all()
 }

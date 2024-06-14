@@ -3,4 +3,5 @@
 
 interface CloudflareEnv {
   CONTACT_REQUESTS: KVNamespace;
+  POSTS_DB: D1Database;
 }

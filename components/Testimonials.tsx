@@ -42,7 +42,7 @@ function Testimonial({
 }: TestimonialProps) {
   return (
     <div
-      className={`rounded-2xl shadow-primary shadow-lg mb-32 p-8 w-3/5 ${
+      className={`rounded-2xl shadow-slate-300 shadow-lg mb-32 p-8 w-3/5 ${
         index === 0 ? 'ml-0' : index === 1 ? 'ml-40' : 'ml-24'
       } `}
     >

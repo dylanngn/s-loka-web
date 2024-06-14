@@ -26,7 +26,7 @@ export default async function SolutionPage({
         </p>
       </Container>
       <Container className="mt-32 mb-16">
-        <h2 className="text-3xl font-bold text-center mb-32">
+        <h2 className="text-2xl font-semibold text-center mb-32">
           {dict.Solution.title}
         </h2>
         <div className="flex flex-col w-full">

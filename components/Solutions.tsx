@@ -18,7 +18,7 @@ export async function Solutions({ lang }: { lang: Locale }) {
         {Object.entries(dict.item).map(([key, value]) => (
           <div
             key={key}
-            className="last:-col-end-2 mx-2 group relative col-span-2 flex select-none flex-col overflow-hidden rounded-2xl border border-slate-900"
+            className="last:-col-end-2 mx-2 max-w-72 group relative col-span-2 flex select-none flex-col overflow-hidden rounded-2xl border border-slate-900"
           >
             <span className="bg-secondary absolute inset-0 z-0 origin-left scale-x-0 transform transition-transform duration-300 group-hover:scale-x-100" />
             <span className="group-hover:text-primary relative z-10 flex items-center justify-between px-4 py-6 text-slate-900">

@@ -8,6 +8,12 @@ pages_build_output_dir = ".vercel/output/static"
 binding = "CONTACT_REQUESTS"
 id = "56eab930bf814b3487f225f712a6da2e"
 
+[[d1_databases]]
+binding = "POSTS_DB"
+database_name = "s-loka-cms_feed_db_production"
+database_id = "4ae75e10-36fe-4e16-b47b-06861c9581b5"
+preview_database_id = "4ae75e10-36fe-4e16-b47b-06861c9581b5"
+
 # Automatically place your workloads in an optimal location to minimize latency.
 # If you are running back-end logic in a Pages Function, running it closer to your back-end infrastructure
 # rather than the end user may result in better performance.

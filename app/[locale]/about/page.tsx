@@ -32,15 +32,15 @@ export default async function AboutPage({
         values={dict.About.Values}
       />
       <Container className="mt-32">
-        <h2 className="text-2xl text-center font-semibold text-slate-900">
+        <h2 className="text-xl text-center font-semibold text-slate-900">
           {dict.About.Reason.title}
         </h2>
         {Object.values(dict.About.Reason.items).map((item, index) => {
           return (
             <div className="flex space-x-8 my-16" key={index}>
-              <h3 className="text-5xl text-slate-300">{index + 1}</h3>
-              <p className="leading-8 mt-4 font-light text-lg">
-                <span className="text-3xl mr-2">{item.title}</span>
+              <h3 className="text-4xl text-slate-300">{index + 1}</h3>
+              <p className="leading-8 mt-4 font-light text-md">
+                <span className="text-2xl mr-2">{item.title}</span>
                 {item.description}
               </p>
             </div>

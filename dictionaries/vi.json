@@ -229,6 +229,75 @@
       }
     }
   },
+  "Service": {
+    "title": "Bạn quan tâm dịch vụ dịch thuật cho chuyên ngành nào?",
+    "Hero": {
+      "title": "Chuyên nghành",
+      "description": "S-Loka cung cấp dịch vụ dich thuật cho mọi chuyên ngành bạn cần"
+    },
+    "items": {
+      "hotelService": {
+        "title": "Dịch vụ khách sạn"
+      },
+      "marketing": {
+        "title": "Quảng cáo & Marketing"
+      },
+      "financeBanking": {
+        "title": "Tài chính ngân hàng"
+      },
+      "ecommerce": {
+        "title": "Thương mại điện tử"
+      },
+      "retail": {
+        "title": "Bán lẻ"
+      },
+      "carManufacturing": {
+        "title": "Sản xuất ô tô"
+      },
+      "energy": {
+        "title": "Năng lượng"
+      },
+      "lifeScience": {
+        "title": "Khoa học đời sống/Y tế"
+      },
+      "IT": {
+        "title": "Công nghệ thông tin"
+      },
+      "automation": {
+        "title": "Tự động hóa"
+      }
+    },
+    "Reason": {
+      "title": "Tại sao chọn S-Loka cho nhu cầu dịch thuật theo từng lĩnh vực?",
+      "description": "Trong bối cảnh kinh doanh năng động trên toàn cầu, S-Loka thấu hiểu nhu cầu thiết yếu về độ chính xác và sự phù hợp về văn hóa. Tại S-Loka, chúng tôi chuyên cung cấp các giải pháp dịch thuật phù hợp cho các lĩnh vực khác nhau, đảm bảo thông điệp thương hiệu của bạn tạo được tiếng vang liền mạch với những đối tượng địa phương trên toàn thế giới.",
+      "items": {
+        "reason1": {
+          "title": "Kiến thức chuyên ngành",
+          "description": "Lợi ích từ sự hiểu biết sâu sắc của S-Loka về thuật ngữ và ngôn từ có xu hướng trong các dạng dịch thuật ngôn ngữ của bạn, cho phép chúng tôi điều chỉnh thông điệp của bạn một cách liền mạch với các ngôn ngữ của thị trường mục tiêu bạn nhắm tới."
+        },
+        "reason2": {
+          "title": "Nhạy bén về văn hoá",
+          "description": "Tận dụng kiến thức vốn có của đội ngũ về các nền văn hoá độc đáo và phong tục, để tạo ra nội dung phù hợp về văn hoá, đảm bảo sự kết nối tới đối tượng độc giả của bạn."
+        },
+        "reason3": {
+          "title": "Cách tiếp cận linh hoạt",
+          "description": "Sử dụng các công cụ thuật ngữ và các tài liệu tham khảo trong nước, để điều chỉnh quy trình bản địa hoá nội dung theo tiếng địa phương và ngôn ngữ thương hiệu ưa thích của bạn, đảm bảo sự chính xác nhưng vẫn có phong cách thương hiệu riêng."
+        },
+        "reason4": {
+          "title": "Tính nhất quán",
+          "description": "Các công cụ thuật ngữ độc quyền của S-Loka theo dõi và quản lý các ngôn ngữ chuyên môn và cụm từ chính trong nội dung, đảm bảo thông điệp của thương hiệu được thống nhất và nhất quán trên các thị trường và nền tảng truyền thông khác nhau."
+        },
+        "reason5": {
+          "title": "Tốc độ và hiệu quả",
+          "description": "Nhanh chóng khi tổ chức nguồn lực bản địa cho nhiều dự án ngôn ngữ, linh hoạt trong việc mở rộng quy mô nhân lực khi khối lượng công việc gia tăng và cần xử lý trong thời gian ngắn."
+        },
+        "reason6": {
+          "title": "Lợi thế cạnh tranh",
+          "description": "Tận dụng kinh nghiệm và chuyên môn cụ thể của từng ngành nghề, chúng tôi có khả năng tạo nội dung bản địa hoá có tác động mạnh mẽ tới đối tượng mục tiêu của bạn, đem tới tiếng vang cho thương hiệu của bạn để tạo lợi thế cạnh tranh trên thị trường toàn cầu."
+        }
+      }
+    }
+  },
   "Partners": {
     "title": "Khách hàng của chúng tôi"
   },
@@ -271,7 +340,7 @@
     },
     "solution": {
       "title": "GIẢI PHÁP",
-      "href": "/giai-phap",
+      "href": "/vi/giai-phap",
       "sub": {
         "localization": {
           "title": "BẢN ĐỊA HÓA",
@@ -395,7 +464,7 @@
     },
     "service": {
       "title": "CHUYÊN NGÀNH",
-      "href": "/chuyen-nganh",
+      "href": "/vi/chuyen-nganh",
       "sub": {
         "hotelService": {
           "title": "Dịch vụ khách sạn",
@@ -452,7 +521,7 @@
           "href": "/vi/nhung-cau-chuyen-thanh-cong"
         },
         "post": {
-          "title": "Bài dọc",
+          "title": "Bài đọc",
           "href": "/vi/bai-doc"
         },
         "partnership": {

@@ -35,6 +35,11 @@ const nextConfig = {
         destination: '/vi/ve-chung-toi',
         permanent: true,
       },
+      {
+        source: '/en/ve-chung-toi',
+        destination: '/vi/ve-chung-toi',
+        permanent: true,
+      },
     ];
   },
   async rewrites() {
@@ -50,6 +55,10 @@ const nextConfig = {
       {
         source: '/vi/ve-chung-toi',
         destination: '/vi/about',
+      },
+      {
+        source: '/vi/chuyen-nganh',
+        destination: '/vi/service',
       },
       {
         source: '/vi/giai-phap',
