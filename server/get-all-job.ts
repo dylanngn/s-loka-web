@@ -9,5 +9,5 @@ export async function getAllJob() {
       return [] as any[]
     }
 
-    return stmt
+    return stmt.results
 }
