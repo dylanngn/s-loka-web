@@ -12,7 +12,7 @@ export default async function CareerDetailPage({
 }) {
   const dict = (await getDictionary(lang))['Career']['Detail'];
   const jobs = await getAllJob();
-  const job = jobs.find((job: any) => job.url === slug);
+  const job = jobs?.find((job: any) => job.url === slug);
   const header = job?.content_html.split('***')[0];
   const body = job?.content_html.split('***')[1];
   return (

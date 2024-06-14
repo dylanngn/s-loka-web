@@ -31,8 +31,8 @@ const nextConfig = {
         permanent: true,
       },
       {
-        source: '/en/ve-chung-toi',
-        destination: '/vi/ve-chung-toi',
+        source: '/en/chuyen-nganh',
+        destination: '/vi/chuyen-nganh',
         permanent: true,
       },
       {

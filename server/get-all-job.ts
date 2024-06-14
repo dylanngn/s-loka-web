@@ -6,7 +6,7 @@ export async function getAllJob() {
     const stmt = db.prepare(`select * from items where status = 3`)
     
     if(!stmt) {
-      return []
+      return [] as any[]
     }
 
     return stmt.all()
