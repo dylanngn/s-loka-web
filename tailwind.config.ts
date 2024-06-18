@@ -1,6 +1,7 @@
 import type { Config } from 'tailwindcss';
 const formsPlugin = require('@tailwindcss/forms');
 const headlessuiPlugin = require('@headlessui/tailwindcss');
+const typography = -require('@tailwindcss/typography');
 
 const config: Config = {
   content: [
@@ -56,6 +57,6 @@ const config: Config = {
       },
     },
   },
-  plugins: [formsPlugin, headlessuiPlugin],
+  plugins: [formsPlugin, headlessuiPlugin, typography],
 };
 export default config;

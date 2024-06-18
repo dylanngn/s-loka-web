@@ -2,15 +2,9 @@
 import { Container } from '@/components/Container';
 import clsx from 'clsx';
 import Link from 'next/link';
-import { useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 
-export function Suggestions({
-  jobs,
-  sections,
-}: {
-  jobs: any[];
-  sections: any;
-}) {
+export function Suggestions({ jobs, sections }: { jobs: any; sections: any }) {
   const [tabs, setTabs] = useState(
     Object.entries(sections).map(([key, value]: [string, any]) => ({
       key,
@@ -28,9 +22,22 @@ export function Suggestions({
     });
   };
 
+  const currentCategory = useMemo(() => {
+    const currentTab = tabs.find((tab) => tab.current)?.key;
+    if (!currentTab) return [];
+    if (jobs[currentTab]) return jobs[currentTab];
+    return [];
+  }, [jobs, tabs]);
+
+  useEffect(() => {
+    onChangeTab(
+      Object.keys(jobs).find((key) => jobs[key]?.length > 0) || 'fulltime'
+    );
+  }, [jobs]);
+
   return (
     <>
-      <div className="sm:hidden">
+      <div className="sm:hidden mx-4">
         <label htmlFor="tabs" className="sr-only">
           Select a tab
         </label>
@@ -76,11 +83,11 @@ export function Suggestions({
           ))}
         </nav>
       </Container>
-      <Container className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-16 pb-16">
-        {jobs.map((job) => {
+      <Container className="grid grid-cols-1 sm:grid-cols-3 gap-12 mt-16 pb-16">
+        {currentCategory.map((job: any) => {
           const parts = job.content_text.split('\n');
           return (
-            <div key={job.id} className="text-left">
+            <div key={job.id} className="text-left px-2">
               <Link
                 href={`/career/${job.url}`}
                 className="text-md text-blue-700 font-medium mb-2"

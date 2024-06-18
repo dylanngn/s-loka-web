@@ -1,7 +1,7 @@
 import { BackButton } from '@/components/CareerBackButton';
 import { Container } from '@/components/Container';
 import { Locale } from '@/i18n-config';
-import { getAllJob } from '@/server/get-all-job';
+import { getJobDetail } from '@/server/get-all-job';
 import { getDictionary } from '@/server/get-dictionary';
 import Image from 'next/image';
 
@@ -11,8 +11,7 @@ export default async function CareerDetailPage({
   params: { slug: string; lang: Locale };
 }) {
   const dict = (await getDictionary(lang))['Career']['Detail'];
-  const jobs = await getAllJob();
-  const job = jobs?.find((job: any) => job.url === slug);
+  const job = await getJobDetail(slug);
   const header = job?.content_html.split('***')[0];
   const body = job?.content_html.split('***')[1];
   return (
@@ -34,10 +33,12 @@ export default async function CareerDetailPage({
           dangerouslySetInnerHTML={{ __html: header }}
         ></p>
       </div>
-      <p
-        className="flex-1 leading-9 sm:mt-8 text-left"
-        dangerouslySetInnerHTML={{ __html: body }}
-      ></p>
+      <div className="prose list-disc">
+        <p
+          className="flex-1 prose list-disc leading-9 sm:mt-8 text-left"
+          dangerouslySetInnerHTML={{ __html: body }}
+        ></p>
+      </div>
     </Container>
   );
 }

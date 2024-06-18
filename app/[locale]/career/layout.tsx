@@ -2,7 +2,7 @@ import { Suggestions } from '@/components/clients/CareerSuggestions';
 import { Container } from '@/components/Container';
 import { Hero } from '@/components/Hero';
 import { Locale } from '@/i18n-config';
-import { getAllJob } from '@/server/get-all-job';
+import { getCategorizedJob } from '@/server/get-all-job';
 import { getDictionary } from '@/server/get-dictionary';
 
 export default async function CareerLayout({
@@ -12,7 +12,7 @@ export default async function CareerLayout({
   children: React.ReactNode;
   params: { lang: Locale };
 }>) {
-  const jobs = await getAllJob();
+  const jobs = await getCategorizedJob();
   const dict = await getDictionary(lang);
   const suggestionDict = (await getDictionary(lang))['Career']['Suggestion'];
   return (
