@@ -57,6 +57,10 @@ const nextConfig = {
         destination: '/vi/about',
       },
       {
+        source: '/vi/bai-doc',
+        destination: '/vi/post',
+      },
+      {
         source: '/vi/chuyen-nganh',
         destination: '/vi/service',
       },
