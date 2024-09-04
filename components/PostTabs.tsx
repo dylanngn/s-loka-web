@@ -2,7 +2,7 @@
 import { Tab, TabGroup, TabList, TabPanel, TabPanels } from "@headlessui/react";
 import clsx from "clsx";
 import { Fragment } from "react";
-import { Pagination } from "./clients/Pagination";
+import { Pagination } from "./Pagination";
 import { PostSnippet } from "@/components/PostSnippet";
 import { Locale } from "@/i18n-config";
 
