@@ -47,7 +47,7 @@ export default async function PostDetailPage({
   return (
     <>
       <ProgressBar />
-      <div className="flex justify-between mt-11 mb-7 px-16 text-[#AEB3BE]">
+      <div className="flex flex-wrap justify-between mt-11 mb-7 md:px-16 text-[#AEB3BE]">
         <a href="/vi/bai-doc" className="flex items-center text-xl">
           <ChevronLeftIcon className="inline w-5 mr-2" />
           {dict.Post.Detail.button.back}
@@ -55,8 +55,8 @@ export default async function PostDetailPage({
         <p className="text-xl">Ngày 05 tháng 04 năm 2024 | 10 phút đọc</p>
       </div>
       <Container>
-        <div className="border-b-2 mb-12 pb-16 px-6">
-          <h1 className="text-3xl text-center mb-9 px-11 py-2">
+        <div className="border-b-2 mb-12 pb-16 md:px-6">
+          <h1 className="text-3xl text-center mb-9 px-11 py-2 font-bold">
             10 tố chất của một thông dịch viên tương lai
           </h1>
           <p className="mb-14 text-xl">
@@ -174,7 +174,7 @@ export default async function PostDetailPage({
             Danh sách các bài viết cùng chủ đề
           </h2>
 
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mb-14 gap-14">
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mb-14 gap-5 lg:gap-14">
             {[1, 2, 3, 4, 5, 6, 7, 8].map((e) => (
               <PostSnippet
                 key={e}
@@ -185,7 +185,7 @@ export default async function PostDetailPage({
               />
             ))}
           </div>
-            <div className="mx-auto w-fit">
+            <div className="mx-auto md:w-fit">
               <Pagination />
             </div>
         </div>
