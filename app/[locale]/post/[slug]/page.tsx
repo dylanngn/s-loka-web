@@ -14,6 +14,7 @@ import Link from "next/link";
 import { PostSnippet } from "@/components/PostSnippet";
 import { Pagination } from "@/components/Pagination";
 import { ScrollProgress } from "@/components/clients/ScrollProgress";
+import LeftTool from "@/components/LeftTool";
 
 const SOCIAL_LINKS = [
   {
@@ -45,7 +46,7 @@ export default async function PostDetailPage({
 }) {
   const dict = await getDictionary(lang);
   return (
-    <article>
+    <article className="relative">
       <ScrollProgress/>
       <div className="flex flex-wrap justify-between pt-11 mb-7 md:px-16 text-[#AEB3BE]">
         <a href="/vi/bai-doc" className="mb-5 lg:mb-0 flex items-center text-xl hover:text-[#0052B4]">
@@ -54,8 +55,9 @@ export default async function PostDetailPage({
         </a>
         <p className="text-xl ml-auto">Ngày 05 tháng 04 năm 2024 <br className="md:hidden" />| 10 phút đọc</p>
       </div>
+      <LeftTool/>
       <Container>
-        <div className="border-b-2 mb-12 pb-16 md:px-6">
+        <div className="border-b-2 mb-12 pb-16 md:px-10 xl:px-6">
           <h1 className="text-3xl text-center mb-9 px-11 py-2 font-bold">
             10 tố chất của một thông dịch viên tương lai
           </h1>
