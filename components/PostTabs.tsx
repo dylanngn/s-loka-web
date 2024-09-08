@@ -46,7 +46,7 @@ export function PostTabs({ leading, topics, readTimeText }: Props) {
                 title="Bạn có đang xây dựng lối sống lành mạnh?"
                 topic="Cuộc sống"
                 readTime={`10 ${readTimeText}`}
-                path="post/ban-co-dang-xay-dung-loi-song-lanh-manh"
+                path="bai-doc/ban-co-dang-xay-dung-loi-song-lanh-manh"
               />
             ))}
           </div>
