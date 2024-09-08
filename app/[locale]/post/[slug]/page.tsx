@@ -1,4 +1,3 @@
-import { ProgressBar } from "@/components/clients/ProgressBar";
 import { Container } from "@/components/Container";
 import { Locale } from "@/i18n-config";
 import { getDictionary } from "@/server/get-dictionary";
@@ -14,6 +13,7 @@ import { Link as LinkIcon } from "@/components/icons/Link";
 import Link from "next/link";
 import { PostSnippet } from "@/components/PostSnippet";
 import { Pagination } from "@/components/Pagination";
+import { ScrollProgress } from "@/components/clients/ScrollProgress";
 
 const SOCIAL_LINKS = [
   {
@@ -45,14 +45,14 @@ export default async function PostDetailPage({
 }) {
   const dict = await getDictionary(lang);
   return (
-    <>
-      <ProgressBar />
-      <div className="flex flex-wrap justify-between mt-11 mb-7 md:px-16 text-[#AEB3BE]">
-        <a href="/vi/bai-doc" className="flex items-center text-xl">
+    <article>
+      <ScrollProgress/>
+      <div className="flex flex-wrap justify-between pt-11 mb-7 md:px-16 text-[#AEB3BE]">
+        <a href="/vi/bai-doc" className="mb-5 lg:mb-0 flex items-center text-xl hover:text-[#0052B4]">
           <ChevronLeftIcon className="inline w-5 mr-2" />
           {dict.Post.Detail.button.back}
         </a>
-        <p className="text-xl">Ngày 05 tháng 04 năm 2024 | 10 phút đọc</p>
+        <p className="text-xl ml-auto">Ngày 05 tháng 04 năm 2024 <br className="md:hidden" />| 10 phút đọc</p>
       </div>
       <Container>
         <div className="border-b-2 mb-12 pb-16 md:px-6">
@@ -139,7 +139,7 @@ export default async function PostDetailPage({
           <p className="mb-14 text-xl">
             <strong>10. Kỹ năng sử dụng công nghệ</strong> <br />
             Trong thời đại số hóa, thông dịch viên cần biết sử dụng các công cụ
-            và các phần mềm hỗ trợ dịch thuật. Khả năng này giúp họ làm việc
+            và <a className="text-[#0052B4] hover:underline" href="#">các phần mềm hỗ trợ dịch thuật</a>. Khả năng này giúp họ làm việc
             hiệu quả hơn và giảm bớt gánh nặng công việc thủ công.
           </p>
 
@@ -152,7 +152,7 @@ export default async function PostDetailPage({
             giới.
           </p>
 
-          <p className="mb-9 text-center text-xl font-bold">
+          <p className="mb-9 p-5 w-fit mx-auto text-center text-xl font-bold bg-gradient-radial from-yellow-50 to-white">
             Hãy chia sẻ bài đọc này nếu bạn thấy hay
           </p>
 
@@ -190,6 +190,6 @@ export default async function PostDetailPage({
             </div>
         </div>
       </Container>
-    </>
+    </article>
   );
 }
