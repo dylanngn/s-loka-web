@@ -195,6 +195,28 @@
       }
     }
   },
+  "Post": {
+    "Hero": {
+      "title": "Bài đọc",
+      "description": "Cùng S-Loka mở rộng kiến thức dịch thuật và các chủ đề khác"
+    },
+    "Detail": {
+      "button": {
+        "back": "Danh sách bài đọc"
+      }
+    },
+    "topicLeading": "Danh sách các bài viết thuộc chủ đề",
+    "topics": {
+      "all": "Tất cả",
+      "job": "Công việc",
+      "culture": "Văn hóa",
+      "news": "Tin tức",
+      "life": "Cuộc sống"
+    },
+    "post": {
+      "minRead": "phút đọc"
+    }
+  },
   "Solution": {
     "title": "Danh sách các giải pháp tại S-Loka",
     "readMore": "Đọc thêm",
