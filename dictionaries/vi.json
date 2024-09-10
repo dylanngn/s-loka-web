@@ -257,36 +257,356 @@
       "title": "Chuyên nghành",
       "description": "S-Loka cung cấp dịch vụ dich thuật cho mọi chuyên ngành bạn cần"
     },
+    "servicesHeading": "Các dịch vụ dịch thuật phổ biến của chúng tôi cho chuyên ngành này",
+    "servicesEnding": "Và chúng tôi còn rất nhiều dịch vụ dịch thuật khác có thể triển khai theo nhu cầu của bạn",
     "items": {
       "hotelService": {
-        "title": "Dịch vụ khách sạn"
+        "title": "Dịch vụ khách sạn",
+        "href": "/vi/chuyen-nganh/dich-vu-khach-san",
+        "Hero": {
+          "title": "Dịch vụ khách sạn",
+          "description": "Hãy cùng tìm hiểu dịch vụ dich thuật cho chuyên ngành dịch vụ khách sạn tại S-Loka"
+        },
+        "services": {
+          "01": {
+            "title": "DỊCH THUẬT TÀI LIỆU MARKETING & QUẢNG CÁO",
+            "description": "Bao gồm brochure, website, menu, bảng hiệu..."
+          },
+          "02": {
+            "title": "DỊCH THUẬT TÀI LIỆU PHÁP LÝ",
+            "description": "Bao gồm hợp đồng, thỏa thuận, văn bản quy định..."
+          },
+          "03": {
+            "title": "DỊCH THUẬT CÁC TÀI LIỆU TÀI CHÍNH",
+            "description": "Bao gồm báo cáo tài chính, bảng giá, hóa đơn..."
+          },
+          "04": {
+            "title": "DỊCH THUẬT CÁC TÀI LIỆU ĐÀO TẠO VÀ E-LEARNING",
+            "description": "Bao gồm tài liệu hướng dẫn nghiệp vụ, tài liệu đào tạo, khoá học cho nhân viên..."
+          },
+          "05": {
+            "title": "DỊCH THUẬT PHẦN MỀM QUẢN LÝ, KINH DOANH",
+            "description": "Bao gồm các phần mềm phục vụ kinh doanh như PMS, POS, CRM..."
+          }
+        }
       },
       "marketing": {
-        "title": "Quảng cáo & Marketing"
+        "title": "Quảng cáo & Marketing",
+        "href": "/vi/chuyen-nganh/quang-cao",
+        "Hero": {
+          "title": "Quảng cáo & Marketing",
+          "description": "Bứt phá và chinh phục trái tim khách hàng với dịch vụ dịch thuật tại S-Loka"
+        },
+        "services": {
+          "01": {
+            "title": "DỊCH THUẬT MARKETING INFOGRAPHIC",
+            "description": "Chuyển đổi thông tin phức tạp thành thông tin đồ hoạ có sức ảnh hưởng để bản địa hoá nội dung Marketing hiệu quả"
+          },
+          "02": {
+            "title": "DỊCH THUẬT MARKETING PODCAST",
+            "description": "Tận dụng lợi nhuận của Podcast bằng dịch vụ dịch thuật của chúng tôi, tiếp cận tới lượng khán giả rộng lớn và đa dạng"
+          },
+          "03": {
+            "title": "DỊCH THUẬT NỘI DUNG BLOG",
+            "description": "Trở thành công ty dẫn đầu về tư tưởng trong ngành bằng cách dịch nội dung blog sang những ngôn ngữ phù hợp với độc giả của bạn. "
+          },
+          "04": {
+            "title": "DỊCH THUẬT TRUYỀN THÔNG XÃ HỘI",
+            "description": "Thu hút sự chú ý và phản hồi lập tức bằng dịch vụ dịch thuật của S-Loka"
+          },
+          "05": {
+            "title": "DỊCH THUẬT NỘI DUNG MARKETING",
+            "description": "Dịch tài liệu Marketing, bao gồm quảng cáo, tờ rơi và thông cáo báo chí. Điều chỉnh các dịch vụ SEO bằng hình ảnh và thiết kế phù hợp với văn hoá. "
+          },
+          "06": {
+            "title": "DỊCH THUẬT TRANG WEB",
+            "description": "Quản lý các bản dịch website, luôn đảm bảo sự phù hợp về văn hoá thông qua dịch thuật"
+          }
+        }
       },
       "financeBanking": {
-        "title": "Tài chính ngân hàng"
+        "title": "Tài chính ngân hàng",
+        "href": "/vi/chuyen-nganh/tai-chinh-ngan-hang",
+        "Hero": {
+          "title": "Tài chính - ngân hàng",
+          "description": "Hãy cùng tìm hiểu dịch vụ dich thuật cho chuyên ngành tài chính - ngân hàng tại S-Loka"
+        },
+        "services": {
+          "01": {
+            "title": "DỊCH THUẬT CÁC BÁO CÁO",
+            "description": "Những báo cáo chuyên môn như báo cáo định kỳ hàng năm, báo cáo tài chính, báo cáo đầu tư, và các báo cáo chuyên môn khác"
+          },
+          "02": {
+            "title": "DỊCH THUẬT NỘI DUNG WEBSITE & ỨNG DỤNG",
+            "description": "Bản địa hoá website, mô tả ứng dụng tài chính, ứng dụng ngân hàng trên App Store, CH Play, hỗ trợ khách hàng"
+          },
+          "03": {
+            "title": "DỊCH THUẬT CÁC TÀI LIỆU CHUYÊN MÔN",
+            "description": "Tài liệu chuyên ngành tài chính, ngân hàng, các thông tin tài liệu ngân hàng"
+          },
+          "04": {
+            "title": "DỊCH THUẬT CÁC BẢN TIN",
+            "description": "Các bản tin tài chính - ngân hàng, các bản tin đầu tư tài chính"
+          },
+          "05": {
+            "title": "DỊCH THUẬT ĐIỀU KHOẢN BẢO MẬT & TUÂN THỦ",
+            "description": "Chính sách bảo mật, tài liệu ngành tài chính - ngân hàng"
+          },
+          "06": {
+            "title": "DỊCH THUẬT CÁC TÀI LIỆU PHÁP LUẬT",
+            "description": "Các điều khoản dịch vụ đầu tư, tiền gửi, tài liệu pháp luật tài chính, chính sách quyền riêng tư"
+          }
+        }
       },
       "ecommerce": {
-        "title": "Thương mại điện tử"
+        "title": "Thương mại điện tử",
+        "href": "/vi/chuyen-nganh/thuong-mai-dien-tu",
+        "Hero": {
+          "title": "Thương mại điện tử",
+          "description": "Hãy cùng tìm hiểu dịch vụ dich thuật cho chuyên ngành thương mại điện tử tại S-Loka"
+        },
+        "services": {
+          "01": {
+            "title": "DỊCH THUẬT MÔ TẢ SẢN PHẨM",
+            "description": "Mô tả sản phẩm, thông số sản phẩm và các thông tin liên quan giúp khách hàng của bạn dễ dàng mua sắm"
+          },
+          "02": {
+            "title": "DỊCH THUẬT CÁC CHÍNH SÁCH BẢO HÀNH",
+            "description": "Dịch thuật các chính sách bảo hành qua các ngôn ngữ, giúp khách hàng của bạn an tâm hơn khi mua sắm"
+          },
+          "03": {
+            "title": "DỊCH THUẬT CÁC ĐÁNH GIÁ SẢN PHẨM",
+            "description": "Dịch thuật các đánh giá sản phẩm sang các ngôn ngữ, giúp các mặt hàng tạo được độ tin cậy cao"
+          },
+          "04": {
+            "title": "DỊCH THUẬT CÁC TÀI LIỆU ĐÀO TẠO VÀ E-LEARNING",
+            "description": "Các tài liệu đào tạo, khoá học chuyên môn cho nhân viên toàn cầu"
+          },
+          "05": {
+            "title": "DỊCH THUẬT CÁC THOẢ THUẬN, HỢP ĐỒNG",
+            "description": "Các hợp đồng mua bán, hợp đồng cộng tác với KOL, các thoả thuận hợp đồng hợp tác"
+          },
+          "06": {
+            "title": "DỊCH THUẬT CÁC TÀI LIỆU MARKETING",
+            "description": "Bài viết blog, email marketing, dịch quảng cáo, nội dung các chiến dịch marketing"
+          }
+        }
       },
       "retail": {
-        "title": "Bán lẻ"
+        "title": "Bán lẻ",
+        "href": "/vi/chuyen-nganh/ban-le",
+        "Hero": {
+          "title": "Bán lẻ",
+          "description": "Hãy cùng tìm hiểu dịch vụ dich thuật cho chuyên ngành bán lẻ tại S-Loka"
+        },
+        "services": {
+          "01": {
+            "title": "DỊCH THUẬT WEBSITE VÀ MOBILE APP",
+            "description": "Bản địa hoá toàn diện, từ giao diện người dùng đến nội dung sản phẩm, đảm bảo trải nghiệm mua sắm luôn được liền mạch"
+          },
+          "02": {
+            "title": "DỊCH THUẬT MÔ TẢ SẢN PHẨM VÀ NỘI DUNG SEO",
+            "description": "Dịch ngôn ngữ và tối ưu để sản phẩm của bạn không chỉ hấp dẫn, mà còn dễ tìm kiếm ở mỗi thị trường"
+          },
+          "03": {
+            "title": "DỊCH THUẬT EMAIL MARKETING & CHIẾN DỊCH QUẢNG CÁO",
+            "description": "Điều chỉnh thông điệp tiêu dùng và tin tức khuyến mãi để tăng tỷ lệ chuyển đổi"
+          },
+          "04": {
+            "title": "DỊCH THUẬT CÁC TÀI LIỆU HƯỚNG DẪN & CHÍNH SÁCH",
+            "description": "Dịch rõ ràng ngôn ngữ về hướng dẫn sử dụng, chính sách đổi trả, bảo hành"
+          },
+          "05": {
+            "title": "DỊCH THUẬT CÁC TÀI LIỆU SỬ DỤNG TRONG DỊCH VỤ KHÁCH HÀNG & CHATBOT",
+            "description": "Cá nhân hoá các tin nhắn giao tiếp với khách hàng, tập trung vào ngữ điệu và ngôn từ chứa cảm xúc địa phương"
+          },
+          "06": {
+            "title": "DỊCH THUẬT NỘI DUNG BAO BÌ SẢN PHẨM",
+            "description": "Đảm bảo slogan và thông tin trên bao bì phù hợp văn hoá và quy định địa phương"
+          },
+          "07": {
+            "title": "DỊCH THUẬT NỘI DUNG TRUYỀN THÔNG & QUẢNG CÁO, PR",
+            "description": "Bản địa hoá các thông cáo báo chí, tin tức, blog, video quảng cáo"
+          },
+          "08": {
+            "title": "DỊCH THUẬT Ý KIẾN VÀ ĐÁNH GIÁ CỦA KHÁCH HÀNG",
+            "description": "Dịch chính xác để thu thập phản hồi khách hàng một cách hiệu quả"
+          }
+        }
       },
       "carManufacturing": {
-        "title": "Sản xuất ô tô"
+        "title": "Sản xuất ô tô",
+        "href": "/vi/chuyen-nganh/san-xuat-o-to",
+        "Hero": {
+          "title": "Sản xuất ô tô",
+          "description": "Đưa doanh nghiệp bứt phá với dịch vụ dịch sáng tạo ngành sản xuất ô tô của S-Loka"
+        },
+        "services": {
+          "01": {
+            "title": "SÁCH HƯỚNG DẪN KỸ THUẬT",
+            "description": "Tài liệu chuyên ngành kỹ thuật ô tô, tài liệu hướng dẫn kỹ thuật và các tài liệu liên quan"
+          },
+          "02": {
+            "title": "HƯỚNG DẪN SỬ DỤNG SẢN PHẨM",
+            "description": "Bản địa hoá và dịch thuật sáng tạo tài liệu hướng dẫn sử dụng sản phẩm"
+          },
+          "03": {
+            "title": "TÀI LIỆU MARKETING",
+            "description": "Bản địa hoá và dịch thuật sáng tạo tài liệu marketing cho khách hàng địa phương"
+          },
+          "04": {
+            "title": "MÔ TẢ SẢN PHẨM",
+            "description": "Mô tả các sản phẩm với ngôn ngữ địa phương"
+          },
+          "05": {
+            "title": "TÀI LIỆU ĐÀO TẠO",
+            "description": "Bản địa hoá các tài liệu đào tạo giúp thống nhất nội dung đào tạo toàn cầu"
+          },
+          "06": {
+            "title": "THOẢ THUẬN BẢO MẬT",
+            "description": "Các thoả thuận bảo mật, tài liệu cam kết bảo mật cho mọi ngôn ngữ"
+          },
+          "07": {
+            "title": "NỘI DUNG THEO QUY ĐỊNH",
+            "description": "Đặc tả các nội dung theo quy định bằng ngôn ngữ bản địa"
+          },
+          "08": {
+            "title": "WEBSITE ĐA NGÔN NGỮ",
+            "description": "Xây dựng website đa ngôn ngữ để tiếp cận được tối đa đối tượng khách hàng"
+          }
+        }
       },
       "energy": {
-        "title": "Năng lượng"
+        "title": "Năng lượng",
+        "href": "/vi/chuyen-nganh/nang-luong",
+        "Hero": {
+          "title": "Năng lượng",
+          "description": "Hãy cùng tìm hiểu dịch vụ dich thuật cho chuyên ngành năng lượng tại S-Loka"
+        },
+        "services": {
+          "01": {
+            "title": "DỊCH THUẬT TÀI LIỆU KỸ THUẬT",
+            "description": "Tài liệu kỹ thuật trong lĩnh vực năng lượng tái tạo, nhiên liệu thạch hoá, năng lượng hạt nhân"
+          },
+          "02": {
+            "title": "DỊCH THUẬT CÁC TÀI LIỆU KÝ KẾT",
+            "description": "Tài liệu ký kết như hợp đồng, báo cáo dự án, tài liệu pháp lý"
+          },
+          "03": {
+            "title": "DỊCH THUẬT CÁC TÀI LIỆU ĐÀO TẠO",
+            "description": "Dịch thuật phụ đề, biên tập video đào tạo chuyên ngành năng lượng"
+          },
+          "04": {
+            "title": "DỊCH THUẬT CÁC TÀI LIỆU CHUYÊN MÔN",
+            "description": "Các bài báo khoa học, nghiên cứu về công nghệ năng lượng mới, tài liệu tiêu chuẩn, quy định kỹ thuật trong lĩnh vực năng lượng"
+          }
+        }
       },
       "lifeScience": {
-        "title": "Khoa học đời sống/Y tế"
+        "title": "Khoa học đời sống/Y tế",
+        "href": "/vi/chuyen-nganh/khoa-hoc-doi-song",
+        "Hero": {
+          "title": "Khoa học đời sống & Y tế",
+          "description": "Hãy cùng tìm hiểu dịch vụ dich thuật cho chuyên ngành khoa học đời sống & y tế tại S-Loka"
+        },
+        "services": {
+          "01": {
+            "title": "DỊCH THUẬT TÀI LIỆU Y KHOA",
+            "description": "Bao gồm hồ sơ bệnh án, báo cáo y tế, tài liệu nghiên cứu y khoa, hướng dẫn sử dụng thuốc..."
+          },
+          "02": {
+            "title": "DỊCH THUẬT TÀI LIỆU KHOA HỌC ĐỜI SỐNG",
+            "description": "Bao gồm bài báo khoa học, sách khoa học, tài liệu hội nghị, bằng sáng chế..."
+          },
+          "03": {
+            "title": "DỊCH THUẬT CÁC TÀI LIỆU DƯỢC PHẨM",
+            "description": "Bao gồm tờ rơi thông tin thuốc, hồ sơ đăng ký thuốc, tài liệu tiếp thị dược phẩm..."
+          },
+          "04": {
+            "title": "DỊCH THUẬT CÁC TÀI LIỆU Y TẾ CÔNG CỘNG",
+            "description": "Bao gồm tài liệu về sức khỏe cộng đồng, chiến dịch phòng chống dịch bệnh, tài liệu giáo dục sức khỏe..."
+          },
+          "05": {
+            "title": "DỊCH THUẬT TÀI LIỆU VỀ THIẾT BỊ Y TẾ",
+            "description": "Bao gồm hướng dẫn sử dụng thiết bị y tế, tài liệu đào tạo, tài liệu tiếp thị..."
+          },
+          "06": {
+            "title": "DỊCH THUẬT CÁC TÀI LIỆU MARKETING",
+            "description": "Bài viết blog công nghệ, nghiên cứu tình huống (case study), thông cáo báo chí"
+          },
+          "07": {
+            "title": "DỊCH THUẬT CÁC TÀI LIỆU PHÁP LUẬT",
+            "description": "Hợp đồng SLA, điều khoản dịch vụ, chính sách quyền riêng tư"
+          }
+        }
       },
       "IT": {
-        "title": "Công nghệ thông tin"
+        "title": "Công nghệ thông tin",
+        "href": "/vi/chuyen-nganh/cong-nghe-thong-tin",
+        "Hero": {
+          "title": "Công nghệ thông tin",
+          "description": "Hãy cùng tìm hiểu dịch vụ dich thuật cho chuyên ngành công nghệ thông tin tại S-Loka"
+        },
+        "services": {
+          "01": {
+            "title": "DỊCH THUẬT TÀI LIỆU PHẦN MỀM",
+            "description": "Tài liệu API, hướng dẫn sử dụng, tài liệu SDK, giao diện người dùng (UX/UI)"
+          },
+          "02": {
+            "title": "DỊCH THUẬT NỘI DUNG WEBSITE & ỨNG DỤNG",
+            "description": "Bản địa hoá website, mô tả ứng dụng trên App Store, CH Play, hỗ trợ khách hàng"
+          },
+          "03": {
+            "title": "DỊCH THUẬT CÁC TÀI LIỆU KỸ THUẬT",
+            "description": "Sách trắng (whitepaper), tài liệu kỹ thuật về AI, blockchain, IoT, cloud computing"
+          },
+          "04": {
+            "title": "DỊCH THUẬT CÁC TÀI LIỆU ĐÀO TẠO VÀ E-LEARNING",
+            "description": "Các khoá học trực tuyến về công nghệ thông tin, tài liệu đào tạo nội bộ"
+          },
+          "05": {
+            "title": "DỊCH THUẬT ĐIỀU KHOẢN BẢO MẬT & TUÂN THỦ",
+            "description": "Chính sách bảo mật, tài liệu GDPR, ISO 27001"
+          },
+          "06": {
+            "title": "DỊCH THUẬT CÁC TÀI LIỆU MARKETING",
+            "description": "Bài viết blog công nghệ, nghiên cứu tình huống (case study), thông cáo báo chí"
+          },
+          "07": {
+            "title": "DỊCH THUẬT CÁC TÀI LIỆU PHÁP LUẬT",
+            "description": "Hợp đồng SLA, điều khoản dịch vụ, chính sách quyền riêng tư"
+          }
+        }
       },
       "automation": {
-        "title": "Tự động hóa"
+        "title": "Tự động hóa",
+        "href": "/vi/chuyen-nganh/tu-dong-hoa",
+        "Hero": {
+          "title": "",
+          "description": ""
+        },
+        "services": {
+          "01": {
+            "title": "DỊCH THUẬT TÀI LIỆU KỸ THUẬT",
+            "description": "Bao gồm các bản vẽ kỹ thuật, hướng dẫn sử dụng máy móc, tài liệu thiết kế hệ thống tự động hóa..."
+          },
+          "02": {
+            "title": "DỊCH THUẬT TÀI LIỆU TIÊU CHUẨN",
+            "description": "Bao gồm tiêu chuẩn quốc gia, tiêu chuẩn quốc tế, tiêu chuẩn ngành..."
+          },
+          "03": {
+            "title": "DỊCH THUẬT TÀI LIỆU PHẦN MỀM",
+            "description": "Bao gồm tài liệu hướng dẫn sử dụng phần mềm, tài liệu đào tạo, tài liệu marketing...."
+          },
+          "04": {
+            "title": "DỊCH THUẬT CÁC TÀI LIỆU VỀ ROBOT",
+            "description": "Bao gồm tài liệu hướng dẫn sử dụng robot, tài liệu lập trình robot, tài liệu ứng dụng robot..."
+          },
+          "05": {
+            "title": "DỊCH THUẬT TÀI LIỆU VỀ HỆ THỐNG ĐIỀU KHIỂN",
+            "description": "Bao gồm tài liệu hướng dẫn sử dụng hệ thống điều khiển, tài liệu thiết kế hệ thống điều khiển, tài liệu vận hành hệ thống điều khiển..."
+          }
+        }
       }
     },
     "Reason": {

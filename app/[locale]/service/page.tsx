@@ -56,10 +56,10 @@ export default async function ServicePage({
                   <div className="block">
                     {Icon && <Icon className="w-6 block" />}
                   </div>
-                  <span className="font-sm flex gap-2 flex-col sm:flex-row items-center font-light text-center mt-2">
+                  <a href={value.href} className="font-sm flex gap-2 flex-col sm:flex-row items-center font-light text-center mt-2">
                     {value.title}
                     <ServiceArrow className="w-6 inline-block" />
-                  </span>
+                  </a>
                 </div>
               );
             })}

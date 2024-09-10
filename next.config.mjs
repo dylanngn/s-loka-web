@@ -69,6 +69,10 @@ const nextConfig = {
         destination: '/vi/service',
       },
       {
+        source: '/vi/chuyen-nganh/:slug',
+        destination: '/vi/service/:slug',
+      },
+      {
         source: '/vi/giai-phap',
         destination: '/vi/solution',
       },
