@@ -640,6 +640,30 @@
       }
     }
   },
+  "UtilizedLanguages": {
+    "Malaysian": "Tiếng Malaysia",
+    "Italian": "Tiếng Italia (Tiếng Ý)",
+    "Vietnamese": "Tiếng Việt",
+    "Bulgarian": "Tiếng Bugaria",
+    "Lao": "Tiếng Lào",
+    "Filipino": "Tiếng Philippine",
+    "Bosnian": "Tiếng Bosnia",
+    "Portuguese": "Tiếng Bồ Đào Nha",
+    "Burmese": "Tiếng Myanmar",
+    "Arabic": "Tiếng Ả Rập",
+    "Dutch": "Tiếng Hà Lan",
+    "Swedish": "Tiếng Thuỵ Điển",
+    "French": "Tiếng Pháp",
+    "Ukrainian": "Tiếng Ukraina",
+    "Thai": "Tiếng Thái Lan",
+    "Indonesian": "Tiếng Indonesia",
+    "Czech": "Tiếng Séc",
+    "Polish": "Tiếng Balan",
+    "Jewish": "Tiếng Do Thái",
+    "Campodian": "Tiếng Campuchia",
+    "Slovak": "Tiếng Slovakia",
+    "Norwegian": "Tiếng Nauy"
+  },
   "Partners": {
     "title": "Khách hàng của chúng tôi"
   },
