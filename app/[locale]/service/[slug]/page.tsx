@@ -45,7 +45,6 @@ export default async function ServiceDetailPage({
   const services = mainService.services;
   const languages = dict.UtilizedLanguages;
   const reasons = mainService.reasons;
-  console.log(reasons);
   return (
     <article>
       <Hero {...mainService.Hero} />
