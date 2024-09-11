@@ -288,6 +288,12 @@
             "title": "DỊCH THUẬT PHẦN MỀM QUẢN LÝ, KINH DOANH",
             "description": "Bao gồm các phần mềm phục vụ kinh doanh như PMS, POS, CRM..."
           }
+        },
+        "reasons": {
+          "1": {
+            "title": "",
+            "description": ""
+          }
         }
       },
       "marketing": {
@@ -321,6 +327,20 @@
           "06": {
             "title": "DỊCH THUẬT TRANG WEB",
             "description": "Quản lý các bản dịch website, luôn đảm bảo sự phù hợp về văn hoá thông qua dịch thuật"
+          }
+        },
+        "reasons": {
+          "1": {
+            "title": "Danh tiếng trên thị trường quốc tế",
+            "description": "Đảm bảo những chiến dịch, tài liệu Marketing gây được tiếng vang với người dân địa phương bằng ngôn ngữ bản địa. S-Loka sẽ giúp doanh nghiệp của bạn nâng cao danh tiếng quốc tế, thu hút các đối tượng khách hàng mới, thúc đẩy phản hồi tích cực của khách hàng và thúc đẩy khả năng quảng bá thương hiệu của bạn."
+          },
+          "2": {
+            "title": "Giao tiếp hiệu quả",
+            "description": "Chắc chắn những thông điệp của bạn đều được truyền tải tới thị trường mục tiêu một cách hiệu quả. Việc tiếp cận các khách hàng bằng những ngôn ngữ của họ sẽ tạo ra cảm giác an toàn và được chào đón, nuôi dưỡng lòng trung thành của khách hàng, từ đó khuyến khích họ tiếp tục gắn bó với thương hiệu của bạn. "
+          },
+          "3": {
+            "title": "Nội dung Marketing bán hàng",
+            "description": "Bạn sẽ hoàn toàn có lợi thếcạnh tranh khi lựa chọn S-Loka là đối tác dịch thuật của mình. Những nội dung được bản địa hoá, phù hợp với sắc thái mỗi địa phương, nhưng vẫn giữ nguyên thông điệp nội dung, là những lý do để bạn thành công trên con đường mở rộng thị trường cùng với S-Loka."
           }
         }
       },
@@ -356,6 +376,28 @@
             "title": "DỊCH THUẬT CÁC TÀI LIỆU PHÁP LUẬT",
             "description": "Các điều khoản dịch vụ đầu tư, tiền gửi, tài liệu pháp luật tài chính, chính sách quyền riêng tư"
           }
+        },
+        "reasons": {
+          "1": {
+            "title": "Sự hiểu biết sâu sắc về ngành tài chính",
+            "description": "Đội ngũ dịch giả của S-Loka đều có trình độ chuyên môn cao, am hiểu chuyên sâu về trong lĩnh vực tài chính - ngân hàng và có nhiều năm kinh nghiệm thực tế trong dịch thuật."
+          },
+          "2": {
+            "title": "Quy trình dịch thuật chuyên nghiệp",
+            "description": "S-Loka áp dụng quy trình dịch thuật chuyên nghiệp, đảm bảo bản dịch chính xác, lưu loát và truyền tải trọn vẹn thông điệp gốc. Các nhà quản lý dự án (Project Manager) của chúng tôi luôn theo dõi sát sao với tiến độ của dự án, đảm bảo hoàn thành bản dịch đúng thời hạn cam kết ban đầu."
+          },
+          "3": {
+            "title": "Dịch vụ chuyên nghiệp",
+            "description": "S-Loka luôn đặt lợi ích của khách hàng lên hàng đầu. Chúng tôi luôn sẵn sàng tư vấn và hỗ trợ khách hàng, đảm bảo hỗ trợ khách hàng một cách tận tình chu đáo. Đội ngũ nhân viên của chúng tôi luôn lịch sự và chuyên nghiệp, đảm bảo mang đến cho khách hàng sự hài lòng tuyệt đối."
+          },
+          "4": {
+            "title": "Giải pháp phù hợp",
+            "description": "Tại S-Loka, chúng tôi không đơn thuần là cung cấpdịch vụ cho khách hàng, mà các gói dịch vụ dịch thuật đều được thiết kế, tinh chỉnh một cách phù hợp nhất với nhu cầu của bạn. Việc bạn cần làm là liên hệ với đội ngũ S-Loka, ngay lập tức nhân viên tư vấn của chúng tôi sẽ hỗ trợ bạn."
+          },
+          "5": {
+            "title": "Bảo mật thông tin",
+            "description": "S-Loka cam kết bảo vệ thông tin của khách hàng một cách an toàn và bảo mật. Chúng tôi không bao giờ chia sẻ thông tin của khách hàng với bất kỳ bên thứ ba nào mà không có sự đồng ý của khách hàng. S-Loka luôn cập nhật các biện pháp bảo mật mới nhất để đảm bảo thông tin của khách hàng được an toàn."
+          }
         }
       },
       "ecommerce": {
@@ -389,6 +431,24 @@
           "06": {
             "title": "DỊCH THUẬT CÁC TÀI LIỆU MARKETING",
             "description": "Bài viết blog, email marketing, dịch quảng cáo, nội dung các chiến dịch marketing"
+          }
+        },
+        "reasons": {
+          "1": {
+            "title": "Đội ngũ dịch giả với chuyên môn sâu",
+            "description": "Không chỉ là một công ty dịch thuật thông thường. Chúng tôi chuyên sâu vào các lĩnh vực kỹ thuật và chuyên ngành thương mại điện tử. Điều này có nghĩa là dù bạn cần dịch một tài liệu PLC phức tạp hay một chiến dịch email marketing tinh tế, đội ngũ của chúng tôi không chỉ hiểu ngôn ngữ mà còn nắm vững bối cảnh và thuật ngữ chuyên môn.  "
+          },
+          "2": {
+            "title": "Công nghệ tiên tiến kết hợp chất xám của con người",
+            "description": "S-Loka sử dụng các công cụ dịch thuật hỗ trợ  máy tính (CAT) hàng đầu như SDL Trados, cùng với AI và học máy để đảm bảo tính nhất quán và tiết kiệm thời gian. Tuy nhiên, chúng tôi hiểu rằng công nghệ không thể thay thế con người. Mỗi dự án đều được giám sát bởi các chuyên gia ngành và ngôn ngữ, đảm bảo không chỉ sự chính xác mà còn cả sắc thái và văn hóa phù hợp.  "
+          },
+          "3": {
+            "title": "Toàn cầu trong tư duy, địa phương trong hành động",
+            "description": "Với khả năng hỗ trợ nhiều ngôn ngữ như tiếng Anh, Đức, Nhật,Hàn và Trung, S-Loka giúp bạn tiếp cận khán giả toàn cầu. Đồng thời, chúng tôi cũng rất chú trọng vào việc bản địa hóa – điều chỉnh nội dung để phù hợp với thị trường Việt Nam. Điều này có thể là chuyển đổi đơn vị đo lường trong tài liệu kỹ thuật, hay điều chỉnh slogan để phù hợp với văn hóa địa phương trong Thương mại điện tử. "
+          },
+          "4": {
+            "title": "Bảo mật và tin cậy hàng đầu",
+            "description": "Trong thời đại số, bảo mật dữ liệulà tối quan trọng. S-Loka áp dụng các biện pháp bảo mật cấp ngân hàng, tuân thủ các tiêu chuẩn quốc tế như GDPR. Chúng tôi tuân thủ các tiêu chuẩn cao nhất về bảo mật và an ninh thông tin nhằm bảo vệ tối đa dữ liệu của khách hàng. Tất cả nhân viên và biên dịch viên đều ý các biên bản cam kết bảo mật thông tin dự án và tuân thủ 100% các quy định đã cam kết."
           }
         }
       },
@@ -432,6 +492,24 @@
             "title": "DỊCH THUẬT Ý KIẾN VÀ ĐÁNH GIÁ CỦA KHÁCH HÀNG",
             "description": "Dịch chính xác để thu thập phản hồi khách hàng một cách hiệu quả"
           }
+        },
+        "reasons": {
+          "1": {
+            "title": "Chuyên gia ngành bán lẻ",
+            "description": "Đội ngũ dịch giả của chúng tôi không chỉ là chuyên gia ngôn ngữ, chúng tôi còn có kinh nghiệm dày dặn trong ngành bán lẻ. Họ đã từng làm việc tại các chuỗi cửa hàng bán lẻ trong và ngoài nước, trên nền tảng thương mại điện tử, điều đó giúp họ có sự thông hiểu sâu sắc về ngôn ngữ và hành vi, văn hoá mua sắm tại mỗi quốc gia."
+          },
+          "2": {
+            "title": "Không chỉ là dịch thuật, chúng tôi bản địa hoá",
+            "description": "Chúng tôi tin rằng, mua sắm là trải nghiệm cảm xúc. S-Loka không chỉ chuyển dịch từ ngữ, mà đó là bản địa hoá nội dung, giúp phiên bản dịch thuật giữ trọn ý nghĩa, nhưng luôn mang đầy cảm xúc khi truyền tải tới người dân bản địa."
+          },
+          "3": {
+            "title": "Hỗ trợ đa kênh 24/7",
+            "description": "Mỗi giây phút đều là cơ hội bán hàng, đặc biệt với ngành bán lẻ. Chúng tôi cung cấp dịch vụ dịch thuật liên tục cho tất cả các kênh - từ việc tư vấn giải pháp ngôn ngữ trên các kênh mạng xã hội, đến việc lắng nghe nhu cầu qua hotline vào mọi thời điểm phù hợp cho khách hàng."
+          },
+          "4": {
+            "title": "Tuân thủ quy định và văn hoá",
+            "description": "Ngành bán lẻ toàn cầu đòi hỏi sự cân bằng tinh tế giữa tuân thủ quy định và văn hoá. S-Loka không chỉ đảm bảo bản dịch tuân thủ các quy định pháp lý như GDPR cho thị trường EU, mà còn tránh các sai lầm văn hoá có thể tổn hại tới thương hiệu."
+          }
         }
       },
       "carManufacturing": {
@@ -474,6 +552,20 @@
             "title": "WEBSITE ĐA NGÔN NGỮ",
             "description": "Xây dựng website đa ngôn ngữ để tiếp cận được tối đa đối tượng khách hàng"
           }
+        },
+        "reasons": {
+          "1": {
+            "title": "Chuyên môn về ngành",
+            "description": "Đội ngũ nhân sự của chúng tôi gồm các dịch giả am hiểu sâu sắc chuyên ngành công nghiệp ô tô, đảm bảo dịch thuật chính xác và đáp ứng nhu cầu của doanh nghiệp trong ngành công nghiệp sản xuất ô tô."
+          },
+          "2": {
+            "title": "Thấu hiểu về văn hoá",
+            "description": "S-Loka xem xét kỹ lưỡng những sắc thái văn hoá của thị trường mục tiêu mà doanh nghiệp muốn nhắm tới, từ đó cung cấp bản dịch phù hợp với nhiều đối tượng trên toàn thế giới."
+          },
+          "3": {
+            "title": "Độ chính xác và chi tiết",
+            "description": "Chúng tôi nhận thức được tầm quan trọng của tính chính xác trong tài liệu ngành sản xuất ô tô. Bản dịch thuật S-Loka cung cấp luôn giữ nguyên được tính chính xác về mặt kỹ thuật, đồng thời đảm bảo sự rõ ràng và mạch lạc cho người đọc ở nhiều thị trường."
+          }
         }
       },
       "energy": {
@@ -499,6 +591,28 @@
           "04": {
             "title": "DỊCH THUẬT CÁC TÀI LIỆU CHUYÊN MÔN",
             "description": "Các bài báo khoa học, nghiên cứu về công nghệ năng lượng mới, tài liệu tiêu chuẩn, quy định kỹ thuật trong lĩnh vực năng lượng"
+          }
+        },
+        "reasons": {
+          "1": {
+            "title": "Đội ngũ dịch giả giàu kinh nghiệm",
+            "description": "Đội ngũ dịch giả của S-Loka không chỉ thành thạo nhiều ngôn ngữ mà còn có kiến thức chuyên sâu về các lĩnh vực liên quan đến năng lượng như là: năng lượng tái tạo, dầu khí, năng lượng hạt nhân. Điều này đảm bảo tính chính xác và trung thực của bản dịch."
+          },
+          "2": {
+            "title": "Quy trình dịch thuật chuyên nghiệp, kiểm soát chất lượng nghiêm ngặt",
+            "description": "S-Loka áp dụng quy trình dịch thuật đầy tiêu chuẩn với nhiều khâu kiểm tra, đảm bảo chất lượng cao. Các dự án dịch thuật đều đi qua sự kiểm soát chất lượng bởi chuyên gia trong ngành, đảm bảo tính đúng đắn về mặt nội dung chuyên môn."
+          },
+          "3": {
+            "title": "Sử dụng công nghệ hiện đại",
+            "description": "Chúng tôi tận dụng các công nghệ tiên tiến để nâng cao năng suất và đảm bảo tính nhất quán trong dịch thuật. Bộ nhớ dịch cùng với hệ thống quản lý dự án giúp quá trình dịch hiệu quả và đồng nhất hơn."
+          },
+          "4": {
+            "title": "Đáp ứng tốt các dự án quy mô lớn",
+            "description": "S-Loka có nguồn lực dồi dào về nhân sự và công nghệ để xử lý các dự án dịch thuật lớn với khối lượng hàng chục nghìn hoặc hàng trăm nghìn từ, vẫn đảm bảo giao dịch đúng tiến độ."
+          },
+          "5": {
+            "title": "Bảo mật thông tin, đáp ứng các tiêu chuẩn về an toàn thông tin",
+            "description": "Chúng tôi tuân thủ các tiêu chuẩn cao nhất về bảo mật và an ninh thông tin nhằm bảo vệ tối đa dữ liệu của khách hàng. Tất cả nhân viên và biên dịch viên đều ký các biên bản cam kết bảo mật thông tin dự án và tuân thủ 100% các quy định đã cam kết."
           }
         }
       },
@@ -538,6 +652,28 @@
             "title": "DỊCH THUẬT CÁC TÀI LIỆU PHÁP LUẬT",
             "description": "Hợp đồng SLA, điều khoản dịch vụ, chính sách quyền riêng tư"
           }
+        },
+        "reasons": {
+          "1": {
+            "title": "Kiến thức chuyên môn sâu rộng",
+            "description": "S-Loka sở hữu đội ngũ chuyên gia dịch thuật giàu kinh nghiệm, am hiểu chuyên sâu trong nhiều lĩnh vực và có khả năng xử lý các dự án dịch thuật phức tạp. Các dịch giả của chúng tôi đều có trình độ chuyên môn cao, được đào tạo bài bản và có nhiều năm kinh nghiệm thực tế trong lĩnh vực dịch thuật. Chúng tôi luôn cập nhật xu hướng ngôn ngữ mới nhất để đảm bảo bản dịch luôn chính xác và thu hút.."
+          },
+          "2": {
+            "title": "Hỗ trợ đa kênh 24/7",
+            "description": "Đội ngũ S-Loka luôn sẵn sàng tư vấn và hỗ trợ khách hàng 24/7 thông qua nhiều kênh giao tiếp như điện thoại, facebook fanpage... đảm bảo hỗ trợ khách hàng một cách tận tình chu đáo. Đội ngũ nhân viên của chúng tôi luôn niềm nở, lịch sự và chuyên nghiệp, đảm bảo mang đến cho khách hàng sự hài lòng tuyệt đối."
+          },
+          "3": {
+            "title": "Áp dụng tiêu chuẩn ISO 9001:2015",
+            "description": "S-Loka cam kết cung cấp dịch vụ dịch thuật chuyên nghiệp, đáp ứng các tiêu chuẩn quốc tế về chất lượng và hiệu quả. Hệ thống quản lý chất lượng được xây dựng theo tiêu chuẩn ISO 9001:2015,  giúp đảm bảo quy trình dịch thuật bài bản, chính xác và nhất quán. "
+          },
+          "4": {
+            "title": "Cam kết về tốc độ",
+            "description": "Thấu hiểu được mối lo ngại về thời gian hoàn thành dự án của các khách hàng. S-Loka luôn cam kết hoàn thành bản dịch đúng thời hạn theo yêu cầu của khách hàng với khả năng xử lý các dự án dịch thuật lớn trong thời gian ngắn. Đội ngũ Quản lý dự án (PM) của chúng tôi sẽ làm việc chặt chẽ để đảm bảo tiến độ dự án như đã đề ra ban đầu."
+          },
+          "5": {
+            "title": "Bảo mật thông tin",
+            "description": "S-Loka cam kết bảo vệ thông tin của khách hàng một cách an toàn và bảo mật. Chúng tôi không bao giờ chia sẻ thông tin của khách hàng với bất kỳ bên thứ ba nào mà không có sự đồng ý của khách hàng. S-Loka luôn cập nhật các biện pháp bảo mật mới nhất để đảm bảo thông tin của khách hàng được an toàn."
+          }
         }
       },
       "IT": {
@@ -576,6 +712,28 @@
             "title": "DỊCH THUẬT CÁC TÀI LIỆU PHÁP LUẬT",
             "description": "Hợp đồng SLA, điều khoản dịch vụ, chính sách quyền riêng tư"
           }
+        },
+        "reasons": {
+          "1": {
+            "title": "Đội ngũ dịch giả với chuyên môn sâu",
+            "description": "Không chỉ là những dịch giả tài năng, đội ngũ của S-Loka còn có kinh nghiệm trong các lĩnh vực công nghệ thông tin như: phát triển phần mềm, an ninh mạng và trí tuệ nhân tạo. Điều này đảm bảo rằng, họ không chỉ dịch thuật ngôn ngữ đơn thuần, mà còn có sự thông hiểu sâu sắc  toàn bộ ngữ cảnh kỹ thuật, giúp truyền tải chính xác ý nghĩa và tinh thần của văn bản gốc."
+          },
+          "2": {
+            "title": "Công nghệ hàng đầu",
+            "description": "S-Loka luôn ưu tiên áp dụng các công nghệ tiên tiến hỗ trợ dịch thuật. Ví dụ như: sử dụng công cụ CAT (Computer-Assisted Translation) và cơ sở dữ liệu thuật ngữ công nghệ thông tin riêng, giúp duy trì tính nhất quán và chính xác ở trong mọi dự án."
+          },
+          "3": {
+            "title": "Bảo mật tuyệt đối",
+            "description": "Trong thời đại của các cuộc tấn công mạng và những quy định nghiêm ngặt, bảo mật thông tin là ưu tiên hàng đầu. Hiểu rõ tầm quan trọng của bảo mật trong ngành công nghệ thông tin, chúng tôi tuân thủ các tiêu chuẩn như NDA, ISO 27001 để bảo vệ thông tin nhạy cảm của bạn."
+          },
+          "4": {
+            "title": "Dịch vụ “Code-Friendly”",
+            "description": "Chúng tôi hiểu rằng trong công nghệ thông tin, định dạng cũng quan trọng như nội dung. S-Loka cung cấp dịch vụ dịch thuật “code friendly”, nơi chúng tôi giữ nguyên cấu trúc của các tệp như JSON, XML, YAML, và thậm chí là “code source”. Điều này đảm bảo rằng các chi tiết UI, chuỗi ứng dụng, hay tài liệu API của bạn không chỉ được dịch chính xác mà còn hoạt động hoàn hảo sau khi hoàn thành kết hợp."
+          },
+          "5": {
+            "title": "Hỗ trợ đa kênh 24/7",
+            "description": "Trong thế giới công nghệ thông tin, nơi các sprint và sự phát hành có thể xảy ra bất cứ lúc nào, S-Loka cung cấp hỗ trợ đa kênh 24/7. Không chỉ như vậy, đội hỗ trợ của chúng tôi cũng có nền tảng kiến thức về công nghệ thông tin. Chúng tôi hiểu được tính cấp bách của việc sửa lỗi, tầm quan trọng của việc phát hành hệ thống đúng hạn, và có thể trao đổi bằng ngôn ngữ chuyên ngành."
+          }
         }
       },
       "automation": {
@@ -605,6 +763,28 @@
           "05": {
             "title": "DỊCH THUẬT TÀI LIỆU VỀ HỆ THỐNG ĐIỀU KHIỂN",
             "description": "Bao gồm tài liệu hướng dẫn sử dụng hệ thống điều khiển, tài liệu thiết kế hệ thống điều khiển, tài liệu vận hành hệ thống điều khiển..."
+          }
+        },
+        "reasons": {
+          "1": {
+            "title": "Đội ngũ chuyên gia kỹ thuật",
+            "description": "Không chỉ là những chuyên gia ngôn ngữ, đội ngũ dịch thuật của chúng tôi còn có nền tảng kỹ thuật vững chắc trong lĩnh vực Tự động hóa. Họ hiểu rõ các thuật ngữ như PLC, SCADA, HMI, và nắm vững nguyên lýhoạt động của hệ thống điều khiển phân tán (DCS)."
+          },
+          "2": {
+            "title": "Chuyên môn đa dạng",
+            "description": "Tự động hóa bao gồm nhiều lĩnh vực con như là: Robotics, IoT, AI trong sản xuất. S-Loka có chuyên gia cho từng mảng, đảm bảo độ chính xác cao cho mọi tài liệu, từ hướng dẫn lập trình PLC đến nghiên cứu về Học máy trong bảo trì dự đoán. "
+          },
+          "3": {
+            "title": "",
+            "description": ""
+          },
+          "4": {
+            "title": "",
+            "description": ""
+          },
+          "5": {
+            "title": "",
+            "description": ""
           }
         }
       }
