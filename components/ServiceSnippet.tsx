@@ -8,12 +8,12 @@ export default function ServiceSnippet({
   description: string;
 }) {
   return (
-    <div className="w-full flex items-center">
-      <span className="-mr-16 inline-flex justify-center items-center w-56 h-56 text-3xl font-bold bg-gradient-radial from-yellow-50 to-white">
+    <div className="w-full flex items-center mb-5 md:mb-0">
+      <span className="-mr-4 md:-mr-16 inline-flex justify-center items-center w-16 h-16 md:w-56 md:h-56 text-xl font-bold bg-gradient-radial from-yellow-50 to-white">
         {number}
       </span>
       <div className="w-full">
-        <p className="border-b-2 border-black mb-6 pb-4 text-end text-3xl uppercase">
+        <p className="border-b-2 border-black mb-6 pb-4 text-end text-xl uppercase">
           {title}
         </p>
         <p className="text-end">

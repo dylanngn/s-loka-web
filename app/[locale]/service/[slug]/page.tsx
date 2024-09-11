@@ -1,5 +1,6 @@
 import { Container } from "@/components/Container";
 import { Hero } from "@/components/Hero";
+import Languages from "@/components/Languages";
 import ServiceSnippet from "@/components/ServiceSnippet";
 import { Locale } from "@/i18n-config";
 import { getDictionary } from "@/server/get-dictionary";
@@ -16,7 +17,7 @@ const o = {
   "cong-nghe-thong-tin": "IT",
   "tu-dong-hoa": "automation",
 };
-type OKey =
+type DictServiceKey =
   | "hotelService"
   | "marketing"
   | "financeBanking"
@@ -27,17 +28,7 @@ type OKey =
   | "lifeScience"
   | "IT"
   | "automation";
-type Slug =
-  | "dich-vu-khach-san"
-  | "quang-cao"
-  | "tai-chinh-ngan-hang"
-  | "thuong-mai-dien-tu"
-  | "ban-le"
-  | "san-xuat-o-to"
-  | "nang-luong"
-  | "khoa-hoc-doi-song"
-  | "cong-nghe-thong-tin"
-  | "tu-dong-hoa";
+type Slug = keyof typeof o;
 
 const getKeyFromSlug = (slug: Slug) => o[slug];
 
@@ -47,13 +38,15 @@ export default async function ServiceDetailPage({
   params: { slug: string; lang: Locale };
 }) {
   const dict = await getDictionary(lang);
-  const objectKey = getKeyFromSlug(slug as Slug) as OKey;
-  const services = dict.Service.items[objectKey].services
+  const objectKey = getKeyFromSlug(slug as Slug) as DictServiceKey;
+  const services = dict.Service.items[objectKey].services;
+  const languages = dict.UtilizedLanguages;
   return (
     <article>
       <Hero {...dict.Service.items[objectKey].Hero} />
+      
       <Container className="mt-16">
-        <h2 className="text-3xl font-semibold text-center">
+        <h2 className="text-xl font-semibold text-center">
           {dict.Service.servicesHeading}
         </h2>
         <div className="py-20">
@@ -67,7 +60,17 @@ export default async function ServiceDetailPage({
           ))}
         </div>
       </Container>
-      <p className="mb-28 text-center text-3xl bg-gradient-radial from-yellow-50 to-white">{dict.Service.servicesEnding}</p>
+
+      <p className="mb-28 text-center text-xl bg-gradient-radial from-yellow-50 to-white">
+        {dict.Service.servicesEnding}
+      </p>
+
+      <div className="overflow-hidden mb-16">
+        <h2 className="mb-20 text-center text-xl font-bold">
+          Các ngôn ngữ đang khai thác
+        </h2>
+        <Languages languages={languages} />
+      </div>
     </article>
   );
 }
