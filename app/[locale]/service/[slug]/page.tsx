@@ -6,6 +6,8 @@ import { Hero } from "@/components/Hero";
 import ServiceSnippet from "@/components/ServiceSnippet";
 import { Partners } from "@/components/Partners";
 import Reason from "@/components/Reason";
+import MasonryTestimonials from "@/components/MasonryTestimonials";
+import ContactForm from "@/components/ContactForm";
 
 const o = {
   "dich-vu-khach-san": "hotelService",
@@ -32,6 +34,13 @@ type DictServiceKey =
   | "automation";
 type Slug = keyof typeof o;
 
+type Testimonial = {
+  name: string;
+  gender: string;
+  position: string;
+  message: string;
+};
+
 const getKeyFromSlug = (slug: Slug) => o[slug];
 
 export default async function ServiceDetailPage({
@@ -45,6 +54,7 @@ export default async function ServiceDetailPage({
   const services = mainService.services;
   const languages = dict.UtilizedLanguages;
   const reasons = mainService.reasons;
+  const testimonials = Object.entries(dict.Testimonial.masonry).map(([key, value]) => value) as [Testimonial]
   return (
     <article>
       <Hero {...mainService.Hero} />
@@ -92,6 +102,11 @@ export default async function ServiceDetailPage({
       </Container>
 
       <Partners title={dict.Partners.title} />
+
+      <MasonryTestimonials title={dict.Testimonial.title} description={dict.Testimonial.description} testimonials={testimonials} />
+
+      <ContactForm {...dict.ContactForm} />
+
     </article>
   );
 }
