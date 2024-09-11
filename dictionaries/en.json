@@ -259,6 +259,8 @@
     },
     "servicesHeading": "Các dịch vụ dịch thuật phổ biến của chúng tôi cho chuyên ngành này",
     "servicesEnding": "Và chúng tôi còn rất nhiều dịch vụ dịch thuật khác có thể triển khai theo nhu cầu của bạn",
+    "reasonsHeading": "Tại sao chọn S-Loka cho nhu cầu dịch vụ dịch thuật?",
+    "reasonsDescription": "Trong bối cảnh kinh doanh năng động trên toàn cầu, S-Loka thấu hiểu nhu cầu thiết yếu về độ chính xác và sự phù hợp về văn hóa. Chúng tôi luôn đảm bảo thông điệp thương hiệu của bạn tạo được tiếng vang liền mạch với những đối tượng địa phương trên toàn thế giới.",
     "items": {
       "hotelService": {
         "title": "Dịch vụ khách sạn",
@@ -291,8 +293,24 @@
         },
         "reasons": {
           "1": {
-            "title": "",
-            "description": ""
+            "title": "Thông thạo về văn hoá",
+            "description": "Đội ngũ dịch giả của chúng tôi có sự hiểu biết  sâu sắc về các sắc thái văn hóa, có thể tạo ra bản dịch vừa mang sắc thái gốc, vừa có sự hòa hợp với văn hóa của thị trường mục tiêu, tạo nên sự gắn kết cảm xúc với các tệp khách hàng mục tiêu của doanh nghiệp."
+          },
+          "2": {
+            "title": "Tính nhất quán của thương hiệu",
+            "description": "Duy trì giọng điệu thương hiệu nhất quán trên nhiều thị trường khác nhau, củng cố bản sắc và giá trị thương hiệu đối với khách hàng."
+          },
+          "3": {
+            "title": "Cải thiện tính hấp dẫn",
+            "description": "Các biện pháp dịch thuật sáng tạo của chúng tôi giúp tăng thêm sức hấp dẫn cho thông điệp của doanh nghiệp, thúc đẩy sự tương tác với khách hàng mục tiêu."
+          },
+          "4": {
+            "title": "Bảo mật thông tin",
+            "description": "S-Loka cam kết bảo vệ thông tin của khách hàng một cách an toàn và bảo mật. Chúng tôi không bao giờ chia sẻ không tin của khách hàng với bất kỳ bên thứ ba nào mà không có sự đồng ý của khách hàng. S-Loka luôn cập nhật các biện pháp bảo mật mới nhất để đảm bảo thông tin của khách hàng được an toàn."
+          },
+          "5": {
+            "title": "Hỗ trợ đa kênh 24/7",
+            "description": "Trong thế giới công nghệ thông tin, nơi các sprint và sự phát hành có thể xảy ra bất cứ lúc nào, S-Loka cung cấp hỗ trợ đa kênh 24/7. Không chỉ như vậy, đội hỗ trợ của chúng tôi cũng có nền tảng kiến thức về công nghệ thông tin. Chúng tôi hiểu được tính cấp bách của việc sửa lỗi, tầm quan trọng của việc phát hành hệ thống đúng hạn, và có thể trao đổi bằng ngôn ngữ chuyên ngành."
           }
         }
       },

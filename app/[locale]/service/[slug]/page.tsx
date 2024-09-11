@@ -1,9 +1,11 @@
-import { Container } from "@/components/Container";
-import { Hero } from "@/components/Hero";
 import Languages from "@/components/Languages";
-import ServiceSnippet from "@/components/ServiceSnippet";
 import { Locale } from "@/i18n-config";
 import { getDictionary } from "@/server/get-dictionary";
+import { Container } from "@/components/Container";
+import { Hero } from "@/components/Hero";
+import ServiceSnippet from "@/components/ServiceSnippet";
+import { Partners } from "@/components/Partners";
+import Reason from "@/components/Reason";
 
 const o = {
   "dich-vu-khach-san": "hotelService",
@@ -39,17 +41,20 @@ export default async function ServiceDetailPage({
 }) {
   const dict = await getDictionary(lang);
   const objectKey = getKeyFromSlug(slug as Slug) as DictServiceKey;
-  const services = dict.Service.items[objectKey].services;
+  const mainService = dict.Service.items[objectKey];
+  const services = mainService.services;
   const languages = dict.UtilizedLanguages;
+  const reasons = mainService.reasons;
+  console.log(reasons);
   return (
     <article>
-      <Hero {...dict.Service.items[objectKey].Hero} />
-      
+      <Hero {...mainService.Hero} />
+
       <Container className="mt-16">
         <h2 className="text-xl font-semibold text-center">
           {dict.Service.servicesHeading}
         </h2>
-        <div className="py-20">
+        <div className="w-fit mx-auto py-20">
           {Object.entries(services).map(([key, value]) => (
             <ServiceSnippet
               key={key}
@@ -71,6 +76,23 @@ export default async function ServiceDetailPage({
         </h2>
         <Languages languages={languages} />
       </div>
+
+      <Container className="mt-32">
+        <h2 className="mb-8 text-xl text-center font-semibold text-slate-900">
+          {dict.Service.reasonsHeading}
+        </h2>
+        <p className="text-center mb-12">{dict.Service.reasonsDescription}</p>
+        {Object.values(reasons).map((item, index) => (
+          <Reason
+            key={index}
+            number={index + 1}
+            title={item.title}
+            description={item.description}
+          />
+        ))}
+      </Container>
+
+      <Partners title={dict.Partners.title} />
     </article>
   );
 }
