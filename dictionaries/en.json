@@ -882,6 +882,68 @@
       "name": "Mun Teo",
       "position": "COO - Boppel Corp",
       "message": "Tôi sẽ luôn đặt S-LOKA ở top 1 nhà cung cấp về giải pháp dịch thuật tại Việt Nam"
+    },
+    "masonry": {
+      "item1": {
+        "name": "John Doven",
+        "position": "CEO - Aetekren Hub",
+        "message": "Aetekren Hub rất hài lòng khi làm việc với  S-LOKA, một công ty dịch thuật uy tín,  chuyên nghiệp tại Thành phố Hồ Chí Minh."
+      },
+      "item2": {
+        "name": "Henry Nguyen",
+        "position": "PM - CommerP",
+        "message": "“Tôi sẽ luôn đặt S-LOKA ở top 1 nhà cung cấp về giải pháp dịch thuật tại Việt Nam”"
+      },
+      "item3": {
+        "name": "Xuân Hùng",
+        "position": "Consultant - SKH",
+        "message": "“Dịch thuật của công ty rất chuyên nghiệp và nhanh chóng. Các tài liệu kỹ thuật phức tạp vẫn giữ được tính chính xác và rõ ràng.”"
+      },
+      "item4": {
+        "name": "Ngô Bảo Nam",
+        "position": "PM - LearnwM",
+        "message": "“Chúng tôi luôn gặp vấn đề với các bản dịch thuật để tìm kiếm sự sáng tạo, cho tới khi làm việc cùng S-LOKA thì mọi thứ đã không còn là vấn đề.”"
+      },
+      "item5": {
+        "name": "Tom Nguyen",
+        "position": "PM - C-Retails",
+        "message": "“Điều chúng tôi nhận được không chỉ là một dịch vụ bản địa hoá, nó thật sự là văn hoá ngôn ngữ!”"
+      },
+      "item6": {
+        "name": "Phương Thảo",
+        "position": "PM - Mani Jobs",
+        "message": "Chúng tôi cần dịch thuật tài liệu tuyển dụng sang nhiều ngôn ngữ khác nhau và S-LOKA đã đáp ứng các yêu cầu một cách xuất sắc. Đội ngũ làm việc rất tận tâm và chi tiết, giúp chúng tôi có được những bản dịch chất lượng và đúng thời hạn."
+      },
+      "item7": {
+        "name": "Thảo Vy",
+        "position": "Tour Manager - AB Travel",
+        "message": "“Dịch vụ dịch thuật công chứng tại S-LOKA luôn nhanh chóng, mình chưa bao giờ ngừng hài lòng khi hợp tác cùng với team.”"
+      },
+      "item8": {
+        "name": "Xavier Ngo",
+        "position": "Marketing Manager - Ored",
+        "message": "“Bản dịch luôn mang tính sáng tạo nhưng vẫn giữ được văn phong gốc. Tôi hoàn toàn hài lòng với dịch vụ ngôn ngữ tại S-LOKA”"
+      },
+      "item9": {
+        "name": "Astro Tran",
+        "position": "CEO - AB Books",
+        "message": "“Mỗi khi có dự án ngôn ngữ, tôi luôn nghĩ ngay tới team S-LOKA. Dịch vụ dịch thuật của các bạn rất uy tín.”"
+      },
+      "item10": {
+        "name": "Tung Nguyen",
+        "position": "COO - Alpha Trans",
+        "message": "“Chúng tôi luôn cảm thấy yên tâm mỗi khi làm việc cùng S-LOKA team”"
+      },
+      "item11": {
+        "name": "Hoàng Trung Dũng",
+        "position": "UX/UI Leader - Red Playing",
+        "message": "“Sản phẩm game online của chúng tôi đã trở nên hoàn hảo hơn nhờ dịch vụ ngôn ngữ của các bạn.”"
+      },
+      "item12": {
+        "name": "Tom Nguyen",
+        "position": "PM - AI Comp",
+        "message": "“Khi làm việc với S-LOKA ở dự án đầu, chúng tôi đã quyết định hợp tác lâu dài với các bạn và không có ý định thay đổi nhà cung cấp. Dịch vụ dịch thuật uy tín số 1 tại Việt Nam”"
+      }
     }
   },
   "ContactForm": {
