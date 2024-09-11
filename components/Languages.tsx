@@ -62,24 +62,24 @@ export default function Languages({
   return (
     <>
       <ul className="animate-infinite-scroll-slow-left flex items-center justify-center md:justify-start mb-7 [&_img]:max-w-none [&_li]:mx-8">
-        {firstRow.map(([key, value]) => (
-          <li key={key} className="rounded border-2 flex flex-shrink-0 items-center p-2 bg-[#D9D9D933]">
+        {firstRow.map(([key, value], index) => (
+          <li key={index} className="rounded-lg border-2 flex flex-shrink-0 items-center p-2 bg-[#D9D9D933]">
             <Image className="w-11 h-7 mr-8" alt={key} src={UtilizedLanguages[key as Languages]} />
             <span className="">{value}</span>
           </li>
         ))}
       </ul>
       <ul className="animate-infinite-scroll-slow-right flex items-center justify-center md:justify-start mb-7 [&_img]:max-w-none [&_li]:mx-8">
-        {secondRow.map(([key, value]) => (
-          <li key={key} className="rounded border-2 flex flex-shrink-0 items-center p-2 bg-[#D9D9D933]">
+        {secondRow.map(([key, value], index) => (
+          <li key={index} className="rounded-lg border-2 flex flex-shrink-0 items-center p-2 bg-[#D9D9D933]">
             <Image className="w-11 h-7 mr-8" alt={key} src={UtilizedLanguages[key as Languages]} />
             <span className="">{value}</span>
           </li>
         ))}
       </ul>
       <ul className="animate-infinite-scroll-slow-left flex items-center justify-center md:justify-start [&_img]:max-w-none [&_li]:mx-8">
-        {thirdRow.map(([key, value]) => (
-          <li key={key} className="rounded border-2 flex flex-shrink-0 items-center p-2 bg-[#D9D9D933]">
+        {thirdRow.map(([key, value], index) => (
+          <li key={index} className="rounded-lg border-2 flex flex-shrink-0 items-center p-2 bg-[#D9D9D933]">
             <Image className="w-11 h-7 mr-8" alt={key} src={UtilizedLanguages[key as Languages]} />
             <span className="">{value}</span>
           </li>
