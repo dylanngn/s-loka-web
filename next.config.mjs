@@ -80,6 +80,10 @@ const nextConfig = {
         source: '/vi/giai-phap/:slug',
         destination: '/vi/solution/:slug',
       },
+      {
+        source: '/vi/giai-phap/ban-dia-hoa/:slug',
+        destination: '/vi/solution/localization/:slug',
+      },
     ];
   },
 };

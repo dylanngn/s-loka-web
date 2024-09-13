@@ -3,11 +3,11 @@ import { Locale } from "@/i18n-config";
 import { getDictionary } from "@/server/get-dictionary";
 import { Container } from "@/components/Container";
 import { Hero } from "@/components/Hero";
-import ServiceSnippet from "@/components/ServiceSnippet";
 import { Partners } from "@/components/Partners";
 import Reason from "@/components/Reason";
-import MasonryTestimonials from "@/components/MasonryTestimonials";
+import MasonryTestimonials, { Testimonial } from "@/components/MasonryTestimonials";
 import ContactForm from "@/components/ContactForm";
+import Services from "@/components/Services";
 
 const o = {
   "dich-vu-khach-san": "hotelService",
@@ -34,13 +34,6 @@ type DictServiceKey =
   | "automation";
 type Slug = keyof typeof o;
 
-type Testimonial = {
-  name: string;
-  gender: string;
-  position: string;
-  message: string;
-};
-
 const getKeyFromSlug = (slug: Slug) => o[slug];
 
 export default async function ServiceDetailPage({
@@ -51,40 +44,24 @@ export default async function ServiceDetailPage({
   const dict = await getDictionary(lang);
   const objectKey = getKeyFromSlug(slug as Slug) as DictServiceKey;
   const mainService = dict.Service.items[objectKey];
-  const services = mainService.services;
+  const services = Object.entries(mainService.services);
   const languages = dict.UtilizedLanguages;
   const reasons = mainService.reasons;
-  const testimonials = Object.entries(dict.Testimonial.masonry).map(([key, value]) => value) as [Testimonial]
+  const testimonials = Object.entries(dict.Testimonial.masonry).map(
+    ([key, value]) => value
+  ) as [Testimonial];
+
   return (
     <article>
       <Hero {...mainService.Hero} />
 
-      <Container className="mt-16">
-        <h2 className="text-xl font-semibold text-center">
-          {dict.Service.servicesHeading}
-        </h2>
-        <div className="w-fit mx-auto py-20">
-          {Object.entries(services).map(([key, value]) => (
-            <ServiceSnippet
-              key={key}
-              number={key}
-              title={value.title}
-              description={value.description}
-            />
-          ))}
-        </div>
-      </Container>
+      <Services
+        title={dict.Service.servicesHeading}
+        services={services}
+        ending={dict.Service.servicesEnding}
+      />
 
-      <p className="mb-28 text-center text-xl bg-gradient-radial from-yellow-50 to-white">
-        {dict.Service.servicesEnding}
-      </p>
-
-      <div className="overflow-hidden mb-16">
-        <h2 className="mb-20 text-center text-xl font-bold">
-          Các ngôn ngữ đang khai thác
-        </h2>
-        <Languages languages={languages} />
-      </div>
+      <Languages title={dict.LanguagesHeading} languages={languages} />
 
       <Container className="mt-32">
         <h2 className="mb-8 text-xl text-center font-semibold text-slate-900">
@@ -103,10 +80,13 @@ export default async function ServiceDetailPage({
 
       <Partners title={dict.Partners.title} />
 
-      <MasonryTestimonials title={dict.Testimonial.title} description={dict.Testimonial.description} testimonials={testimonials} />
+      <MasonryTestimonials
+        title={dict.Testimonial.title}
+        description={dict.Testimonial.description}
+        testimonials={testimonials}
+      />
 
       <ContactForm {...dict.ContactForm} />
-
     </article>
   );
 }

@@ -5,7 +5,7 @@ import maleImg from "@/images/avatars/male.png";
 import femaleImg from "@/images/avatars/female.jpg";
 import clsx from "clsx";
 
-type Testimonial = {
+export type Testimonial = {
   name: string;
   gender: string;
   position: string;
