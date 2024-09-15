@@ -1,11 +1,12 @@
 import Languages from "@/components/Languages";
 import { Locale } from "@/i18n-config";
 import { getDictionary } from "@/server/get-dictionary";
-import { Container } from "@/components/Container";
 import { Hero } from "@/components/Hero";
 import { Partners } from "@/components/Partners";
-import Reason from "@/components/Reason";
-import MasonryTestimonials, { Testimonial } from "@/components/MasonryTestimonials";
+import Reasons, { Reason } from "@/components/Reasons";
+import MasonryTestimonials, {
+  Testimonial,
+} from "@/components/MasonryTestimonials";
 import ContactForm from "@/components/ContactForm";
 import Services from "@/components/Services";
 
@@ -46,10 +47,8 @@ export default async function ServiceDetailPage({
   const mainService = dict.Service.items[objectKey];
   const services = Object.entries(mainService.services);
   const languages = dict.UtilizedLanguages;
-  const reasons = mainService.reasons;
-  const testimonials = Object.entries(dict.Testimonial.masonry).map(
-    ([key, value]) => value
-  ) as [Testimonial];
+  const reasons = Object.values(mainService.reasons) as [Reason];
+  const testimonials = Object.values(dict.Testimonial.masonry) as [Testimonial];
 
   return (
     <article>
@@ -63,20 +62,11 @@ export default async function ServiceDetailPage({
 
       <Languages title={dict.LanguagesHeading} languages={languages} />
 
-      <Container className="mt-32">
-        <h2 className="mb-8 text-xl text-center font-semibold text-slate-900">
-          {dict.Service.reasonsHeading}
-        </h2>
-        <p className="text-center mb-12">{dict.Service.reasonsDescription}</p>
-        {Object.values(reasons).map((item, index) => (
-          <Reason
-            key={index}
-            number={index + 1}
-            title={item.title}
-            description={item.description}
-          />
-        ))}
-      </Container>
+      <Reasons
+        heading={dict.Service.reasonsHeading}
+        description={dict.Service.reasonsDescription}
+        reasons={reasons}
+      />
 
       <Partners title={dict.Partners.title} />
 

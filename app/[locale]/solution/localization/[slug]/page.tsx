@@ -5,7 +5,7 @@ import { getDictionary } from "@/server/get-dictionary";
 import Languages from "@/components/Languages";
 import Services from "@/components/Services";
 import clsx from "clsx";
-import Reason from "@/components/Reason";
+import Reasons, { Reason } from "@/components/Reasons";
 import { Partners } from "@/components/Partners";
 import MasonryTestimonials, { Testimonial } from "@/components/MasonryTestimonials";
 import ContactForm from "@/components/ContactForm";
@@ -33,7 +33,7 @@ export default async function SolutionServiceDetail({
   const mainService = localization.services[key];
   const services = Object.entries(mainService.items);
   const processes = mainService.processes;
-  const reasons = mainService.reasons;
+  const reasons = Object.values(mainService.reasons) as [Reason];
 
   const testimonials = Object.entries(dict.Testimonial.masonry).map(
     ([key, value]) => value
@@ -85,20 +85,11 @@ export default async function SolutionServiceDetail({
         languages={dict.UtilizedLanguages}
       />
 
-      <Container className="mt-32">
-        <h2 className="mb-8 text-xl text-center font-semibold text-slate-900">
-          {dict.Service.reasonsHeading}
-        </h2>
-        <p className="text-center mb-12">{dict.Service.reasonsDescription}</p>
-        {Object.values(reasons).map((item, index) => (
-          <Reason
-            key={index}
-            number={index + 1}
-            title={item.title}
-            description={item.description}
-          />
-        ))}
-      </Container>
+      <Reasons
+        heading={localization.reasonTitle}
+        description={localization.reasonDescription}
+        reasons={reasons}
+      />
 
       <Partners title={dict.Partners.title} />
 
