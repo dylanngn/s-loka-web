@@ -12,26 +12,23 @@ import ContactForm from "@/components/ContactForm";
 import Processes from "@/components/Processes";
 
 const o = {
-  "tro-choi": "Game",
-  "website": "Website",
-  "mobile-app": "MobileApp",
-  "an-pham-media": "MediaPublication",
+  "so-hoa-tai-lieu": "Digitization",
 } as const;
 
 type Slug = keyof typeof o;
-type ServiceKey = (typeof o)[keyof typeof o];
+type ServiceKey = typeof o[keyof typeof o];
 
 const getKeyFromSlug = (slug: Slug) => o[slug];
 
-export default async function LocalizationServiceDetail({
+export default async function BPOServiceDetail({
   params: { lang, slug },
 }: {
   params: { lang: Locale; slug: Slug };
 }) {
   const dict = await getDictionary(lang);
   const key = getKeyFromSlug(slug) as ServiceKey;
-  const localization = dict.Solution.items.Localization;
-  const mainService = localization.services[key];
+  const bpo = dict.Solution.items.BPO;
+  const mainService = bpo.services[key];
   const services = Object.entries(mainService.items);
   const processes = Object.values(mainService.processes);
   const reasons = Object.values(mainService.reasons) as [Reason];
@@ -44,13 +41,10 @@ export default async function LocalizationServiceDetail({
       <Services
         title={dict.Service.servicesHeading}
         services={services}
-        ending={localization.serviceEnding}
+        ending={bpo.serviceEnding}
       />
 
-      <Processes 
-        title={localization.processHeading} 
-        processes={processes} 
-      />
+      <Processes title={bpo.processHeading} processes={processes}/>
 
       <Languages
         title={dict.LanguagesHeading}
@@ -58,8 +52,8 @@ export default async function LocalizationServiceDetail({
       />
 
       <Reasons
-        heading={localization.reasonTitle}
-        description={localization.reasonDescription}
+        heading={bpo.reasonTitle}
+        description={bpo.reasonDescription}
         reasons={reasons}
       />
 

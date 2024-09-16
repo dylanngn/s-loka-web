@@ -600,8 +600,8 @@
         "serviceHeading": "Các dịch vụ dịch thuật phổ biến của chúng tôi cho giải pháp này",
         "serviceEnding": "Và chúng tôi còn rất nhiều dịch vụ dịch thuật công chứng khác có thể triển khai theo nhu cầu của bạn",
         "processHeading": "Quy trình dịch thuật của S-Loka",
-        "reasonTitle": "",
-        "reasonDescription": "",
+        "reasonTitle": "Tại sao chọn S-Loka cho nhu cầu dịch vụ dịch thuật?",
+        "reasonDescription": "Trong bối cảnh kinh doanh năng động trên toàn cầu, S-Loka thấu hiểu nhu cầu thiết yếu về độ chính xác và sự phù hợp về văn hóa. Chúng tôi luôn đảm bảo thông điệp thương hiệu của bạn tạo được tiếng vang liền mạch với những đối tượng địa phương trên toàn thế giới. ",
         "services": {
           "Notarization": {
             "Hero": {
@@ -674,16 +674,20 @@
             },
             "reasons": {
               "1": {
-                "title": "",
-                "description": ""
+                "title": "Đội ngũ dịch giả chuyên nghiệp",
+                "description": "Chúng tôi sở hữu đội ngũ biên dịch viên có trình độ chuyên môn cao, sở hữu các chứng chỉ ngôn ngữ quốc tế, giàu kinh nghiệm và am hiểu sâu về nhiều lĩnh vực khác nhau. Tất cả các biên dịch viên đều được tuyển chọn kỹ lưỡng và trải qua quá trình đào tạo bài bản để đảm bảo chất lượng dịch thuật tốt nhất."
               },
               "2": {
-                "title": "",
-                "description": ""
+                "title": "Công nghệ tiên tiến",
+                "description": "Chúng tôi ứng dụng công nghệ dịch thuật tiên tiến như Trados Studio, MemoQ, Wordfast, v.v. để tối ưu hóa quy trình dịch thuật, đảm bảo độ chính xác và nhất quán cao trong bản dịch đồng thời rút ngắn thời gian dịch nhất có thể, giúp tăng tính hiệu quả và tiết kiệm chi phí cho khách hàng."
               },
               "3": {
-                "title": "",
-                "description": ""
+                "title": "Giá cả cạnh tranh",
+                "description": "S-Loka cung cấp dịch vụ với chi phí hợp lý, phù hợp với mọi ngân sách, mang lại hiệu quả kinh tế tối ưu cho doanh nghiệp."
+              },
+              "4": {
+                "title": "Bảo mật thông tin NDA",
+                "description": "S-Loka cam kết bảo mật thông tin theo các các hợp đồng NDA và tuân thủ hoàn toàn các quy định pháp lý tại Việt Nam.  Chúng tôi luôn đảm bảo rằng các thông tin về game sẽ được bảo mật tuyệt đối, và các đơn vị dịch thuật phải chịu trách nhiệm hoàn toàn trước pháp luật nếu vi phạm nguyên tắc hợp đồng."
               }
             }
           },
@@ -757,16 +761,20 @@
             },
             "reasons": {
               "1": {
-                "title": "",
-                "description": ""
+                "title": "Đội ngũ dịch giả chuyên nghiệp",
+                "description": "Chúng tôi sở hữu đội ngũ biên dịch viên có trình độ chuyên môn cao, sở hữu các chứng chỉ ngôn ngữ quốc tế, giàu kinh nghiệm và am hiểu sâu về nhiều lĩnh vực khác nhau. Tất cả các biên dịch viên đều được tuyển chọn kỹ lưỡng và trải qua quá trình đào tạo bài bản để đảm bảo chất lượng dịch thuật tốt nhất."
               },
               "2": {
-                "title": "",
-                "description": ""
+                "title": "Công nghệ tiên tiến",
+                "description": "Chúng tôi sử dụng các công cụ hỗ trợ dịch thuật tiên tiến như Trados Studio, MemoQ, Wordfast, v.v. để tối ưu hóa quy trình dịch thuật, đảm bảo độ chính xác và nhất quán cao trong bản dịch đồng thời rút ngắn thời gian dịch nhất có thể, giúp tăng tính hiệu quả và tiết kiệm chi phí cho khách hàng."
               },
               "3": {
-                "title": "",
-                "description": ""
+                "title": "Giá cả cạnh tranh",
+                "description": "S-Loka cung cấp dịch vụ với chi phí hợp lý, phù hợp với mọi ngân sách, mang lại hiệu quả kinh tế tối ưu cho doanh nghiệp."
+              },
+              "4": {
+                "title": "Bảo mật thông tin tuyệt đối",
+                "description": "S-Loka cam kết bảo mật thông tin của khách hàng một cách tuyệt đối. Tất cả các tài liệu của khách hàng đều được bảo mật an toàn và không được tiết lộ cho bất kỳ bên thứ ba nào."
               }
             }
           }
@@ -775,7 +783,520 @@
       "Interpretation": {
         "title": "Phiên dịch",
         "description": "Chúng tôi cung cấp các dịch vụ phiên dịch riêng biệt cho từng nhu cầu cụ thể của từng khách hàng, giúp cho ngôn ngữ trở thành sợi dây liên kết bền chặt giữa bạn với đối tác và cộng đồng.",
-        "processHeading": "Quy trình phiên dịch của S-Loka"
+        "serviceHeading": "Các lĩnh vực phiên dịch chuyên môn của chúng tôi cho giải pháp này",
+        "serviceEnding": "Và chúng tôi còn rất nhiều dịch vụ phiên dịch khác có thể triển khai theo nhu cầu của bạn",
+        "processHeading": "Quy trình phiên dịch của S-Loka",
+        "reasonTitle": "Tại sao chọn S-Loka cho nhu cầu dịch vụ phiên dịch?",
+        "reasonDescription": "",
+        "services": {
+          "Escort": {
+            "Hero": {
+              "title": "Phiên dịch tháp tùng",
+              "description": "Hãy cùng tìm hiểu giải pháp phiên dịch tháp tùng tại S-Loka"
+            },
+            "items": {
+              "01": {
+                "title": "PHIÊN DỊCH LĨNH VỰC KINH DOANH",
+                "description": "PHIÊN DỊCH LĨNH VỰC KINH DOANH"
+              },
+              "02": {
+                "title": "PHIÊN DỊCH LĨNH VỰC Y TẾ, Y KHOA",
+                "description": "Phiên dịch hồ sơ bệnh án, phiên dịch tài liệu y khoa, phiên dịch hội thảo y khoa..."
+              },
+              "03": {
+                "title": "PHIÊN DỊCH LĨNH VỰC KỸ THUẬT",
+                "description": "Phiên dịch tài liệu kỹ thuật, phiên dịch hướng dẫn sử dụng máy móc thiết bị, phiên dịch bản vẽ kỹ thuật..."
+              },
+              "04": {
+                "title": "PHIÊN DỊCH LĨNH VỰC KHOA HỌC",
+                "description": "Phiên dịch báo cáo khoa học, phiên dịch bài báo khoa học, phiên dịch luận văn thạc sĩ, phiên dịch luận văn tiến sĩ..."
+              },
+              "05": {
+                "title": "PHIÊN DỊCH LĨNH VỰC GIÁO DỤC",
+                "description": "Phiên dịch giáo trình học tập, phiên dịch tài liệu giảng dạy, phiên dịch nội dung bài thi..."
+              }
+            },
+            "processes": {
+              "1": {
+                "title": "Tiếp nhận yêu cầu",
+                "descriptions": {
+                  "1": "S-Loka sẽ nhận những yêu cầu từ phía khách hàng thông qua những thông tin như: cặp ngôn ngữ cần phiên dịch, chuyên môn, lĩnh vực phiên dịch, thời gian và địa điểm diễn ra, số người tham gia..."
+                }
+              },
+              "2": {
+                "title": "Kế hoạch và hợp đồng",
+                "descriptions": {
+                  "1": "S-Loka sẽ tư vấn và đề xuất phương án phiên dịch dựa trên các thông tin đã tiếp nhận. Khách hàng sẽ nhận được kế hoạch triển khai công việc. Sau khi đồng ý với kế hoạch, hợp đồng sẽ được ký kết và thực hiện khoản thanh toán đầu tiên."
+                }
+              },
+              "3": {
+                "title": "Chọn phiên dịch viên",
+                "descriptions": {
+                  "1": "S-Loka tiến hành lựa chọn phiên dịch viên phù hợp nhất với yêu cầu của khách hàng dựa trên trình độ, kinh nghiệm lĩnh vực chuyên môn"
+                }
+              },
+              "4": {
+                "title": "Chuẩn bị cho buổi phiên dịch",
+                "descriptions": {
+                  "1": "Phiên dịch viên được phân công sẽ nghiên cứu trước về khách hàng và nội dung công việc. Đồng thời, khách hàng có thể cung cấp các tài liệu cần thiết để phiên dịch viên nghiên cứu trước khi buổi phiên dịch diễn ra."
+                }
+              },
+              "5": {
+                "title": "Thực hiện phiên dịch",
+                "descriptions": {
+                  "1": "Phiên dịch viên của S-Loka sẽ có mặt đúng giờ, với ngoại hình chuẩn chỉnh và sự chuẩn bị kiến thức chu đáo để bắt đầu thực hiện buổi phiên dịch. Mục tiêu của chúng tôi là đạt được mục đích cuối cùng cho buổi đàm phán của khách hàng."
+                }
+              },
+              "6": {
+                "title": "Đánh giá và phản hồi",
+                "descriptions": {
+                  "1": "Sau khi kết thúc công việc, S-Loka sẽ tiến hành thu thập ý kiến phản hồi từ khách hàng để đánh giá chất lượng dịch vụ. Chúng tôi không ngừng cải thiện để đáp ứng tốt hơn nhu cầu của các khách hàng trong tương lai."
+                }
+              }
+            },
+            "reasons": {
+              "1": {
+                "title": "Đội ngũ phiên dịch viên giàu kinh nghiệm",
+                "description": "S-Loka sở hữu đội ngũ phiên dịch viên với hơn 5 năm kinh nghiệm phiên dịch tháp tùng, thông qua quy trình tuyển dụng nghiêm khắc, kỹ lưỡng từ đó chọn lọc ra những phiên dịch viên có trình độ chuyên môn cao, am hiểu văn hóa và phong tục tập quán của nhiều quốc gia và luôn trau đồi học hỏi thêm kinh nghiệm. Bên cạnh đó, các phiên dịch viên của chúng tôi còn sở hữu kiến thức chuyên môn về nhiều lĩnh vực khác nhau như kinh tế, thương mại, kỹ thuật, y học, du lịch,... đảm bảo đáp ứng mọi yêu cầu của khách hàng."
+              },
+              "2": {
+                "title": "Cung cấp dịch vụ đa dạng",
+                "description": "S-Loka có thể cung cấp dịch vụ phiên dịch tháp tùng cho các chuyến đi ngắn ngày hoặc dài ngày, dịch vụ phiên dịch tháp tùng cho các đoàn khách lớn hoặc nhỏ, dịch vụ phiên dịch tháp tùng cho các sự kiện khác nhau như hội nghị, hội thảo, triển lãm,...theo yêu cầu của khách hàng. Một số dịch vụ phiên dịch tháp tùng tại S-Loka:",
+                "list": {
+                  "1": "Phiên dịch cho các cuộc họp, hội nghị quốc tế",
+                  "2": "Phiên dịch cho các buổi đàm phán, ký kết hợp đồng",
+                  "3": "Phiên dịch cho các buổi thuyết trình, giới thiệu sản phẩm",
+                  "4": "Phiên dịch cho các chuyến tham quan, khảo sát thị trường",
+                  "5": "Phiên dịch cho các sự kiện văn hóa, thể thao quốc tế"
+                }
+              },
+              "3": {
+                "title": "Dịch vụ chuyên nghiệp",
+                "description": "S-Loka luôn đặt lợi ích của khách hàng lên hàng đầu. Chúng tôi luôn sẵn sàng tư vấn và hỗ trợ khách hàng, đảm bảo hỗ trợ khách hàng một cách tận tình chu đáo. Đội ngũ nhân viên của chúng tôi luôn niềm nở, lịch sự và chuyên nghiệp, đảm bảo mang đến cho khách hàng sự hài lòng tuyệt đối."
+              }
+            }
+          },
+          "Tour": {
+            "Hero": {
+              "title": "Phiên dịch lữ hành",
+              "description": "Hãy cùng tìm hiểu giải pháp phiên dịch lữ hành tại S-Loka"
+            },
+            "items": {
+              "01": {
+                "title": "PHIÊN DỊCH LĨNH VỰC DU LỊCH",
+                "description": "Hỗ trợ du khách giao tiếp tại các địa điểm tham quan, nhà hàng, khách sạn, đảm bảo họ có trải nghiệm trọn vẹn và thuận lợi trong suốt chuyến đi."
+              },
+              "02": {
+                "title": "PHIÊN DỊCH LĨNH VỰC VĂN HOÁ",
+                "description": "Giải thích và truyền tải các phong tục, tập quán, và di sản văn hoá địa phương, giúp du khách hiểu sâu hơn nơi họ đến thăm và tạo sự kết nối văn hoá"
+              },
+              "03": {
+                "title": "PHIÊN DỊCH LĨNH VỰC Y TẾ",
+                "description": "Hỗ trợ du khách trong các tình huống cần chăm sóc sức khoẻ khi đi du lịch, từ việc mua thuốc, thăm khám, đảm bảo họ được chăm sóc một cách an toàn và hiệu quả."
+              },
+              "04": {
+                "title": "PHIÊN DỊCH LĨNH VỰC GIAO THÔNG",
+                "description": "Hướng dẫn và hỗ trợ du khách khi sử dụng các phương tiện di chuyển địa phương như taxi, xe buýt, tàu điện..., giúp họ di chuyển dễ dàng và tránh những khó khăn do rào cản ngôn ngữ"
+              },
+              "05": {
+                "title": "PHIÊN DỊCH LĨNH VỰC MUA SẮM",
+                "description": "Hỗ trợ du khách trong việc thương lượng giá cả, hiểu rõ về sản phẩm địa phương và các điều khoản mua bán, giúp họ có những giao dịch mua sắm hiệu quả và hài lòng."
+              },
+              "06": {
+                "title": "PHIÊN DỊCH LĨNH VỰC SỰ KIỆN",
+                "description": "Hỗ trợ du khách tham gia các lễ hội, hội nghị, và sự kiện đặc biệt, giúp họ nắm bắt thông tin và tận hưởng trọn vẹn các hoạt động diễn ra trong thời gian họ ở điểm đến."
+              }
+            },
+            "processes": {
+              "1": {
+                "title": "Tiếp nhận yêu cầu",
+                "descriptions": {
+                  "1": "S-Loka sẽ nhận những yêu cầu từ phía khách hàng thông qua những thông tin như: cặp ngôn ngữ cần phiên dịch, chuyên môn, lĩnh vực phiên dịch, thời gian và địa điểm diễn ra, số người tham gia..."
+                }
+              },
+              "2": {
+                "title": "Kế hoạch và hợp đồng",
+                "descriptions": {
+                  "1": "S-Loka sẽ tư vấn và đề xuất phương án phiên dịch dựa trên các thông tin đã tiếp nhận. Khách hàng sẽ nhận được kế hoạch triển khai công việc. Sau khi đồng ý với kế hoạch, hợp đồng sẽ được ký kết và thực hiện khoản thanh toán đầu tiên."
+                }
+              },
+              "3": {
+                "title": "Chọn phiên dịch viên",
+                "descriptions": {
+                  "1": "S-Loka tiến hành lựa chọn phiên dịch viên phù hợp nhất với yêu cầu của khách hàng dựa trên trình độ, kinh nghiệm lĩnh vực chuyên môn"
+                }
+              },
+              "4": {
+                "title": "Chuẩn bị cho buổi phiên dịch",
+                "descriptions": {
+                  "1": "Phiên dịch viên được phân công sẽ nghiên cứu trước về khách hàng và nội dung công việc. Đồng thời, khách hàng có thể cung cấp các tài liệu cần thiết để phiên dịch viên nghiên cứu trước khi buổi phiên dịch diễn ra."
+                }
+              },
+              "5": {
+                "title": "Thực hiện phiên dịch",
+                "descriptions": {
+                  "1": "Phiên dịch viên của S-Loka sẽ có mặt đúng giờ, với ngoại hình chuẩn chỉnh và sự chuẩn bị kiến thức chu đáo để bắt đầu thực hiện buổi phiên dịch. Mục tiêu của chúng tôi là đạt được mục đích cuối cùng cho buổi đàm phán của khách hàng."
+                }
+              },
+              "6": {
+                "title": "Đánh giá và phản hồi",
+                "descriptions": {
+                  "1": "Sau khi kết thúc công việc, S-Loka sẽ tiến hành thu thập ý kiến phản hồi từ khách hàng để đánh giá chất lượng dịch vụ. Chúng tôi không ngừng cải thiện để đáp ứng tốt hơn nhu cầu của các khách hàng trong tương lai."
+                }
+              }
+            },
+            "reasons": {
+              "1": {
+                "title": "Đội ngũ phiên dịch viên giàu kinh nghiệm",
+                "description": "S-Loka sở hữu đội ngũ phiên dịch viên với hơn 5 năm kinh nghiệm phiên dịch tháp tùng, thông qua quy trình tuyển dụng nghiêm khắc, kỹ lưỡng từ đó chọn lọc ra những phiên dịch viên có trình độ chuyên môn cao, am hiểu văn hóa và phong tục tập quán của nhiều quốc gia và luôn trau đồi học hỏi thêm kinh nghiệm. Bên cạnh đó, các phiên dịch viên của chúng tôi còn sở hữu kiến thức chuyên môn về nhiều lĩnh vực khác nhau như kinh tế, thương mại, kỹ thuật, y học, du lịch,... đảm bảo đáp ứng mọi yêu cầu của khách hàng."
+              },
+              "2": {
+                "title": "Cung cấp dịch vụ đa dạng",
+                "description": "S-Loka có thể cung cấp dịch vụ phiên dịch lữ hành cho các chuyến đi ngắn ngày hoặc dài ngày, dịch vụ phiên dịch lữ hành cho các đoàn khách lớn hoặc nhỏ, dịch vụ phiên dịch tháp tùng cho các sự kiện khác nhau như hội nghị, hội thảo, triển lãm,...theo yêu cầu của khách hàng."
+              },
+              "3": {
+                "title": "Dịch vụ chuyên nghiệp",
+                "description": "S-Loka luôn đặt lợi ích của khách hàng lên hàng đầu. Chúng tôi luôn sẵn sàng tư vấn và hỗ trợ khách hàng, đảm bảo hỗ trợ khách hàng một cách tận tình chu đáo. Đội ngũ nhân viên của chúng tôi luôn niềm nở, lịch sự và chuyên nghiệp, đảm bảo mang đến cho khách hàng sự hài lòng tuyệt đối."
+              }
+            }
+          },
+          "Travel": {
+            "Hero": {
+              "title": "Phiên dịch du lịch",
+              "description": "Hãy cùng tìm hiểu giải pháp phiên dịch du lịch tại S-Loka"
+            },
+            "items": {
+              "01": {
+                "title": "PHIÊN DỊCH TẠI ĐIỂM THAM QUAN",
+                "description": "Chuyển ngữ các thông tin về lịch sử, văn hoá, và đặc điểm nổi bật của các di tích, bảo tàng và danh lam thắng cảnh"
+              },
+              "02": {
+                "title": "PHIÊN DỊCH HƯỚNG DẪN TOUR",
+                "description": "Hỗ trợ hướng dẫn viên du lịch trong việc truyền tải thông tin, trả lời các câu hỏi của du khách và giải thích chi tiết các chương trình tham quan"
+              },
+              "03": {
+                "title": "PHIÊN DỊCH NHÀ HÀNG VÀ KHÁCH SẠN",
+                "description": "Giúp du khách giao tiếp với nhân viên nhà hàng và khách sạn về đặt phòng, dịch vụ, và thực đơn, đảm bảo trải nghiệm lưu trú và ăn uống dược suôn sẻ"
+              },
+              "04": {
+                "title": "PHIÊN DỊCH THÔNG TIN DU LỊCH",
+                "description": "Hỗ trợ du khách hiểu các thông tin như bản đồ, lịch trình di chuyển, và các hướng dẫn liên quan đến việc sử dụng phương tiện giao thông công cộng hoặc dịch vụ địa phương"
+              },
+              "05": {
+                "title": "PHIÊN DỊCH LĨNH VỰC MUA SẮM",
+                "description": "Hỗ trợ du khách trong việc thương lượng giá cả, hiểu rõ về sản phẩm địa phương và các điều khoản mua bán, giúp họ có những giao dịch mua sắm hiệu quả và hài lòng."
+              },
+              "06": {
+                "title": "PHIÊN DỊCH SỰ KIỆN DU LỊCH",
+                "description": "Hỗ trợ du khách tham gia các lễ hội, hội nghị, và sự kiện đặc biệt, giúp họ nắm bắt thông tin và tận hưởng trọn vẹn các hoạt động diễn ra trong thời gian họ ở điểm đến."
+              }
+            },
+            "processes": {
+              "1": {
+                "title": "Tiếp nhận yêu cầu",
+                "descriptions": {
+                  "1": "S-Loka sẽ nhận những yêu cầu từ phía khách hàng thông qua những thông tin như: cặp ngôn ngữ cần phiên dịch, chuyên môn, lĩnh vực phiên dịch, thời gian và địa điểm diễn ra, số người tham gia..."
+                }
+              },
+              "2": {
+                "title": "Kế hoạch và hợp đồng",
+                "descriptions": {
+                  "1": "S-Loka sẽ tư vấn và đề xuất phương án phiên dịch dựa trên các thông tin đã tiếp nhận. Khách hàng sẽ nhận được kế hoạch triển khai công việc. Sau khi đồng ý với kế hoạch, hợp đồng sẽ được ký kết và thực hiện khoản thanh toán đầu tiên."
+                }
+              },
+              "3": {
+                "title": "Chọn phiên dịch viên",
+                "descriptions": {
+                  "1": "S-Loka tiến hành lựa chọn phiên dịch viên phù hợp nhất với yêu cầu của khách hàng dựa trên trình độ, kinh nghiệm lĩnh vực chuyên môn"
+                }
+              },
+              "4": {
+                "title": "Chuẩn bị cho buổi phiên dịch",
+                "descriptions": {
+                  "1": "Phiên dịch viên được phân công sẽ nghiên cứu trước về khách hàng và nội dung công việc. Đồng thời, khách hàng có thể cung cấp các tài liệu cần thiết để phiên dịch viên nghiên cứu trước khi buổi phiên dịch diễn ra."
+                }
+              },
+              "5": {
+                "title": "Thực hiện phiên dịch",
+                "descriptions": {
+                  "1": "Phiên dịch viên của S-Loka sẽ có mặt đúng giờ, với ngoại hình chuẩn chỉnh và sự chuẩn bị kiến thức chu đáo để bắt đầu thực hiện buổi phiên dịch. Mục tiêu của chúng tôi là đạt được mục đích cuối cùng cho buổi đàm phán của khách hàng."
+                }
+              },
+              "6": {
+                "title": "Đánh giá và phản hồi",
+                "descriptions": {
+                  "1": "Sau khi kết thúc công việc, S-Loka sẽ tiến hành thu thập ý kiến phản hồi từ khách hàng để đánh giá chất lượng dịch vụ. Chúng tôi không ngừng cải thiện để đáp ứng tốt hơn nhu cầu của các khách hàng trong tương lai."
+                }
+              }
+            },
+            "reasons": {
+              "1": {
+                "title": "Đội ngũ phiên dịch viên giàu kinh nghiệm",
+                "description": "S-Loka sở hữu đội ngũ phiên dịch viên với hơn 5 năm kinh nghiệm phiên dịch tháp tùng, thông qua quy trình tuyển dụng nghiêm khắc, kỹ lưỡng từ đó chọn lọc ra những phiên dịch viên có trình độ chuyên môn cao, am hiểu văn hóa và phong tục tập quán của nhiều quốc gia và luôn trau đồi học hỏi thêm kinh nghiệm. Bên cạnh đó, các phiên dịch viên của chúng tôi còn sở hữu kiến thức chuyên môn về nhiều lĩnh vực khác nhau như kinh tế, thương mại, kỹ thuật, y học, du lịch,... đảm bảo đáp ứng mọi yêu cầu của khách hàng."
+              },
+              "2": {
+                "title": "Cung cấp dịch vụ đa dạng",
+                "description": "S-Loka có thể cung cấp dịch vụ phiên dịch kinh doanh cho các chuyến đi ngắn ngày hoặc dài ngày, dịch vụ phiên dịch kinh doanh cho các đoàn khách lớn hoặc nhỏ, dịch vụ phiên dịch tháp tùng cho các sự kiện khác nhau như hội nghị, hội thảo, triển lãm,...theo yêu cầu của khách hàng."
+              },
+              "3": {
+                "title": "Dịch vụ chuyên nghiệp",
+                "description": "S-Loka luôn đặt lợi ích của khách hàng lên hàng đầu. Chúng tôi luôn sẵn sàng tư vấn và hỗ trợ khách hàng, đảm bảo hỗ trợ khách hàng một cách tận tình chu đáo. Đội ngũ nhân viên của chúng tôi luôn niềm nở, lịch sự và chuyên nghiệp, đảm bảo mang đến cho khách hàng sự hài lòng tuyệt đối."
+              }
+            }
+          },
+          "Business": {
+            "Hero": {
+              "title": "Phiên dịch kinh doanh",
+              "description": "Hãy cùng tìm hiểu giải pháp phiên dịch kinh doanh tại S-Loka"
+            },
+            "items": {
+              "01": {
+                "title": "PHIÊN DỊCH TÀI LIỆU KINH TẾ",
+                "description": "Chuyển ngữ các báo cáo tài chính, tài liệu kinh tế và phân tích thị trường"
+              },
+              "02": {
+                "title": "PHIÊN DỊCH ĐÀM PHÁN THƯƠNG MẠI",
+                "description": "Hỗ trợ phiên dịch trong các cuộc đàm phán, thương thảo hợp đồng và các thoả thuận kinh doanh"
+              },
+              "03": {
+                "title": "PHIÊN DỊCH HỘI THẢO, HỘI NGHỊ",
+                "description": "Dịch thuật các bài phát biểu, thuyết trình, và trao đổi tại các cuộc hội thảo, hội nghị kinh doanh quốc tế"
+              },
+              "04": {
+                "title": "PHIÊN DỊCH SỰ KIỆN DOANH NGHIỆP",
+                "description": "Hỗ trợ phân dịch tại các triển lãm, hội chợ thương mại và sự kiện networking của doanh nghiệp"
+              },
+              "05": {
+                "title": "PHIÊN DỊCH TÀI LIỆU MARKETING",
+                "description": "Chuyển ngữ các tài liệu quảng cáo, chiến lược tiếp thị, và kế hoạch truyền thông cho các chiến dịch tiếp thị quốc tế"
+              },
+              "06": {
+                "title": "PHIÊN DỊCH VIDEO CALL, HỘI NGHỊ TRỰC TUYẾN",
+                "description": "Cung cấp dịch vụ phiên dịch kinh doanh cho các cuộc họp trực tuyến, hội nghị thông qua video call với chất lượng âm thanh, hình ảnh rõ nét, giúp doanh nghiệp tiết kiệm thời gian và chi phí"
+              }
+            },
+            "processes": {
+              "1": {
+                "title": "Tiếp nhận yêu cầu",
+                "descriptions": {
+                  "1": "S-Loka sẽ nhận những yêu cầu từ phía khách hàng thông qua những thông tin như: cặp ngôn ngữ cần phiên dịch, chuyên môn, lĩnh vực phiên dịch, thời gian và địa điểm diễn ra, số người tham gia..."
+                }
+              },
+              "2": {
+                "title": "Kế hoạch và hợp đồng",
+                "descriptions": {
+                  "1": "S-Loka sẽ tư vấn và đề xuất phương án phiên dịch dựa trên các thông tin đã tiếp nhận. Khách hàng sẽ nhận được kế hoạch triển khai công việc. Sau khi đồng ý với kế hoạch, hợp đồng sẽ được ký kết và thực hiện khoản thanh toán đầu tiên."
+                }
+              },
+              "3": {
+                "title": "Chọn phiên dịch viên",
+                "descriptions": {
+                  "1": "S-Loka tiến hành lựa chọn phiên dịch viên phù hợp nhất với yêu cầu của khách hàng dựa trên trình độ, kinh nghiệm lĩnh vực chuyên môn"
+                }
+              },
+              "4": {
+                "title": "Chuẩn bị cho buổi phiên dịch",
+                "descriptions": {
+                  "1": "Phiên dịch viên được phân công sẽ nghiên cứu trước về khách hàng và nội dung công việc. Đồng thời, khách hàng có thể cung cấp các tài liệu cần thiết để phiên dịch viên nghiên cứu trước khi buổi phiên dịch diễn ra."
+                }
+              },
+              "5": {
+                "title": "Thực hiện phiên dịch",
+                "descriptions": {
+                  "1": "Phiên dịch viên của S-Loka sẽ có mặt đúng giờ, với ngoại hình chuẩn chỉnh và sự chuẩn bị kiến thức chu đáo để bắt đầu thực hiện buổi phiên dịch. Mục tiêu của chúng tôi là đạt được mục đích cuối cùng cho buổi đàm phán của khách hàng."
+                }
+              },
+              "6": {
+                "title": "Đánh giá và phản hồi",
+                "descriptions": {
+                  "1": "Sau khi kết thúc công việc, S-Loka sẽ tiến hành thu thập ý kiến phản hồi từ khách hàng để đánh giá chất lượng dịch vụ. Chúng tôi không ngừng cải thiện để đáp ứng tốt hơn nhu cầu của các khách hàng trong tương lai."
+                }
+              }
+            },
+            "reasons": {
+              "1": {
+                "title": "Đội ngũ phiên dịch viên giàu kinh nghiệm",
+                "description": "S-Loka sở hữu đội ngũ phiên dịch viên với hơn 5 năm kinh nghiệm phiên dịch tháp tùng, thông qua quy trình tuyển dụng nghiêm khắc, kỹ lưỡng từ đó chọn lọc ra những phiên dịch viên có trình độ chuyên môn cao, am hiểu văn hóa và phong tục tập quán của nhiều quốc gia và luôn trau đồi học hỏi thêm kinh nghiệm. Bên cạnh đó, các phiên dịch viên của chúng tôi còn sở hữu kiến thức chuyên môn về nhiều lĩnh vực khác nhau như kinh tế, thương mại, kỹ thuật, y học, du lịch,... đảm bảo đáp ứng mọi yêu cầu của khách hàng."
+              },
+              "2": {
+                "title": "Cung cấp dịch vụ đa dạng",
+                "description": "S-Loka có thể cung cấp dịch vụ phiên dịch kinh doanh cho các chuyến đi ngắn ngày hoặc dài ngày, dịch vụ phiên dịch kinh doanh cho các đoàn khách lớn hoặc nhỏ, dịch vụ phiên dịch tháp tùng cho các sự kiện khác nhau như hội nghị, hội thảo, triển lãm,...theo yêu cầu của khách hàng."
+              },
+              "3": {
+                "title": "Dịch vụ chuyên nghiệp",
+                "description": "S-Loka luôn đặt lợi ích của khách hàng lên hàng đầu. Chúng tôi luôn sẵn sàng tư vấn và hỗ trợ khách hàng, đảm bảo hỗ trợ khách hàng một cách tận tình chu đáo. Đội ngũ nhân viên của chúng tôi luôn niềm nở, lịch sự và chuyên nghiệp, đảm bảo mang đến cho khách hàng sự hài lòng tuyệt đối."
+              }
+            }
+          },
+          "TradeShow": {
+            "Hero": {
+              "title": "Phiên dịch triển lãm thương mại",
+              "description": "Hãy cùng tìm hiểu giải pháp phiên dịch triển lãm thương mại tại S-Loka"
+            },
+            "items": {
+              "01": {
+                "title": "PHIÊN DỊCH GIAN HÀNG TRIỂN LÃM",
+                "description": "Hỗ trợ giao tiếp giữa các doanh nghiệp trưng bày sản phẩm và khách hàng tiềm năng"
+              },
+              "02": {
+                "title": "PHIÊN DỊCH SỰ KIỆN KHAI MẠC",
+                "description": "Chuyển ngữ các bài phát biểu, giới thiệu sản phẩm và dịch vụ trong lễ khai mạc triển lãm"
+              },
+              "03": {
+                "title": "PHIÊN DỊCH HỘI THẢO CHUYÊN ĐỀ",
+                "description": "Dịch thuật nội dung các buổi hội thảo, thuyết trình về xu hướng ngành, sản phẩm mới và các cơ hội hợp tác"
+              },
+              "04": {
+                "title": "PHIÊN DỊCH HỌP BÁO VÀ PHỎNG VẤN",
+                "description": "Hỗ trợ phiên dịch trong các buổi họp báo, trả lời phỏng vấn của giới truyền thông và đối tác kinh doanh"
+              },
+              "05": {
+                "title": "PHIÊN DỊCH TÀI LIỆU QUẢNG BÁ",
+                "description": "Chuyển ngữ các brochue, catalogue, và tài liệu quảng bá sản phẩm trưng bày tại hội chợ triển lãm"
+              },
+              "06": {
+                "title": "PHIÊN DỊCH KẾT NỐI ĐỐI TÁC",
+                "description": "Hỗ trợ các doanh nghiệp trong việc thiết lập mối quan hệ hợp tác với các đối tác quốc tế thông qua các cuộc hặp gỡ và thảo luận tại triển lãm"
+              }
+            },
+            "processes": {
+              "1": {
+                "title": "Tiếp nhận yêu cầu",
+                "descriptions": {
+                  "1": "S-Loka sẽ nhận những yêu cầu từ phía khách hàng thông qua những thông tin như: cặp ngôn ngữ cần phiên dịch, chuyên môn, lĩnh vực phiên dịch, thời gian và địa điểm diễn ra, số người tham gia..."
+                }
+              },
+              "2": {
+                "title": "Kế hoạch và hợp đồng",
+                "descriptions": {
+                  "1": "S-Loka sẽ tư vấn và đề xuất phương án phiên dịch dựa trên các thông tin đã tiếp nhận. Khách hàng sẽ nhận được kế hoạch triển khai công việc. Sau khi đồng ý với kế hoạch, hợp đồng sẽ được ký kết và thực hiện khoản thanh toán đầu tiên."
+                }
+              },
+              "3": {
+                "title": "Chọn phiên dịch viên",
+                "descriptions": {
+                  "1": "S-Loka tiến hành lựa chọn phiên dịch viên phù hợp nhất với yêu cầu của khách hàng dựa trên trình độ, kinh nghiệm lĩnh vực chuyên môn"
+                }
+              },
+              "4": {
+                "title": "Chuẩn bị cho buổi phiên dịch",
+                "descriptions": {
+                  "1": "Phiên dịch viên được phân công sẽ nghiên cứu trước về khách hàng và nội dung công việc. Đồng thời, khách hàng có thể cung cấp các tài liệu cần thiết để phiên dịch viên nghiên cứu trước khi buổi phiên dịch diễn ra."
+                }
+              },
+              "5": {
+                "title": "Thực hiện phiên dịch",
+                "descriptions": {
+                  "1": "Phiên dịch viên của S-Loka sẽ có mặt đúng giờ, với ngoại hình chuẩn chỉnh và sự chuẩn bị kiến thức chu đáo để bắt đầu thực hiện buổi phiên dịch. Mục tiêu của chúng tôi là đạt được mục đích cuối cùng cho buổi đàm phán của khách hàng."
+                }
+              },
+              "6": {
+                "title": "Đánh giá và phản hồi",
+                "descriptions": {
+                  "1": "Sau khi kết thúc công việc, S-Loka sẽ tiến hành thu thập ý kiến phản hồi từ khách hàng để đánh giá chất lượng dịch vụ. Chúng tôi không ngừng cải thiện để đáp ứng tốt hơn nhu cầu của các khách hàng trong tương lai."
+                }
+              }
+            },
+            "reasons": {
+              "1": {
+                "title": "Đội ngũ phiên dịch viên giàu kinh nghiệm",
+                "description": "S-Loka sở hữu đội ngũ phiên dịch viên với hơn 5 năm kinh nghiệm phiên dịch tháp tùng, thông qua quy trình tuyển dụng nghiêm khắc, kỹ lưỡng từ đó chọn lọc ra những phiên dịch viên có trình độ chuyên môn cao, am hiểu văn hóa và phong tục tập quán của nhiều quốc gia và luôn trau đồi học hỏi thêm kinh nghiệm. Bên cạnh đó, các phiên dịch viên của chúng tôi còn sở hữu kiến thức chuyên môn về nhiều lĩnh vực khác nhau như kinh tế, thương mại, kỹ thuật, y học, du lịch,... đảm bảo đáp ứng mọi yêu cầu của khách hàng."
+              },
+              "2": {
+                "title": "Cung cấp dịch vụ đa dạng",
+                "description": "S-Loka có thể cung cấp dịch vụ phiên dịch kinh doanh cho các chuyến đi ngắn ngày hoặc dài ngày, dịch vụ phiên dịch kinh doanh cho các đoàn khách lớn hoặc nhỏ, dịch vụ phiên dịch tháp tùng cho các sự kiện khác nhau như hội nghị, hội thảo, triển lãm,...theo yêu cầu của khách hàng."
+              },
+              "3": {
+                "title": "Dịch vụ chuyên nghiệp",
+                "description": "S-Loka luôn đặt lợi ích của khách hàng lên hàng đầu. Chúng tôi luôn sẵn sàng tư vấn và hỗ trợ khách hàng, đảm bảo hỗ trợ khách hàng một cách tận tình chu đáo. Đội ngũ nhân viên của chúng tôi luôn niềm nở, lịch sự và chuyên nghiệp, đảm bảo mang đến cho khách hàng sự hài lòng tuyệt đối."
+              }
+            }
+          },
+          "Silmutaneous": {
+            "Hero": {
+              "title": "Phiên dịch song song",
+              "description": "Hãy cùng tìm hiểu giải pháp phiên dịch song song tại S-Loka"
+            },
+            "items": {
+              "01": {
+                "title": "PHIÊN DỊCH HỘI NGHỊ QUỐC TẾ",
+                "description": "Dịch đồng thời các bài phát biểu, thảo luận tại các hội nghị, hội thảo đa quốc gia"
+              },
+              "02": {
+                "title": "PHIÊN DỊCH SỰ KIỆN NGOẠI GIAO",
+                "description": "Hỗ trợ phiên dịch song song trogn các buổi gặp gỡ, trao đổi giữa các lãnh đạo quốc gia, tổ chức quốc tế"
+              },
+              "03": {
+                "title": "PHIÊN DỊCH TOÀ ÁN",
+                "description": "Thích hợp dịch đồng thời tại các phiên toà, thẩm vấn và xét xử, để đảm bảo tất cả các bên liên quan đều hiểu rõ quá trình tố tụng"
+              },
+              "04": {
+                "title": "PHIÊN DỊCH SỰ KIỆN DOANH NGHIỆP",
+                "description": "Phiên dịch song song tại các buổi ra mắt sản phẩm, họp báo và các sự kiện quan trọng của công ty"
+              },
+              "05": {
+                "title": "PHIÊN DỊCH TRUYỀN HÌNH TRỰC TIẾP",
+                "description": "Hỗ trợ phiên dịch song song các chương trình truyền hình trực tiếp, bao gồm phỏng vấn, thảo luận và các sự kiện thể thao"
+              },
+              "06": {
+                "title": "PHIÊN DỊCH ĐÀO TẠO VÀ HUẤN LUYỆN",
+                "description": "Dịch đồng thời trong các buổi đào tạo, hội thảo và huấn luyện viên để đảm bảo thông tin được truyền đạt chính xác"
+              }
+            },
+            "processes": {
+              "1": {
+                "title": "Tiếp nhận yêu cầu",
+                "descriptions": {
+                  "1": "S-Loka sẽ nhận những yêu cầu từ phía khách hàng thông qua những thông tin như: cặp ngôn ngữ cần phiên dịch, chuyên môn, lĩnh vực phiên dịch, thời gian và địa điểm diễn ra, số người tham gia..."
+                } 
+              },
+              "2": {
+                "title": "Kế hoạch và hợp đồng",
+                "descriptions": {
+                  "1": "S-Loka sẽ tư vấn và đề xuất phương án phiên dịch dựa trên các thông tin đã tiếp nhận. Khách hàng sẽ nhận được kế hoạch triển khai công việc. Sau khi đồng ý với kế hoạch, hợp đồng sẽ được ký kết và thực hiện khoản thanh toán đầu tiên."
+                }
+              },
+              "3": {
+                "title": "Chọn phiên dịch viên",
+                "descriptions": {
+                  "1": "S-Loka tiến hành lựa chọn phiên dịch viên phù hợp nhất với yêu cầu của khách hàng dựa trên trình độ, kinh nghiệm lĩnh vực chuyên môn"
+                }
+              },
+              "4": {
+                "title": "Chuẩn bị cho buổi phiên dịch",
+                "descriptions": {
+                  "1": "Phiên dịch viên được phân công sẽ nghiên cứu trước về khách hàng và nội dung công việc. Đồng thời, khách hàng có thể cung cấp các tài liệu cần thiết để phiên dịch viên nghiên cứu trước khi buổi phiên dịch diễn ra."
+                }
+              },
+              "5": {
+                "title": "Thực hiện phiên dịch",
+                "descriptions": {
+                  "1": "Phiên dịch viên của S-Loka sẽ có mặt đúng giờ, với ngoại hình chuẩn chỉnh và sự chuẩn bị kiến thức chu đáo để bắt đầu thực hiện buổi phiên dịch. Mục tiêu của chúng tôi là đạt được mục đích cuối cùng cho buổi đàm phán của khách hàng."
+                }
+              },
+              "6": {
+                "title": "Đánh giá và phản hồi",
+                "descriptions": {
+                  "1": "Sau khi kết thúc công việc, S-Loka sẽ tiến hành thu thập ý kiến phản hồi từ khách hàng để đánh giá chất lượng dịch vụ. Chúng tôi không ngừng cải thiện để đáp ứng tốt hơn nhu cầu của các khách hàng trong tương lai."
+                }
+              }
+            },
+            "reasons": {
+              "1": {
+                "title": "Đội ngũ phiên dịch viên giàu kinh nghiệm",
+                "description": "S-Loka sở hữu đội ngũ phiên dịch viên với hơn 5 năm kinh nghiệm phiên dịch tháp tùng, thông qua quy trình tuyển dụng nghiêm khắc, kỹ lưỡng từ đó chọn lọc ra những phiên dịch viên có trình độ chuyên môn cao, am hiểu văn hóa và phong tục tập quán của nhiều quốc gia và luôn trau đồi học hỏi thêm kinh nghiệm. Bên cạnh đó, các phiên dịch viên của chúng tôi còn sở hữu kiến thức chuyên môn về nhiều lĩnh vực khác nhau như kinh tế, thương mại, kỹ thuật, y học, du lịch,... đảm bảo đáp ứng mọi yêu cầu của khách hàng."
+              },
+              "2": {
+                "title": "Cung cấp dịch vụ đa dạng",
+                "description": "S-Loka có thể cung cấp dịch vụ phiên dịch kinh doanh cho các chuyến đi ngắn ngày hoặc dài ngày, dịch vụ phiên dịch kinh doanh cho các đoàn khách lớn hoặc nhỏ, dịch vụ phiên dịch tháp tùng cho các sự kiện khác nhau như hội nghị, hội thảo, triển lãm,...theo yêu cầu của khách hàng."
+              },
+              "3": {
+                "title": "Dịch vụ chuyên nghiệp",
+                "description": "S-Loka luôn đặt lợi ích của khách hàng lên hàng đầu. Chúng tôi luôn sẵn sàng tư vấn và hỗ trợ khách hàng, đảm bảo hỗ trợ khách hàng một cách tận tình chu đáo. Đội ngũ nhân viên của chúng tôi luôn niềm nở, lịch sự và chuyên nghiệp, đảm bảo mang đến cho khách hàng sự hài lòng tuyệt đối."
+              }
+            }
+          }
+        }
       },
       "CreativeTranslation": {
         "title": "Dịch sáng tạo",
@@ -783,7 +1304,100 @@
       },
       "BPO": {
         "title": "BPO",
-        "description": "S-Loka tự hào là người bạn đồng hành hỗ trợ các doanh nghiệp trong các hoạt động vận hành, từ đó tạo điều kiện cho doanh nghiệp tập trung toàn bộ nguồn lực và thời gian vào việc phát triển sản phẩm, dịch vụ cốt lõi."
+        "description": "S-Loka tự hào là người bạn đồng hành hỗ trợ các doanh nghiệp trong các hoạt động vận hành, từ đó tạo điều kiện cho doanh nghiệp tập trung toàn bộ nguồn lực và thời gian vào việc phát triển sản phẩm, dịch vụ cốt lõi.",
+        "serviceHeading": "Các dịch vụ phổ biến của chúng tôi cho giải pháp này",
+        "serviceEnding": "Và chúng tôi còn rất nhiều dịch vụ BPO khác có thể triển khai theo nhu cầu của bạn",
+        "processHeading": "Quy trình dịch thuật của S-Loka",
+        "reasonTitle": "Tại sao chọn S-Loka cho nhu cầu dịch vụ BPO?",
+        "reasonDescription": "Trong bối cảnh kinh doanh năng động trên toàn cầu, S-Loka thấu hiểu nhu cầu thiết yếu về độ chính xác và sự phù hợp về văn hóa. Chúng tôi luôn đảm bảo thông điệp thương hiệu của bạn tạo được tiếng vang liền mạch với những đối tượng địa phương trên toàn thế giới.",
+        "services": {
+          "Digitization": {
+            "Hero": {
+              "title": "Số hoá tài liệu",
+              "description": "Hãy cùng tìm hiểu dịch vụ dich thuật cho giải pháp số hoá tài liệu tại S-Loka"
+            },
+            "items": {
+              "01": {
+                "title": "SỐ HOÁ TÀI LIỆU KINH DOANH",
+                "description": "Chuyển đổi các tài liệu như báo cáo tài chính, hợp đồng kinh doanh, tài liệu chiến lược từ dạng vật lý sang dạng số, đảm bảo dễ dàng lưu trữ và truy cập."
+              },
+              "02": {
+                "title": "SỐ HOÁ TÀI LIỆU PHÁP LÝ",
+                "description": "Số hoá các hợp đồng, văn bản pháp lý, và tài liệu liên quan, đảm bảo tuân thủ các quy định pháp lý và bảo mật thông tin."
+              },
+              "03": {
+                "title": "SỐ HOÁ HỒ SƠ NHÂN SỰ",
+                "description": "SỐ HOÁ HỒ SƠ NHÂN SỰ"
+              },
+              "04": {
+                "title": "SỐ HOÁ TÀI LIỆU Y TẾ",
+                "description": "Xử lý và lưu trữ hồ sơ bệnh án, báo cáo y khoa, tài liệu nghiên cứu trong ngành y tế để tăng cường khả năng truy xuất và quản lý."
+              },
+              "05": {
+                "title": "SỐ HOÁ DỮ LIỆU KHẢO SÁT THỊ TRƯỜNG",
+                "description": "Chuyển đổi các kết quả khảo sát, dữ liệu nghiên cứu thị trường từ tài liệu vật lý thành dữ liệu số, giúp phân tích và xử lý nhanh chóng."
+              },
+              "06": {
+                "title": "QUẢN LÝ VÀ LƯU TRỮ TÀI LIỆU SỐ HOÁ",
+                "description": "Thiết lập hệ thống lưu trữ, bảo mật và truy xuất dữ liệu số một cách tối ưu, giúp doanh nghiệp dễ dàng quản lý và sử dụng các tài liệu đã số hoá."
+              }
+            },
+            "processes": {
+              "1": {
+                "title": "Tiếp nhận và phân tích",
+                "descriptions": {
+                  "1": "Khách hàng cung cấp tài liệu cần số hoá và dịch thuật, kèm theo các yêu cầu cụ thể (ngôn ngữ đích, định dạng số hoá, tiêu chuẩn bảo mật).",
+                  "2": "Dịch vụ sẽ phân tích loại tài liệu (kinh doanh, pháp lý, y tế, nhân sự, v.v.) và mức độ phức tạp để đưa ra phương án xử lý."
+                }
+              },
+              "2": {
+                "title": "Lập kế hoạch",
+                "descriptions": {
+                  "1": "Đội ngũ dịch thuật và số hoá đánh giá cấu trúc, khối lượng, và tính nhạy cảm của tài liệu. Kế hoạch bao gồm: thời gian hoàn thành, quy trình dịch thuật, phương pháp số hoá (quét, nhập liệu), và các bước kiểm tra bảo mật dữ liệu."
+                }
+              },
+              "3": {
+                "title": "Dịch thuật tài liệu",
+                "descriptions": {
+                  "1": "Tài liệu được dịch bởi đội ngũ chuyên nghiệp, với chuyên môn phù hợp theo lĩnh vực. Quá trình dịch thuật đảm bảo sử dụng đúng thuật ngữ chuyên ngành, chuyển ngữ chính xác nội dung trong các tài liệu gốc sang ngôn ngữ đích."
+                }
+              },
+              "4": {
+                "title": "Số hoá tài liệu",
+                "descriptions": {
+                  "1": "Sau khi dịch, tài liệu được chuyển đổi từ dạng vật lý (giấy) hoặc dạng kỹ thuật số thô (PDF, ảnh) sang các định dạng số hoá tối ưu (Word, Excel, database).",
+                  "2": "Quá trình này bao gồm việc quét, nhận diện ký tự quang học (OCR), và định dạng tài liệu."
+                }
+              },
+              "5": {
+                "title": "Kiểm tra và hiệu đính",
+                "descriptions": {
+                  "1": "Sau khi số hoá và dịch thuật, tài liệu sẽ được kiểm tra lại về độ chính xác ngôn ngữ và tính hoàn thiện của định dạng số. Đảm bảo các bản dịch không chỉ đúng về mặt nội dung mà còn đồng nhất về trình bày và dễ dàng sử dụng trong môi trường số."
+                }
+              },
+              "6": {
+                "title": "Bàn giao và lưu trữ",
+                "descriptions": {
+                  "1": "Bản dịch và tài liệu số hoá hoàn chỉnh được bàn giao cho khách hàng theo đúng yêu cầu định dạng. Dữ liệu sẽ được lưu trữ và quản lý bảo mật trên các nền tảng số hoặc hệ thống quản lý tài liệu, giúp khách hàng dễ dàng truy cập và sử dụng lâu dài."
+                }
+              }
+            },
+            "reasons": {
+              "1": {
+                "title": "Đội ngũ nhân viên chuyên nghiệp",
+                "description": "S-Loka tự hào có đội ngũ dịch giả và chuyên gia số hoá giàu kinh nghiệm trong nhiều lĩnh vực như là: kinh doanh, pháp lý, y tế và nhân sự. Điều này đảm bảo các tài liệu của bạn không chỉ được dịch chính xác về nội dung mà còn tuân thủ các tiêu chuẩn chuyên ngành và bảo mật, mang lại kết quả tối ưu nhất."
+              },
+              "2": {
+                "title": "Giải pháp số hoá toàn diện, tiết kiệm thời gian và chi phí",
+                "description": "Giải pháp số hoá toàn diện, tiết kiệm thời gian và chi phí dạng giấy hoặc bản cứng sang định dạng kỹ thuật số một cách nhanh chóng và hiệu quả. Bạn không cần phải lo lắng về việc quản lý tài liệu vật lý nữa, từ đó giảm thiểu thời gian, chi phí quản lý và tăng cường tính tiện lợi trong truy xuất dữ liệu."
+              },
+              "3": {
+                "title": "Bảo mật thông tin NDA",
+                "description": "S-Loka cam kết bảo mật thông tin theo các các hợp đồng NDA và tuân thủ hoàn toàn các quy định pháp lý tại Việt Nam. Chúng tôi luôn đảm bảo rằng các thông tin về game sẽ được bảo mật tuyệt đối, và các đơn vị dịch thuật phải chịu trách nhiệm hoàn toàn trước pháp luật nếu vi phạm nguyên tắc hợp đồng."
+              }
+            }
+          }
+        }
       }
     }
   },

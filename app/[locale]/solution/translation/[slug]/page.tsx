@@ -5,17 +5,13 @@ import Languages from "@/components/Languages";
 import Services from "@/components/Services";
 import Reasons, { Reason } from "@/components/Reasons";
 import { Partners } from "@/components/Partners";
-import MasonryTestimonials, {
-  Testimonial,
-} from "@/components/MasonryTestimonials";
+import MasonryTestimonials, { Testimonial } from "@/components/MasonryTestimonials";
 import ContactForm from "@/components/ContactForm";
 import Processes from "@/components/Processes";
 
 const o = {
-  "tro-choi": "Game",
-  "website": "Website",
-  "mobile-app": "MobileApp",
-  "an-pham-media": "MediaPublication",
+  "cong-chung": "Notarization",
+  "chuyen-nganh": "Specialization",
 } as const;
 
 type Slug = keyof typeof o;
@@ -23,15 +19,15 @@ type ServiceKey = (typeof o)[keyof typeof o];
 
 const getKeyFromSlug = (slug: Slug) => o[slug];
 
-export default async function LocalizationServiceDetail({
+export default async function TranslationServiceDetail({
   params: { lang, slug },
 }: {
   params: { lang: Locale; slug: Slug };
 }) {
   const dict = await getDictionary(lang);
   const key = getKeyFromSlug(slug) as ServiceKey;
-  const localization = dict.Solution.items.Localization;
-  const mainService = localization.services[key];
+  const translation = dict.Solution.items.Translation;
+  const mainService = translation.services[key];
   const services = Object.entries(mainService.items);
   const processes = Object.values(mainService.processes);
   const reasons = Object.values(mainService.reasons) as [Reason];
@@ -44,13 +40,10 @@ export default async function LocalizationServiceDetail({
       <Services
         title={dict.Service.servicesHeading}
         services={services}
-        ending={localization.serviceEnding}
+        ending={translation.serviceEnding}
       />
 
-      <Processes 
-        title={localization.processHeading} 
-        processes={processes} 
-      />
+      <Processes title={translation.processHeading} processes={processes}/>
 
       <Languages
         title={dict.LanguagesHeading}
@@ -58,8 +51,8 @@ export default async function LocalizationServiceDetail({
       />
 
       <Reasons
-        heading={localization.reasonTitle}
-        description={localization.reasonDescription}
+        heading={translation.reasonTitle}
+        description={translation.reasonDescription}
         reasons={reasons}
       />
 

@@ -84,6 +84,18 @@ const nextConfig = {
         source: '/vi/giai-phap/ban-dia-hoa/:slug',
         destination: '/vi/solution/localization/:slug',
       },
+      {
+        source: '/vi/giai-phap/dich-thuat/:slug',
+        destination: '/vi/solution/translation/:slug',
+      },
+      {
+        source: '/vi/giai-phap/phien-dich/:slug',
+        destination: '/vi/solution/interpretation/:slug',
+      },
+      {
+        source: '/vi/giai-phap/bpo/:slug',
+        destination: '/vi/solution/bpo/:slug',
+      },
     ];
   },
 };
