@@ -31,6 +31,56 @@ const nextConfig = {
         permanent: true,
       },
       {
+        source: '/en/giai-phap/ban-dia-hoa/tro-choi',
+        destination: '/vi/giai-phap/ban-dia-hoa/tro-choi',
+        permanent: true,
+      },
+      {
+        source: '/en/giai-phap/ban-dia-hoa/website',
+        destination: '/vi/giai-phap/ban-dia-hoa/website',
+        permanent: true,
+      },
+      {
+        source: '/en/giai-phap/ban-dia-hoa/mobile-app',
+        destination: '/vi/giai-phap/ban-dia-hoa/mobile-app',
+        permanent: true,
+      },
+      {
+        source: '/en/giai-phap/ban-dia-hoa/an-pham-media',
+        destination: '/vi/giai-phap/ban-dia-hoa/an-pham-media',
+        permanent: true,
+      },
+      {
+        source: '/en/giai-phap/phien-dich/phien-dich-thap-tung',
+        destination: '/vi/giai-phap/phien-dich/phien-dich-thap-tung',
+        permanent: true,
+      },
+      {
+        source: '/en/giai-phap/phien-dich/phien-dich-lu-hanh',
+        destination: '/vi/giai-phap/phien-dich/phien-dich-lu-hanh',
+        permanent: true,
+      },
+      {
+        source: '/en/giai-phap/phien-dich/phien-dich-du-lich',
+        destination: '/vi/giai-phap/phien-dich/phien-dich-du-lich',
+        permanent: true,
+      },
+      {
+        source: '/en/giai-phap/phien-dich/phien-dich-kinh-doanh',
+        destination: '/vi/giai-phap/phien-dich/phien-dich-kinh-doanh',
+        permanent: true,
+      },
+      {
+        source: '/en/giai-phap/phien-dich/phien-dich-trien-lam-thuong-mai',
+        destination: '/vi/giai-phap/phien-dich/phien-dich-trien-lam-thuong-mai',
+        permanent: true,
+      },
+      {
+        source: '/en/giai-phap/phien-dich/phien-dich-song-song',
+        destination: '/vi/giai-phap/phien-dich/phien-dich-song-song',
+        permanent: true,
+      },
+      {
         source: '/en/chuyen-nganh',
         destination: '/vi/chuyen-nganh',
         permanent: true,

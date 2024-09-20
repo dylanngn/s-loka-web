@@ -10,10 +10,9 @@ import ContactForm from "@/components/ContactForm";
 import Processes from "@/components/Processes";
 
 const o = {
-  "cong-chung": "Notarization",
-  "chuyen-nganh": "Specialization",
+  "dich-thuat-cong-chung": "Notary",
+  "dich-thuat-chuyen-nganh": "Major",
 } as const;
-
 type Slug = keyof typeof o;
 type ServiceKey = (typeof o)[keyof typeof o];
 

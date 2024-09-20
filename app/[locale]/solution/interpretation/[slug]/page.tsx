@@ -12,12 +12,12 @@ import ContactForm from "@/components/ContactForm";
 import Processes from "@/components/Processes";
 
 const o = {
-  "thap-tung": "Escort",
-  "lu-hanh": "Tour",
-  "du-lich": "Travel",
-  "kinh-doanh": "Business",
-  "trien-lam-thuong-mai": "TradeShow",
-  "song-song": "Silmutaneous",
+  "phien-dich-thap-tung": "Escort",
+  "phien-dich-lu-hanh": "Tour",
+  "phien-dich-du-lich": "Travel",
+  "phien-dich-kinh-doanh": "Business",
+  "phien-dich-trien-lam-thuong-mai": "TradeShow",
+  "phien-dich-song-song": "Silmutaneous",
 } as const;
 
 type Slug = keyof typeof o;

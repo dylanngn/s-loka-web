@@ -603,7 +603,7 @@
         "reasonTitle": "Tại sao chọn S-Loka cho nhu cầu dịch vụ dịch thuật?",
         "reasonDescription": "Trong bối cảnh kinh doanh năng động trên toàn cầu, S-Loka thấu hiểu nhu cầu thiết yếu về độ chính xác và sự phù hợp về văn hóa. Chúng tôi luôn đảm bảo thông điệp thương hiệu của bạn tạo được tiếng vang liền mạch với những đối tượng địa phương trên toàn thế giới. ",
         "services": {
-          "Notarization": {
+          "Notary": {
             "Hero": {
               "title": "Dịch thuật công chứng",
               "description": "Hãy cùng tìm hiểu dịch vụ dich thuật công chứng tại S-Loka"
@@ -691,7 +691,7 @@
               }
             }
           },
-          "Specialization": {
+          "Major": {
             "Hero": {
               "title": "Dịch thuật chuyên ngành",
               "description": "Hãy cùng tìm hiểu giải pháp dịch thuật chuyên ngành tại S-Loka"
