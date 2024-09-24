@@ -101,6 +101,11 @@ const nextConfig = {
         permanent: true,
       },
       {
+        source: '/en/chuyen-nganh/:slug',
+        destination: '/vi/chuyen-nganh/:slug',
+        permanent: true,
+      },
+      {
         source: '/en/ve-chung-toi',
         destination: '/vi/ve-chung-toi',
         permanent: true,
