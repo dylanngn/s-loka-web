@@ -51,6 +51,16 @@ const nextConfig = {
         permanent: true,
       },
       {
+        source: '/en/giai-phap/dich-thuat/dich-thuat-chuyen-nganh',
+        destination: '/vi/giai-phap/dich-thuat/dich-thuat-chuyen-nganh',
+        permanent: true,
+      },
+      {
+        source: '/en/giai-phap/dich-thuat/dich-thuat-cong-chung',
+        destination: '/vi/giai-phap/dich-thuat/dich-thuat-cong-chung',
+        permanent: true,
+      },
+      {
         source: '/en/giai-phap/phien-dich/phien-dich-thap-tung',
         destination: '/vi/giai-phap/phien-dich/phien-dich-thap-tung',
         permanent: true,
@@ -78,6 +88,11 @@ const nextConfig = {
       {
         source: '/en/giai-phap/phien-dich/phien-dich-song-song',
         destination: '/vi/giai-phap/phien-dich/phien-dich-song-song',
+        permanent: true,
+      },
+      {
+        source: '/en/giai-phap/bpo/so-hoa-tai-lieu',
+        destination: '/vi/giai-phap/bpo/so-hoa-tai-lieu',
         permanent: true,
       },
       {
