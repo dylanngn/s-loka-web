@@ -31,8 +31,78 @@ const nextConfig = {
         permanent: true,
       },
       {
+        source: '/en/giai-phap/ban-dia-hoa/tro-choi',
+        destination: '/vi/giai-phap/ban-dia-hoa/tro-choi',
+        permanent: true,
+      },
+      {
+        source: '/en/giai-phap/ban-dia-hoa/website',
+        destination: '/vi/giai-phap/ban-dia-hoa/website',
+        permanent: true,
+      },
+      {
+        source: '/en/giai-phap/ban-dia-hoa/mobile-app',
+        destination: '/vi/giai-phap/ban-dia-hoa/mobile-app',
+        permanent: true,
+      },
+      {
+        source: '/en/giai-phap/ban-dia-hoa/an-pham-media',
+        destination: '/vi/giai-phap/ban-dia-hoa/an-pham-media',
+        permanent: true,
+      },
+      {
+        source: '/en/giai-phap/dich-thuat/dich-thuat-chuyen-nganh',
+        destination: '/vi/giai-phap/dich-thuat/dich-thuat-chuyen-nganh',
+        permanent: true,
+      },
+      {
+        source: '/en/giai-phap/dich-thuat/dich-thuat-cong-chung',
+        destination: '/vi/giai-phap/dich-thuat/dich-thuat-cong-chung',
+        permanent: true,
+      },
+      {
+        source: '/en/giai-phap/phien-dich/phien-dich-thap-tung',
+        destination: '/vi/giai-phap/phien-dich/phien-dich-thap-tung',
+        permanent: true,
+      },
+      {
+        source: '/en/giai-phap/phien-dich/phien-dich-lu-hanh',
+        destination: '/vi/giai-phap/phien-dich/phien-dich-lu-hanh',
+        permanent: true,
+      },
+      {
+        source: '/en/giai-phap/phien-dich/phien-dich-du-lich',
+        destination: '/vi/giai-phap/phien-dich/phien-dich-du-lich',
+        permanent: true,
+      },
+      {
+        source: '/en/giai-phap/phien-dich/phien-dich-kinh-doanh',
+        destination: '/vi/giai-phap/phien-dich/phien-dich-kinh-doanh',
+        permanent: true,
+      },
+      {
+        source: '/en/giai-phap/phien-dich/phien-dich-trien-lam-thuong-mai',
+        destination: '/vi/giai-phap/phien-dich/phien-dich-trien-lam-thuong-mai',
+        permanent: true,
+      },
+      {
+        source: '/en/giai-phap/phien-dich/phien-dich-song-song',
+        destination: '/vi/giai-phap/phien-dich/phien-dich-song-song',
+        permanent: true,
+      },
+      {
+        source: '/en/giai-phap/bpo/so-hoa-tai-lieu',
+        destination: '/vi/giai-phap/bpo/so-hoa-tai-lieu',
+        permanent: true,
+      },
+      {
         source: '/en/chuyen-nganh',
         destination: '/vi/chuyen-nganh',
+        permanent: true,
+      },
+      {
+        source: '/en/chuyen-nganh/:slug',
+        destination: '/vi/chuyen-nganh/:slug',
         permanent: true,
       },
       {
@@ -69,12 +139,32 @@ const nextConfig = {
         destination: '/vi/service',
       },
       {
+        source: '/vi/chuyen-nganh/:slug',
+        destination: '/vi/service/:slug',
+      },
+      {
         source: '/vi/giai-phap',
         destination: '/vi/solution',
       },
       {
         source: '/vi/giai-phap/:slug',
         destination: '/vi/solution/:slug',
+      },
+      {
+        source: '/vi/giai-phap/ban-dia-hoa/:slug',
+        destination: '/vi/solution/localization/:slug',
+      },
+      {
+        source: '/vi/giai-phap/dich-thuat/:slug',
+        destination: '/vi/solution/translation/:slug',
+      },
+      {
+        source: '/vi/giai-phap/phien-dich/:slug',
+        destination: '/vi/solution/interpretation/:slug',
+      },
+      {
+        source: '/vi/giai-phap/bpo/:slug',
+        destination: '/vi/solution/bpo/:slug',
       },
     ];
   },
