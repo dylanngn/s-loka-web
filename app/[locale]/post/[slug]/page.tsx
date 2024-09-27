@@ -2,9 +2,6 @@ import { Container } from "@/components/Container";
 import { Locale } from "@/i18n-config";
 import { getDictionary } from "@/server/get-dictionary";
 import { ChevronLeftIcon } from "@heroicons/react/24/outline";
-import Image from "next/image";
-import image1 from "@/images/posts/image1.jpg";
-import image2 from "@/images/posts/image2.jpg";
 
 import { Facebook as FacebookIcon } from "@/components/icons/Facebook";
 import { LinkedIn as LinkedinIcon } from "@/components/icons/LinkedIn";
@@ -15,6 +12,7 @@ import { PostSnippet } from "@/components/PostSnippet";
 import { Pagination } from "@/components/Pagination";
 import { ScrollProgress } from "@/components/clients/ScrollProgress";
 import LeftTool from "@/components/LeftTool";
+import { getPostDetail } from "@/server/get-all-post";
 
 const SOCIAL_LINKS = [
   {
@@ -39,12 +37,22 @@ const SOCIAL_LINKS = [
   },
 ];
 
+const options = {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+  timeZone: 'Asia/Ho_Chi_Minh'
+};
+
 export default async function PostDetailPage({
   params: { slug, lang },
 }: {
   params: { slug: string; lang: Locale };
 }) {
   const dict = await getDictionary(lang);
+  const post = await getPostDetail(slug);
+  const publishedDate = post?.date_published
+  const body = post?.content_html;
   return (
     <article className="relative">
       <ScrollProgress/>
@@ -53,14 +61,17 @@ export default async function PostDetailPage({
           <ChevronLeftIcon className="inline w-5 mr-2" />
           {dict.Post.Detail.button.back}
         </a>
-        <p className="text-xl ml-auto">Ngày 05 tháng 04 năm 2024 <br className="md:hidden" />| 10 phút đọc</p>
+        {/* Ngày 05 tháng 04 năm 2024 */}
+        <p className="text-xl ml-auto">{new Intl.DateTimeFormat('vi-VN', options).format(new Date(publishedDate))} <br className="md:hidden" />| 10 {dict.Post.post.minRead}</p>
       </div>
       <LeftTool/>
       <Container>
         <div className="border-b-2 mb-12 pb-16 md:px-10 xl:px-6">
           <h1 className="text-3xl text-center mb-9 px-11 py-2 font-bold">
-            10 tố chất của một thông dịch viên tương lai
+            {post.title}
           </h1>
+          <div className="text-xl" dangerouslySetInnerHTML={{__html: body}}/>
+          {/* 
           <p className="mb-14 text-xl">
             Ngành thông dịch viên đang ngày càng trở nên quan trọng trong thế
             giới toàn cầu hóa hiện nay. Để trở thành một thông dịch viên giỏi
@@ -152,12 +163,11 @@ export default async function PostDetailPage({
             các kỹ năng của mình, các thông dịch viên tương lai sẽ góp phần quan
             trọng vào sự kết nối và giao tiếp giữa các nền văn hóa trên toàn thế
             giới.
-          </p>
+          </p> */}
 
           <p className="mb-9 p-5 w-fit mx-auto text-center text-xl font-bold bg-gradient-radial from-yellow-50 to-white">
-            Hãy chia sẻ bài đọc này nếu bạn thấy hay
+            {dict.Post.Detail.share}
           </p>
-
           <div className="flex w-fit gap-12 mx-auto">
             {SOCIAL_LINKS.map((link) => (
               <Link className="group" key={link.name} href={link.href}>

@@ -203,7 +203,8 @@
     "Detail": {
       "button": {
         "back": "Danh sách bài đọc"
-      }
+      },
+      "share": "Hãy chia sẻ bài đọc này nếu bạn thấy hay"
     },
     "topicLeading": "Danh sách các bài viết thuộc chủ đề",
     "topics": {
