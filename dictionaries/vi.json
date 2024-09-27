@@ -204,6 +204,7 @@
       "button": {
         "back": "Danh sách bài đọc"
       },
+      "minRead": "phút đọc",
       "share": "Hãy chia sẻ bài đọc này nếu bạn thấy hay"
     },
     "topicLeading": "Danh sách các bài viết thuộc chủ đề",
@@ -213,9 +214,6 @@
       "culture": "Văn hóa",
       "news": "Tin tức",
       "life": "Cuộc sống"
-    },
-    "post": {
-      "minRead": "phút đọc"
     }
   },
   "Solution": {

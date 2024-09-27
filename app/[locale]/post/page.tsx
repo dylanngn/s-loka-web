@@ -20,7 +20,7 @@ export default async function AboutPage({
           leading={dict.Post.topicLeading}
           topics={dict.Post.topics}
           lang={lang}
-          readTimeText={dict.Post.post.minRead}
+          readTimeText={dict.Post.Detail.minRead}
         />
       </Container>
     </>

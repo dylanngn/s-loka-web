@@ -60,7 +60,7 @@ export async function getPostDetail(path: string) {
 
     if (!post) throw new Error('No post found');
 
-    return { ...post, title: post.title.split('#')[2].trim() };
+    return { ...post, category: post.title.split('#')[1].trim(), title: post.title.split('#')[2].trim() };
   } catch (error) {
     throw new Error('No Post found');
   }
