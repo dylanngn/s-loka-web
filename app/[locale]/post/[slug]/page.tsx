@@ -12,7 +12,9 @@ import { PostSnippet } from "@/components/PostSnippet";
 import { Pagination } from "@/components/Pagination";
 import { ScrollProgress } from "@/components/clients/ScrollProgress";
 import LeftTool from "@/components/LeftTool";
-import { getPostDetail } from "@/server/get-all-post";
+import { calculateReadTime, getPostDetail, getPostsByCategory } from "@/server/get-all-post";
+import { useState } from "react";
+import RelatedPosts from "@/components/RelatedPosts";
 
 const SOCIAL_LINKS = [
   {
@@ -44,13 +46,6 @@ function formatDate(date: Date) {
   return `${day}-${month}-${year}`;
 }
 
-function calculateReadTime(content: string) {
-  const words = content.trim().split(/\s+/).length;
-  const wordsPerMinute = 200;
-  const readTime = Math.ceil(words / wordsPerMinute);
-  return readTime;
-}
-
 export default async function PostDetailPage({
   params: { slug, lang },
 }: {
@@ -59,6 +54,7 @@ export default async function PostDetailPage({
   const dict = await getDictionary(lang);
   const post = await getPostDetail(slug);
   const category = post?.category;
+  const relatedPosts = await getPostsByCategory(category)
   const readTime = calculateReadTime(post?.content_text)
   const publishedDate = new Date(post?.date_published)
   const body = post?.content_html;
@@ -95,27 +91,7 @@ export default async function PostDetailPage({
             ))}
           </div>
         </div>
-
-        <div className="mb-14">
-          <h2 className="mb-14 text-center text-3xl font-bold">
-            Danh sách các bài viết cùng chủ đề
-          </h2>
-
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mb-14 gap-5 lg:gap-14">
-            {[1, 2, 3, 4, 5, 6, 7, 8].map((e) => (
-              <PostSnippet
-                key={e}
-                path="#"
-                readTime={`10 ${dict.Post.Detail.minRead}`}
-                title="Bạn có đang xây dựng lối sống lành mạnh?"
-                topic="Công việc"
-              />
-            ))}
-          </div>
-            <div className="mx-auto md:w-fit">
-              <Pagination />
-            </div>
-        </div>
+        <RelatedPosts relatedPosts={relatedPosts} topics={dict.Post.topics} heading={dict.Post.Detail.relatedPosts} minReadText={dict.Post.Detail.minRead}/>
       </Container>
     </article>
   );

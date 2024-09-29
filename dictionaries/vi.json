@@ -205,7 +205,8 @@
         "back": "Danh sách bài đọc"
       },
       "minRead": "phút đọc",
-      "share": "Hãy chia sẻ bài đọc này nếu bạn thấy hay"
+      "share": "Hãy chia sẻ bài đọc này nếu bạn thấy hay",
+      "relatedPosts": "Danh sách các bài viết cùng chủ đề"
     },
     "topicLeading": "Danh sách các bài viết thuộc chủ đề",
     "topics": {

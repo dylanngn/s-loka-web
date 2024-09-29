@@ -1,4 +1,4 @@
-export type PostCategory = 'job' | 'culture' | 'news' | 'life';
+export type PostCategory = 'Job' | 'Culture' | 'News' | 'Life';
 
 const CategoryMapping = {
   job: 'job',
@@ -36,6 +36,7 @@ export async function getCategorizedPosts() {
           ...(acc[category] || []),
           {
             ...post,
+            category: title.split('#')[1].trim(),
             title: title.split('#')[2].trim(),
           },
         ],
@@ -44,7 +45,26 @@ export async function getCategorizedPosts() {
 
     return categorizedPosts;
   } catch (error) {
-    throw new Error('No job found');
+    throw new Error('No post found');
+  }
+}
+
+export async function getPostsByCategory(category: PostCategory) {
+  const res = await fetch(`https://cms.s-loka.com/json/`);
+
+  if (!res.ok) throw new Error('Failed to fetch data');
+
+  try {
+    const data = (await res.json()) as any;
+    if (!data.items) throw new Error('No post found');
+
+    const posts = data?.items?.filter((item: any) =>
+      item?.title?.trim()?.startsWith(`Post # ${category}`)
+    ).map((item: any) => ({...item, category: item.title.split('#')[1].trim(), title: item.title.split('#')[2].trim()}))
+
+    return posts;
+  } catch (error) {
+    throw new Error('No post found');
   }
 }
 
@@ -64,4 +84,11 @@ export async function getPostDetail(path: string) {
   } catch (error) {
     throw new Error('No Post found');
   }
+}
+
+export function calculateReadTime(content: string) {
+  const words = content.trim().split(/\s+/).length;
+  const wordsPerMinute = 200;
+  const readTime = Math.ceil(words / wordsPerMinute);
+  return readTime;
 }
