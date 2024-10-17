@@ -1300,7 +1300,598 @@
       },
       "CreativeTranslation": {
         "title": "Dịch sáng tạo",
-        "description": "Kết hợp giữa Dịch Thuật và Sáng Tạo, Dịch Sáng Tạo đem đến sự khác biệt và độc đáo cho thương hiệu, sản phẩm của bạn so với các bản dịch thuật thông thường khác."
+        "description": "Kết hợp giữa Dịch Thuật và Sáng Tạo, Dịch Sáng Tạo đem đến sự khác biệt và độc đáo cho thương hiệu, sản phẩm của bạn so với các bản dịch thuật thông thường khác.",
+        "processHeading": "Quy trình dịch thuật của S-Loka",
+        "reasonTitle": "Tại sao chọn S-Loka cho nhu cầu dịch vụ phiên dịch?",
+        "reasonDescription": "",
+        "services": {
+          "Definition": {
+            "Hero": {
+              "title": "Dịch sáng tạo là gì?",
+              "description": "Hãy cùng tìm hiểu về dịch sáng tạo"
+            },
+            "serviceHeading": "",
+            "serviceEnding": "",
+            "definitionTitle": "Hãy để thương hiệu của bạn trò chuyện với khách hàng toàn cầu theo cách tự nhiên nhất!",
+            "definitionDescription": "Trong bối cảnh toàn cầu hóa ngày càng mạnh mẽ, việc mở rộng sang các thị trường quốc tế là bước đi tất yếu để doanh nghiệp phát triển. Nhưng để chinh phục những thị trường này, điều quan trọng là vượt qua được rào cản ngôn ngữ và văn hóa. Dịch vụ dịch sáng tạo của S-Loka chính là giải pháp giúp thương hiệu của bạn truyền tải thông điệp một cách thu hút và gần gũi đến với khách hàng ở khắp nơi trên thế giới.",
+            "definitions": {
+              "1": {
+                "title": "Dịch sáng tạo là gì?",
+                "description": "Dịch sáng tạo không đơn thuần chỉ là dịch thuật. Đây là sự kết hợp tinh tế giữa dịch thuật và sáng tạo, đảm bảo không chỉ nội dung mà cả cảm xúc, sắc thái và tinh thần của thông điệp gốc đều được giữ nguyên. Từ đó, thương hiệu của bạn sẽ chạm đến trái tim khách hàng địa phương, khiến họ cảm thấy như bạn đang nói chính ngôn ngữ của họ, tạo sự đồng cảm và kết nối tự nhiên."
+              },
+              "2": {
+                "title": "Dịch sáng tạo giúp các doanh nghiệp",
+                "description": "",
+                "list": {
+                  "1": "Cách truyền tải thông điệp thương hiệu sống động, lôi cuốn.",
+                  "2": "Tạo mối liên kết mạnh mẽ với khách hàng quốc tế.",
+                  "3": "Giúp thương hiệu trở nên chuyên nghiệp và đáng tin cậy trong mắt khách hàng toàn cầu."
+                }
+              },
+              "3": {
+                "title": "Các loại dịch sáng tạo tại S-Loka",
+                "description": "S-Loka cung cấp dịch vụ dịch sáng tạo cho nhiều loại nội dung khác nhau, từ các chiến dịch marketing đến các sản phẩm giải trí, bao gồm:",
+                "list": {
+                  "Dịch sáng tạo Marketing:": " Biên dịch nội dung website, email marketing, quảng cáo trên mạng xã hội, khẩu hiệu, tờ rơi, hồ sơ công ty, thông điệp thương hiệu, bao bì sản phẩm, mô tả sản phẩm, và nhiều hơn thế nữa. ",
+                  "Dịch sáng tạo nội dung giải trí:": " Biên dịch tiêu đề phim, giới thiệu phim, phụ đề, kịch bản, tiểu thuyết, thơ, báo chí, tạp chí, lời bài hát, video âm nhạc và nhiều nội dung sáng tạo khác."
+                }
+              }
+            },
+            "items": null,
+            "processes": null,
+            "reasons": null
+          },
+          "Process": {
+            "Hero": {
+              "title": "Quy trình dịch sáng tạo",
+              "description": "Hãy cùng tìm hiểu quy trình dịch sáng tạo tại S-Loka"
+            },
+            "serviceHeading": "",
+            "serviceEnding": "",
+            "items": null,
+            "processHeading": "Quy trình dịch sáng tạo tại S-Loka được thực hiện bởi đội ngũ chuyên gia giàu kinh nghiệm thông qua các bước sau:",
+            "processes": {
+              "1": {
+                "title": "Tiếp nhận yêu cầu",
+                "descriptions": {
+                  "1": "S-Loka nhận thông tin từ khách hàng, bao gồm: ngôn ngữ yêu cầu, lĩnh vực chuyên môn, nội dung, mục tiêu, đối tượng khách hàng, bối cảnh, văn hóa địa phương, vị thế thương hiệu và thời hạn hoàn thành."
+                }
+              },
+              "2": {
+                "title": "Phân tích",
+                "descriptions": {
+                  "1": "Phân tích thông điệp, mục tiêu và đối tượng của chiến dịch marketing.Nghiên cứu văn hóa và sở thích của thị trường mục tiêu."
+                }
+              },
+              "3": {
+                "title": "Dịch sát nghĩa",
+                "descriptions": {
+                  "1": "Dịch nội dung: Dịch nội dung từ ngôn ngữ nguồn sang ngôn ngữ mục tiêu, chú ý đến việc chuyển ngữ sao cho phù hợp với văn hóa và ngữ cảnh của thị trường đích.",
+                  "2": "Xử lý các yếu tố văn hóa: Đảm bảo rằng tất cả các yếu tố văn hóa, từ ngữ đặc thù, và các khía cạnh pháp lý được dịch một cách chính xác và phù hợp."
+                }
+              },
+              "4": {
+                "title": "Dịch sáng tạo",
+                "descriptions": {
+                  "1": "Chuyển ngữ nội dung đã dịch, điều chỉnh từ ngữ để truyền tải thông điệp một cách hiệu quả và tạo cảm xúc tương tự như bản gốc."
+                }
+              },
+              "5": {
+                "title": "Biên tập & kiểm tra",
+                "descriptions": {
+                  "1": "Rà soát kỹ lưỡng nội dung dịch về ngữ pháp, chính tả và phong cách. Biên tập được thực hiện bởi người bản xứ để đảm bảo sản phẩm dịch sáng tạo giữ nguyên cảm xúc và tinh thần gốc."
+                }
+              },
+              "6": {
+                "title": "Chỉnh sửa & bàn giao",
+                "descriptions": {
+                  "1": "Gửi bản cuối cùng: Cung cấp bản dịch cuối cùng cho khách hàng để họ xem xét và phê duyệt. Thực hiện các điều chỉnh cần thiết nếu có yêu cầu từ khách hàng.",
+                  "2": "Bàn giao nội dung hoàn thiện: Sau khi nhận được sự phê duyệt cuối cùng, nội dung sẽ được bàn giao để sử dụng."
+                }
+              }
+            },
+            "reasons": {
+              "reasonTitle": "Tại sao chọn S-Loka cho nhu cầu dịch vụ dịch thuật?",
+              "reasonDescription": "Trong bối cảnh kinh doanh năng động trên toàn cầu, S-Loka thấu hiểu nhu cầu thiết yếu về độ chính xác và sự phù hợp về văn hóa. Chúng tôi luôn đảm bảo thông điệp thương hiệu của bạn tạo được tiếng vang liền mạch với những đối tượng địa phương trên toàn thế giới.",
+              "items": {
+                "1": {
+                  "title": "Đội ngũ nhân viên chuyên nghiệp",
+                  "description": "S-Loka tự hào có đội ngũ gần 100 cộng tác viên là các dịch giả hàng đầu. Các dịch giả của chúng tôi được tuyển chọn kỹ lưỡng và có nền tảng kiến thức vững chắc trong đa lĩnh vực."
+                },
+                "2": {
+                  "title": "Công nghệ tiên tiến",
+                  "description": "Bằng cách ứng dụng công nghệ dịch thuật tiên tiến và các phần mềm test hiện đại như memeQ, WordFast, Trados, Google AP để đảm bảo tiến độ dịch và kiểm tra tính chính xác. Công nghệ hiện đại giúp gia tăng hiệu quả về mặt chi phí và tiết kiệm thời gian."
+                },
+                "3": {
+                  "title": "Bảo mật thông tin NDA",
+                  "description": "S-Loka cam kết bảo mật thông tin theo các các hợp đồng NDA và tuân thủ hoàn toàn các quy định pháp lý tại Việt Nam.  Chúng tôi luôn đảm bảo rằng các thông tin về game sẽ được bảo mật tuyệt đối, và các đơn vị dịch thuật phải chịu trách nhiệm hoàn toàn trước pháp luật nếu vi phạm nguyên tắc hợp đồng."
+                }
+              }
+            }
+          },
+          "LocalizationMarketing": {
+            "Hero": {
+              "title": "Bản địa hoá Marketing",
+              "description": "Chìa khoá chinh phục mọi thị trường!"
+            },
+            "definitionTitle": "Bản địa hoá Marketing là gì?",
+            "definitionDescription": "Bản địa hóa marketing là phương pháp giúp doanh nghiệp tiếp cận khách hàng ở thị trường mới một cách dễ dàng và hiệu quả hơn, thông qua việc điều chỉnh thông điệp, hình ảnh, sản phẩm và dịch vụ sao cho phù hợp với văn hóa, phong tục và sở thích của người tiêu dùng ở thị trường mục tiêu. Nhờ đó, sản phẩm của doanh nghiệp trở nên gần gũi và quen thuộc hơn với khách hàng.",
+            "definitions": {
+              "1": {
+                "title": "Dịch nội dung",
+                "description": "Chuyển đổi các website, tài liệu marketing, khẩu hiệu quảng cáo, hồ sơ công ty, mô tả sản phẩm... sang ngôn ngữ địa phương một cách chính xác và lưu loát, nhưng vẫn đảm bảo giữ nguyên ý nghĩa và thông điệp cốt lõi của thương hiệu."
+              },
+              "2": {
+                "title": "Điều chỉnh hình ảnh",
+                "description": "Tinh chỉnh hình ảnh, màu sắc, thiết kế các tài liệu marketing như tờ rơi, brochure, catalogue để phù hợp với văn hóa địa phương và sở thích của khách hàng."
+              },
+              "3": {
+                "title": "Định dạng",
+                "description": "Điều chỉnh giá sản phẩm, đơn vị tiền tệ, đơn vị đo lường, thông tin liên hệ, định dạng ngày tháng, số điện thoại để phù hợp với các quy chuẩn địa phương."
+              },
+              "4": {
+                "title": "Sáng tạo nội dung",
+                "description": "Tạo ra các nội dung marketing phù hợp với văn hóa địa phương, sử dụng hình ảnh, ngôn ngữ, và ví dụ dễ hiểu, gần gũi với người dân bản địa."
+              },
+              "5": {
+                "title": "Tối ưu hóa website",
+                "description": "cho các công cụ tìm kiếm tại địa phương (SEO), đảm bảo website dễ dàng được khách hàng tiềm năng tại thị trường mục tiêu tìm thấy."
+              }
+            },
+            "serviceHeading": "Tại sao doanh nghiệp cần bản địa hoá Marketing?",
+            "serviceDescription": "Trong thời đại công nghệ thông tin bùng nổ, marketing đóng vai trò quan trọng trong việc kết nối doanh nghiệp với khách hàng, truyền tải thông điệp và đạt được mục tiêu kinh doanh. Tuy nhiên, thiếu đi một chiến lược marketing phù hợp với từng thị trường cụ thể có thể dẫn đến thất bại trong quá trình toàn cầu hóa. Vậy lợi ích của bản địa hóa marketing là gì?",
+            "serviceEnding": "Và chúng tôi còn rất nhiều dịch vụ dịch thuật khác có thể triển khai theo nhu cầu của bạn",
+            "items": {
+              "01": {
+                "title": "Tăng cường nhận diện thương hiệu",
+                "description": "Điều chỉnh thông điệp và hình ảnh phù hợp với văn hóa địa phương giúp thương hiệu trở nên quen thuộc và được nhận diện dễ dàng hơn tại thị trường mới."
+              },
+              "02": {
+                "title": "Tăng cường tương tác và sự hài lòng",
+                "description": "Tạo ra nội dung phù hợp với văn hóa bản địa sẽ cải thiện khả năng tương tác và mức độ hài lòng của khách hàng."
+              },
+              "03": {
+                "title": "Gia tăng doanh thu",
+                "description": "Mở rộng đối tượng khách hàng và xây dựng mối quan hệ vững chắc với họ sẽ giúp doanh nghiệp gia tăng doanh thu."
+              },
+              "04": {
+                "title": "Lợi thế cạnh tranh",
+                "description": "Bằng cách bản địa hóa chiến lược marketing, doanh nghiệp có thể tạo ra lợi thế cạnh tranh so với các đối thủ chưa bản địa hóa."
+              }
+            },
+            "processes": {
+            "1": {
+              "title": "Phân tích dự án",
+              "descriptions": {
+                "1": "Tiếp nhận yêu cầu: Nhận thông tin từ khách hàng về nội dung cần bản địa hóa, bao gồm ngôn ngữ mục tiêu, phạm vi nội dung, và yêu cầu đặc biệt.",
+                "2": "Phân tích nội dung: Đánh giá nội dung gốc để xác định các yếu tố ngôn ngữ, văn hóa, và pháp lý cần điều chỉnh. Hiểu rõ đối tượng người dùng cuối để đảm bảo nội dung bản địa hóa phù hợp với phong cách và ngôn ngữ của họ."
+              }
+            },
+            "2": {
+              "title": "Lập kế hoạch",
+              "descriptions": {
+                "1": "Lựa chọn nhóm dịch thuật: Chọn những dịch giả và chuyên gia ngôn ngữ có kinh nghiệm phù hợp với ngôn ngữ và văn hóa của thị trường mục tiêu.",
+                "2": "Xây dựng lịch trình: Thiết lập thời gian biểu chi tiết cho các giai đoạn dịch thuật, chỉnh sửa, và kiểm tra chất lượng.",
+                "3": "Chuẩn bị tài liệu hỗ trợ: Tạo và cung cấp glossaries (danh mục thuật ngữ) và style guides (hướng dẫn phong cách) để đảm bảo tính nhất quán trong toàn bộ quy trình."
+              }
+            },
+            "3": {
+              "title": "Tiến hành bản địa hoá",
+              "descriptions": {
+                "1": "Dịch nội dung: Dịch nội dung từ ngôn ngữ nguồn sang ngôn ngữ mục tiêu, chú ý đến việc chuyển ngữ sao cho phù hợp với văn hóa và ngữ cảnh của thị trường đích.",
+                "2": "Xử lý các yếu tố văn hóa: Đảm bảo rằng tất cả các yếu tố văn hóa, từ ngữ đặc thù, và các khía cạnh pháp lý được dịch một cách chính xác và phù hợp."
+              }
+            },
+            "4": {
+              "title": "Chỉnh sửa & đánh giá",
+              "descriptions": {
+                "1": "Biên tập: Biên tập viên sẽ xem xét lại toàn bộ bản dịch, chỉnh sửa lỗi ngữ pháp, chính tả, và ngữ điệu để đảm bảo tính mượt mà và tự nhiên.",
+                "2": "Đánh giá chất lượng: Thực hiện các bước đánh giá kỹ lưỡng để đảm bảo tính chính xác và phù hợp về mặt văn hóa. Kiểm tra soát lỗi và đánh giá tính nhất quán với glossaries và style guides đã đề ra."
+              }
+            },
+            "5": {
+              "title": "Rà soát & kiểm tra",
+              "descriptions": {
+                "1": "Kiểm tra hiển thị và định dạng: Đảm bảo rằng nội dung hiển thị đúng cách trên tất cả các thiết bị và trình duyệt, không có lỗi về định dạng, font chữ, hoặc hình ảnh.",
+                "2": "Kiểm tra liên kết và tương tác: Đảm bảo rằng tất cả các liên kết, nút bấm, và các chức năng tương tác trên website đều hoạt động chính xác sau khi bản địa hóa."
+              }
+            },
+            "6": {
+              "title": "Phê duyệt & bàn giao",
+              "descriptions": {
+                "1": "Gửi bản cuối cùng: Cung cấp bản dịch cuối cùng cho khách hàng để họ xem xét và phê duyệt. Thực hiện các điều chỉnh cần thiết nếu có yêu cầu từ khách hàng.",
+                "2": "Bàn giao nội dung hoàn thiện: Sau khi nhận được sự phê duyệt cuối cùng, nội dung sẽ được bàn giao để ứng dụng."
+              }
+            }
+            },
+            "reasons": {
+              "reasonTitle": "Tại sao chọn S-Loka cho nhu cầu dịch vụ phiên dịch?",
+              "reasonDescription": "",
+              "items": {
+                "1": {
+                  "title": "Đội ngũ dịch giả chuyên nghiệp",
+                  "description": "Chúng tôi sở hữu đội ngũ biên dịch viên có trình độ chuyên môn cao, sở hữu các chứng chỉ ngôn ngữ quốc tế, giàu kinh nghiệm và am hiểu sâu về nhiều lĩnh vực khác nhau. Tất cả các biên dịch viên đều được tuyển chọn kỹ lưỡng và trải qua quá trình đào tạo bài bản để đảm bảo chất lượng dịch thuật tốt nhất."
+                },
+                "2": {
+                  "title": "Công nghệ tiên tiến",
+                  "description": "Chúng tôi sử dụng các công cụ hỗ trợ dịch thuật tiên tiến như Trados Studio, MemoQ, Wordfast, v.v. để tối ưu hóa quy trình dịch thuật, đảm bảo độ chính xác và nhất quán cao trong bản dịch đồng thời rút ngắn thời gian dịch nhất có thể, giúp tăng tính hiệu quả và tiết kiệm chi phí cho khách hàng."
+                },
+                "3": {
+                  "title": "Giá cả cạnh tranh",
+                  "description": "S-Loka cung cấp dịch vụ với chi phí hợp lý, phù hợp với mọi ngân sách, mang lại hiệu quả kinh tế tối ưu cho doanh nghiệp."
+                },
+                "4": {
+                  "title": "Bảo mật thông tin tuyệt đối",
+                  "description": "S-Loka cam kết bảo mật thông tin của khách hàng một cách tuyệt đối. Tất cả các tài liệu của khách hàng đều được bảo mật an toàn và không được tiết lộ cho bất kỳ bên thứ ba nào."
+                }
+              }
+            }
+          },
+          "LocalizationGame": {
+            "Hero": {
+              "title": "Bản địa hoá game",
+              "description": "Chìa khoá mở ra thành công toàn cầu!"
+            },
+            "serviceHeading": "Các dịch vụ dịch thuật phổ biến của chúng tôi cho giải pháp này",
+            "serviceEnding": "Và chúng tôi còn rất nhiều dịch vụ bản địa hoá khác có thể triển khai theo nhu cầu của bạn",
+            "items": {
+              "01": {
+                "title": "Dịch thuật phụ đề và lồng tiếng nhân vật",
+                "description": "Chúng tôi hợp tác với các diễn viên lồng tiếng tài năng để đảm bảo rằng dịch vụ đồng bộ hóa giọng nói, thuyết minh, lồng tiếng, và phụ đề của chúng tôi mang lại sự sống động và chất lượng tối ưu cho game của bạn."
+              },
+              "02": {
+                "title": "Dịch mô tả game",
+                "description": "Đội ngũ chuyên gia và các đối tác uy tín trên toàn cầu của chúng tôi cam kết dịch thuật và chỉnh sửa các đoạn mô tả game, hướng dẫn cách chơi hoặc phương pháp cài đặt một cách toàn diện, dễ hiểu và liền mạch. Điều này đảm bảo rằng game của bạn sẽ thu hút người chơi tiềm năng và tạo ấn tượng đầu tiên lâu dài."
+              },
+              "03": {
+                "title": "Dịch đánh giá game",
+                "description": "Dịch vụ dịch đánh giá game đóng vai trò quan trọng trong việc mở rộng cơ sở khách hàng và xây dựng uy tín. Việc dịch các bài đánh giá game giúp cung cấp thông tin giá trị cho người chơi tiềm năng, tăng cường độ tin cậy cho game của bạn."
+              },
+              "04": {
+                "title": "Dịch tài liệu tiếp thị game",
+                "description": "Chuyên nghiệp hóa các tài liệu tiếp thị để truyền tải thông điệp rõ ràng và kích thích sự quan tâm của người chơi tiềm năng. Từ nội dung website, blog đến banner và email marketing, S-Loka giúp bạn dịch các tài liệu tiếp thị game hấp dẫn và chuyên nghiệp."
+              }
+            },
+            "processHeading": "Quy trình dịch thuật của S-Loka",
+            "processes": {
+              "1": {
+                "title": "Phân tích dự án",
+                "descriptions": {
+                  "1": "Tiếp nhận yêu cầu: Nhận thông tin từ khách hàng về nội dung cần bản địa hóa, bao gồm ngôn ngữ mục tiêu, phạm vi nội dung, và yêu cầu đặc biệt.",
+                  "2": "Phân tích nội dung: Đánh giá nội dung gốc để xác định các yếu tố ngôn ngữ, văn hóa, và pháp lý cần điều chỉnh. Hiểu rõ đối tượng người dùng cuối để đảm bảo nội dung bản địa hóa phù hợp với phong cách và ngôn ngữ của họ."
+                }
+              },
+              "2": {
+                "title": "Lập kế hoạch",
+                "descriptions": {
+                  "1": "Lựa chọn nhóm dịch thuật: Chọn những dịch giả và chuyên gia ngôn ngữ có kinh nghiệm phù hợp với ngôn ngữ và văn hóa của thị trường mục tiêu.",
+                  "2": "Xây dựng lịch trình: Thiết lập thời gian biểu chi tiết cho các giai đoạn dịch thuật, chỉnh sửa, và kiểm tra chất lượng.",
+                  "3": "Chuẩn bị tài liệu hỗ trợ: Tạo và cung cấp glossaries (danh mục thuật ngữ) và style guides (hướng dẫn phong cách) để đảm bảo tính nhất quán trong toàn bộ quy trình."
+                }
+              },
+              "3": {
+                "title": "Tiến hành bản địa hoá",
+                "descriptions": {
+                  "1": "Dịch nội dung: Dịch nội dung từ ngôn ngữ nguồn sang ngôn ngữ mục tiêu, chú ý đến việc chuyển ngữ sao cho phù hợp với văn hóa và ngữ cảnh của thị trường đích.",
+                  "2": "Xử lý các yếu tố văn hóa: Đảm bảo rằng tất cả các yếu tố văn hóa, từ ngữ đặc thù, và các khía cạnh pháp lý được dịch một cách chính xác và phù hợp."
+                }
+              },
+              "4": {
+                "title": "Chỉnh sửa & đánh giá",
+                "descriptions": {
+                  "1": "Biên tập: Biên tập viên sẽ xem xét lại toàn bộ bản dịch, chỉnh sửa lỗi ngữ pháp, chính tả, và ngữ điệu để đảm bảo tính mượt mà và tự nhiên.",
+                  "2": "Đánh giá chất lượng: Thực hiện các bước đánh giá kỹ lưỡng để đảm bảo tính chính xác và phù hợp về mặt văn hóa. Kiểm tra soát lỗi và đánh giá tính nhất quán với glossaries và style guides đã đề ra."
+                }
+              },
+              "5": {
+                "title": "Rà soát & kiểm tra",
+                "descriptions": {
+                  "1": "Kiểm tra hiển thị và định dạng: Đảm bảo rằng nội dung hiển thị đúng cách trên tất cả các thiết bị và trình duyệt, không có lỗi về định dạng, font chữ, hoặc hình ảnh.",
+                  "2": "Kiểm tra liên kết và tương tác: Đảm bảo rằng tất cả các liên kết, nút bấm, và các chức năng tương tác trên website đều hoạt động chính xác sau khi bản địa hóa."
+                }
+              },
+              "6": {
+                "title": "Phê duyệt & bàn giao",
+                "descriptions": {
+                  "1": "Gửi bản cuối cùng: Cung cấp bản dịch cuối cùng cho khách hàng để họ xem xét và phê duyệt. Thực hiện các điều chỉnh cần thiết nếu có yêu cầu từ khách hàng.",
+                  "2": "Bàn giao nội dung hoàn thiện: Sau khi nhận được sự phê duyệt cuối cùng, nội dung sẽ được bàn giao để ứng dụng."
+                }
+              }
+            },
+            "reasons": {
+              "reasonTitle": "Tại sao chọn S-Loka cho nhu cầu dịch vụ dịch thuật?",
+              "reasonDescription": "Trong bối cảnh kinh doanh năng động trên toàn cầu, S-Loka thấu hiểu nhu cầu thiết yếu về độ chính xác và sự phù hợp về văn hóa. Chúng tôi luôn đảm bảo thông điệp thương hiệu của bạn tạo được tiếng vang liền mạch với những đối tượng địa phương trên toàn thế giới.",
+              "items": {
+                "1": {
+                  "title": "Đội ngũ nhân viên chuyên nghiệp",
+                  "description": "S-Loka tự hào có đội ngũ gần 100 cộng tác viên là các dịch giả hàng đầu. Các dịch giả của chúng tôi được tuyển chọn kỹ lưỡng và có nền tảng kiến thức vững chắc trong đa lĩnh vực."
+                },
+                "2": {
+                  "title": "Công nghệ tiên tiến",
+                  "description": "Bằng cách ứng dụng công nghệ dịch thuật tiên tiến và các phần mềm test hiện đại như memeQ, WordFast, Trados, Google AP để đảm bảo tiến độ dịch và kiểm tra tính chính xác. Công nghệ hiện đại giúp gia tăng hiệu quả về mặt chi phí và tiết kiệm thời gian."
+                },
+                "3": {
+                  "title": "Bảo mật thông tin NDA",
+                  "description": "S-Loka cam kết bảo mật thông tin theo các các hợp đồng NDA và tuân thủ hoàn toàn các quy định pháp lý tại Việt Nam. Chúng tôi luôn đảm bảo rằng các thông tin về game sẽ được bảo mật tuyệt đối, và các đơn vị dịch thuật phải chịu trách nhiệm hoàn toàn trước pháp luật nếu vi phạm nguyên tắc hợp đồng."
+                }
+              }
+            }
+          },
+          "LocalizationUIUXApp": {
+            "Hero": {
+              "title": "Bản địa hoá UI/UX App",
+              "description": "Bạn đã sẵn sàng đưa ứng dụng di động của mình ra thế giới chưa?"
+            },
+            "serviceHeading": "Các dịch vụ dịch thuật phổ biến của chúng tôi cho giải pháp này",
+            "serviceEnding": "Và chúng tôi còn rất nhiều dịch vụ bản địa hoá khác có thể triển khai theo nhu cầu của bạn",
+            "items": {
+              "01": {
+                "title": "Dịch thuật văn bản",
+                "description": "Đội ngũ dịch giả giàu kinh nghiệm, am hiểu văn hóa địa phương, sẽ đảm bảo tất cả nội dung trong ứng dụng được dịch chính xác, trôi chảy và truyền tải đầy đủ thông điệp."
+              },
+              "02": {
+                "title": "Điều chỉnh bố cục",
+                "description": "Tối ưu hóa bố cục giao diện sao cho phù hợp với thói quen sử dụng và thẩm mỹ của người dùng bản địa."
+              },
+              "03": {
+                "title": "Hình ảnh và biểu tượng",
+                "description": "Thay thế hình ảnh và biểu tượng bằng các hình ảnh phù hợp với văn hóa địa phương, tạo sự kết nối và thu hút người dùng."
+              },
+              "04": {
+                "title": "Màu sắc",
+                "description": "Lựa chọn bảng màu chính hài hòa với văn hóa địa phương, tạo ấn tượng thị giác độc đáo và thu hút."
+              },
+              "05": {
+                "title": "font chữ",
+                "description": "Sử dụng phông chữ phù hợp với ngôn ngữ địa phương, dễ đọc và truyền tải thông điệp hiệu quả."
+              }
+            },
+            "processHeading": "Quy trình dịch thuật của S-Loka",
+            "processes": {
+              "1": {
+                "title": "Phân tích dự án",
+                "descriptions": {
+                  "1": "Tiếp nhận yêu cầu: Nhận thông tin từ khách hàng về nội dung cần bản địa hóa, bao gồm ngôn ngữ mục tiêu, phạm vi nội dung, và yêu cầu đặc biệt.",
+                  "2": "Phân tích nội dung: Đánh giá nội dung gốc để xác định các yếu tố ngôn ngữ, văn hóa, và pháp lý cần điều chỉnh. Hiểu rõ đối tượng người dùng cuối để đảm bảo nội dung bản địa hóa phù hợp với phong cách và ngôn ngữ của họ."
+                }
+              },
+              "2": {
+                "title": "Lập kế hoạch",
+                "descriptions": {
+                  "1": "Lựa chọn nhóm dịch thuật: Chọn những dịch giả và chuyên gia ngôn ngữ có kinh nghiệm phù hợp với ngôn ngữ và văn hóa của thị trường mục tiêu.",
+                  "2": "Xây dựng lịch trình: Thiết lập thời gian biểu chi tiết cho các giai đoạn dịch thuật, chỉnh sửa, và kiểm tra chất lượng.",
+                  "3": "Chuẩn bị tài liệu hỗ trợ: Tạo và cung cấp glossaries (danh mục thuật ngữ) và style guides (hướng dẫn phong cách) để đảm bảo tính nhất quán trong toàn bộ quy trình."
+                }
+              },
+              "3": {
+                "title": "Tiến hành bản địa hoá",
+                "descriptions": {
+                  "1": "Dịch nội dung: Dịch nội dung từ ngôn ngữ nguồn sang ngôn ngữ mục tiêu, chú ý đến việc chuyển ngữ sao cho phù hợp với văn hóa và ngữ cảnh của thị trường đích.",
+                  "2": "Xử lý các yếu tố văn hóa: Đảm bảo rằng tất cả các yếu tố văn hóa, từ ngữ đặc thù, và các khía cạnh pháp lý được dịch một cách chính xác và phù hợp."
+                }
+              },
+              "4": {
+                "title": "Chỉnh sửa & đánh giá",
+                "descriptions": {
+                  "1": "Biên tập: Biên tập viên sẽ xem xét lại toàn bộ bản dịch, chỉnh sửa lỗi ngữ pháp, chính tả, và ngữ điệu để đảm bảo tính mượt mà và tự nhiên.",
+                  "2": "Đánh giá chất lượng: Thực hiện các bước đánh giá kỹ lưỡng để đảm bảo tính chính xác và phù hợp về mặt văn hóa. Kiểm tra soát lỗi và đánh giá tính nhất quán với glossaries và style guides đã đề ra."
+                }
+              },
+              "5": {
+                "title": "Rà soát & kiểm tra",
+                "descriptions": {
+                  "1": "Kiểm tra hiển thị và định dạng: Đảm bảo rằng nội dung hiển thị đúng cách trên tất cả các thiết bị và trình duyệt, không có lỗi về định dạng, font chữ, hoặc hình ảnh.",
+                  "2": "Kiểm tra liên kết và tương tác: Đảm bảo rằng tất cả các liên kết, nút bấm, và các chức năng tương tác trên website đều hoạt động chính xác sau khi bản địa hóa."
+                }
+              },
+              "6": {
+                "title": "Phê duyệt & bàn giao",
+                "descriptions": {
+                  "1": "Gửi bản cuối cùng: Cung cấp bản dịch cuối cùng cho khách hàng để họ xem xét và phê duyệt. Thực hiện các điều chỉnh cần thiết nếu có yêu cầu từ khách hàng.",
+                  "2": "Bàn giao nội dung hoàn thiện: Sau khi nhận được sự phê duyệt cuối cùng, nội dung sẽ được bàn giao để ứng dụng."
+                }
+              }
+            },
+            "reasons": {
+              "reasonTitle": "Tại sao chọn S-Loka cho nhu cầu dịch vụ dịch thuật?",
+              "reasonDescription": "Trong bối cảnh kinh doanh năng động trên toàn cầu, S-Loka thấu hiểu nhu cầu thiết yếu về độ chính xác và sự phù hợp về văn hóa. Chúng tôi luôn đảm bảo thông điệp thương hiệu của bạn tạo được tiếng vang liền mạch với những đối tượng địa phương trên toàn thế giới.",
+              "items": {
+                "1": {
+                  "title": "Đội ngũ nhân viên chuyên nghiệp",
+                  "description": "S-Loka tự hào có đội ngũ gần 100 cộng tác viên là các dịch giả hàng đầu. Các dịch giả của chúng tôi được tuyển chọn kỹ lưỡng và có nền tảng kiến thức vững chắc trong đa lĩnh vực."
+                },
+                "2": {
+                  "title": "Công nghệ tiên tiến",
+                  "description": "Bằng cách ứng dụng công nghệ dịch thuật tiên tiến và các phần mềm test hiện đại như memeQ, WordFast, Trados, Google AP để đảm bảo tiến độ dịch và kiểm tra tính chính xác. Công nghệ hiện đại giúp gia tăng hiệu quả về mặt chi phí và tiết kiệm thời gian."
+                },
+                "3": {
+                  "title": "Bảo mật thông tin NDA",
+                  "description": "S-Loka cam kết bảo mật thông tin theo các các hợp đồng NDA và tuân thủ hoàn toàn các quy định pháp lý tại Việt Nam. Chúng tôi luôn đảm bảo rằng các thông tin về game sẽ được bảo mật tuyệt đối, và các đơn vị dịch thuật phải chịu trách nhiệm hoàn toàn trước pháp luật nếu vi phạm nguyên tắc hợp đồng."
+                }
+              }
+            }
+          },
+          "CopyWriting": {
+            "Hero": {
+              "title": "Copywriting",
+              "description": "Tạo ra một bài viết hấp dẫn và thuyết phục với từ ngữ bản địa"
+            },
+            "serviceHeading": "Các dịch vụ dịch thuật phổ biến của chúng tôi cho giải pháp này",
+            "serviceEnding": "Và chúng tôi còn rất nhiều dịch vụ bản địa hoá khác có thể triển khai theo nhu cầu của bạn",
+            "items": {
+              "01": {
+                "title": "Copywriting quảng cáo",
+                "description": "Loại hình này được dùng để quảng cáo sản phẩm hoặc dịch vụ với dạng ngắn gọn và thuyết phục cao như viết slogan, tiêu đề hấp dẫn để thu hút khách hàng."
+              },
+              "02": {
+                "title": "Copywriting bán hàng",
+                "description": "Loại hình này được sử dụng để thuyết phục khách hàng mua sản phẩm hoặc dịch vụ,thường có giọng điệu thân thiện và tập trung vào lợi ích của sản phẩm/dịch vụ, chẳng hạn như viết bài giới thiệu sản phẩm để khuyến khích khách hàng mua hàng."
+              },
+              "03": {
+                "title": "Copywriting marketing",
+                "description": "Được dùng để xây dựng thương hiệu và thu hút khách hàng tiềm năng, thường mang phong cách lập luận và nhấn mạnh vào việc cung cấp giá trị cho người đọc như viết nội dung website, blog, email marketing."
+              },
+              "04": {
+                "title": "Copywriting nội dung",
+                "description": "Được sử dụng để tạo nội dung cho các kênh truyền thông xã hội, website hoặc blog, với giọng văn thân thiện, gần gũi nhằm cung cấp thông tin hữu ích và thu hút độc giả."
+              }
+            },
+            "processHeading": "Quy trình dịch thuật của S-Loka",
+            "processes": {
+              "1": {
+                "title": "Phân tích dự án",
+                "descriptions": {
+                  "1": "Tiếp nhận yêu cầu: Nhận thông tin từ khách hàng về nội dung cần bản địa hóa, bao gồm ngôn ngữ mục tiêu, phạm vi nội dung, và yêu cầu đặc biệt.",
+                  "2": "Phân tích nội dung: Đánh giá nội dung gốc để xác định các yếu tố ngôn ngữ, văn hóa, và pháp lý cần điều chỉnh. Hiểu rõ đối tượng người dùng cuối để đảm bảo nội dung bản địa hóa phù hợp với phong cách và ngôn ngữ của họ."
+                }
+              },
+              "2": {
+                "title": "Lập kế hoạch",
+                "descriptions": {
+                  "1": "Lựa chọn nhóm dịch thuật: Chọn những dịch giả và chuyên gia ngôn ngữ có kinh nghiệm phù hợp với ngôn ngữ và văn hóa của thị trường mục tiêu.",
+                  "2": "Xây dựng lịch trình: Thiết lập thời gian biểu chi tiết cho các giai đoạn dịch thuật, chỉnh sửa, và kiểm tra chất lượng.",
+                  "3": "Chuẩn bị tài liệu hỗ trợ: Tạo và cung cấp glossaries (danh mục thuật ngữ) và style guides (hướng dẫn phong cách) để đảm bảo tính nhất quán trong toàn bộ quy trình."
+                }
+              },
+              "3": {
+                "title": "Tiến hành bản địa hoá",
+                "descriptions": {
+                  "1": "Dịch nội dung: Dịch nội dung từ ngôn ngữ nguồn sang ngôn ngữ mục tiêu, chú ý đến việc chuyển ngữ sao cho phù hợp với văn hóa và ngữ cảnh của thị trường đích.",
+                  "2": "Xử lý các yếu tố văn hóa: Đảm bảo rằng tất cả các yếu tố văn hóa, từ ngữ đặc thù, và các khía cạnh pháp lý được dịch một cách chính xác và phù hợp."
+                }
+              },
+              "4": {
+                "title": "Chỉnh sửa & đánh giá",
+                "descriptions": {
+                  "1": "Biên tập: Biên tập viên sẽ xem xét lại toàn bộ bản dịch, chỉnh sửa lỗi ngữ pháp, chính tả, và ngữ điệu để đảm bảo tính mượt mà và tự nhiên.",
+                  "2": "Đánh giá chất lượng: Thực hiện các bước đánh giá kỹ lưỡng để đảm bảo tính chính xác và phù hợp về mặt văn hóa. Kiểm tra soát lỗi và đánh giá tính nhất quán với glossaries và style guides đã đề ra."
+                }
+              },
+              "5": {
+                "title": "Rà soát & kiểm tra",
+                "descriptions": {
+                  "1": "Kiểm tra hiển thị và định dạng: Đảm bảo rằng nội dung hiển thị đúng cách trên tất cả các thiết bị và trình duyệt, không có lỗi về định dạng, font chữ, hoặc hình ảnh.",
+                  "2": "Kiểm tra liên kết và tương tác: Đảm bảo rằng tất cả các liên kết, nút bấm, và các chức năng tương tác trên website đều hoạt động chính xác sau khi bản địa hóa."
+                }
+              },
+              "6": {
+                "title": "Phê duyệt & bàn giao",
+                "descriptions": {
+                  "1": "Gửi bản cuối cùng: Cung cấp bản dịch cuối cùng cho khách hàng để họ xem xét và phê duyệt. Thực hiện các điều chỉnh cần thiết nếu có yêu cầu từ khách hàng.",
+                  "2": "Bàn giao nội dung hoàn thiện: Sau khi nhận được sự phê duyệt cuối cùng, nội dung sẽ được bàn giao để ứng dụng."
+                }
+              }
+            },
+            "reasons": {
+              "reasonTitle": "Tại sao chọn S-Loka cho nhu cầu dịch vụ dịch thuật?",
+              "reasonDescription": "Trong bối cảnh kinh doanh năng động trên toàn cầu, S-Loka thấu hiểu nhu cầu thiết yếu về độ chính xác và sự phù hợp về văn hóa. Chúng tôi luôn đảm bảo thông điệp thương hiệu của bạn tạo được tiếng vang liền mạch với những đối tượng địa phương trên toàn thế giới.",
+              "items": {
+                "1": {
+                  "title": "Đội ngũ nhân viên chuyên nghiệp",
+                  "description": "S-Loka tự hào có đội ngũ gần 100 cộng tác viên là các dịch giả hàng đầu. Các dịch giả của chúng tôi được tuyển chọn kỹ lưỡng và có nền tảng kiến thức vững chắc trong đa lĩnh vực."
+                },
+                "2": {
+                  "title": "Công nghệ tiên tiến",
+                  "description": "Bằng cách ứng dụng công nghệ dịch thuật tiên tiến và các phần mềm test hiện đại như memeQ, WordFast, Trados, Google AP để đảm bảo tiến độ dịch và kiểm tra tính chính xác. Công nghệ hiện đại giúp gia tăng hiệu quả về mặt chi phí và tiết kiệm thời gian."
+                },
+                "3": {
+                  "title": "Bảo mật thông tin NDA",
+                  "description": "S-Loka cam kết bảo mật thông tin theo các các hợp đồng NDA và tuân thủ hoàn toàn các quy định pháp lý tại Việt Nam. Chúng tôi luôn đảm bảo rằng các thông tin về game sẽ được bảo mật tuyệt đối, và các đơn vị dịch thuật phải chịu trách nhiệm hoàn toàn trước pháp luật nếu vi phạm nguyên tắc hợp đồng."
+                }
+              }
+            }
+          },
+          "ContentWriting": {
+            "Hero": {
+              "title": "Content Writing",
+              "description": "Truyền tải thông điệp hiệu quả với từ ngữ bản địa"
+            },
+            "serviceHeading": "Các dịch vụ dịch thuật phổ biến của chúng tôi cho giải pháp này",
+            "serviceEnding": "Và chúng tôi còn rất nhiều dịch vụ bản địa hoá khác có thể triển khai theo nhu cầu của bạn",
+            "items": {
+              "01": {
+                "title": "CONTENT MARKETING",
+                "description": "Viết bài blog, viết bài mạng xã hội, viết email marketing..."
+              },
+              "02": {
+                "title": "SEO CONTENT",
+                "description": "Viết bài SEO để tối ưu công cụ tìm kiếm, tăng thứ hạng website. Tối ưu nội dung website giúp tăng lượng truy cập trang web."
+              },
+              "03": {
+                "title": "B2B CONTENT",
+                "description": "Viết bài bán hàng với nội dung thuyết phục, tăng chuyển đổi. Viết landing page, giúp tăng hiệu quả thu hút khách hàng. Viết CTA: Lời kêu gọi hành động rõ ràng, thu hút."
+              },
+              "04": {
+                "title": "CÁC DỊCH VỤ KHÁC",
+                "description": "Viết diễn văn: Soạn thảo diễn văn ấn tượng. Viết kịch bản video: kịch bản cuốn hút, truyền tải thông điệp. Viết bài báo: Bài báo chuyên nghiệp trên các trang tin uy tín."
+              }
+            },
+            "processHeading": "Quy trình dịch thuật của S-Loka",
+            "processes": {
+              "1": {
+                "title": "Phân tích dự án",
+                "descriptions": {
+                  "1": "Tiếp nhận yêu cầu: Nhận thông tin từ khách hàng về nội dung cần bản địa hóa, bao gồm ngôn ngữ mục tiêu, phạm vi nội dung, và yêu cầu đặc biệt.",
+                  "2": "Phân tích nội dung: Đánh giá nội dung gốc để xác định các yếu tố ngôn ngữ, văn hóa, và pháp lý cần điều chỉnh. Hiểu rõ đối tượng người dùng cuối để đảm bảo nội dung bản địa hóa phù hợp với phong cách và ngôn ngữ của họ."
+                }
+              },
+              "2": {
+                "title": "Lập kế hoạch",
+                "descriptions": {
+                  "1": "Lựa chọn nhóm dịch thuật: Chọn những dịch giả và chuyên gia ngôn ngữ có kinh nghiệm phù hợp với ngôn ngữ và văn hóa của thị trường mục tiêu.",
+                  "2": "Xây dựng lịch trình: Thiết lập thời gian biểu chi tiết cho các giai đoạn dịch thuật, chỉnh sửa, và kiểm tra chất lượng.",
+                  "3": "Chuẩn bị tài liệu hỗ trợ: Tạo và cung cấp glossaries (danh mục thuật ngữ) và style guides (hướng dẫn phong cách) để đảm bảo tính nhất quán trong toàn bộ quy trình."
+                }
+              },
+              "3": {
+                "title": "Tiến hành bản địa hoá",
+                "descriptions": {
+                  "1": "Dịch nội dung: Dịch nội dung từ ngôn ngữ nguồn sang ngôn ngữ mục tiêu, chú ý đến việc chuyển ngữ sao cho phù hợp với văn hóa và ngữ cảnh của thị trường đích.",
+                  "2": "Xử lý các yếu tố văn hóa: Đảm bảo rằng tất cả các yếu tố văn hóa, từ ngữ đặc thù, và các khía cạnh pháp lý được dịch một cách chính xác và phù hợp."
+                }
+              },
+              "4": {
+                "title": "Chỉnh sửa & đánh giá",
+                "descriptions": {
+                  "1": "Biên tập: Biên tập viên sẽ xem xét lại toàn bộ bản dịch, chỉnh sửa lỗi ngữ pháp, chính tả, và ngữ điệu để đảm bảo tính mượt mà và tự nhiên.",
+                  "2": "Đánh giá chất lượng: Thực hiện các bước đánh giá kỹ lưỡng để đảm bảo tính chính xác và phù hợp về mặt văn hóa. Kiểm tra soát lỗi và đánh giá tính nhất quán với glossaries và style guides đã đề ra."
+                }
+              },
+              "5": {
+                "title": "Rà soát & kiểm tra",
+                "descriptions": {
+                  "1": "Kiểm tra hiển thị và định dạng: Đảm bảo rằng nội dung hiển thị đúng cách trên tất cả các thiết bị và trình duyệt, không có lỗi về định dạng, font chữ, hoặc hình ảnh.",
+                  "2": "Kiểm tra liên kết và tương tác: Đảm bảo rằng tất cả các liên kết, nút bấm, và các chức năng tương tác trên website đều hoạt động chính xác sau khi bản địa hóa."
+                }
+              },
+              "6": {
+                "title": "Phê duyệt & bàn giao",
+                "descriptions": {
+                  "1": "Gửi bản cuối cùng: Cung cấp bản dịch cuối cùng cho khách hàng để họ xem xét và phê duyệt. Thực hiện các điều chỉnh cần thiết nếu có yêu cầu từ khách hàng.",
+                  "2": "Bàn giao nội dung hoàn thiện: Sau khi nhận được sự phê duyệt cuối cùng, nội dung sẽ được bàn giao để ứng dụng."
+                }
+              }
+            },
+            "reasons": {
+              "reasonTitle": "Tại sao chọn S-Loka cho nhu cầu dịch vụ dịch thuật?",
+              "reasonDescription": "Trong bối cảnh kinh doanh năng động trên toàn cầu, S-Loka thấu hiểu nhu cầu thiết yếu về độ chính xác và sự phù hợp về văn hóa. Chúng tôi luôn đảm bảo thông điệp thương hiệu của bạn tạo được tiếng vang liền mạch với những đối tượng địa phương trên toàn thế giới.",
+              "items": {
+                "1": {
+                  "title": "Đội ngũ nhân viên chuyên nghiệp",
+                  "description": "S-Loka tự hào có đội ngũ gần 100 cộng tác viên là các dịch giả hàng đầu. Các dịch giả của chúng tôi được tuyển chọn kỹ lưỡng và có nền tảng kiến thức vững chắc trong đa lĩnh vực."
+                },
+                "2": {
+                  "title": "Công nghệ tiên tiến",
+                  "description": "Bằng cách ứng dụng công nghệ dịch thuật tiên tiến và các phần mềm test hiện đại như memeQ, WordFast, Trados, Google AP để đảm bảo tiến độ dịch và kiểm tra tính chính xác. Công nghệ hiện đại giúp gia tăng hiệu quả về mặt chi phí và tiết kiệm thời gian."
+                },
+                "3": {
+                  "title": "Bảo mật thông tin NDA",
+                  "description": "S-Loka cam kết bảo mật thông tin theo các các hợp đồng NDA và tuân thủ hoàn toàn các quy định pháp lý tại Việt Nam. Chúng tôi luôn đảm bảo rằng các thông tin về game sẽ được bảo mật tuyệt đối, và các đơn vị dịch thuật phải chịu trách nhiệm hoàn toàn trước pháp luật nếu vi phạm nguyên tắc hợp đồng."
+                }
+              }
+            }
+          }
+        }
       },
       "BPO": {
         "title": "BPO",
@@ -2206,8 +2797,8 @@
               "href": "/giai-phap/dich-sang-tao/dich-sang-tao-la-gi"
             },
             "mechanism": {
-              "title": "Cơ chế tiến hành dịch sáng tạo",
-              "href": "/giai-phap/dich-sang-tao/co-tien-hanh-dich-sang-tao"
+              "title": "Quy trình dịch sáng tạo",
+              "href": "/giai-phap/dich-sang-tao/quy-trinh-dich-sang-tao"
             },
             "localizationMarketing": {
               "title": "Bản địa hoá marketing",

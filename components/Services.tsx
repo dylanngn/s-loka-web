@@ -20,7 +20,7 @@ export default function Services({
 }) {
   return (
     <Container className="mt-16">
-      <h2 className="text-2xl font-semibold text-center">{title}</h2>
+      <h2 className="text-xl font-semibold text-center">{title}</h2>
       <div className="w-fit mx-auto py-20">
         {services.map(([key, value]) => (
           <ServiceSnippet

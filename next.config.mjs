@@ -96,6 +96,41 @@ const nextConfig = {
         permanent: true,
       },
       {
+        source: '/en/giai-phap/dich-sang-tao/dich-sang-tao-la-gi',
+        destination: '/vi/giai-phap/dich-sang-tao/dich-sang-tao-la-gi',
+        permanent: true,
+      },
+      {
+        source: '/en/giai-phap/dich-sang-tao/quy-trinh-dich-sang-tao',
+        destination: '/vi/giai-phap/dich-sang-tao/quy-trinh-dich-sang-tao',
+        permanent: true,
+      },
+      {
+        source: '/en/giai-phap/dich-sang-tao/ban-dia-hoa-marketing',
+        destination: '/vi/giai-phap/dich-sang-tao/ban-dia-hoa-marketing',
+        permanent: true,
+      },
+      {
+        source: '/en/giai-phap/dich-sang-tao/ban-dia-hoa-game',
+        destination: '/vi/giai-phap/dich-sang-tao/ban-dia-hoa-game',
+        permanent: true,
+      },
+      {
+        source: '/en/giai-phap/dich-sang-tao/ban-dia-hoa-ui-ux-app',
+        destination: '/vi/giai-phap/dich-sang-tao/ban-dia-hoa-ui-ux-app',
+        permanent: true,
+      },
+      {
+        source: '/en/giai-phap/dich-sang-tao/copy-writing',
+        destination: '/vi/giai-phap/dich-sang-tao/copy-writing',
+        permanent: true,
+      },
+      {
+        source: '/en/giai-phap/dich-sang-tao/content-writing',
+        destination: '/vi/giai-phap/dich-sang-tao/content-writing',
+        permanent: true,
+      },
+      {
         source: '/en/chuyen-nganh',
         destination: '/vi/chuyen-nganh',
         permanent: true,
@@ -161,6 +196,10 @@ const nextConfig = {
       {
         source: '/vi/giai-phap/phien-dich/:slug',
         destination: '/vi/solution/interpretation/:slug',
+      },
+      {
+        source: '/vi/giai-phap/dich-sang-tao/:slug',
+        destination: '/vi/solution/creativeTranslation/:slug',
       },
       {
         source: '/vi/giai-phap/bpo/:slug',

@@ -10,7 +10,7 @@ export default function Processes({title, processes}: {title: string, processes:
 
   return (
     <Container className="mt-32 mb-16">
-        <h2 className="text-2xl font-semibold text-center mb-32">
+        <h2 className="text-xl font-semibold text-center mb-32">
           {title}
         </h2>
         <div className="flex flex-col w-full">

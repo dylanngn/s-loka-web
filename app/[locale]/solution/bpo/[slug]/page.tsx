@@ -31,7 +31,7 @@ export default async function BPOServiceDetail({
   const mainService = bpo.services[key];
   const services = Object.entries(mainService.items);
   const processes = Object.values(mainService.processes);
-  const reasons = Object.values(mainService.reasons) as [Reason];
+  const reasons = mainService.reasons as Record<string, Reason>;
   const testimonials = Object.values(dict.Testimonial.masonry) as [Testimonial];
 
   return (
