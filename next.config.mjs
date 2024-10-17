@@ -91,6 +91,16 @@ const nextConfig = {
         permanent: true,
       },
       {
+        source: '/en/giai-phap/bpo/ho-tro-ai',
+        destination: '/vi/giai-phap/bpo/ho-tro-ai',
+        permanent: true,
+      },
+      {
+        source: '/en/giai-phap/bpo/call-center',
+        destination: '/vi/giai-phap/bpo/call-center',
+        permanent: true,
+      },
+      {
         source: '/en/giai-phap/bpo/so-hoa-tai-lieu',
         destination: '/vi/giai-phap/bpo/so-hoa-tai-lieu',
         permanent: true,

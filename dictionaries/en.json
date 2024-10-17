@@ -1896,17 +1896,149 @@
       "BPO": {
         "title": "BPO",
         "description": "S-Loka tự hào là người bạn đồng hành hỗ trợ các doanh nghiệp trong các hoạt động vận hành, từ đó tạo điều kiện cho doanh nghiệp tập trung toàn bộ nguồn lực và thời gian vào việc phát triển sản phẩm, dịch vụ cốt lõi.",
-        "serviceHeading": "Các dịch vụ phổ biến của chúng tôi cho giải pháp này",
-        "serviceEnding": "Và chúng tôi còn rất nhiều dịch vụ BPO khác có thể triển khai theo nhu cầu của bạn",
         "processHeading": "Quy trình dịch thuật của S-Loka",
         "reasonTitle": "Tại sao chọn S-Loka cho nhu cầu dịch vụ BPO?",
         "reasonDescription": "Trong bối cảnh kinh doanh năng động trên toàn cầu, S-Loka thấu hiểu nhu cầu thiết yếu về độ chính xác và sự phù hợp về văn hóa. Chúng tôi luôn đảm bảo thông điệp thương hiệu của bạn tạo được tiếng vang liền mạch với những đối tượng địa phương trên toàn thế giới.",
         "services": {
+          "AIAssistant": {
+            "Hero": {
+              "title": "Hỗ trợ AI",
+              "description": "Hãy cùng tìm hiểu dịch vụ dich thuật cho giải pháp bản địa hoá call center tại S-Loka"
+            },
+            "serviceHeading": "Khi nào cần sử dụng dịch vụ dịch Thuật BPO cho Hỗ Trợ AI?",
+            "serviceEnding": "Và chúng tôi còn rất nhiều dịch vụ bản địa hoá khác có thể triển khai theo nhu cầu của bạn",
+            "items": {
+              "01": {
+                "title": "Xây dựng và phát triển AI đa ngôn ngữ",
+                "description": "Nếu bạn đang phát triển hệ thống AI và cần nó hỗ trợ nhiều ngôn ngữ, dịch thuật chính xác là điều cần thiết để AI hiểu và giao tiếp với người dùng toàn cầu."
+              },
+              "02": {
+                "title": "Huấn luyện mô hình AI",
+                "description": "Việc dịch các dữ liệu huấn luyện giúp AI tiếp cận được nhiều ngữ cảnh và ngôn ngữ khác nhau, từ đó cải thiện khả năng xử lý ngôn ngữ tự nhiên (NLP) của mô hình."
+              },
+              "03": {
+                "title": "Đảm bảo trải nghiệm người dùng",
+                "description": "Khi triển khai các sản phẩm hoặc dịch vụ AI tại nhiều quốc gia, việc dịch thuật giúp mang lại trải nghiệm mượt mà, dễ tiếp cận cho người dùng địa phương."
+              }
+            },
+            "benefitHeading": "Lợi ích của dịch vụ dịch thuật BPO cho AI",
+            "benefits": {
+              "1": {
+                "title": "Tăng hiệu quả hoạt động AI",
+                "description": "Với nội dung được dịch chính xác, các mô hình AI có thể hiểu đúng ngữ cảnh và phản hồi chính xác hơn, giúp tăng cường hiệu quả hoạt động."
+              },
+              "2": {
+                "title": "Mở rộng quy mô toàn cầu",
+                "description": "Dịch thuật chất lượng cao giúp AI hoạt động trơn tru ở nhiều thị trường khác nhau, giúp doanh nghiệp mở rộng quy mô một cách hiệu quả."
+              },
+              "3": {
+                "title": "Giảm thiểu sai sót giao tiếp",
+                "description": "Sử dụng dịch vụ dịch thuật chuyên nghiệp giúp giảm thiểu sai sót trong giao tiếp giữa AI và người dùng, đảm bảo hệ thống AI hoạt động chính xác và đáng tin cậy."
+              }
+            },
+            "reasons": {
+              "1": {
+                "title": "Đội ngũ nhân viên chuyên nghiệp",
+                "description": "S-Loka tự hào có đội ngũ dịch giả và chuyên gia số hoá giàu kinh nghiệm trong nhiều lĩnh vực như là: kinh doanh, pháp lý, y tế và nhân sự. Điều này đảm bảo các tài liệu của bạn không chỉ được dịch chính xác về nội dung mà còn tuân thủ các tiêu chuẩn chuyên ngành và bảo mật, mang lại kết quả tối ưu nhất."
+              },
+              "2": {
+                "title": "Giải pháp số hoá toàn diện, tiết kiệm thời gian và chi phí",
+                "description": "Giải pháp số hoá toàn diện, tiết kiệm thời gian và chi phí dạng giấy hoặc bản cứng sang định dạng kỹ thuật số một cách nhanh chóng và hiệu quả. Bạn không cần phải lo lắng về việc quản lý tài liệu vật lý nữa, từ đó giảm thiểu thời gian, chi phí quản lý và tăng cường tính tiện lợi trong truy xuất dữ liệu."
+              },
+              "3": {
+                "title": "Bảo mật thông tin NDA",
+                "description": "S-Loka cam kết bảo mật thông tin theo các các hợp đồng NDA và tuân thủ hoàn toàn các quy định pháp lý tại Việt Nam. Chúng tôi luôn đảm bảo rằng các thông tin về game sẽ được bảo mật tuyệt đối, và các đơn vị dịch thuật phải chịu trách nhiệm hoàn toàn trước pháp luật nếu vi phạm nguyên tắc hợp đồng."
+              }
+            }
+          },
+          "CallCenter": {
+            "Hero": {
+              "title": "Call Center",
+              "description": "Hãy cùng tìm hiểu dịch vụ dich thuật cho giải pháp bản địa hoá call center tại S-Loka"
+            },
+            "serviceHeading": "Các dịch vụ phổ biến của chúng tôi cho giải pháp này",
+            "serviceEnding": "Và chúng tôi còn rất nhiều dịch vụ BPO khác có thể triển khai theo nhu cầu của bạn",
+            "items": {
+              "01": {
+                "title": "BẢN ĐỊA HOÁ KỊCH BẢN CUỘC GỌI",
+                "description": "Chúng tôi cung cấp dịch vụ bản địa hoá kịch bản cuộc gọi, điều chỉnh ngôn ngữ, cách diễn đạt và nội dung phù hợp với văn hóa và phong tục của từng địa phương, giúp cuộc gọi trở nên thân thiện và gần gũi hơn với khách hàng."
+              },
+              "02": {
+                "title": "DỊCH VỤ LỒNG TIẾNG",
+                "description": "Dịch vụ lồng tiếng cho các đoạn ghi âm trong hệ thống trả lời tự động (IVR) và các tin nhắn thoại, giúp khách hàng dễ dàng tiếp nhận thông tin bằng ngôn ngữ và giọng địa phương, tạo cảm giác thân thuộc và chuyên nghiệp."
+              },
+              "03": {
+                "title": "PHÁT TRIỂN NỘI DUNG ĐA NGÔN NGỮ",
+                "description": "Phát triển và quản lý nội dung đa ngôn ngữ cho các kênh giao tiếp của Call Center, bao gồm email, chat, và mạng xã hội, giúp bạn duy trì sự nhất quán trong giao tiếp và đáp ứng nhu cầu của khách hàng tại các thị trường khác nhau."
+              }
+            },
+            "processes": {
+              "1": {
+                "title": "Phân tích dự án",
+                "descriptions": {
+                  "1": "Tiếp nhận yêu cầu: Nhận thông tin từ khách hàng về nội dung cần bản địa hóa, bao gồm ngôn ngữ mục tiêu, phạm vi nội dung, và yêu cầu đặc biệt.",
+                  "2": "Phân tích nội dung: Đánh giá nội dung gốc để xác định các yếu tố ngôn ngữ, văn hóa, và pháp lý cần điều chỉnh. Hiểu rõ đối tượng người dùng cuối để đảm bảo nội dung bản địa hóa phù hợp với phong cách và ngôn ngữ của họ."
+                }
+              },
+              "2": {
+                "title": "Lập kế hoạch",
+                "descriptions": {
+                  "1": "Lựa chọn nhóm dịch thuật: Chọn những dịch giả và chuyên gia ngôn ngữ có kinh nghiệm phù hợp với ngôn ngữ và văn hóa của thị trường mục tiêu.",
+                  "2": "Xây dựng lịch trình: Thiết lập thời gian biểu chi tiết cho các giai đoạn dịch thuật, chỉnh sửa, và kiểm tra chất lượng.",
+                  "3": "Chuẩn bị tài liệu hỗ trợ: Tạo và cung cấp glossaries (danh mục thuật ngữ) và style guides (hướng dẫn phong cách) để đảm bảo tính nhất quán trong toàn bộ quy trình."
+                }
+              },
+              "3": {
+                "title": "Tiến hành bản địa hoá",
+                "descriptions": {
+                  "1": "Dịch nội dung: Dịch nội dung từ ngôn ngữ nguồn sang ngôn ngữ mục tiêu, chú ý đến việc chuyển ngữ sao cho phù hợp với văn hóa và ngữ cảnh của thị trường đích.",
+                  "2": "Xử lý các yếu tố văn hóa: Đảm bảo rằng tất cả các yếu tố văn hóa, từ ngữ đặc thù, và các khía cạnh pháp lý được dịch một cách chính xác và phù hợp."
+                }
+              },
+              "4": {
+                "title": "Chỉnh sửa & đánh giá",
+                "descriptions": {
+                  "1": "Biên tập: Biên tập viên sẽ xem xét lại toàn bộ bản dịch, chỉnh sửa lỗi ngữ pháp, chính tả, và ngữ điệu để đảm bảo tính mượt mà và tự nhiên.",
+                  "2": "Đánh giá chất lượng: Thực hiện các bước đánh giá kỹ lưỡng để đảm bảo tính chính xác và phù hợp về mặt văn hóa. Kiểm tra soát lỗi và đánh giá tính nhất quán với glossaries và style guides đã đề ra."
+                }
+              },
+              "5": {
+                "title": "Rà soát & kiểm tra",
+                "descriptions": {
+                  "1": "Kiểm tra hiển thị và định dạng: Đảm bảo rằng nội dung hiển thị đúng cách trên tất cả các thiết bị và trình duyệt, không có lỗi về định dạng, font chữ, hoặc hình ảnh.",
+                  "2": "Kiểm tra liên kết và tương tác: Đảm bảo rằng tất cả các liên kết, nút bấm, và các chức năng tương tác trên website đều hoạt động chính xác sau khi bản địa hóa."
+                }
+              },
+              "6": {
+                "title": "Phê duyệt & bàn giao",
+                "descriptions": {
+                  "1": "Gửi bản cuối cùng: Cung cấp bản dịch cuối cùng cho khách hàng để họ xem xét và phê duyệt. Thực hiện các điều chỉnh cần thiết nếu có yêu cầu từ khách hàng.",
+                  "2": "Bàn giao nội dung hoàn thiện: Sau khi nhận được sự phê duyệt cuối cùng, nội dung sẽ được bàn giao để sử dụng."
+                }
+              }
+            },
+            "reasons": {
+              "1": {
+                "title": "Đội ngũ nhân viên chuyên nghiệp",
+                "description": "S-Loka tự hào có đội ngũ dịch giả và chuyên gia số hoá giàu kinh nghiệm trong nhiều lĩnh vực như là: kinh doanh, pháp lý, y tế và nhân sự. Điều này đảm bảo các tài liệu của bạn không chỉ được dịch chính xác về nội dung mà còn tuân thủ các tiêu chuẩn chuyên ngành và bảo mật, mang lại kết quả tối ưu nhất."
+              },
+              "2": {
+                "title": "Giải pháp số hoá toàn diện, tiết kiệm thời gian và chi phí",
+                "description": "Giải pháp số hoá toàn diện, tiết kiệm thời gian và chi phí dạng giấy hoặc bản cứng sang định dạng kỹ thuật số một cách nhanh chóng và hiệu quả. Bạn không cần phải lo lắng về việc quản lý tài liệu vật lý nữa, từ đó giảm thiểu thời gian, chi phí quản lý và tăng cường tính tiện lợi trong truy xuất dữ liệu."
+              },
+              "3": {
+                "title": "Bảo mật thông tin NDA",
+                "description": "S-Loka cam kết bảo mật thông tin theo các các hợp đồng NDA và tuân thủ hoàn toàn các quy định pháp lý tại Việt Nam. Chúng tôi luôn đảm bảo rằng các thông tin về game sẽ được bảo mật tuyệt đối, và các đơn vị dịch thuật phải chịu trách nhiệm hoàn toàn trước pháp luật nếu vi phạm nguyên tắc hợp đồng."
+              }
+            }
+          },
           "Digitization": {
             "Hero": {
               "title": "Số hoá tài liệu",
               "description": "Hãy cùng tìm hiểu dịch vụ dich thuật cho giải pháp số hoá tài liệu tại S-Loka"
             },
+            "serviceHeading": "Các dịch vụ phổ biến của chúng tôi cho giải pháp này",
+            "serviceEnding": "Và chúng tôi còn rất nhiều dịch vụ BPO khác có thể triển khai theo nhu cầu của bạn",
             "items": {
               "01": {
                 "title": "SỐ HOÁ TÀI LIỆU KINH DOANH",
@@ -1918,7 +2050,7 @@
               },
               "03": {
                 "title": "SỐ HOÁ HỒ SƠ NHÂN SỰ",
-                "description": "SỐ HOÁ HỒ SƠ NHÂN SỰ"
+                "description": "Chuyển đổi các hồ sơ nhân viên, dữ liệu tuyển dụng, bảng lương từ giấy sang dạng kỹ thuật số để quản lý dễ dàng và bảo mật."
               },
               "04": {
                 "title": "SỐ HOÁ TÀI LIỆU Y TẾ",
