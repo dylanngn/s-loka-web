@@ -217,6 +217,46 @@
       "life": "Cuộc sống"
     }
   },
+  "Cooperation": {
+    "Hero": {
+      "title": "Hợp Tác",
+      "message": "với S-LOKA",
+      "description" : "Đồng hành để cùng thành công trên con đường cung cấp giải pháp ngôn ngữ"
+    },
+    "Content": {
+      "title": "Hợp tác, dành chiến thắng",
+      "description": "Trên con đường kinh doanh và tạo ra giá trị cho khách hàng, S-LOKA hiểu rằng sự hợp tác là rất cần thiết. Dù bạn là cá nhân hay tổ chức, hãy trở thành đối tác chiến lược của chúng tôi ngay hôm nay - với các phúc lợi chất lượng, công bằng",
+      "items": {
+        "Cooperate": "Nhân rộng tệp khách hàng tiềm năng của bạn",
+        "Chart": "Tiết kiệm chi phí, nhân đôi nguồn lực",
+        "Coin": "Hoa hồng hậu hĩnh",
+        "Filter": "Mở rộng thị phần",
+        "Like": "Hợp tác linh hoạt",
+        "Contact": "Tăng sự hiểu biết các lĩnh vực"
+      }
+    },
+    "ImpressiveNumbers": {
+      "title": "Những con số ấn tượng",
+      "items": {
+        "translateCooperate": {
+          "title": "Cộng tác viên dịch thuật",
+          "number": "74+"
+        },
+        "wordsTranslated": {
+          "title": "Số từ đã dịch",
+          "number": "197,265+"
+        },
+        "satisfaction": {
+          "title": "Sự hài lòng",
+          "number": "100%"
+        },
+        "languagesProvided": {
+          "title": "Các ngôn ngữ đã cung cấp",
+          "number": "50+"
+        }
+      }
+    }
+  },
   "Solution": {
     "title": "Danh sách các giải pháp tại S-Loka",
     "readMore": "Đọc thêm",

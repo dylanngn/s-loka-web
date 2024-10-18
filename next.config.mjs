@@ -31,6 +31,11 @@ const nextConfig = {
         permanent: true,
       },
       {
+        source: '/en/hop-tac',
+        destination: '/vi/hop-tac',
+        permanent: true,
+      },
+      {
         source: '/en/giai-phap/ban-dia-hoa/tro-choi',
         destination: '/vi/giai-phap/ban-dia-hoa/tro-choi',
         permanent: true,
@@ -178,6 +183,10 @@ const nextConfig = {
       {
         source: '/vi/bai-doc/:slug',
         destination: '/vi/post/:slug',
+      },
+      {
+        source: '/vi/hop-tac',
+        destination: '/vi/cooperation',
       },
       {
         source: '/vi/chuyen-nganh',
