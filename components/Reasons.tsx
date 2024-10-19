@@ -16,7 +16,7 @@ export default function Reasons({
   reasons: Record<string, Reason>;
 }) {
   return (
-    <Container className="mt-32">
+    <Container className="relative mt-32  before:absolute before:inset-0 before:-z-10 before:bg-[radial-gradient(circle_at_center,_var(--color-primary)_0%,_transparent_50%)] before:opacity-15">
       <h2 className="mb-8 text-xl text-center font-semibold text-slate-900">
         {heading}
       </h2>

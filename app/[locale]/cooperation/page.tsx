@@ -8,6 +8,7 @@ import { Filter } from '@/components/icons/Filter';
 import { Like } from '@/components/icons/Like';
 import MasonryTestimonials, { Testimonial } from '@/components/MasonryTestimonials';
 import { Partners } from '@/components/Partners';
+import { Records } from '@/components/Records';
 import { Locale } from '@/i18n-config';
 import { getDictionary } from '@/server/get-dictionary';
 
@@ -19,7 +20,6 @@ export default async function CooperationPage({
   const dict = await getDictionary(lang);
   const cooperation = dict.Cooperation
   const items = Object.entries(cooperation.Content.items)
-  const impressiveNumbers = cooperation.ImpressiveNumbers
   const testimonials = Object.values(dict.Testimonial.masonry) as [Testimonial];
   const ICONS = {
     Chart,
@@ -49,17 +49,16 @@ export default async function CooperationPage({
           })}
         </div>
       </Container>
-      <Container className="py-28">
-        <h2 className="text-xl font-semibold text-center mb-12">{impressiveNumbers.title}</h2>
-        <div className="flex flex-wrap justify-center gap-10">
-        {Object.entries(impressiveNumbers.items).map(([key, value]) => (
-          <div key={key} className="rounded-3xl border-2 border-gray-300 shadow flex flex-col justify-center items-center w-full md:w-64 lg:w-[calc(25%-2rem)] h-48 gap-6">
-            <span className="text-4xl text-[#0052B4]">{value.number}</span>
-            <p>{value.title}</p>
-          </div>
-        ))}
-        </div>
-      </Container>
+      <Records
+        title={dict.Home.Records.title}
+        items={{
+          partners: dict.Home.Records.items.partners.title,
+          words: dict.Home.Records.items.words.title,
+          satisfaction: dict.Home.Records.items.satisfaction.title,
+          pairs: dict.Home.Records.items.pairs.title,
+        }}
+        background={true}
+      />
       <Partners title={dict.Partners.title} />
       <MasonryTestimonials
         title={dict.Testimonial.title}

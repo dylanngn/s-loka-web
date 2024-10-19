@@ -234,27 +234,6 @@
         "Like": "Hợp tác linh hoạt",
         "Contact": "Tăng sự hiểu biết các lĩnh vực"
       }
-    },
-    "ImpressiveNumbers": {
-      "title": "Những con số ấn tượng",
-      "items": {
-        "translateCooperate": {
-          "title": "Cộng tác viên dịch thuật",
-          "number": "74+"
-        },
-        "wordsTranslated": {
-          "title": "Số từ đã dịch",
-          "number": "197,265+"
-        },
-        "satisfaction": {
-          "title": "Sự hài lòng",
-          "number": "100%"
-        },
-        "languagesProvided": {
-          "title": "Các ngôn ngữ đã cung cấp",
-          "number": "50+"
-        }
-      }
     }
   },
   "Solution": {

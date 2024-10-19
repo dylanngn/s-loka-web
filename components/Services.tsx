@@ -31,7 +31,7 @@ export default function Services({
           />
         ))}
       </div>
-      <p className="mb-28 text-center text-xl bg-gradient-radial from-yellow-50 to-white">
+      <p className="relative mb-28 text-center text-xl before:absolute before:inset-0 before:-z-10 before:bg-[radial-gradient(ellipse_at_center,_var(--color-primary)_0%,_transparent_60%)] before:opacity-10">
         {ending}
       </p>
     </Container>

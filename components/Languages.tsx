@@ -68,55 +68,57 @@ export default function Languages({
     .slice(2 * split)
     .concat(Object.entries(languages).slice(2 * split));
   return (
-    <div className="overflow-hidden mb-16">
-      <h2 className="mb-20 text-center text-xl font-bold">
+    <div className="mb-16">
+      <h2 className="relative mb-20 text-center text-xl font-bold before:absolute before:left-[calc(50%-12rem)] before:-top-7 before:h-24 before:w-96 before:inset-0 before:-z-10 before:bg-[radial-gradient(ellipse_at_center,_var(--color-primary)_0%,_transparent_90%)] before:opacity-10">
         {title}
       </h2>
-      <ul className="animate-infinite-scroll-slow-left flex items-center justify-center md:justify-start mb-7 [&_img]:max-w-none [&_li]:mx-8">
-        {firstRow.map(([key, value], index) => (
-          <li
-            key={index}
-            className="rounded-lg border-2 flex flex-shrink-0 items-center p-2 bg-[#D9D9D933]"
-          >
-            <Image
-              className="w-11 h-7 mr-8"
-              alt={key}
-              src={UtilizedLanguages[key as Languages]}
-            />
-            <span className="">{value}</span>
-          </li>
-        ))}
-      </ul>
-      <ul className="animate-infinite-scroll-slow-right flex items-center justify-center md:justify-start mb-7 [&_img]:max-w-none [&_li]:mx-8">
-        {secondRow.map(([key, value], index) => (
-          <li
-            key={index}
-            className="rounded-lg border-2 flex flex-shrink-0 items-center p-2 bg-[#D9D9D933]"
-          >
-            <Image
-              className="w-11 h-7 mr-8"
-              alt={key}
-              src={UtilizedLanguages[key as Languages]}
-            />
-            <span className="">{value}</span>
-          </li>
-        ))}
-      </ul>
-      <ul className="animate-infinite-scroll-slow-left flex items-center justify-center md:justify-start [&_img]:max-w-none [&_li]:mx-8">
-        {thirdRow.map(([key, value], index) => (
-          <li
-            key={index}
-            className="rounded-lg border-2 flex flex-shrink-0 items-center p-2 bg-[#D9D9D933]"
-          >
-            <Image
-              className="w-11 h-7 mr-8"
-              alt={key}
-              src={UtilizedLanguages[key as Languages]}
-            />
-            <span className="">{value}</span>
-          </li>
-        ))}
-      </ul>
+      <div className="overflow-x-hidden">
+        <ul className="animate-infinite-scroll-slow-left flex items-center justify-center md:justify-start mb-7 [&_img]:max-w-none [&_li]:mx-8">
+          {firstRow.map(([key, value], index) => (
+            <li
+              key={index}
+              className="rounded-lg border-2 flex flex-shrink-0 items-center p-2 bg-[#D9D9D933]"
+            >
+              <Image
+                className="w-11 h-7 mr-8"
+                alt={key}
+                src={UtilizedLanguages[key as Languages]}
+              />
+              <span className="">{value}</span>
+            </li>
+          ))}
+        </ul>
+        <ul className="animate-infinite-scroll-slow-right flex items-center justify-center md:justify-start mb-7 [&_img]:max-w-none [&_li]:mx-8">
+          {secondRow.map(([key, value], index) => (
+            <li
+              key={index}
+              className="rounded-lg border-2 flex flex-shrink-0 items-center p-2 bg-[#D9D9D933]"
+            >
+              <Image
+                className="w-11 h-7 mr-8"
+                alt={key}
+                src={UtilizedLanguages[key as Languages]}
+              />
+              <span className="">{value}</span>
+            </li>
+          ))}
+        </ul>
+        <ul className="animate-infinite-scroll-slow-left flex items-center justify-center md:justify-start [&_img]:max-w-none [&_li]:mx-8">
+          {thirdRow.map(([key, value], index) => (
+            <li
+              key={index}
+              className="rounded-lg border-2 flex flex-shrink-0 items-center p-2 bg-[#D9D9D933]"
+            >
+              <Image
+                className="w-11 h-7 mr-8"
+                alt={key}
+                src={UtilizedLanguages[key as Languages]}
+              />
+              <span className="">{value}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
     </div>
   );
 }
