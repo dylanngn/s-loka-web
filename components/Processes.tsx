@@ -25,11 +25,11 @@ export default function Processes({title, processes}: {title: string, processes:
               >
                 <span className="relative text-4xl text-slate-300 before:absolute before:-left-16 before:-top-10 before:h-36 before:w-36 before:inset-0 before:-z-10 before:bg-[radial-gradient(circle_at_center,_var(--color-primary)_0%,_transparent_90%)] before:opacity-10">{index + 1}</span>
                 <div className="">
-                  <h3 className="mb-4 pb-5 text-2xl font-semibold text-slate-900 border-b border-slate-800">
+                  <h3 className="mb-4 pb-5 text-xl font-semibold text-slate-900 border-b border-slate-800">
                     {item.title}
                   </h3>
                   {Object.values(item.descriptions).map((value, index) => (
-                    <p key={index} className="text-lg leading-8 mb-5">
+                    <p key={index} className="leading-8 mb-5">
                       {value as string}
                     </p>
                   ))}
