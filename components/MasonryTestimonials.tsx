@@ -35,6 +35,7 @@ export default function MasonryTestimonials({
           <div
             key={index}
             className={clsx("relative rounded-2xl shadow-[0_4px_25px_0_#0000001A] pt-9 pb-6 px-12 w-[300px]", 
+              "before:absolute before:inset-0 before:-z-10 before:bg-[radial-gradient(ellipse_at_center,_var(--color-primary)_0%,_transparent_60%)] before:opacity-20",
               index === 0 && "mt-16", index === 8 && "mt-16"
             )}
           >

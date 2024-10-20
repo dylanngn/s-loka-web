@@ -31,6 +31,11 @@ const nextConfig = {
         permanent: true,
       },
       {
+        source: '/en/hop-tac',
+        destination: '/vi/hop-tac',
+        permanent: true,
+      },
+      {
         source: '/en/giai-phap/ban-dia-hoa/tro-choi',
         destination: '/vi/giai-phap/ban-dia-hoa/tro-choi',
         permanent: true,
@@ -91,8 +96,53 @@ const nextConfig = {
         permanent: true,
       },
       {
+        source: '/en/giai-phap/bpo/ho-tro-ai',
+        destination: '/vi/giai-phap/bpo/ho-tro-ai',
+        permanent: true,
+      },
+      {
+        source: '/en/giai-phap/bpo/call-center',
+        destination: '/vi/giai-phap/bpo/call-center',
+        permanent: true,
+      },
+      {
         source: '/en/giai-phap/bpo/so-hoa-tai-lieu',
         destination: '/vi/giai-phap/bpo/so-hoa-tai-lieu',
+        permanent: true,
+      },
+      {
+        source: '/en/giai-phap/dich-sang-tao/dich-sang-tao-la-gi',
+        destination: '/vi/giai-phap/dich-sang-tao/dich-sang-tao-la-gi',
+        permanent: true,
+      },
+      {
+        source: '/en/giai-phap/dich-sang-tao/quy-trinh-dich-sang-tao',
+        destination: '/vi/giai-phap/dich-sang-tao/quy-trinh-dich-sang-tao',
+        permanent: true,
+      },
+      {
+        source: '/en/giai-phap/dich-sang-tao/ban-dia-hoa-marketing',
+        destination: '/vi/giai-phap/dich-sang-tao/ban-dia-hoa-marketing',
+        permanent: true,
+      },
+      {
+        source: '/en/giai-phap/dich-sang-tao/ban-dia-hoa-game',
+        destination: '/vi/giai-phap/dich-sang-tao/ban-dia-hoa-game',
+        permanent: true,
+      },
+      {
+        source: '/en/giai-phap/dich-sang-tao/ban-dia-hoa-ui-ux-app',
+        destination: '/vi/giai-phap/dich-sang-tao/ban-dia-hoa-ui-ux-app',
+        permanent: true,
+      },
+      {
+        source: '/en/giai-phap/dich-sang-tao/copy-writing',
+        destination: '/vi/giai-phap/dich-sang-tao/copy-writing',
+        permanent: true,
+      },
+      {
+        source: '/en/giai-phap/dich-sang-tao/content-writing',
+        destination: '/vi/giai-phap/dich-sang-tao/content-writing',
         permanent: true,
       },
       {
@@ -135,6 +185,10 @@ const nextConfig = {
         destination: '/vi/post/:slug',
       },
       {
+        source: '/vi/hop-tac',
+        destination: '/vi/cooperation',
+      },
+      {
         source: '/vi/chuyen-nganh',
         destination: '/vi/service',
       },
@@ -161,6 +215,10 @@ const nextConfig = {
       {
         source: '/vi/giai-phap/phien-dich/:slug',
         destination: '/vi/solution/interpretation/:slug',
+      },
+      {
+        source: '/vi/giai-phap/dich-sang-tao/:slug',
+        destination: '/vi/solution/creativeTranslation/:slug',
       },
       {
         source: '/vi/giai-phap/bpo/:slug',

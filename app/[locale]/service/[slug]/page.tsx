@@ -47,7 +47,7 @@ export default async function ServiceDetailPage({
   const mainService = dict.Service.items[objectKey];
   const services = Object.entries(mainService.services);
   const languages = dict.UtilizedLanguages;
-  const reasons = Object.values(mainService.reasons) as [Reason];
+  const reasons = mainService.reasons as Record<string, Reason>;
   const testimonials = Object.values(dict.Testimonial.masonry) as [Testimonial];
 
   return (

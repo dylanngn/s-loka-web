@@ -32,7 +32,7 @@ export default function ContactForm({
   const [state, formAction] = useFormState(createContactRequest, initialState);
 
   return (
-    <Container id="contact">
+    <Container id="contact" className="relative before:absolute before:inset-0 before:-z-10 before:bg-[radial-gradient(ellipse_at_center,_var(--color-primary)_0%,_transparent_80%)] before:opacity-15">
       <div className="mx-auto max-w-2xl text-center">
         <h2 className="text-xl font-semibold text-slate-900">{title}</h2>
       </div>
