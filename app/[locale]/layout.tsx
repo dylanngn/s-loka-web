@@ -65,10 +65,9 @@ export default async function LocaleLayout({
             })
           ),
         }}
-        menu4={{
-          label: `${dict.solution.sub.translation.title} & ${dict.solution.sub.BPO.title}`,
+        menu2={{
+          label: `${dict.solution.sub.translation.title}`,
           items: Object.values(dict.solution.sub.translation.sub)
-            .concat(Object.values(dict.solution.sub.BPO.sub))
             .map((sub) => ({
               label: sub.title,
               href: sub.href,
@@ -83,7 +82,7 @@ export default async function LocaleLayout({
             })
           ),
         }}
-        menu2={{
+        menu4={{
           label: `${dict.solution.sub.creativeTranslation.title} `,
           items: Object.values(dict.solution.sub.creativeTranslation.sub).map(
             (sub) => ({
@@ -91,6 +90,14 @@ export default async function LocaleLayout({
               href: sub.href,
             })
           ),
+        }}
+        menu5={{
+          label: `${dict.solution.sub.BPO.title}`,
+          items: Object.values(dict.solution.sub.BPO.sub)
+            .map((sub) => ({
+              label: sub.title,
+              href: sub.href,
+            })),
         }}
       />
     </>
