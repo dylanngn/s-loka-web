@@ -71,7 +71,7 @@ export function Hero({ title, message, description }: HeroProps) {
     <motion.section
       ref={targetRef}
       className="h-fit select-none px-6 py-32 text-center lg:px-8 lg:py-40
-      before:z-10 before:absolute before:h-screen before:pointer-events-none before:inset-0 before:bg-[radial-gradient(ellipse_farthest-side_at_var(--x,0px)_var(--y,_0px),_var(--color-primary)_0%,_transparent_50%)] before:opacity-40"
+      before:z-10 before:absolute before:h-screen before:pointer-events-none before:inset-0 before:bg-[radial-gradient(circle_farthest-side_at_var(--x,0px)_var(--y,_0px),_var(--color-primary)_0%,_transparent_50%)] before:opacity-40"
     >
       <div className="relative z-10">
         <h1 className="mx-auto max-w-4xl font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-7xl">

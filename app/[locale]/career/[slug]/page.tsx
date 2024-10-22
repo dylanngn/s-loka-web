@@ -1,8 +1,10 @@
+import styles from "./style.module.css"
 import { BackButton } from '@/components/CareerBackButton';
 import { Container } from '@/components/Container';
 import { Locale } from '@/i18n-config';
 import { getJobDetail } from '@/server/get-all-job';
 import { getDictionary } from '@/server/get-dictionary';
+import clsx from "clsx";
 import Image from 'next/image';
 
 export default async function CareerDetailPage({
@@ -14,6 +16,7 @@ export default async function CareerDetailPage({
   const job = await getJobDetail(slug);
   const header = job?.content_html.split('***')[0];
   const body = job?.content_html.split('***')[1];
+  console.log(body)
   return (
     <Container className="text-center">
       <h2 className="text-xl font-semibold text-slate-900">{job?.title}</h2>
@@ -33,12 +36,13 @@ export default async function CareerDetailPage({
           dangerouslySetInnerHTML={{ __html: header }}
         ></p>
       </div>
-      <div className="prose list-disc">
+      <div className="prose">
         <p
-          className="flex-1 prose list-disc leading-9 sm:mt-8 text-left"
+          className={clsx("flex-1 prose leading-9 sm:mt-8 text-left mb-10 sm:mb-14 md:mb-20", styles.custom)}
           dangerouslySetInnerHTML={{ __html: body }}
         ></p>
       </div>
+      <hr className="max-w-4xl mx-auto h-0.5 bg-gray-400" />
     </Container>
   );
 }
