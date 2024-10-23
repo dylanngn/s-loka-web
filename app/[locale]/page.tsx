@@ -6,6 +6,7 @@ import { Missions } from '@/components/Missions';
 import { Partners } from '@/components/Partners';
 import { Solutions } from '@/components/Solutions';
 import ContactForm from '@/components/ContactForm';
+import { Testimonials } from '@/components/Testimonials';
 
 export default async function IndexPage({
   params: { lang },
@@ -28,6 +29,7 @@ export default async function IndexPage({
         }}
       />
       <Partners title={dict.Partners.title} />
+      <Testimonials {...dict.Testimonial} />
       <ContactForm {...dict.ContactForm} />
     </>
   );

@@ -24,7 +24,7 @@ export default function MasonryTestimonials({
   return (
     <>
       <Container className="text-center mt-32">
-        <h2 className="text-xl maw font-semibold text-slate-900">{title}</h2>
+        <h2 className="relative text-xl maw font-semibold text-slate-900 before:absolute before:left-[calc(50%-12rem)] before:-top-7 before:h-24 before:w-96 before:inset-0 before:-z-10 before:bg-[radial-gradient(ellipse_at_center,_var(--color-primary)_0%,_transparent_90%)] before:opacity-10">{title}</h2>
         <p className="text-lg mt-12 font-light mb-28 text-center">
           {description}
         </p>

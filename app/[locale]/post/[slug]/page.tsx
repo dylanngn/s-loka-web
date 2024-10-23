@@ -2,42 +2,12 @@ import { Container } from "@/components/Container";
 import { Locale } from "@/i18n-config";
 import { getDictionary } from "@/server/get-dictionary";
 import { ChevronLeftIcon } from "@heroicons/react/24/outline";
-
-import { Facebook as FacebookIcon } from "@/components/icons/Facebook";
-import { LinkedIn as LinkedinIcon } from "@/components/icons/LinkedIn";
-import { X as XIcon } from "@/components/icons/X";
-import { Link as LinkIcon } from "@/components/icons/Link";
-import Link from "next/link";
-import { PostSnippet } from "@/components/PostSnippet";
-import { Pagination } from "@/components/Pagination";
 import { ScrollProgress } from "@/components/clients/ScrollProgress";
 import LeftTool from "@/components/LeftTool";
 import { calculateReadTime, getPostDetail, getPostsByCategory } from "@/server/get-all-post";
-import { useState } from "react";
 import RelatedPosts from "@/components/RelatedPosts";
+import { ShareButtons } from "@/components/ShareButtons";
 
-const SOCIAL_LINKS = [
-  {
-    name: "Facebook",
-    href: "https://www.facebook.com/sloka.vn",
-    icon: FacebookIcon,
-  },
-  {
-    name: "Linkedin",
-    href: "https://www.linkedin.com/company/sloka-vn",
-    icon: LinkedinIcon,
-  },
-  {
-    name: "X",
-    href: "https://www.x.com/company/sloka-vn",
-    icon: XIcon,
-  },
-  {
-    name: "link",
-    href: "https://www.s-loka.com/vi",
-    icon: LinkIcon,
-  },
-];
 
 function formatDate(date: Date) {
   const day = String(date.getDate()).padStart(2, '0');
@@ -58,6 +28,8 @@ export default async function PostDetailPage({
   const readTime = calculateReadTime(post?.content_text)
   const publishedDate = new Date(post?.date_published)
   const body = post?.content_html;
+  const url = `https://www.s-loka.com/vi/bai-doc/${slug}`
+
   return (
     <article className="relative">
       <ScrollProgress/>
@@ -79,17 +51,8 @@ export default async function PostDetailPage({
           <p className="mb-9 p-5 w-fit mx-auto text-center text-xl font-bold bg-gradient-radial from-yellow-50 to-white">
             {dict.Post.Detail.share}
           </p>
-          <div className="flex w-fit gap-12 mx-auto">
-            {SOCIAL_LINKS.map((link) => (
-              <Link className="group" key={link.name} href={link.href}>
-                <link.icon
-                  width="42"
-                  height="42"
-                  className="fill-[#98A2B3] group-hover:fill-[#0052B4]"
-                />
-              </Link>
-            ))}
-          </div>
+          
+          <ShareButtons url={url}/>
         </div>
         <RelatedPosts relatedPosts={relatedPosts} topics={dict.Post.topics} heading={dict.Post.Detail.relatedPosts} minReadText={dict.Post.Detail.minRead}/>
       </Container>
