@@ -3,14 +3,13 @@ import { Hero } from '@/components/Hero';
 import { NavLink } from '@/components/NavLink';
 import { Partners } from '@/components/Partners';
 import MasonryTestimonials, { Testimonial } from '@/components/MasonryTestimonials';
-import { Locale } from '@/i18n-config';
 import { getDictionary } from '@/server/get-dictionary';
 import Link from 'next/link';
 
 export default async function SolutionPage({
   params,
 }: {
-  params: Promise<{ locale: Locale }>;
+  params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
   const dict = await getDictionary(locale);

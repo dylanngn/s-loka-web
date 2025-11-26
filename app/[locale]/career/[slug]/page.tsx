@@ -1,7 +1,6 @@
 import styles from "./style.module.css"
 import { BackButton } from '@/components/CareerBackButton';
 import { Container } from '@/components/Container';
-import { Locale } from '@/i18n-config';
 import { getJobDetail } from '@/server/get-all-job';
 import { getDictionary } from '@/server/get-dictionary';
 import clsx from "clsx";
@@ -10,7 +9,7 @@ import Image from 'next/image';
 export default async function CareerDetailPage({
   params,
 }: {
-  params: Promise<{ slug: string; locale: Locale }>;
+  params: Promise<{ slug: string; locale: string }>;
 }) {
   const { slug, locale } = await params;
   const dict = (await getDictionary(locale))['Career']['Detail'];

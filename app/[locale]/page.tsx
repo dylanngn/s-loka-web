@@ -1,5 +1,4 @@
 import { getDictionary } from '@/server/get-dictionary';
-import { Locale } from '@/i18n-config';
 import { Hero } from '@/components/Hero';
 import { Records } from '@/components/Records';
 import { Missions } from '@/components/Missions';
@@ -10,7 +9,7 @@ import MasonryTestimonials, { Testimonial } from '@/components/MasonryTestimonia
 export default async function IndexPage({
   params,
 }: {
-  params: Promise<{ locale: Locale }>;
+  params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
   const dict = await getDictionary(locale);

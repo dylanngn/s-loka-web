@@ -1,7 +1,6 @@
 import { Suggestions } from '@/components/clients/CareerSuggestions';
 import { Container } from '@/components/Container';
 import { Hero } from '@/components/Hero';
-import { Locale } from '@/i18n-config';
 import { getCategorizedJob } from '@/server/get-all-job';
 import { getDictionary } from '@/server/get-dictionary';
 

@@ -2,14 +2,14 @@ import Link from 'next/link';
 import { Button } from '@/components/Button';
 import { Container } from '@/components/Container';
 import { getDictionary } from '@/server/get-dictionary';
-import { Locale, i18n } from '@/i18n-config';
+import { i18n } from '@/i18n-config';
 
 interface NotFoundProps {
-  params?: { locale?: Locale };
+  params?: { locale?: string };
 }
 
 export default async function NotFound({ params }: NotFoundProps = {}) {
-  let locale: Locale = params?.locale || i18n.defaultLocale;
+  let locale: string = params?.locale || i18n.defaultLocale;
   const dict = await getDictionary(locale);
   return (
     <Container className="text-center pb-16">

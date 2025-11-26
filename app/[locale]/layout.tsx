@@ -1,5 +1,4 @@
 import '@/styles/tailwind.css';
-import { Locale, i18n } from '@/i18n-config';
 import { Footer } from '@/components/Footer';
 import { Header } from '@/components/Header';
 import ContactForm from '@/components/ContactForm';
@@ -12,7 +11,7 @@ export default async function LocaleLayout({
   params,
 }: Readonly<{
   children: React.ReactNode;
-  params: Promise<{ locale: Locale }>;
+  params: Promise<{ locale: string }>;
 }>) {
   const { locale } = await params;
   const dictionary = await getDictionary(locale);

@@ -3,13 +3,12 @@ import { Hero } from '@/components/Hero';
 import { Partners } from '@/components/Partners';
 import MasonryTestimonials, { Testimonial } from '@/components/MasonryTestimonials';
 import { AboutScrollSection } from '@/components/clients/AboutScrollSection';
-import { Locale } from '@/i18n-config';
 import { getDictionary } from '@/server/get-dictionary';
 
 export default async function AboutPage({
   params,
 }: {
-  params: Promise<{ locale: Locale }>;
+  params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
   const dict = await getDictionary(locale);

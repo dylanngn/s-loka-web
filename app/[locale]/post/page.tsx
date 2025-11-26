@@ -1,14 +1,13 @@
 import { Container } from "@/components/Container";
 import { Hero } from "@/components/Hero";
 import { PostTabs } from "@/components/PostTabs";
-import { Locale } from "@/i18n-config";
 import { getCategorizedPosts } from "@/server/get-all-post";
 import { getDictionary } from "@/server/get-dictionary";
 
 export default async function AboutPage({
   params,
 }: {
-  params: Promise<{ locale: Locale }>;
+  params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
   const dict = await getDictionary(locale);

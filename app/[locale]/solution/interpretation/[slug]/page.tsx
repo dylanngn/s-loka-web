@@ -1,5 +1,4 @@
 import { Hero } from "@/components/Hero";
-import { Locale } from "@/i18n-config";
 import { getDictionary } from "@/server/get-dictionary";
 import Languages from "@/components/Languages";
 import Services from "@/components/Services";
@@ -37,7 +36,7 @@ const getKeyFromSlug = (slug: Slug) => o[slug];
 export default async function InterpretationServiceDetail({
   params,
 }: {
-  params: Promise<{ locale: Locale; slug: Slug }>;
+  params: Promise<{ locale: string; slug: Slug }>;
 }) {
   const { locale, slug } = await params;
   const dict = await getDictionary(locale);

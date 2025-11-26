@@ -2,7 +2,6 @@ import { Container } from '@/components/Container';
 import { Hero } from '@/components/Hero';
 import { Partners } from '@/components/Partners';
 import MasonryTestimonials, { Testimonial } from '@/components/MasonryTestimonials';
-import { Locale } from '@/i18n-config';
 import { getDictionary } from '@/server/get-dictionary';
 import Link from 'next/link';
 import { Banking } from '@/components/icons/Banking';
@@ -33,7 +32,7 @@ const ICONS = {
 export default async function ServicePage({
   params,
 }: {
-  params: Promise<{ locale: Locale }>;
+  params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
   const dict = await getDictionary(locale);

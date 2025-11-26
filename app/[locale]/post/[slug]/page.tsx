@@ -1,5 +1,4 @@
 import { Container } from "@/components/Container";
-import { Locale } from "@/i18n-config";
 import { getDictionary } from "@/server/get-dictionary";
 import { ChevronLeftIcon } from "@heroicons/react/24/outline";
 import { ScrollProgress } from "@/components/clients/ScrollProgress";
@@ -19,7 +18,7 @@ function formatDate(date: Date) {
 export default async function PostDetailPage({
   params,
 }: {
-  params: Promise<{ slug: string; locale: Locale }>;
+  params: Promise<{ slug: string; locale: string }>;
 }) {
   const { slug, locale } = await params;
   const dict = await getDictionary(locale);

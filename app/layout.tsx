@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { Inter, Lexend } from 'next/font/google';
 import clsx from 'clsx';
 import '@/styles/tailwind.css';
-import { Locale, i18n } from '@/i18n-config';
+import { i18n } from '@/i18n-config';
 export const runtime = 'edge';
 
 // export async function generateStaticParams() {
@@ -34,7 +34,7 @@ export default async function RootLayout({
   params,
 }: Readonly<{
   children: React.ReactNode;
-  params: Promise<{ locale: Locale }>;
+  params: Promise<{ locale: string }>;
 }>) {
   const { locale } = await params;
   return (

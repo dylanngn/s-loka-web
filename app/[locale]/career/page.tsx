@@ -1,5 +1,4 @@
 import { Container } from '@/components/Container';
-import { Locale } from '@/i18n-config';
 import { getDictionary } from '@/server/get-dictionary';
 import {
   UserPlusIcon,
@@ -23,7 +22,7 @@ const ICONS = {
 export default async function CareerPage({
   params,
 }: {
-  params: Promise<{ locale: Locale }>;
+  params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
   const dict = (await getDictionary(locale))['Career']['Main'];
