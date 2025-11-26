@@ -10,7 +10,7 @@ export default async function CareerLayout({
   params,
 }: Readonly<{
   children: React.ReactNode;
-  params: Promise<{ locale: Locale }>;
+  params: Promise<{ locale: string }>;
 }>) {
   const { locale } = await params;
   const jobs = await getCategorizedJob();
