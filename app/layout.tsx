@@ -29,17 +29,14 @@ export const metadata: Metadata = {
   description: 'Giải pháp ngôn ngữ toàn cầu doanh nghiệp',
 };
 
-export default async function RootLayout({
+export default function RootLayout({
   children,
-  params,
 }: Readonly<{
   children: React.ReactNode;
-  params: Promise<{ locale: string }>;
 }>) {
-  const { locale } = await params;
   return (
     <html
-      lang={locale}
+      lang={i18n.defaultLocale}
       className={clsx(
         'h-full scroll-smooth bg-white antialiased',
         inter.variable,

@@ -2,7 +2,6 @@ import { Container } from '@/components/Container';
 import { Badge } from '@/components/icons/Badge';
 import { Clipper } from '@/components/icons/Clipper';
 import { Message } from '@/components/icons/Message';
-import { Locale } from '@/i18n-config';
 import { getDictionary } from '@/server/get-dictionary';
 
 const ICONS = {
@@ -11,7 +10,7 @@ const ICONS = {
   unleash: Message,
 } as any;
 
-export async function Missions({ lang }: { lang: Locale }) {
+export async function Missions({ lang }: { lang: string }) {
   const dict = (await getDictionary(lang))['Home']['Missions'];
   return (
     <Container className="pb-16 pt-20 text-center lg:pt-24">
