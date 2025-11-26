@@ -9,7 +9,7 @@ import Negotiator from "negotiator";
 function getLocale(request: NextRequest): string | undefined {
   // Ưu tiên lấy lang từ cookie trước
   const cookieLang = request.cookies.get("s-loka-lang")?.value;
-  if (cookieLang && i18n.locales.includes(cookieLang)) {
+  if (cookieLang && (i18n.locales as readonly string[]).includes(cookieLang)) {
     return cookieLang;
   }
   // Negotiator expects plain object so we need to transform headers

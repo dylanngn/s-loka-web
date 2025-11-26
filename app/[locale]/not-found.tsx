@@ -6,8 +6,8 @@ import { i18n } from '@/i18n-config';
 
 export default async function NotFound() {
   const cookieStore = await cookies();
-  const cookieLang = cookieStore.get('s-loka-lang')?.value as string | undefined;
-  const locale: string = (i18n.locales as readonly string[]).includes(cookieLang || '')
+  const cookieLang = cookieStore.get('s-loka-lang')?.value;
+  const locale: string = cookieLang && (i18n.locales as readonly string[]).includes(cookieLang)
     ? cookieLang
     : i18n.defaultLocale;
 
