@@ -7,14 +7,15 @@ import { getDictionary } from '@/server/get-dictionary';
 
 export default async function CareerLayout({
   children,
-  params: { lang },
+  params,
 }: Readonly<{
   children: React.ReactNode;
-  params: { lang: Locale };
+  params: Promise<{ locale: Locale }>;
 }>) {
+  const { locale } = await params;
   const jobs = await getCategorizedJob();
-  const dict = await getDictionary(lang);
-  const suggestionDict = (await getDictionary(lang))['Career']['Suggestion'];
+  const dict = await getDictionary(locale);
+  const suggestionDict = (await getDictionary(locale))['Career']['Suggestion'];
   return (
     <>
       <Hero {...dict.Career.Hero} />

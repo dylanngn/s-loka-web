@@ -212,7 +212,7 @@ export function AboutMenu({ label, href, items }: AboutMenuProps) {
     >
       <NavLink href={href}>{label}</NavLink>
       <MenuTransition open={openService}>
-        <PopoverPanel className="absolute -right-20 z-10 top-16 mt-0.5 flex w-screen max-w-max -translate-x-1/3 px-4 bg-white border-b-2 shadow-sm rounded-b-xl">
+        <PopoverPanel className="absolute left-[65%] z-10 top-16 mt-0.5 -translate-x-1/2 flex w-screen max-w-max px-4 bg-white border-b-2 shadow-sm rounded-b-xl">
           <div className="mx-auto grid grid-cols-1 gap-x-8 gap-y-2 px-2 py-4 lg:px-8">
             {items.map((item) => (
               <NavLink key={item.label} href={item.href}>

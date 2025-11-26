@@ -7,6 +7,11 @@ import { match as matchLocale } from "@formatjs/intl-localematcher";
 import Negotiator from "negotiator";
 
 function getLocale(request: NextRequest): string | undefined {
+  // Ưu tiên lấy lang từ cookie trước
+  const cookieLang = request.cookies.get("s-loka-lang")?.value;
+  if (cookieLang && i18n.locales.includes(cookieLang)) {
+    return cookieLang;
+  }
   // Negotiator expects plain object so we need to transform headers
   const negotiatorHeaders: Record<string, string> = {};
   request.headers.forEach((value, key) => (negotiatorHeaders[key] = value));
@@ -16,7 +21,7 @@ function getLocale(request: NextRequest): string | undefined {
 
   // Use negotiator and intl-localematcher to get best locale
   let languages = new Negotiator({ headers: negotiatorHeaders }).languages(
-    locales,
+    locales
   );
 
   const locale = matchLocale(languages, locales, i18n.defaultLocale);
@@ -29,18 +34,19 @@ export function middleware(request: NextRequest) {
 
   if (
     [
-      '/manifest.json',
-      '/favicon.ico',
-      '/footer-bg.png'
+      "/manifest.json",
+      "/favicon.ico",
+      "/footer-bg.png",
       // Your other files in `public`
     ].includes(pathname)
   )
-    return
+    return;
+
+  const cookieLang = request.cookies.get("s-loka-lang")?.value;
 
   // Check if there is any supported locale in the pathname
   const pathnameIsMissingLocale = i18n.locales.every(
-    (locale) =>
-      !pathname.startsWith(`/${locale}/`) && pathname !== `/${locale}`,
+    (locale) => !pathname.startsWith(`/${locale}/`) && pathname !== `/${locale}`
   );
 
   // Redirect if there is no locale
@@ -52,9 +58,27 @@ export function middleware(request: NextRequest) {
     return NextResponse.redirect(
       new URL(
         `/${locale}${pathname.startsWith("/") ? "" : "/"}${pathname}`,
-        request.url,
-      ),
+        request.url
+      )
     );
+  }
+
+  // If URL already has a locale, respect it and update cookie to match
+  const localeInPath = i18n.locales.find(
+    (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`
+  );
+
+  if (localeInPath) {
+    const cookieLang = request.cookies.get("s-loka-lang")?.value;
+    // If cookie doesn't match URL locale, update cookie to match URL
+    if (cookieLang !== localeInPath) {
+      const response = NextResponse.next();
+      response.cookies.set("s-loka-lang", localeInPath, {
+        path: "/",
+        maxAge: 31536000, // 1 year
+      });
+      return response;
+    }
   }
 }
 

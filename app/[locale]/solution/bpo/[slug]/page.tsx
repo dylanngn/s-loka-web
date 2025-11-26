@@ -8,13 +8,18 @@ import { Partners } from "@/components/Partners";
 import MasonryTestimonials, {
   Testimonial,
 } from "@/components/MasonryTestimonials";
-import ContactForm from "@/components/ContactForm";
 import Processes from "@/components/Processes";
+import { notFound } from "next/navigation";
 
 const o = {
+  // VI
   "ho-tro-ai": "AIAssistant",
   "call-center": "CallCenter",
   "so-hoa-tai-lieu": "Digitization",
+  // EN
+  "ai-assistant": "AIAssistant",
+  "ai-support": "AIAssistant",
+  "digitization": "Digitization",
 } as const;
 
 type Slug = keyof typeof o;
@@ -34,20 +39,23 @@ interface MainService {
 }
 
 export default async function BPOServiceDetail({
-  params: { lang, slug },
+  params,
 }: {
-  params: { lang: Locale; slug: Slug };
+  params: Promise<{ locale: Locale; slug: Slug }>;
 }) {
-  const dict = await getDictionary(lang);
-  const key = getKeyFromSlug(slug) as ServiceKey;
+  const { locale, slug } = await params;
+  const dict = await getDictionary(locale);
+  const key = getKeyFromSlug(slug) as ServiceKey | undefined;
+  if (!key) return notFound();
   const bpo = dict.Solution.items.BPO;
-  const mainService = bpo.services[key] as unknown as MainService;
-  const services = Object.entries(mainService.items);
+  const mainService = bpo.services?.[key] as unknown as MainService | undefined;
+  if (!mainService) return notFound();
+  const services = Object.entries(mainService.items ?? {});
   const processes = mainService.processes
   ? Object.values(mainService.processes)
   : null;
-  const benefits = mainService.benefits
-  const reasons = mainService.reasons as Record<string, Reason>;
+  const benefits = mainService.benefits;
+  const reasons = (mainService.reasons as Record<string, Reason>) ?? {};
   const testimonials = Object.values(dict.Testimonial.masonry) as [Testimonial];
 
   return (
@@ -82,8 +90,6 @@ export default async function BPOServiceDetail({
         description={dict.Testimonial.description}
         testimonials={testimonials}
       />
-
-      <ContactForm {...dict.ContactForm} />
     </>
   );
 }

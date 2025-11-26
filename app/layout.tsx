@@ -5,9 +5,9 @@ import '@/styles/tailwind.css';
 import { Locale, i18n } from '@/i18n-config';
 export const runtime = 'edge';
 
-export async function generateStaticParams() {
-  return i18n.locales.map((locale) => ({ lang: locale }));
-}
+// export async function generateStaticParams() {
+//   return i18n.locales.map((locale) => ({ lang: locale }));
+// }
 
 const inter = Inter({
   subsets: ['latin'],
@@ -31,14 +31,15 @@ export const metadata: Metadata = {
 
 export default async function RootLayout({
   children,
-  params: { lang },
+  params,
 }: Readonly<{
   children: React.ReactNode;
-  params: { lang: Locale };
+  params: Promise<{ locale: Locale }>;
 }>) {
+  const { locale } = await params;
   return (
     <html
-      lang={lang}
+      lang={locale}
       className={clsx(
         'h-full scroll-smooth bg-white antialiased',
         inter.variable,

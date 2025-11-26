@@ -6,11 +6,12 @@ import { getCategorizedPosts } from "@/server/get-all-post";
 import { getDictionary } from "@/server/get-dictionary";
 
 export default async function AboutPage({
-  params: { lang },
+  params,
 }: {
-  params: { lang: Locale };
+  params: Promise<{ locale: Locale }>;
 }) {
-  const dict = await getDictionary(lang);
+  const { locale } = await params;
+  const dict = await getDictionary(locale);
   const posts = await getCategorizedPosts()
   return (
     <>
@@ -21,7 +22,7 @@ export default async function AboutPage({
           posts={posts}
           leading={dict.Post.topicLeading}
           topics={dict.Post.topics}
-          lang={lang}
+          lang={locale}
           readTimeText={dict.Post.Detail.minRead}
         />
       </Container>

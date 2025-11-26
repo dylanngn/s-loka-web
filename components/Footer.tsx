@@ -15,27 +15,27 @@ import { TikTok as TikTokIcon } from "@/components/icons/TikTok";
 const SOCIAL_LINKS = [
   {
     name: "Facebook",
-    href: "https://www.facebook.com/sloka.vn",
+    href: "https://www.facebook.com/SLoka.LSP/",
     icon: FacebookIcon,
   },
   {
     name: "Instagram",
-    href: "https://www.instagram.com/sloka.vn",
+    href: "https://www.instagram.com/s_loka_translation_services",
     icon: InstagramIcon,
   },
   {
     name: "Linkedin",
-    href: "https://www.linkedin.com/company/sloka-vn",
+    href: "https://www.linkedin.com/company/s-loka-translation-services",
     icon: LinkedinIcon,
   },
-  {
-    name: "Youtube",
-    href: "https://www.youtube.com/channel/UCbqo6Fw7L7Lm8Z8Qc4bZ5Xg",
-    icon: YoutubeIcon,
-  },
+  // {
+  //   name: "Youtube",
+  //   href: "https://www.youtube.com/channel/UCbqo6Fw7L7Lm8Z8Qc4bZ5Xg",
+  //   icon: YoutubeIcon,
+  // },
   {
     name: "TikTok",
-    href: "https://www.youtube.com/channel/UCbqo6Fw7L7Lm8Z8Qc4bZ5Xg",
+    href: "https://www.tiktok.com/@sloka_dichthuat",
     icon: TikTokIcon,
   },
 ];

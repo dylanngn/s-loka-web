@@ -6,12 +6,19 @@ import Services from "@/components/Services";
 import Reasons, { Reason } from "@/components/Reasons";
 import { Partners } from "@/components/Partners";
 import MasonryTestimonials, { Testimonial } from "@/components/MasonryTestimonials";
-import ContactForm from "@/components/ContactForm";
 import Processes from "@/components/Processes";
+import { notFound } from "next/navigation";
 
+// Map VI and EN slugs to service keys
 const o = {
+  // VI
   "dich-thuat-cong-chung": "Notary",
   "dich-thuat-chuyen-nganh": "Major",
+  // EN
+  "notarized": "Notary",
+  "major": "Major",
+  "specialized": "Major",
+  "industry": "Major",
 } as const;
 type Slug = keyof typeof o;
 type ServiceKey = (typeof o)[keyof typeof o];
@@ -19,16 +26,26 @@ type ServiceKey = (typeof o)[keyof typeof o];
 const getKeyFromSlug = (slug: Slug) => o[slug];
 
 export default async function TranslationServiceDetail({
-  params: { lang, slug },
+  params,
 }: {
-  params: { lang: Locale; slug: Slug };
+  params: Promise<{ locale: Locale; slug: Slug }>;
 }) {
-  const dict = await getDictionary(lang);
-  const key = getKeyFromSlug(slug) as ServiceKey;
+  const { locale, slug } = await params;
+  const dict = await getDictionary(locale);
+  const key = getKeyFromSlug(slug) as ServiceKey | undefined;
+  if (!key) {
+    return notFound();
+  }
   const translation = dict.Solution.items.Translation;
-  const mainService = translation.services[key];
-  const services = Object.entries(mainService.items);
-  const processes = Object.values(mainService.processes);
+  if (!translation) {
+    return notFound();
+  }
+  const mainService = translation.services?.[key];
+  if (!mainService) {
+    return notFound();
+  }
+  const services = Object.entries(mainService.items ?? {});
+  const processes = Object.values(mainService.processes ?? {});
   const reasons = mainService.reasons as Record<string, Reason>;
   const testimonials = Object.values(dict.Testimonial.masonry) as [Testimonial];
 
@@ -62,8 +79,6 @@ export default async function TranslationServiceDetail({
         description={dict.Testimonial.description}
         testimonials={testimonials}
       />
-
-      <ContactForm {...dict.ContactForm} />
     </>
   );
 }

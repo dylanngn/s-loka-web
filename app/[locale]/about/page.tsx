@@ -1,17 +1,19 @@
 import { Container } from '@/components/Container';
 import { Hero } from '@/components/Hero';
 import { Partners } from '@/components/Partners';
-import { Testimonials } from '@/components/Testimonials';
+import MasonryTestimonials, { Testimonial } from '@/components/MasonryTestimonials';
 import { AboutScrollSection } from '@/components/clients/AboutScrollSection';
 import { Locale } from '@/i18n-config';
 import { getDictionary } from '@/server/get-dictionary';
 
 export default async function AboutPage({
-  params: { lang },
+  params,
 }: {
-  params: { lang: Locale };
+  params: Promise<{ locale: Locale }>;
 }) {
-  const dict = await getDictionary(lang);
+  const { locale } = await params;
+  const dict = await getDictionary(locale);
+  const testimonials = Object.values(dict.Testimonial.masonry) as [Testimonial];
   return (
     <>
       <Hero
@@ -48,7 +50,11 @@ export default async function AboutPage({
         })}
       </Container>
       <Partners title={dict.Partners.title} />
-      <Testimonials {...dict.Testimonial} />
+      <MasonryTestimonials
+        title={dict.Testimonial.title}
+        description={dict.Testimonial.description}
+        testimonials={testimonials}
+      />
     </>
   );
 }

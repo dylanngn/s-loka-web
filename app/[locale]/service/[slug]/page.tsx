@@ -7,10 +7,12 @@ import Reasons, { Reason } from "@/components/Reasons";
 import MasonryTestimonials, {
   Testimonial,
 } from "@/components/MasonryTestimonials";
-import ContactForm from "@/components/ContactForm";
 import Services from "@/components/Services";
+import { notFound } from "next/navigation";
 
+// Map both VI and EN slugs to dictionary keys
 const o = {
+  // VI slugs
   "dich-vu-khach-san": "hotelService",
   "quang-cao": "marketing",
   "tai-chinh-ngan-hang": "financeBanking",
@@ -21,7 +23,20 @@ const o = {
   "khoa-hoc-doi-song": "lifeScience",
   "cong-nghe-thong-tin": "IT",
   "tu-dong-hoa": "automation",
-};
+  // EN slugs
+  "hotel-service": "hotelService",
+  "marketing": "marketing",
+  "finance-banking": "financeBanking",
+  "ecommerce": "ecommerce",
+  "retail": "retail",
+  "car-manufacturing": "carManufacturing",
+  "energy": "energy",
+  "life-science": "lifeScience",
+  "information-technology": "IT",
+  "it": "IT",
+  "advertising": "marketing",
+  "automation": "automation",
+} as const;
 type DictServiceKey =
   | "hotelService"
   | "marketing"
@@ -38,14 +53,21 @@ type Slug = keyof typeof o;
 const getKeyFromSlug = (slug: Slug) => o[slug];
 
 export default async function ServiceDetailPage({
-  params: { slug, lang },
+  params,
 }: {
-  params: { slug: string; lang: Locale };
+  params: Promise<{ slug: string; locale: Locale }>;
 }) {
-  const dict = await getDictionary(lang);
-  const objectKey = getKeyFromSlug(slug as Slug) as DictServiceKey;
+  const { slug, locale } = await params;
+  const dict = await getDictionary(locale);
+  const objectKey = getKeyFromSlug(slug as Slug) as DictServiceKey | undefined;
+  if (!objectKey) {
+    return notFound();
+  }
   const mainService = dict.Service.items[objectKey];
-  const services = Object.entries(mainService.services);
+  if (!mainService) {
+    return notFound();
+  }
+  const services = Object.entries(mainService.services ?? {});
   const languages = dict.UtilizedLanguages;
   const reasons = mainService.reasons as Record<string, Reason>;
   const testimonials = Object.values(dict.Testimonial.masonry) as [Testimonial];
@@ -75,8 +97,6 @@ export default async function ServiceDetailPage({
         description={dict.Testimonial.description}
         testimonials={testimonials}
       />
-
-      <ContactForm {...dict.ContactForm} />
     </article>
   );
 }

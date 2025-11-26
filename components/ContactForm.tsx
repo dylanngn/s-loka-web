@@ -1,8 +1,9 @@
-'use client';
+"use client";
+import React from 'react';
 import { Button } from '@/components/Button';
 import { Container } from '@/components/Container';
 import { AreaField, TextField } from '@/components/Fields';
-import { useFormState, useFormStatus } from 'react-dom';
+import { useFormStatus } from 'react-dom';
 import {
   ContactRequest,
   createContactRequest,
@@ -29,7 +30,7 @@ export default function ContactForm({
   buttonLabel: string;
   fields: ContactRequest;
 }) {
-  const [state, formAction] = useFormState(createContactRequest, initialState);
+  const [state, formAction] = React.useActionState(createContactRequest, initialState);
 
   return (
     <Container id="contact" className="relative before:absolute before:inset-0 before:-z-10 before:bg-[radial-gradient(ellipse_at_center,_var(--color-primary)_0%,_transparent_80%)] before:opacity-15">

@@ -17,11 +17,12 @@ function formatDate(date: Date) {
 }
 
 export default async function PostDetailPage({
-  params: { slug, lang },
+  params,
 }: {
-  params: { slug: string; lang: Locale };
+  params: Promise<{ slug: string; locale: Locale }>;
 }) {
-  const dict = await getDictionary(lang);
+  const { slug, locale } = await params;
+  const dict = await getDictionary(locale);
   const post = await getPostDetail(slug);
   const category = post?.category;
   const relatedPosts = await getPostsByCategory(category)

@@ -2,20 +2,26 @@ import '@/styles/tailwind.css';
 import { Locale, i18n } from '@/i18n-config';
 import { Footer } from '@/components/Footer';
 import { Header } from '@/components/Header';
+import ContactForm from '@/components/ContactForm';
 import { getDictionary } from '@/server/get-dictionary';
+import { PageLoader } from '@/components/clients/PageLoader';
 export const runtime = 'edge';
 
 export default async function LocaleLayout({
   children,
-  params: { lang },
+  params,
 }: Readonly<{
   children: React.ReactNode;
-  params: { lang: Locale };
+  params: Promise<{ locale: Locale }>;
 }>) {
-  const dict = (await getDictionary(lang))['Menu'];
+  const { locale } = await params;
+  const dictionary = await getDictionary(locale);
+  const dict = dictionary['Menu'];
+  const contactFormDict = dictionary['ContactForm'];
 
   return (
     <>
+      <PageLoader />
       <Header
         home={{ label: dict.home.title, href: dict.home.href }}
         about={{
@@ -48,10 +54,11 @@ export default async function LocaleLayout({
         }}
       />
       <main>{children}</main>
+      <ContactForm {...contactFormDict} />
       <Footer
         info={{
           address:
-            '47 Trương Quyền, Phường Võ Thị Sáu, Quận 03, TP.HCM, Việt Nam',
+            '284/34B Lê Văn Sỹ, Phường Nhiêu Lộc, TP.Hồ Chí Minh, Việt Nam',
           phone: '+84 342 445 442',
           email: 'hello@s-loka.com',
         }}
