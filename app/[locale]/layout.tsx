@@ -17,6 +17,7 @@ export default async function LocaleLayout({
   const dictionary = await getDictionary(locale);
   const dict = dictionary['Menu'];
   const contactFormDict = dictionary['ContactForm'];
+  const footerDict = dictionary['Footer'];
 
   return (
     <>
@@ -56,12 +57,11 @@ export default async function LocaleLayout({
       <ContactForm {...contactFormDict} />
       <Footer
         info={{
-          address:
-            '284/34B Lê Văn Sỹ, Phường Nhiêu Lộc, TP.Hồ Chí Minh, Việt Nam',
+          address: footerDict.address,
           phone: '+84 342 445 442',
           email: 'hello@s-loka.com',
         }}
-        copyRight="Bản quyền thuộc về CÔNG TY CỔ PHẦN DỊCH VỤ S-LOKA"
+        copyRight={footerDict.copyright}
         menu1={{
           label: dict.solution.sub.localization.title,
           items: Object.values(dict.solution.sub.localization.sub).map(

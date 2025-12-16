@@ -50,6 +50,8 @@ const config: Config = {
         'infinite-scroll': 'infinite-scroll 25s linear infinite',
         'infinite-scroll-slow-left': 'infinite-scroll 80s linear infinite',
         'infinite-scroll-slow-right': 'infinite-scroll-reverse 80s linear infinite',
+        'infinite-scroll-fast-left': 'infinite-scroll 10s linear infinite',
+        'infinite-scroll-fast-right': 'infinite-scroll-reverse 10s linear infinite',
       },
       keyframes: {
         'infinite-scroll': {

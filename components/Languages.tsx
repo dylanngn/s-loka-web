@@ -73,7 +73,7 @@ export default function Languages({
         {title}
       </h2>
       <div className="overflow-x-hidden">
-        <ul className="animate-infinite-scroll-slow-left flex items-center justify-center md:justify-start mb-7 [&_img]:max-w-none [&_li]:mx-8">
+        <ul className="animate-infinite-scroll-fast-left md:animate-infinite-scroll-slow-left flex items-center justify-center md:justify-start mb-7 [&_img]:max-w-none [&_li]:mx-8">
           {firstRow.map(([key, value], index) => (
             <li
               key={index}
@@ -88,7 +88,7 @@ export default function Languages({
             </li>
           ))}
         </ul>
-        <ul className="animate-infinite-scroll-slow-right flex items-center justify-center md:justify-start mb-7 [&_img]:max-w-none [&_li]:mx-8">
+        <ul className="animate-infinite-scroll-fast-right md:animate-infinite-scroll-slow-right flex items-center justify-center md:justify-start mb-7 [&_img]:max-w-none [&_li]:mx-8">
           {secondRow.map(([key, value], index) => (
             <li
               key={index}
@@ -103,7 +103,7 @@ export default function Languages({
             </li>
           ))}
         </ul>
-        <ul className="animate-infinite-scroll-slow-left flex items-center justify-center md:justify-start [&_img]:max-w-none [&_li]:mx-8">
+        <ul className="animate-infinite-scroll-fast-left md:animate-infinite-scroll-slow-left flex items-center justify-center md:justify-start [&_img]:max-w-none [&_li]:mx-8">
           {thirdRow.map(([key, value], index) => (
             <li
               key={index}

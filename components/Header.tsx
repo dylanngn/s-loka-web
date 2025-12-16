@@ -44,15 +44,18 @@ export function Header({
             <ServiceMenu {...service} />
             <AboutMenu {...about} />
           </div>
-          <LanguageSwitcher />
-          <Button href="#contact">{contact.label}</Button>
+          <div className="hidden md:block">
+            <LanguageSwitcher />
+          </div>
+          <div className="hidden md:block">
+            <Button href="#contact">{contact.label}</Button>
+          </div>
           <MobileMenu
-            menu={[
-              home,
-              { label: solution.label, href: solution.href },
-              { label: service.label, href: service.href },
-              about,
-            ]}
+            home={home}
+            solution={solution}
+            service={service}
+            about={about}
+            contact={contact}
           />
         </div>
       </nav>

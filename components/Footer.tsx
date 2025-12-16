@@ -77,7 +77,7 @@ export async function Footer({
         Footer
       </h2>
       <div className="mx-auto max-w-7xl px-6 pb-8 lg:px-8">
-        <div className="border-b flex flex-wrap justify-between gap-y-5 pt-8 sm:pt-10 lg:pt-12 pb-6 sm:pb-8 lg:pb-10 mb-16">
+        <div className="border-b flex flex-wrap justify-between gap-y-5 pt-8 sm:pt-10 lg:pt-12 pb-6 sm:pb-8 lg:pb-10 mb-10">
           <Image className="h-16 w-auto" src={logoImg} alt="Company name" />
           <p className="text-sm leading-6 text-gray-300">
             <PhoneIcon className="h-4 w-4 mr-2 inline-block" />
@@ -101,7 +101,7 @@ export async function Footer({
           </p>
         </div>
 
-        <div className="flex flex-wrap justify-between gap-y-14 gap-x-5 mb-14 lg:mb-0">
+        <div className="hidden md:flex flex-wrap justify-between gap-y-14 gap-x-5 mb-14 lg:mb-0">
           <div>
             <h3 className="text-sm font-semibold leading-6 text-white">
               {menu1.label}
@@ -202,7 +202,7 @@ export async function Footer({
           ))}
         </div>
         <div className="mt-8 sm:mt-10 lg:mt-12 border-t border-white/10 pt-8">
-          <p className="text-xs leading-5 text-center text-gray-400">
+          <p className="text-xs leading-5 text-center text-gray-400 whitespace-pre-line md:whitespace-normal">
             &copy; {copyRight}
           </p>
         </div>

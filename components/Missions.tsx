@@ -14,7 +14,9 @@ export async function Missions({ lang }: { lang: string }) {
   const dict = (await getDictionary(lang))['Home']['Missions'];
   return (
     <Container className="pb-16 pt-20 text-center lg:pt-24">
-      <h2 className="text-xl font-semibold text-slate-900">{dict.title}</h2>
+      <h2 className="text-xl font-semibold text-slate-900 whitespace-pre-line md:whitespace-normal">
+        {dict.title}
+      </h2>
       <div className="sm:mt-18 mx-auto mt-16 max-w-2xl lg:mt-20 lg:max-w-none">
         <dl className="grid max-w-xl grid-cols-1 gap-x-12 gap-y-16 lg:max-w-none lg:grid-cols-3">
           {Object.entries(dict.items).map(([key, value]) => {
@@ -31,7 +33,9 @@ export async function Missions({ lang }: { lang: string }) {
                   {value.title}
                 </dt>
                 <dd className="mt-1 flex flex-auto flex-col text-base leading-7 text-gray-600">
-                  <p className="flex-auto">{value.description}</p>
+                  <p className="flex-auto whitespace-pre-line md:whitespace-normal">
+                    {value.description}
+                  </p>
                 </dd>
               </div>
             );

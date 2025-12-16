@@ -22,7 +22,6 @@
         }
       }
     },
-
     "Missions": {
       "title": "Unleash all language power",
       "items": {
@@ -221,7 +220,7 @@
     "Hero": {
       "title": "Cooperation",
       "message": "with S-LOKA",
-      "description" : "Partner to succeed together on the path of language solutions"
+      "description": "Partner to succeed together on the path of language solutions"
     },
     "Content": {
       "title": "Collaborate to win",
@@ -712,88 +711,88 @@
           },
           "Major": {
             "Hero": {
-              "title": "Dịch thuật chuyên ngành",
-              "description": "Hãy cùng tìm hiểu giải pháp dịch thuật chuyên ngành tại S-Loka"
+              "title": "Industry-Specialized Translation",
+              "description": "Explore specialized translation solutions at S-Loka"
             },
-            "serviceHeading": "Các lĩnh vực dịch thuật chuyên môn của chúng tôi cho giải pháp này",
-            "serviceEnding": "Và chúng tôi còn rất nhiều dịch vụ dịch thuật chuyên ngành khác có thể triển khai theo nhu cầu của bạn",
+            "serviceHeading": "Our specialized translation fields for this solution",
+            "serviceEnding": "And we offer many other specialized translation services tailored to your needs",
             "items": {
               "01": {
-                "title": "DỊCH THUẬT CHUYÊN NGÀNH KINH TẾ-TÀI CHÍNH",
-                "description": "Dịch thuật báo cáo tài chính, dịch thuật hợp đồng thương mại, dịch thuật nghiên cứu\n thị trường, dịch thuật tài liệu phân tích tài chính, dịch thuật kế hoạch kinh doanh,\n dịch thuật báo cáo kiểm toán,..."
+                "title": "FINANCIAL-ECONOMIC TRANSLATION",
+                "description": "Financial statement translation, commercial contract translation, market research translation,\n financial analysis document translation, business plan translation,\n audit report translation,..."
               },
               "02": {
-                "title": "DỊCH THUẬT CHUYÊN NGÀNH Y TẾ",
-                "description": "Dịch thuật hồ sơ bệnh án, dịch thuật báo cáo y tế, dịch thuật tài liệu hướng dẫn\n sử dụng thuốc, dịch thuật nghiên cứu khoa học, dịch thuật\n hợp đồng nghiên cứu, dịch thuật tài liệu đào tạo y tế,... "
+                "title": "MEDICAL TRANSLATION",
+                "description": "Medical record translation, medical report translation, drug instruction leaflet translation,\n scientific research translation, research contract translation,\n medical training document translation,..."
               },
               "03": {
-                "title": "DỊCH THUẬT CHUYÊN NGÀNH KỸ THUẬT SẢN XUẤT Ô TÔ",
-                "description": "Dịch thuật sách hướng dẫn sử dụng xe, dịch thuật tài liệu kỹ thuật,\n dịch thuật bản vẽ kỹ thuật, dịch thuật hợp đồng mua bán phụ tùng,\n dịch thuật báo cáo kiểm tra chất lượng, dịch thuật\n tài liệu đào tạo kỹ thuật,..."
+                "title": "AUTOMOTIVE ENGINEERING TRANSLATION",
+                "description": "Car manual translation, technical document translation,\n technical drawing translation, spare parts sales contract translation,\n quality inspection report translation, technical training document translation,..."
               },
               "04": {
-                "title": "DỊCH THUẬT CHUYÊN NGÀNH DỊCH VỤ DU LỊCH",
-                "description": "Dịch thuật trang web du lịch, dịch thuật cẩm nang du lịch,\n dịch thuật thực đơn nhà hàng, dịch thuật chương trình du lịch,\n dịch thuật lịch trình du lịch, dịch thuật hợp đồng du lịch,..."
+                "title": "TOURISM SERVICE TRANSLATION",
+                "description": "Tourism website translation, travel guidebook translation,\n restaurant menu translation, tour program translation,\n travel itinerary translation, tourism contract translation,..."
               },
               "05": {
-                "title": "DỊCH THUẬT CHUYÊN NGÀNH NHÀ HÀNG-KHÁCH SẠN",
-                "description": "Dịch thuật thực đơn, dịch thuật website nhà hàng/khách sạn,\n dịch thuật tài liệu quảng cáo, dịch thuật hướng dẫn sử dụng dịch vụ,\n dịch thuật quy định nội bộ, dịch thuật hợp đồng dịch vụ,..."
+                "title": "HOSPITALITY TRANSLATION",
+                "description": "Menu translation, restaurant/hotel website translation,\n advertising material translation, service manual translation,\n internal regulation translation, service contract translation,..."
               }
             },
             "processes": {
               "1": {
-                "title": "Tiếp nhận yêu cầu",
+                "title": "Request Reception",
                 "descriptions": {
-                  "1": "S-Loka sẽ nhận những yêu cầu từ phía khách hàng thông qua những thông tin như: cặp ngôn ngữ nguồn và ngôn ngữ đích, chuyên môn, lĩnh vực dịch thuật, thời gian và địa điểm diễn ra, số người tham gia..."
+                  "1": "S-Loka receives customer requests including: source/target language pairs, specialty, translation field, timeline and location, number of participants..."
                 }
               },
               "2": {
-                "title": "Kế hoạch và hợp đồng",
+                "title": "Planning & Contract",
                 "descriptions": {
-                  "1": "Dựa trên kết quả phân tích, đội ngũ quản lý dự án sẽ lựa chọn đội ngũ biên dịch viên phù hợp với chuyên môn & kinh nghiệm để đảm bảo chất lượng bản dịch tốt nhất.",
-                  "2": "Khách hàng sẽ nhận được kế hoạch triển khai công việc. Sau khi đồng ý với kế hoạch, hợp đồng sẽ được ký kết và thực hiện khoản thanh toán đầu tiên."
+                  "1": "Based on analysis, project managers select the most suitable linguists with relevant expertise & experience to ensure the best quality.",
+                  "2": "Client receives the implementation plan. After approval, the contract is signed and the first payment is made."
                 }
               },
               "3": {
-                "title": "Thực hiện dịch thuật",
+                "title": "Translation Execution",
                 "descriptions": {
-                  "1": "Tài liệu được chuyển đến dịch giả có chuyên môn sâu trong lĩnh vực liên quan. Dịch giả sẽ áp dụng các thuật ngữ và kiến thức chuyên ngành để đảm bảo độ chính xác cao, đồng thời giữ nguyên ý nghĩa gốc và đảm bảo phù hợp với ngữ cảnh ngôn ngữ đích."
+                  "1": "Documents are sent to linguists with deep expertise in the relevant field. Linguists apply specialized terminology and knowledge to ensure high accuracy while maintaining original meaning and target language context."
                 }
               },
               "4": {
-                "title": "Hiệu đính và kiểm tra",
+                "title": "Editing & Proofreading",
                 "descriptions": {
-                  "1": "Sau khi bản dịch hoàn thành, tài liệu sẽ được biên tập viên chuyên ngành hiệu đính và kiểm tra để đảm bảo tính chính xác của thuật ngữ, độ nhất quán và các yếu tố chuyên môn. Điều này giúp đảm bảo tài liệu dịch đạt tiêu chuẩn cao nhất."
+                  "1": "After translation, documents are edited and checked by specialized editors to ensure terminology accuracy, consistency and professional elements, ensuring the highest standards."
                 }
               },
               "5": {
-                "title": "Chuẩn bị bàn giao",
+                "title": "Preparation for Delivery",
                 "descriptions": {
-                  "1": "Tài liệu dịch thuật sau khi được kiểm tra về nội dung, sẽ được kiểm tra lại về mặt hình thức như định dạng, hình ảnh, bảng biểu, để đảm bảo bản dịch có bố cục và trình bày tương thích với bản gốc, dễ dàng sử dụng trong các môi trường chuyên môn."
+                  "1": "Translated documents, after content check, undergo format check (layout, images, tables) to ensure compatibility with the original and ease of use in professional environments."
                 }
               },
               "6": {
-                "title": "Bàn giao & nhận phản hồi",
+                "title": "Delivery & Feedback",
                 "descriptions": {
-                  "1": "Bản dịch cuối cùng được bàn giao cho khách hàng theo đúng yêu cầu. Sau khi nhận tài liệu, khách hàng có thể đưa ra phản hồi hoặc yêu cầu điều chỉnh nếu cần. Dịch vụ sẵn sàng hỗ trợ chỉnh sửa để đảm bảo sự hài lòng tối đa của khách hàng."
+                  "1": "Final translation is delivered to the client as requested. After receipt, clients can provide feedback or request adjustments. We are ready to support edits to ensure maximum satisfaction."
                 }
               }
             },
             "reasons": {
               "1": {
-                "title": "Đội ngũ dịch giả chuyên nghiệp",
-                "description": "Chúng tôi sở hữu đội ngũ biên dịch viên có trình độ chuyên môn cao, sở hữu các chứng chỉ ngôn ngữ quốc tế, giàu kinh nghiệm và am hiểu sâu về nhiều lĩnh vực khác nhau. Tất cả các biên dịch viên đều được tuyển chọn kỹ lưỡng và trải qua quá trình đào tạo bài bản để đảm bảo chất lượng dịch thuật tốt nhất."
+                "title": "Professional Linguist Team",
+                "description": "We possess a team of highly qualified linguists with international language certificates, rich experience and deep understanding of various fields, all carefully selected and trained."
               },
               "2": {
-                "title": "Công nghệ tiên tiến",
-                "description": "Chúng tôi sử dụng các công cụ hỗ trợ dịch thuật tiên tiến như Trados Studio, MemoQ, Wordfast, v.v. để tối ưu hóa quy trình dịch thuật, đảm bảo độ chính xác và nhất quán cao trong bản dịch đồng thời rút ngắn thời gian dịch nhất có thể, giúp tăng tính hiệu quả và tiết kiệm chi phí cho khách hàng."
+                "title": "Advanced Technology",
+                "description": "We use advanced CAT tools like Trados Studio, MemoQ, Wordfast, etc., to optimize the process, maximize accuracy and consistency, and shorten translation time for efficiency and cost-saving."
               },
               "3": {
-                "title": "Giá cả cạnh tranh",
-                "description": "S-Loka cung cấp dịch vụ với chi phí hợp lý, phù hợp với mọi ngân sách, mang lại hiệu quả kinh tế tối ưu cho doanh nghiệp."
+                "title": "Competitive Pricing",
+                "description": "S-Loka offers services at reasonable costs suitable for every budget, bringing optimal economic efficiency to businesses."
               },
               "4": {
-                "title": "Bảo mật thông tin tuyệt đối",
-                "description": "S-Loka cam kết bảo mật thông tin của khách hàng một cách tuyệt đối. Tất cả các tài liệu của khách hàng đều được bảo mật an toàn và không được tiết lộ cho bất kỳ bên thứ ba nào."
+                "title": "Absolute Confidentiality",
+                "description": "S-Loka is committed to absolute confidentiality of customer information. All documents are securely protected and never disclosed to any third party."
               }
             }
           }
@@ -927,17 +926,56 @@
               }
             },
             "processes": {
-              "1": { "title": "Requirement intake", "descriptions": { "1": "Gather guest requirements: language pairs, context, time and location, number of participants, etc." } },
-              "2": { "title": "Planning & contract", "descriptions": { "1": "Consult and propose an interpreting plan. Upon agreement, sign the contract and proceed with the initial payment." } },
-              "3": { "title": "Interpreter selection", "descriptions": { "1": "Select the interpreter best suited to the assignment based on expertise and experience." } },
-              "4": { "title": "Preparation", "descriptions": { "1": "Interpreter studies client background and content in advance; client can provide relevant materials beforehand." } },
-              "5": { "title": "Interpreting execution", "descriptions": { "1": "Interpreter arrives on time, well‑prepared and presentable, aiming to deliver desired outcomes for the session." } },
-              "6": { "title": "Evaluation & feedback", "descriptions": { "1": "Collect guest feedback after completion to evaluate quality and continuously improve." } }
+              "1": {
+                "title": "Requirement intake",
+                "descriptions": {
+                  "1": "Gather guest requirements: language pairs, context, time and location, number of participants, etc."
+                }
+              },
+              "2": {
+                "title": "Planning & contract",
+                "descriptions": {
+                  "1": "Consult and propose an interpreting plan. Upon agreement, sign the contract and proceed with the initial payment."
+                }
+              },
+              "3": {
+                "title": "Interpreter selection",
+                "descriptions": {
+                  "1": "Select the interpreter best suited to the assignment based on expertise and experience."
+                }
+              },
+              "4": {
+                "title": "Preparation",
+                "descriptions": {
+                  "1": "Interpreter studies client background and content in advance; client can provide relevant materials beforehand."
+                }
+              },
+              "5": {
+                "title": "Interpreting execution",
+                "descriptions": {
+                  "1": "Interpreter arrives on time, well‑prepared and presentable, aiming to deliver desired outcomes for the session."
+                }
+              },
+              "6": {
+                "title": "Evaluation & feedback",
+                "descriptions": {
+                  "1": "Collect guest feedback after completion to evaluate quality and continuously improve."
+                }
+              }
             },
             "reasons": {
-              "1": { "title": "Experienced interpreters", "description": "Over 5 years of hospitality interpreting experience; carefully selected interpreters with strong cultural understanding and professionalism." },
-              "2": { "title": "Flexible service options", "description": "Short/long trips, small/large groups, conferences, seminars, exhibitions—tailored to your itinerary and needs." },
-              "3": { "title": "Professional support", "description": "Dedicated, friendly and professional team offering thoughtful assistance to ensure your satisfaction." }
+              "1": {
+                "title": "Experienced interpreters",
+                "description": "Over 5 years of hospitality interpreting experience; carefully selected interpreters with strong cultural understanding and professionalism."
+              },
+              "2": {
+                "title": "Flexible service options",
+                "description": "Short/long trips, small/large groups, conferences, seminars, exhibitions—tailored to your itinerary and needs."
+              },
+              "3": {
+                "title": "Professional support",
+                "description": "Dedicated, friendly and professional team offering thoughtful assistance to ensure your satisfaction."
+              }
             }
           },
           "Travel": {
@@ -946,25 +984,82 @@
               "description": "Explore travel interpreting solutions at S‑Loka"
             },
             "items": {
-              "01": { "title": "SITE INTERPRETING AT ATTRACTIONS", "description": "Convey historical, cultural and highlight information at monuments, museums and landmarks." },
-              "02": { "title": "TOUR GUIDE SUPPORT", "description": "Assist tour guides in delivering information, answering questions and explaining detailed itineraries." },
-              "03": { "title": "RESTAURANT & HOTEL INTERPRETING", "description": "Help travelers communicate with staff on reservations, services and menus for smooth stays and dining." },
-              "04": { "title": "TRAVEL INFORMATION INTERPRETING", "description": "Support travelers in understanding maps, itineraries and instructions for public transport and local services." },
-              "05": { "title": "SHOPPING INTERPRETING", "description": "Assist with price negotiation, product details and sales terms for effective and satisfying purchases." },
-              "06": { "title": "TRAVEL EVENT INTERPRETING", "description": "Support travelers at festivals, conferences and special events to capture information and fully enjoy activities." }
+              "01": {
+                "title": "SITE INTERPRETING AT ATTRACTIONS",
+                "description": "Convey historical, cultural and highlight information at monuments, museums and landmarks."
+              },
+              "02": {
+                "title": "TOUR GUIDE SUPPORT",
+                "description": "Assist tour guides in delivering information, answering questions and explaining detailed itineraries."
+              },
+              "03": {
+                "title": "RESTAURANT & HOTEL INTERPRETING",
+                "description": "Help travelers communicate with staff on reservations, services and menus for smooth stays and dining."
+              },
+              "04": {
+                "title": "TRAVEL INFORMATION INTERPRETING",
+                "description": "Support travelers in understanding maps, itineraries and instructions for public transport and local services."
+              },
+              "05": {
+                "title": "SHOPPING INTERPRETING",
+                "description": "Assist with price negotiation, product details and sales terms for effective and satisfying purchases."
+              },
+              "06": {
+                "title": "TRAVEL EVENT INTERPRETING",
+                "description": "Support travelers at festivals, conferences and special events to capture information and fully enjoy activities."
+              }
             },
             "processes": {
-              "1": { "title": "Requirement intake", "descriptions": { "1": "Receive travel interpreting requirements: language pairs, itinerary, time and location, number of participants, etc." } },
-              "2": { "title": "Planning & contract", "descriptions": { "1": "Consult and propose a plan; once agreed, sign contract and proceed with initial payment." } },
-              "3": { "title": "Interpreter selection", "descriptions": { "1": "Choose an interpreter best suited to the trip based on expertise and experience." } },
-              "4": { "title": "Preparation", "descriptions": { "1": "Interpreter studies the client and content; client may provide documents in advance." } },
-              "5": { "title": "Interpreting execution", "descriptions": { "1": "Interpreter arrives on time, well‑prepared and presentable, delivering expected outcomes." } },
-              "6": { "title": "Evaluation & feedback", "descriptions": { "1": "Collect feedback after completion to evaluate quality and improve continuously." } }
+              "1": {
+                "title": "Requirement intake",
+                "descriptions": {
+                  "1": "Receive travel interpreting requirements: language pairs, itinerary, time and location, number of participants, etc."
+                }
+              },
+              "2": {
+                "title": "Planning & contract",
+                "descriptions": {
+                  "1": "Consult and propose a plan; once agreed, sign contract and proceed with initial payment."
+                }
+              },
+              "3": {
+                "title": "Interpreter selection",
+                "descriptions": {
+                  "1": "Choose an interpreter best suited to the trip based on expertise and experience."
+                }
+              },
+              "4": {
+                "title": "Preparation",
+                "descriptions": {
+                  "1": "Interpreter studies the client and content; client may provide documents in advance."
+                }
+              },
+              "5": {
+                "title": "Interpreting execution",
+                "descriptions": {
+                  "1": "Interpreter arrives on time, well‑prepared and presentable, delivering expected outcomes."
+                }
+              },
+              "6": {
+                "title": "Evaluation & feedback",
+                "descriptions": {
+                  "1": "Collect feedback after completion to evaluate quality and improve continuously."
+                }
+              }
             },
             "reasons": {
-              "1": { "title": "Experienced travel interpreters", "description": "Experienced interpreters with strong cultural understanding and professionalism for tourism contexts." },
-              "2": { "title": "Comprehensive service coverage", "description": "Support across attractions, transport, accommodation, shopping and events—tailored to your itinerary." },
-              "3": { "title": "Professional & friendly support", "description": "Dedicated, polite and professional staff ensuring thoughtful assistance and your full satisfaction." }
+              "1": {
+                "title": "Experienced travel interpreters",
+                "description": "Experienced interpreters with strong cultural understanding and professionalism for tourism contexts."
+              },
+              "2": {
+                "title": "Comprehensive service coverage",
+                "description": "Support across attractions, transport, accommodation, shopping and events—tailored to your itinerary."
+              },
+              "3": {
+                "title": "Professional & friendly support",
+                "description": "Dedicated, polite and professional staff ensuring thoughtful assistance and your full satisfaction."
+              }
             }
           },
           "Business": {
@@ -973,25 +1068,82 @@
               "description": "Discover business interpreting solutions at S‑Loka"
             },
             "items": {
-              "01": { "title": "ECONOMIC DOCUMENT INTERPRETING", "description": "Render financial reports, economic documents and market analysis accurately." },
-              "02": { "title": "COMMERCIAL NEGOTIATION INTERPRETING", "description": "Support negotiations, contract discussions and business agreements." },
-              "03": { "title": "CONFERENCE & SEMINAR INTERPRETING", "description": "Interpret speeches, presentations and exchanges at international business events." },
-              "04": { "title": "CORPORATE EVENT INTERPRETING", "description": "Support exhibitions, trade fairs and business networking events." },
-              "05": { "title": "MARKETING MATERIAL INTERPRETING", "description": "Adapt advertising content, go‑to‑market plans and campaign communications." },
-              "06": { "title": "ONLINE MEETING INTERPRETING", "description": "Provide business interpreting via video calls and webinars with clear audio and visuals, saving time and cost." }
+              "01": {
+                "title": "ECONOMIC DOCUMENT INTERPRETING",
+                "description": "Render financial reports, economic documents and market analysis accurately."
+              },
+              "02": {
+                "title": "COMMERCIAL NEGOTIATION INTERPRETING",
+                "description": "Support negotiations, contract discussions and business agreements."
+              },
+              "03": {
+                "title": "CONFERENCE & SEMINAR INTERPRETING",
+                "description": "Interpret speeches, presentations and exchanges at international business events."
+              },
+              "04": {
+                "title": "CORPORATE EVENT INTERPRETING",
+                "description": "Support exhibitions, trade fairs and business networking events."
+              },
+              "05": {
+                "title": "MARKETING MATERIAL INTERPRETING",
+                "description": "Adapt advertising content, go‑to‑market plans and campaign communications."
+              },
+              "06": {
+                "title": "ONLINE MEETING INTERPRETING",
+                "description": "Provide business interpreting via video calls and webinars with clear audio and visuals, saving time and cost."
+              }
             },
             "processes": {
-              "1": { "title": "Requirement intake", "descriptions": { "1": "Receive business interpreting requirements: language pairs, agenda, time & location, participants, etc." } },
-              "2": { "title": "Planning & contract", "descriptions": { "1": "Consult and propose a plan. Upon agreement, sign the contract and proceed with the initial payment." } },
-              "3": { "title": "Interpreter selection", "descriptions": { "1": "Select the most suitable interpreter based on domain expertise and experience." } },
-              "4": { "title": "Preparation", "descriptions": { "1": "Interpreter studies client background and materials; client may provide documents in advance." } },
-              "5": { "title": "Interpreting execution", "descriptions": { "1": "Interpreter attends on time, well‑prepared and presentable to deliver expected outcomes." } },
-              "6": { "title": "Evaluation & feedback", "descriptions": { "1": "Collect feedback post‑event to evaluate quality and continuously improve." } }
+              "1": {
+                "title": "Requirement intake",
+                "descriptions": {
+                  "1": "Receive business interpreting requirements: language pairs, agenda, time & location, participants, etc."
+                }
+              },
+              "2": {
+                "title": "Planning & contract",
+                "descriptions": {
+                  "1": "Consult and propose a plan. Upon agreement, sign the contract and proceed with the initial payment."
+                }
+              },
+              "3": {
+                "title": "Interpreter selection",
+                "descriptions": {
+                  "1": "Select the most suitable interpreter based on domain expertise and experience."
+                }
+              },
+              "4": {
+                "title": "Preparation",
+                "descriptions": {
+                  "1": "Interpreter studies client background and materials; client may provide documents in advance."
+                }
+              },
+              "5": {
+                "title": "Interpreting execution",
+                "descriptions": {
+                  "1": "Interpreter attends on time, well‑prepared and presentable to deliver expected outcomes."
+                }
+              },
+              "6": {
+                "title": "Evaluation & feedback",
+                "descriptions": {
+                  "1": "Collect feedback post‑event to evaluate quality and continuously improve."
+                }
+              }
             },
             "reasons": {
-              "1": { "title": "Experienced business interpreters", "description": "Interpreters with proven experience in commerce and industry, carefully selected for domain fit." },
-              "2": { "title": "Wide service coverage", "description": "Negotiations, conferences, exhibitions, online meetings, marketing and more—tailored to your needs." },
-              "3": { "title": "Professional service", "description": "Dedicated consultation and support with a friendly, polite and highly professional team." }
+              "1": {
+                "title": "Experienced business interpreters",
+                "description": "Interpreters with proven experience in commerce and industry, carefully selected for domain fit."
+              },
+              "2": {
+                "title": "Wide service coverage",
+                "description": "Negotiations, conferences, exhibitions, online meetings, marketing and more—tailored to your needs."
+              },
+              "3": {
+                "title": "Professional service",
+                "description": "Dedicated consultation and support with a friendly, polite and highly professional team."
+              }
             }
           },
           "TradeShow": {
@@ -1000,25 +1152,82 @@
               "description": "Discover trade show interpreting solutions at S‑Loka"
             },
             "items": {
-              "01": { "title": "BOOTH INTERPRETING", "description": "Facilitate communication between exhibiting companies and prospective customers." },
-              "02": { "title": "OPENING CEREMONY INTERPRETING", "description": "Render speeches, product introductions and service presentations in opening events." },
-              "03": { "title": "PANEL & SEMINAR INTERPRETING", "description": "Interpret industry trends, new products and collaboration opportunities in seminars." },
-              "04": { "title": "PRESS & INTERVIEW INTERPRETING", "description": "Support press conferences and media/partner interviews during the show." },
-              "05": { "title": "PROMOTIONAL MATERIAL INTERPRETING", "description": "Adapt brochures, catalogs and promotional materials for showcased products." },
-              "06": { "title": "PARTNER MATCHING INTERPRETING", "description": "Assist companies in building partnerships through meetings and discussions at the exhibition." }
+              "01": {
+                "title": "BOOTH INTERPRETING",
+                "description": "Facilitate communication between exhibiting companies and prospective customers."
+              },
+              "02": {
+                "title": "OPENING CEREMONY INTERPRETING",
+                "description": "Render speeches, product introductions and service presentations in opening events."
+              },
+              "03": {
+                "title": "PANEL & SEMINAR INTERPRETING",
+                "description": "Interpret industry trends, new products and collaboration opportunities in seminars."
+              },
+              "04": {
+                "title": "PRESS & INTERVIEW INTERPRETING",
+                "description": "Support press conferences and media/partner interviews during the show."
+              },
+              "05": {
+                "title": "PROMOTIONAL MATERIAL INTERPRETING",
+                "description": "Adapt brochures, catalogs and promotional materials for showcased products."
+              },
+              "06": {
+                "title": "PARTNER MATCHING INTERPRETING",
+                "description": "Assist companies in building partnerships through meetings and discussions at the exhibition."
+              }
             },
             "processes": {
-              "1": { "title": "Requirement intake", "descriptions": { "1": "Collect requirements: language pairs, booth plan, session schedule, venue, participants, etc." } },
-              "2": { "title": "Planning & contract", "descriptions": { "1": "Consult and propose the interpreting plan; sign contract upon agreement and proceed with initial payment." } },
-              "3": { "title": "Interpreter selection", "descriptions": { "1": "Choose interpreters with the right industry expertise and exhibition experience." } },
-              "4": { "title": "Preparation", "descriptions": { "1": "Interpreter studies products, materials and agenda in advance; client provides documents beforehand." } },
-              "5": { "title": "Interpreting execution", "descriptions": { "1": "Interpreter arrives on time, well‑prepared and presentable to support all show activities." } },
-              "6": { "title": "Evaluation & feedback", "descriptions": { "1": "Collect feedback after the show to assess quality and improve continuously." } }
+              "1": {
+                "title": "Requirement intake",
+                "descriptions": {
+                  "1": "Collect requirements: language pairs, booth plan, session schedule, venue, participants, etc."
+                }
+              },
+              "2": {
+                "title": "Planning & contract",
+                "descriptions": {
+                  "1": "Consult and propose the interpreting plan; sign contract upon agreement and proceed with initial payment."
+                }
+              },
+              "3": {
+                "title": "Interpreter selection",
+                "descriptions": {
+                  "1": "Choose interpreters with the right industry expertise and exhibition experience."
+                }
+              },
+              "4": {
+                "title": "Preparation",
+                "descriptions": {
+                  "1": "Interpreter studies products, materials and agenda in advance; client provides documents beforehand."
+                }
+              },
+              "5": {
+                "title": "Interpreting execution",
+                "descriptions": {
+                  "1": "Interpreter arrives on time, well‑prepared and presentable to support all show activities."
+                }
+              },
+              "6": {
+                "title": "Evaluation & feedback",
+                "descriptions": {
+                  "1": "Collect feedback after the show to assess quality and improve continuously."
+                }
+              }
             },
             "reasons": {
-              "1": { "title": "Experienced exhibition interpreters", "description": "Interpreters with strong industry knowledge and hands‑on trade show experience." },
-              "2": { "title": "End‑to‑end coverage", "description": "Support across booths, ceremonies, panels, press activities and partner meetings." },
-              "3": { "title": "Professional coordination", "description": "Dedicated planning and on‑site coordination to ensure a smooth show experience." }
+              "1": {
+                "title": "Experienced exhibition interpreters",
+                "description": "Interpreters with strong industry knowledge and hands‑on trade show experience."
+              },
+              "2": {
+                "title": "End‑to‑end coverage",
+                "description": "Support across booths, ceremonies, panels, press activities and partner meetings."
+              },
+              "3": {
+                "title": "Professional coordination",
+                "description": "Dedicated planning and on‑site coordination to ensure a smooth show experience."
+              }
             }
           },
           "Silmutaneous": {
@@ -1027,25 +1236,82 @@
               "description": "Discover simultaneous interpreting solutions at S‑Loka"
             },
             "items": {
-              "01": { "title": "INTERNATIONAL CONFERENCES", "description": "Render speeches and discussions simultaneously at multinational conferences and forums." },
-              "02": { "title": "DIPLOMATIC EVENTS", "description": "Support simultaneous interpreting for meetings and exchanges among government and international organizations." },
-              "03": { "title": "COURT PROCEEDINGS", "description": "Suitable for trials, hearings and depositions, ensuring all parties clearly understand the proceedings." },
-              "04": { "title": "CORPORATE EVENTS", "description": "Simultaneous interpreting for product launches, press conferences and key corporate events." },
-              "05": { "title": "LIVE BROADCASTS", "description": "Support live TV programs including interviews, debates and sports events." },
-              "06": { "title": "TRAINING & WORKSHOPS", "description": "Deliver simultaneous interpreting in trainings and workshops to ensure accurate information transfer." }
+              "01": {
+                "title": "INTERNATIONAL CONFERENCES",
+                "description": "Render speeches and discussions simultaneously at multinational conferences and forums."
+              },
+              "02": {
+                "title": "DIPLOMATIC EVENTS",
+                "description": "Support simultaneous interpreting for meetings and exchanges among government and international organizations."
+              },
+              "03": {
+                "title": "COURT PROCEEDINGS",
+                "description": "Suitable for trials, hearings and depositions, ensuring all parties clearly understand the proceedings."
+              },
+              "04": {
+                "title": "CORPORATE EVENTS",
+                "description": "Simultaneous interpreting for product launches, press conferences and key corporate events."
+              },
+              "05": {
+                "title": "LIVE BROADCASTS",
+                "description": "Support live TV programs including interviews, debates and sports events."
+              },
+              "06": {
+                "title": "TRAINING & WORKSHOPS",
+                "description": "Deliver simultaneous interpreting in trainings and workshops to ensure accurate information transfer."
+              }
             },
             "processes": {
-              "1": { "title": "Requirement intake", "descriptions": { "1": "Collect requirements: language pairs, event type, venue, schedule, audience size and equipment." } },
-              "2": { "title": "Planning & contract", "descriptions": { "1": "Consult on channel setup and equipment plan; sign contract upon agreement and proceed with initial payment." } },
-              "3": { "title": "Interpreter selection", "descriptions": { "1": "Assign interpreters with relevant domain expertise and simultaneous experience." } },
-              "4": { "title": "Preparation", "descriptions": { "1": "Study agendas, scripts and terminology; coordinate with AV team and provide glossary if needed." } },
-              "5": { "title": "On‑site execution", "descriptions": { "1": "Interpreters arrive on time, set up booths/equipment with AV team and deliver simultaneous interpreting." } },
-              "6": { "title": "Evaluation & feedback", "descriptions": { "1": "Collect feedback to assess quality and improve for future events." } }
+              "1": {
+                "title": "Requirement intake",
+                "descriptions": {
+                  "1": "Collect requirements: language pairs, event type, venue, schedule, audience size and equipment."
+                }
+              },
+              "2": {
+                "title": "Planning & contract",
+                "descriptions": {
+                  "1": "Consult on channel setup and equipment plan; sign contract upon agreement and proceed with initial payment."
+                }
+              },
+              "3": {
+                "title": "Interpreter selection",
+                "descriptions": {
+                  "1": "Assign interpreters with relevant domain expertise and simultaneous experience."
+                }
+              },
+              "4": {
+                "title": "Preparation",
+                "descriptions": {
+                  "1": "Study agendas, scripts and terminology; coordinate with AV team and provide glossary if needed."
+                }
+              },
+              "5": {
+                "title": "On‑site execution",
+                "descriptions": {
+                  "1": "Interpreters arrive on time, set up booths/equipment with AV team and deliver simultaneous interpreting."
+                }
+              },
+              "6": {
+                "title": "Evaluation & feedback",
+                "descriptions": {
+                  "1": "Collect feedback to assess quality and improve for future events."
+                }
+              }
             },
             "reasons": {
-              "1": { "title": "Experienced simultaneous interpreters", "description": "Well‑trained interpreters with extensive simultaneous experience across domains." },
-              "2": { "title": "Full technical coordination", "description": "Close coordination with AV teams, booths and equipment to ensure smooth delivery." },
-              "3": { "title": "Professional service", "description": "Dedicated consultation, preparation and on‑site support to meet event objectives." }
+              "1": {
+                "title": "Experienced simultaneous interpreters",
+                "description": "Well‑trained interpreters with extensive simultaneous experience across domains."
+              },
+              "2": {
+                "title": "Full technical coordination",
+                "description": "Close coordination with AV teams, booths and equipment to ensure smooth delivery."
+              },
+              "3": {
+                "title": "Professional service",
+                "description": "Dedicated consultation, preparation and on‑site support to meet event objectives."
+              }
             }
           }
         }
@@ -1471,10 +1737,22 @@
             "serviceHeading": "Popular services for this solution",
             "serviceEnding": "And many more localization services tailored to your needs",
             "items": {
-              "01": { "title": "AD COPYWRITING", "description": "Short‑form persuasive copy for product/service ads: slogans, hooks and headlines that grab attention." },
-              "02": { "title": "SALES COPYWRITING", "description": "Benefit‑driven copy to convince purchase decisions: product pages and promotional write‑ups that convert." },
-              "03": { "title": "MARKETING COPYWRITING", "description": "Brand‑building copy for websites, blogs and email marketing with value‑focused messaging." },
-              "04": { "title": "CONTENT COPYWRITING", "description": "Friendly, informative copy for social channels, websites and blogs to engage and educate audiences." }
+              "01": {
+                "title": "AD COPYWRITING",
+                "description": "Short‑form persuasive copy for product/service ads: slogans, hooks and headlines that grab attention."
+              },
+              "02": {
+                "title": "SALES COPYWRITING",
+                "description": "Benefit‑driven copy to convince purchase decisions: product pages and promotional write‑ups that convert."
+              },
+              "03": {
+                "title": "MARKETING COPYWRITING",
+                "description": "Brand‑building copy for websites, blogs and email marketing with value‑focused messaging."
+              },
+              "04": {
+                "title": "CONTENT COPYWRITING",
+                "description": "Friendly, informative copy for social channels, websites and blogs to engage and educate audiences."
+              }
             },
             "processHeading": "S‑Loka translation process",
             "processes": {
@@ -2583,6 +2861,10 @@
       "message": "Leave a message for us"
     },
     "buttonLabel": "Submit request"
+  },
+  "Footer": {
+    "address": "284/34B Le Van Sy, Nhieu Loc Ward, Ho Chi Minh City, Vietnam",
+    "copyright": "Copyright by S-LOKA SERVICE JOINT STOCK COMPANY"
   },
   "Menu": {
     "priceButton": "GET A QUOTE",

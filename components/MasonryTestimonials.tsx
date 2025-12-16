@@ -12,6 +12,8 @@ export type Testimonial = {
   message: string;
 };
 
+import { MobileTestimonialCarousel } from "@/components/MobileTestimonialCarousel";
+
 export default function MasonryTestimonials({
   title,
   description,
@@ -29,12 +31,12 @@ export default function MasonryTestimonials({
           {description}
         </p>
       </Container>
-      
-      <div className="flex flex-col flex-wrap gap-16 mx-auto mb-20 py-5 px-10 max-h-[1800px] w-fit max-w-full overflow-x-auto">
+
+      <div className="hidden md:flex flex-col flex-wrap gap-16 mx-auto mb-20 py-5 px-10 max-h-[1800px] w-fit max-w-full overflow-x-auto">
         {testimonials.map(({ name, gender, position, message }, index) => (
           <div
             key={index}
-            className={clsx("relative rounded-2xl shadow-[0_4px_25px_0_#0000001A] pt-9 pb-6 px-12 w-[300px]", 
+            className={clsx("relative rounded-2xl shadow-[0_4px_25px_0_#0000001A] pt-9 pb-6 px-12 w-[300px]",
               "before:absolute before:inset-0 before:-z-10 before:bg-[radial-gradient(ellipse_at_center,_var(--color-primary)_0%,_transparent_60%)] before:opacity-20",
               index === 0 && "mt-16", index === 8 && "mt-16"
             )}
@@ -53,6 +55,8 @@ export default function MasonryTestimonials({
           </div>
         ))}
       </div>
+
+      <MobileTestimonialCarousel testimonials={testimonials} />
     </>
   );
 }

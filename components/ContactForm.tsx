@@ -35,7 +35,7 @@ export default function ContactForm({
   return (
     <Container id="contact" className="relative before:absolute before:inset-0 before:-z-10 before:bg-[radial-gradient(ellipse_at_center,_var(--color-primary)_0%,_transparent_80%)] before:opacity-15">
       <div className="mx-auto max-w-2xl text-center">
-        <h2 className="text-xl font-semibold text-slate-900">{title}</h2>
+        <h2 className="text-xl font-semibold text-slate-900 whitespace-pre-line md:whitespace-normal">{title}</h2>
       </div>
       <form action={formAction} className="mx-auto my-6 max-w-2xl sm:my-8">
         <div className="grid grid-cols-1 gap-x-12 gap-y-6 sm:grid-cols-2">
