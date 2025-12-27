@@ -319,19 +319,19 @@
               "6": {
                 "title": "Approval & delivery",
                 "descriptions": {
-                  "1": "Gửi bản cuối cùng: Cung cấp bản dịch cuối cùng cho khách hàng để họ xem xét và phê duyệt. Thực hiện các điều chỉnh cần thiết nếu có yêu cầu từ khách hàng.",
-                  "2": "Bàn giao nội dung hoàn thiện: Sau khi nhận được sự phê duyệt cuối cùng, nội dung sẽ được bàn giao để phát hành."
+                  "1": "Submit final draft: Provide the final translation to the client for review and approval. Implement necessary adjustments if requested by the client.",
+                  "2": "Deliver completed content: After receiving final approval, content is handed over for publication."
                 }
               }
             },
             "reasons": {
               "1": {
-                "title": "Đội ngũ cộng tác viên dịch thuật giàu kinh nghiệm ",
-                "description": "S-Loka tự hào có đội ngũ gần 100 cộng tác viên là các dịch giả hàng đầu. Các dịch giả của chúng tôi được tuyển chọn kỹ lưỡng và có nền tảng kiến thức vững chắc trong lĩnh vực dịch game. Họ có nhiều kinh nghiệm trong việc xây dựng kịch bản cho trò chơi và am hiểu sâu sắc về các thuật ngữ cũng như tình tiết trong trò chơi. Dịch giả của S-Loka sở hữu kiến thức sâu rộng về hơn 50 ngôn ngữ và 100 chuyên ngành, kết hợp với hệ thống quản lý chất lượng dịch vụ, sản phẩm đạt chuẩn ISO 9001:2015"
+                "title": "Experienced translation collaborators",
+                "description": "S-Loka proudly has a team of nearly 100 collaborators who are top-tier translators. Our translators are carefully selected and have a solid knowledge foundation in the field of game translation. They have extensive experience in building game scripts and deeply understand game terminology as well as in-game narratives. S-Loka's translators possess in-depth knowledge of over 50 languages and 100 specialized fields, combined with a quality management system for services and products meeting ISO 9001:2015 standards."
               },
               "2": {
-                "title": "Công nghệ tiên tiến",
-                "description": "Công nghệ tiên tiến và các phần mềm test hiện đại như memeQ, WordFast, Trados, Google AP để đảm bảo tiến độ dịch và kiểm tra tính chính xác của quá trình dịch trò chơi, giúp ngăn ngừa tối đa các lỗi về chính tả và ngữ nghĩa. Công nghệ hiện đại giúp gia tăng hiệu quả về mặt chi phí và tiết kiệm thời gian."
+                "title": "Advanced technology",
+                "description": "Advanced technology and modern testing software such as memoQ, WordFast, Trados, Google API to ensure translation progress and verify the accuracy of the game translation process, helping to maximize prevention of spelling and semantic errors. Modern technology helps increase cost efficiency and save time."
               },
               "3": {
                 "title": "NDA information security",
@@ -1547,27 +1547,27 @@
           },
           "LocalizationGame": {
             "Hero": {
-              "title": "Bản địa hoá game",
-              "description": "Chìa khoá mở ra thành công toàn cầu!"
+              "title": "Game localization",
+              "description": "The key to unlocking global success!"
             },
-            "serviceHeading": "Các dịch vụ dịch thuật phổ biến của chúng tôi cho giải pháp này",
-            "serviceEnding": "Và chúng tôi còn rất nhiều dịch vụ bản địa hoá khác có thể triển khai theo nhu cầu của bạn",
+            "serviceHeading": "Popular translation services we offer for this solution",
+            "serviceEnding": "And we have many more localization services that can be deployed according to your needs",
             "items": {
               "01": {
-                "title": "Dịch thuật phụ đề và lồng tiếng nhân vật",
-                "description": "Chúng tôi hợp tác với các diễn viên lồng tiếng tài năng để đảm bảo rằng\n dịch vụ đồng bộ hóa giọng nói, thuyết minh, lồng tiếng, và phụ đề của\n chúng tôi mang lại sự sống động và chất lượng tối ưu cho game của bạn."
+                "title": "Subtitle and character voice-over translation",
+                "description": "We collaborate with talented voice actors to ensure that our voice synchronization, narration, dubbing, and subtitle services bring optimal liveliness and quality to your game."
               },
               "02": {
-                "title": "Dịch mô tả game",
-                "description": "Đội ngũ chuyên gia và các đối tác uy tín trên toàn cầu của chúng tôi cam kết\n dịch thuật và chỉnh sửa các đoạn mô tả game, hướng dẫn cách chơi hoặc\n phương pháp cài đặt một cách toàn diện, dễ hiểu và liền mạch. Điều này\n đảm bảo rằng game của bạn sẽ thu hút người chơi tiềm năng và tạo\n ấn tượng đầu tiên lâu dài."
+                "title": "Game description translation",
+                "description": "Our expert team and trusted global partners are committed to translating and editing game descriptions, gameplay guides, or installation methods comprehensively, clearly, and seamlessly. This ensures your game will attract potential players and create a lasting first impression."
               },
               "03": {
-                "title": "Dịch đánh giá game",
-                "description": "Dịch vụ dịch đánh giá game đóng vai trò quan trọng trong việc mở rộng cơ sở\n khách hàng và xây dựng uy tín. Việc dịch các bài đánh giá game giúp cung cấp\n thông tin giá trị cho người chơi tiềm năng, tăng cường độ tin cậy\n cho game của bạn."
+                "title": "Game review translation",
+                "description": "Game review translation services play a crucial role in expanding your customer base and building credibility. Translating game reviews helps provide valuable information to potential players, enhancing trust in your game."
               },
               "04": {
-                "title": "Dịch tài liệu tiếp thị game",
-                "description": "Chuyên nghiệp hóa các tài liệu tiếp thị để truyền tải thông điệp rõ ràng\n và kích thích sự quan tâm của người chơi tiềm năng. Từ nội dung website, blog\n đến banner và email marketing, S-Loka giúp bạn dịch các tài liệu tiếp thị\n game hấp dẫn và chuyên nghiệp."
+                "title": "Game marketing materials translation",
+                "description": "Professionalize marketing materials to convey clear messages and stimulate potential players' interest. From website content and blogs to banners and email marketing, S-Loka helps you translate game marketing materials attractively and professionally."
               }
             },
             "processHeading": "S‑Loka translation process",
@@ -1617,16 +1617,16 @@
               }
             },
             "reasons": {
-              "reasonTitle": "Tại sao chọn S-Loka cho nhu cầu dịch vụ dịch thuật?",
-              "reasonDescription": "Trong bối cảnh kinh doanh năng động trên toàn cầu, S-Loka thấu hiểu nhu cầu thiết yếu về độ chính xác và sự phù hợp về văn hóa. Chúng tôi luôn đảm bảo thông điệp thương hiệu của bạn tạo được tiếng vang liền mạch với những đối tượng địa phương trên toàn thế giới.",
+              "reasonTitle": "Why choose S-Loka for your translation service needs?",
+              "reasonDescription": "In a dynamic global business landscape, S-Loka understands the essential need for accuracy and cultural fit. We always ensure your brand message resonates seamlessly with local audiences worldwide.",
               "items": {
                 "1": {
                   "title": "Professional team",
-                  "description": "S-Loka tự hào có đội ngũ gần 100 cộng tác viên là các dịch giả hàng đầu. Các dịch giả của chúng tôi được tuyển chọn kỹ lưỡng và có nền tảng kiến thức vững chắc trong đa lĩnh vực."
+                  "description": "S-Loka proudly has a team of nearly 100 collaborators who are top-tier translators. Our translators are carefully selected and have a solid knowledge foundation in multiple fields."
                 },
                 "2": {
-                  "title": "Công nghệ tiên tiến",
-                  "description": "Bằng cách ứng dụng công nghệ dịch thuật tiên tiến và các phần mềm test hiện đại như memeQ, WordFast, Trados, Google AP để đảm bảo tiến độ dịch và kiểm tra tính chính xác. Công nghệ hiện đại giúp gia tăng hiệu quả về mặt chi phí và tiết kiệm thời gian."
+                  "title": "Advanced technology",
+                  "description": "By applying advanced translation technology and modern testing software such as memoQ, WordFast, Trados, Google API to ensure translation progress and verify accuracy. Modern technology helps increase cost efficiency and save time."
                 },
                 "3": {
                   "title": "NDA information security",
@@ -1891,16 +1891,16 @@
               }
             },
             "reasons": {
-              "reasonTitle": "Tại sao chọn S-Loka cho nhu cầu dịch vụ dịch thuật?",
-              "reasonDescription": "Trong bối cảnh kinh doanh năng động trên toàn cầu, S-Loka thấu hiểu nhu cầu thiết yếu về độ chính xác và sự phù hợp về văn hóa. Chúng tôi luôn đảm bảo thông điệp thương hiệu của bạn tạo được tiếng vang liền mạch với những đối tượng địa phương trên toàn thế giới.",
+              "reasonTitle": "Why choose S-Loka for your translation service needs?",
+              "reasonDescription": "In a dynamic global business landscape, S-Loka understands the essential need for accuracy and cultural fit. We always ensure your brand message resonates seamlessly with local audiences worldwide.",
               "items": {
                 "1": {
                   "title": "Professional team",
-                  "description": "S-Loka tự hào có đội ngũ gần 100 cộng tác viên là các dịch giả hàng đầu. Các dịch giả của chúng tôi được tuyển chọn kỹ lưỡng và có nền tảng kiến thức vững chắc trong đa lĩnh vực."
+                  "description": "S-Loka proudly has a team of nearly 100 collaborators who are top-tier translators. Our translators are carefully selected and have a solid knowledge foundation in multiple fields."
                 },
                 "2": {
-                  "title": "Công nghệ tiên tiến",
-                  "description": "Bằng cách ứng dụng công nghệ dịch thuật tiên tiến và các phần mềm test hiện đại như memeQ, WordFast, Trados, Google AP để đảm bảo tiến độ dịch và kiểm tra tính chính xác. Công nghệ hiện đại giúp gia tăng hiệu quả về mặt chi phí và tiết kiệm thời gian."
+                  "title": "Advanced technology",
+                  "description": "By applying advanced translation technology and modern testing software such as memoQ, WordFast, Trados, Google API to ensure translation progress and verify accuracy. Modern technology helps increase cost efficiency and save time."
                 },
                 "3": {
                   "title": "NDA information security",
@@ -1913,10 +1913,10 @@
       },
       "BPO": {
         "title": "BPO",
-        "description": "S-Loka tự hào là người bạn đồng hành hỗ trợ các doanh nghiệp trong các hoạt động vận hành, từ đó tạo điều kiện cho doanh nghiệp tập trung toàn bộ nguồn lực và thời gian vào việc phát triển sản phẩm, dịch vụ cốt lõi.",
+        "description": "S-Loka is proud to be a companion supporting businesses in operational activities, thereby enabling businesses to focus all resources and time on developing core products and services.",
         "processHeading": "S‑Loka translation process",
-        "reasonTitle": "Tại sao chọn S-Loka cho nhu cầu dịch vụ BPO?",
-        "reasonDescription": "Trong bối cảnh kinh doanh năng động trên toàn cầu, S-Loka thấu hiểu nhu cầu thiết yếu về độ chính xác và sự phù hợp về văn hóa. Chúng tôi luôn đảm bảo thông điệp thương hiệu của bạn tạo được tiếng vang liền mạch với những đối tượng địa phương trên toàn thế giới.",
+        "reasonTitle": "Why choose S-Loka for your BPO service needs?",
+        "reasonDescription": "In a dynamic global business landscape, S-Loka understands the essential need for accuracy and cultural fit. We always ensure your brand message resonates seamlessly with local audiences worldwide.",
         "services": {
           "AIAssistant": {
             "Hero": {
@@ -2030,8 +2030,8 @@
               "6": {
                 "title": "Approval & delivery",
                 "descriptions": {
-                  "1": "Gửi bản cuối cùng: Cung cấp bản dịch cuối cùng cho khách hàng để họ xem xét và phê duyệt. Thực hiện các điều chỉnh cần thiết nếu có yêu cầu từ khách hàng.",
-                  "2": "Bàn giao nội dung hoàn thiện: Sau khi nhận được sự phê duyệt cuối cùng, nội dung sẽ được bàn giao để sử dụng."
+                  "1": "Submit final draft: Provide the final translation to the client for review and approval. Implement necessary adjustments if requested by the client.",
+                  "2": "Deliver completed content: After receiving final approval, content is handed over for use."
                 }
               }
             },
@@ -2052,74 +2052,74 @@
           },
           "Digitization": {
             "Hero": {
-              "title": "Số hoá tài liệu",
-              "description": "Hãy cùng tìm hiểu dịch vụ dịch thuật cho giải pháp số hoá tài liệu tại S-Loka"
+              "title": "Document digitization",
+              "description": "Explore translation services for document digitization solutions at S-Loka"
             },
             "serviceHeading": "Our popular services for this solution",
             "serviceEnding": "We offer many other BPO services that can be deployed according to your needs",
             "items": {
               "01": {
-                "title": "SỐ HOÁ TÀI LIỆU KINH DOANH",
-                "description": "Chuyển đổi các tài liệu như báo cáo tài chính, hợp đồng kinh doanh,\n tài liệu chiến lược từ dạng vật lý sang dạng số, đảm bảo dễ dàng\n lưu trữ và truy cập."
+                "title": "BUSINESS DOCUMENT DIGITIZATION",
+                "description": "Convert documents such as financial reports, business contracts, and strategic documents from physical to digital format, ensuring easy storage and access."
               },
               "02": {
-                "title": "SỐ HOÁ TÀI LIỆU PHÁP LÝ",
-                "description": "Số hoá các hợp đồng, văn bản pháp lý, và tài liệu liên quan, đảm bảo\n tuân thủ các quy định pháp lý và bảo mật thông tin."
+                "title": "LEGAL DOCUMENT DIGITIZATION",
+                "description": "Digitize contracts, legal documents, and related materials, ensuring compliance with legal regulations and information security."
               },
               "03": {
-                "title": "SỐ HOÁ HỒ SƠ NHÂN SỰ",
-                "description": "Chuyển đổi các hồ sơ nhân viên, dữ liệu tuyển dụng, bảng lương từ giấy\n sang dạng kỹ thuật số để quản lý dễ dàng và bảo mật."
+                "title": "HR RECORDS DIGITIZATION",
+                "description": "Convert employee records, recruitment data, and payroll from paper to digital format for easy management and security."
               },
               "04": {
-                "title": "SỐ HOÁ TÀI LIỆU Y TẾ",
-                "description": "Xử lý và lưu trữ hồ sơ bệnh án, báo cáo y khoa, tài liệu nghiên cứu trong\n ngành y tế để tăng cường khả năng truy xuất và quản lý."
+                "title": "MEDICAL DOCUMENT DIGITIZATION",
+                "description": "Process and store medical records, medical reports, and research documents in the healthcare industry to enhance retrieval and management capabilities."
               },
               "05": {
-                "title": "SỐ HOÁ DỮ LIỆU KHẢO SÁT THỊ TRƯỜNG",
-                "description": "Chuyển đổi các kết quả khảo sát, dữ liệu nghiên cứu thị trường từ\n tài liệu vật lý thành dữ liệu số, giúp phân tích và xử lý nhanh chóng."
+                "title": "MARKET RESEARCH DATA DIGITIZATION",
+                "description": "Convert survey results and market research data from physical documents to digital data, enabling quick analysis and processing."
               },
               "06": {
-                "title": "QUẢN LÝ VÀ LƯU TRỮ TÀI LIỆU SỐ HOÁ",
-                "description": "Thiết lập hệ thống lưu trữ, bảo mật và truy xuất dữ liệu số một cách tối ưu,\n giúp doanh nghiệp dễ dàng quản lý và sử dụng các tài liệu đã số hoá."
+                "title": "DIGITIZED DOCUMENT MANAGEMENT AND STORAGE",
+                "description": "Establish optimal storage, security, and data retrieval systems, helping businesses easily manage and use digitized documents."
               }
             },
             "processes": {
               "1": {
-                "title": "Tiếp nhận và phân tích",
+                "title": "Reception and analysis",
                 "descriptions": {
-                  "1": "Khách hàng cung cấp tài liệu cần số hoá và dịch thuật, kèm theo các yêu cầu cụ thể (ngôn ngữ đích, định dạng số hoá, tiêu chuẩn bảo mật).",
-                  "2": "Dịch vụ sẽ phân tích loại tài liệu (kinh doanh, pháp lý, y tế, nhân sự, v.v.) và mức độ phức tạp để đưa ra phương án xử lý."
+                  "1": "Clients provide documents to be digitized and translated, along with specific requirements (target language, digitization format, security standards).",
+                  "2": "The service analyzes the document type (business, legal, medical, HR, etc.) and complexity level to propose a processing plan."
                 }
               },
               "2": {
                 "title": "Planning",
                 "descriptions": {
-                  "1": "Đội ngũ dịch thuật và số hoá đánh giá cấu trúc, khối lượng, và tính nhạy cảm của tài liệu. Kế hoạch bao gồm: thời gian hoàn thành, quy trình dịch thuật, phương pháp số hoá (quét, nhập liệu), và các bước kiểm tra bảo mật dữ liệu."
+                  "1": "The translation and digitization team evaluates the structure, volume, and sensitivity of documents. The plan includes: completion time, translation process, digitization methods (scanning, data entry), and data security verification steps."
                 }
               },
               "3": {
-                "title": "Dịch thuật tài liệu",
+                "title": "Document translation",
                 "descriptions": {
-                  "1": "Tài liệu được dịch bởi đội ngũ chuyên nghiệp, với chuyên môn phù hợp theo lĩnh vực. Quá trình dịch thuật đảm bảo sử dụng đúng thuật ngữ chuyên ngành, chuyển ngữ chính xác nội dung trong các tài liệu gốc sang ngôn ngữ đích."
+                  "1": "Documents are translated by a professional team with appropriate expertise in the field. The translation process ensures correct use of specialized terminology and accurate content transfer from source documents to the target language."
                 }
               },
               "4": {
-                "title": "Số hoá tài liệu",
+                "title": "Document digitization",
                 "descriptions": {
-                  "1": "Sau khi dịch, tài liệu được chuyển đổi từ dạng vật lý (giấy) hoặc dạng kỹ thuật số thô (PDF, ảnh) sang các định dạng số hoá tối ưu (Word, Excel, database).",
-                  "2": "Quá trình này bao gồm việc quét, nhận diện ký tự quang học (OCR), và định dạng tài liệu."
+                  "1": "After translation, documents are converted from physical (paper) or raw digital format (PDF, images) to optimized digital formats (Word, Excel, database).",
+                  "2": "This process includes scanning, optical character recognition (OCR), and document formatting."
                 }
               },
               "5": {
-                "title": "Kiểm tra và hiệu đính",
+                "title": "Review and proofreading",
                 "descriptions": {
-                  "1": "Sau khi số hoá và dịch thuật, tài liệu sẽ được kiểm tra lại về độ chính xác ngôn ngữ và tính hoàn thiện của định dạng số. Đảm bảo các bản dịch không chỉ đúng về mặt nội dung mà còn đồng nhất về trình bày và dễ dàng sử dụng trong môi trường số."
+                  "1": "After digitization and translation, documents are reviewed for language accuracy and digital format completeness. Ensure translations are not only correct in content but also consistent in presentation and easy to use in digital environments."
                 }
               },
               "6": {
-                "title": "Bàn giao và lưu trữ",
+                "title": "Handover and storage",
                 "descriptions": {
-                  "1": "Bản dịch và tài liệu số hoá hoàn chỉnh được bàn giao cho khách hàng theo đúng yêu cầu định dạng. Dữ liệu sẽ được lưu trữ và quản lý bảo mật trên các nền tảng số hoặc hệ thống quản lý tài liệu, giúp khách hàng dễ dàng truy cập và sử dụng lâu dài."
+                  "1": "Completed translations and digitized documents are handed over to clients according to format requirements. Data will be securely stored and managed on digital platforms or document management systems, helping clients easily access and use long-term."
                 }
               }
             },
@@ -2206,50 +2206,50 @@
         }
       },
       "marketing": {
-        "title": "Quảng cáo & Marketing",
-        "href": "/vi/chuyen-nganh/quang-cao",
+        "title": "Advertising & Marketing",
+        "href": "/en/service/advertising",
         "Hero": {
-          "title": "Quảng cáo & Marketing",
-          "description": "Bứt phá và chinh phục trái tim khách hàng với dịch vụ dịch thuật tại S-Loka"
+          "title": "Advertising & Marketing",
+          "description": "Break through and win customers' hearts with translation services at S-Loka"
         },
         "services": {
           "01": {
-            "title": "DỊCH THUẬT MARKETING INFOGRAPHIC",
-            "description": "Chuyển đổi thông tin phức tạp thành thông tin đồ hoạ có sức ảnh hưởng để\n bản địa hoá nội dung Marketing hiệu quả"
+            "title": "MARKETING INFOGRAPHIC TRANSLATION",
+            "description": "Transform complex information into impactful infographics to effectively localize marketing content"
           },
           "02": {
-            "title": "DỊCH THUẬT MARKETING PODCAST",
-            "description": "Tận dụng lợi nhuận của Podcast bằng dịch vụ dịch thuật của chúng tôi,\n tiếp cận tới lượng khán giả rộng lớn và đa dạng"
+            "title": "MARKETING PODCAST TRANSLATION",
+            "description": "Leverage podcast revenue with our translation services, reaching a wide and diverse audience"
           },
           "03": {
-            "title": "DỊCH THUẬT NỘI DUNG BLOG",
-            "description": "Trở thành công ty dẫn đầu về tư tưởng trong ngành bằng cách dịch nội dung blog\n sang những ngôn ngữ phù hợp với độc giả của bạn. "
+            "title": "BLOG CONTENT TRANSLATION",
+            "description": "Become an industry thought leader by translating blog content into languages that resonate with your readers"
           },
           "04": {
-            "title": "DỊCH THUẬT TRUYỀN THÔNG XÃ HỘI",
-            "description": "Thu hút sự chú ý và phản hồi lập tức bằng dịch vụ dịch thuật của S-Loka"
+            "title": "SOCIAL MEDIA TRANSLATION",
+            "description": "Attract immediate attention and engagement with S-Loka's translation services"
           },
           "05": {
-            "title": "DỊCH THUẬT NỘI DUNG MARKETING",
-            "description": "Dịch tài liệu Marketing, bao gồm quảng cáo, tờ rơi và thông cáo báo chí.\n Điều chỉnh các dịch vụ SEO bằng hình ảnh và thiết kế phù hợp với văn hoá. "
+            "title": "MARKETING CONTENT TRANSLATION",
+            "description": "Translate marketing materials including advertisements, flyers, and press releases. Adapt SEO services with culturally appropriate images and design"
           },
           "06": {
-            "title": "DỊCH THUẬT TRANG WEB",
-            "description": "Quản lý các bản dịch website, luôn đảm bảo sự phù hợp\n về văn hoá thông qua dịch thuật"
+            "title": "WEBSITE TRANSLATION",
+            "description": "Manage website translations, always ensuring cultural appropriateness through translation"
           }
         },
         "reasons": {
           "1": {
-            "title": "Danh tiếng trên thị trường quốc tế",
-            "description": "Đảm bảo những chiến dịch, tài liệu Marketing gây được tiếng vang với người dân địa phương bằng ngôn ngữ bản địa. S-Loka sẽ giúp doanh nghiệp của bạn nâng cao danh tiếng quốc tế, thu hút các đối tượng khách hàng mới, thúc đẩy phản hồi tích cực của khách hàng và thúc đẩy khả năng quảng bá thương hiệu của bạn."
+            "title": "International market reputation",
+            "description": "Ensure marketing campaigns and materials resonate with local people in their native language. S-Loka will help your business enhance international reputation, attract new customer segments, promote positive customer feedback, and boost your brand promotion capabilities."
           },
           "2": {
-            "title": "Giao tiếp hiệu quả",
-            "description": "Chắc chắn những thông điệp của bạn đều được truyền tải tới thị trường mục tiêu một cách hiệu quả. Việc tiếp cận các khách hàng bằng những ngôn ngữ của họ sẽ tạo ra cảm giác an toàn và được chào đón, nuôi dưỡng lòng trung thành của khách hàng, từ đó khuyến khích họ tiếp tục gắn bó với thương hiệu của bạn. "
+            "title": "Effective communication",
+            "description": "Ensure your messages are effectively conveyed to target markets. Reaching customers in their own language creates a sense of security and welcome, nurturing customer loyalty and encouraging continued brand engagement."
           },
           "3": {
-            "title": "Nội dung Marketing bán hàng",
-            "description": "Bạn sẽ hoàn toàn có lợi thếcạnh tranh khi lựa chọn S-Loka là đối tác dịch thuật của mình. Những nội dung được bản địa hoá, phù hợp với sắc thái mỗi địa phương, nhưng vẫn giữ nguyên thông điệp nội dung, là những lý do để bạn thành công trên con đường mở rộng thị trường cùng với S-Loka."
+            "title": "Sales-driven marketing content",
+            "description": "You will have a complete competitive advantage when choosing S-Loka as your translation partner. Localized content that fits local nuances while preserving the core message is the key to your success in market expansion with S-Loka."
           }
         }
       },
@@ -2699,32 +2699,32 @@
       }
     },
     "Reason": {
-      "title": "Tại sao chọn S-Loka cho nhu cầu dịch thuật theo từng lĩnh vực?",
-      "description": "Trong bối cảnh kinh doanh năng động trên toàn cầu, S-Loka thấu hiểu nhu cầu thiết yếu về độ chính xác và sự phù hợp về văn hóa. Tại S-Loka, chúng tôi chuyên cung cấp các giải pháp dịch thuật phù hợp cho các lĩnh vực khác nhau, đảm bảo thông điệp thương hiệu của bạn tạo được tiếng vang liền mạch với những đối tượng địa phương trên toàn thế giới.",
+      "title": "Why choose S-Loka for your industry-specific translation needs?",
+      "description": "In a dynamic global business landscape, S-Loka understands the essential need for accuracy and cultural fit. At S-Loka, we specialize in providing tailored translation solutions for different industries, ensuring your brand message resonates seamlessly with local audiences worldwide.",
       "items": {
         "reason1": {
-          "title": "Kiến thức chuyên ngành",
-          "description": "Lợi ích từ sự hiểu biết sâu sắc của S-Loka về thuật ngữ và ngôn từ có xu hướng trong các dạng dịch thuật ngôn ngữ của bạn, cho phép chúng tôi điều chỉnh thông điệp của bạn một cách liền mạch với các ngôn ngữ của thị trường mục tiêu bạn nhắm tới."
+          "title": "Domain expertise",
+          "description": "Benefit from S-Loka's deep understanding of terminology and trending language in your translation fields, allowing us to tailor your message seamlessly to the languages of your target markets."
         },
         "reason2": {
-          "title": "Nhạy bén về văn hoá",
-          "description": "Tận dụng kiến thức vốn có của đội ngũ về các nền văn hoá độc đáo và phong tục, để tạo ra nội dung phù hợp về văn hoá, đảm bảo sự kết nối tới đối tượng độc giả của bạn."
+          "title": "Cultural sensitivity",
+          "description": "Leverage our team's inherent knowledge of unique cultures and customs to create culturally appropriate content, ensuring connection with your target audience."
         },
         "reason3": {
-          "title": "Cách tiếp cận linh hoạt",
-          "description": "Sử dụng các công cụ thuật ngữ và các tài liệu tham khảo trong nước, để điều chỉnh quy trình bản địa hoá nội dung theo tiếng địa phương và ngôn ngữ thương hiệu ưa thích của bạn, đảm bảo sự chính xác nhưng vẫn có phong cách thương hiệu riêng."
+          "title": "Flexible approach",
+          "description": "Utilize terminology tools and local reference materials to adjust the content localization process according to local language and your preferred brand language, ensuring accuracy while maintaining unique brand style."
         },
         "reason4": {
-          "title": "Tính nhất quán",
-          "description": "Các công cụ thuật ngữ độc quyền của S-Loka theo dõi và quản lý các ngôn ngữ chuyên môn và cụm từ chính trong nội dung, đảm bảo thông điệp của thương hiệu được thống nhất và nhất quán trên các thị trường và nền tảng truyền thông khác nhau."
+          "title": "Consistency",
+          "description": "S-Loka's proprietary terminology tools track and manage professional language and key phrases in content, ensuring your brand message is unified and consistent across different markets and media platforms."
         },
         "reason5": {
-          "title": "Tốc độ và hiệu quả",
-          "description": "Nhanh chóng khi tổ chức nguồn lực bản địa cho nhiều dự án ngôn ngữ, linh hoạt trong việc mở rộng quy mô nhân lực khi khối lượng công việc gia tăng và cần xử lý trong thời gian ngắn."
+          "title": "Speed and efficiency",
+          "description": "Quick to organize local resources for multiple language projects, flexible in scaling workforce when workload increases and needs to be handled in a short time."
         },
         "reason6": {
-          "title": "Lợi thế cạnh tranh",
-          "description": "Tận dụng kinh nghiệm và chuyên môn cụ thể của từng ngành nghề, chúng tôi có khả năng tạo nội dung bản địa hoá có tác động mạnh mẽ tới đối tượng mục tiêu của bạn, đem tới tiếng vang cho thương hiệu của bạn để tạo lợi thế cạnh tranh trên thị trường toàn cầu."
+          "title": "Competitive advantage",
+          "description": "Leveraging industry-specific experience and expertise, we have the ability to create localized content that has a strong impact on your target audience, bringing resonance to your brand to create a competitive advantage in the global market."
         }
       }
     }

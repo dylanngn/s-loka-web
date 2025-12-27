@@ -19,6 +19,7 @@ const o = {
   "ai-assistant": "AIAssistant",
   "ai-support": "AIAssistant",
   "digitization": "Digitization",
+  "document-digitization": "Digitization",
 } as const;
 
 type Slug = keyof typeof o;

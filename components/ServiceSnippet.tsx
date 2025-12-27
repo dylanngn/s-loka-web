@@ -13,10 +13,10 @@ export default function ServiceSnippet({
         {number}
       </span>
       <div className="w-full">
-        <p className="border-b-2 border-black mb-6 pb-4 text-end text-xl uppercase whitespace-pre-line md:whitespace-normal">
+        <p className="border-b-2 border-black mb-6 pb-4 text-end text-xl uppercase whitespace-pre-line break-words">
           {title}
         </p>
-        <p className="text-end lg:whitespace-pre">
+        <p className="text-end">
           {description}
         </p>
       </div>
