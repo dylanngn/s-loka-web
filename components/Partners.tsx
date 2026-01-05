@@ -44,7 +44,7 @@ const PARTNERS = [
   },
 ];
 
-export async function Partners({ title }: { title: string }) {
+export function Partners({ title }: { title: string }) {
   return (
     <Container className="pb-16 mx-auto pt-20 text-center lg:pt-24">
       <h2 className="relative text-xl font-semibold text-slate-900 before:absolute before:left-[calc(50%-12rem)] before:-top-7 before:h-24 before:w-96 before:inset-0 before:-z-10 before:bg-[radial-gradient(ellipse_at_center,_var(--color-primary)_0%,_transparent_90%)] before:opacity-10">{title}</h2>

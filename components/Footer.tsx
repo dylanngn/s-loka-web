@@ -59,7 +59,7 @@ type FooterProps = {
   menu5: { label: string; items: FooterLink[] };
 };
 
-export async function Footer({
+export function Footer({
   info,
   copyRight,
   menu1,

@@ -16,8 +16,8 @@ export default async function IndexPage({
   return (
     <>
       <Hero {...dict.Home.Hero} />
-      <Missions lang={locale} />
-      <Solutions lang={locale} />
+      <Missions dict={dict.Home.Missions} />
+      <Solutions dict={dict.Home.Solutions} />
       <Records
         title={dict.Home.Records.title}
         items={{

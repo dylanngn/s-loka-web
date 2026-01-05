@@ -52,7 +52,7 @@ export function PageLoader() {
     }
   }, []);
 
-  // Set loading với auto-clear sau 500ms
+  // Set loading với auto-clear sau 300ms
   const setLoadingWithTimeout = useCallback((value: boolean) => {
     clearLoadingTimer();
     setIsLoading(value);
@@ -60,7 +60,7 @@ export function PageLoader() {
       loadingTimerRef.current = setTimeout(() => {
         setIsLoading(false);
         loadingTimerRef.current = null;
-      }, 500);
+      }, 300);
     }
   }, [clearLoadingTimer]);
 

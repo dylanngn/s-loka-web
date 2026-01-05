@@ -2,7 +2,6 @@ import { Container } from '@/components/Container';
 import { Badge } from '@/components/icons/Badge';
 import { Clipper } from '@/components/icons/Clipper';
 import { Message } from '@/components/icons/Message';
-import { getDictionary } from '@/server/get-dictionary';
 
 const ICONS = {
   understand: Badge,
@@ -10,8 +9,17 @@ const ICONS = {
   unleash: Message,
 } as any;
 
-export async function Missions({ lang }: { lang: string }) {
-  const dict = (await getDictionary(lang))['Home']['Missions'];
+type MissionsDict = {
+  title: string;
+  items: {
+    [key: string]: {
+      title: string;
+      description: string;
+    };
+  };
+};
+
+export function Missions({ dict }: { dict: MissionsDict }) {
   return (
     <Container className="pb-16 pt-20 text-center lg:pt-24">
       <h2 className="text-xl font-semibold text-slate-900 whitespace-pre-line md:whitespace-normal">

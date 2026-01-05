@@ -2,7 +2,7 @@ import { Container } from '@/components/Container';
 import clsx from 'clsx';
 import { AnimatedNumber } from '@/components/AnimatedNumber';
 
-export async function Records({
+export function Records({
   items,
   title,
   background = false,
