@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { ArrowRightIcon } from '@heroicons/react/24/outline';
+
 import phienDichImg from '@/images/solutions/phien_dich.png';
 import dichThuatImg from '@/images/solutions/dich_thuat.png';
 import banDiaHoaImg from '@/images/solutions/ban_dia_hoa.png';
@@ -24,12 +24,10 @@ export function Solutions({ dict }: { dict: SolutionsDict }) {
         {Object.entries(dict.item).map(([key, value]) => (
           <div
             key={key}
-            className="sm:last:-col-end-2 mx-2 max-w-72 group relative col-span-1 sm:col-span-2 flex select-none flex-col overflow-hidden rounded-2xl border border-slate-900"
+            className="sm:last:-col-end-2 mx-2 max-w-72 relative col-span-1 sm:col-span-2 flex select-none flex-col overflow-hidden rounded-2xl border border-slate-900"
           >
-            <span className="bg-secondary absolute inset-0 z-0 origin-left scale-x-0 transform transition-transform duration-300 group-hover:scale-x-100" />
-            <span className="group-hover:text-primary relative z-10 flex items-center justify-between px-4 py-6 text-slate-900">
+            <span className="relative z-10 flex items-center px-4 py-6 text-slate-900">
               {value.title}
-              <ArrowRightIcon className="h-6 w-6 font-medium" />
             </span>
             <Image
               className="z-10"

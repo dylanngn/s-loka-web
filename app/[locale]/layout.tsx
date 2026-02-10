@@ -4,6 +4,8 @@ import { Header } from '@/components/Header';
 import ContactForm from '@/components/ContactForm';
 import { getDictionary } from '@/server/get-dictionary';
 import { PageLoader } from '@/components/clients/PageLoader';
+import { ChatWidget } from '@/components/ChatWidget';
+
 export const runtime = 'edge';
 
 export default async function LocaleLayout({
@@ -106,6 +108,7 @@ export default async function LocaleLayout({
             })),
         }}
       />
+      <ChatWidget />
     </>
   );
 }
