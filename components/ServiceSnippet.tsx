@@ -8,7 +8,7 @@ export default function ServiceSnippet({
   description: string;
 }) {
   return (
-    <div className="w-full max-w-[900px] flex items-start mb-5 md:mb-0">
+    <div className="w-full max-w-[900px] flex items-start mb-12 md:mb-14">
       <span className="-z-10 relative -mr-4 md:-mr-16 -mt-4 md:-mt-24 inline-flex justify-center items-center w-16 h-16 md:w-56 md:h-56 text-xl font-bold before:absolute before:inset-0 before:bg-[radial-gradient(ellipse_at_center,_var(--color-primary)_0%,_transparent_90%)] before:opacity-10">
         {number}
       </span>

@@ -32,26 +32,35 @@ export default function MasonryTestimonials({
         </p>
       </Container>
 
-      <div className="hidden md:flex flex-col flex-wrap gap-16 mx-auto mb-20 py-5 px-10 max-h-[1800px] w-fit max-w-full overflow-x-auto">
-        {testimonials.map(({ name, gender, position, message }, index) => (
+      <div className="hidden md:flex flex-row justify-center gap-8 xl:gap-16 mx-auto mb-20 py-5 px-4 xl:px-10 max-w-full">
+        {Array.from({ length: 4 }).map((_, colIndex) => (
           <div
-            key={index}
-            className={clsx("relative rounded-2xl shadow-[0_4px_25px_0_#0000001A] pt-9 pb-6 px-12 w-[300px]",
-              "before:absolute before:inset-0 before:-z-10 before:bg-[radial-gradient(ellipse_at_center,_var(--color-primary)_0%,_transparent_60%)] before:opacity-20",
-              index === 0 && "mt-16", index === 8 && "mt-16"
+            key={colIndex}
+            className={clsx(
+              "flex flex-col gap-16 w-[280px] xl:w-[300px]",
+              colIndex % 2 === 0 && "mt-16"
             )}
           >
-            <Quote className="absolute top-5 left-5 w-10 text-[#D9D9D980]" />
-            <div className="flex justify-center items-center mx-auto mb-3 p-1 h-16 w-16 rounded-full border border-blue-700 overflow-hidden">
-              <Image
-                className={clsx("", gender === "male" && "scale-150")}
-                alt="avatar"
-                src={gender === "female" ? femaleImg : maleImg}
-              />
-            </div>
-            <p className="mb-3 text-center font-semibold">{name}</p>
-            <p className="mb-8 text-center font-semibold text-blue-800">{position}</p>
-            <p className="text-start font-light">{message}</p>
+            {testimonials
+              .filter((_, index) => index % 4 === colIndex)
+              .map(({ name, gender, position, message }, index) => (
+                <div
+                  key={index}
+                  className="relative rounded-2xl shadow-[0_4px_25px_0_#0000001A] pt-9 pb-6 px-10 xl:px-12 before:absolute before:inset-0 before:-z-10 before:bg-[radial-gradient(ellipse_at_center,_var(--color-primary)_0%,_transparent_60%)] before:opacity-20"
+                >
+                  <Quote className="absolute top-5 left-5 w-10 text-[#D9D9D980]" />
+                  <div className="flex justify-center items-center mx-auto mb-3 p-1 h-16 w-16 rounded-full border border-blue-700 overflow-hidden">
+                    <Image
+                      className={clsx("", gender === "male" && "scale-150")}
+                      alt="avatar"
+                      src={gender === "female" ? femaleImg : maleImg}
+                    />
+                  </div>
+                  <p className="mb-3 text-center font-semibold">{name}</p>
+                  <p className="mb-8 text-center font-semibold text-blue-800">{position}</p>
+                  <p className="text-start font-light">{message}</p>
+                </div>
+              ))}
           </div>
         ))}
       </div>

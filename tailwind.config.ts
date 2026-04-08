@@ -47,7 +47,7 @@ const config: Config = {
         "2xl": "40rem",
       },
       animation: {
-        "infinite-scroll": "infinite-scroll 25s linear infinite",
+        "infinite-scroll": "infinite-scroll 40s linear infinite",
         "infinite-scroll-slow-left": "infinite-scroll 80s linear infinite",
         "infinite-scroll-slow-right":
           "infinite-scroll-reverse 80s linear infinite",
