@@ -22,7 +22,7 @@ export default async function LocaleLayout({
   const footerDict = dictionary['Footer'];
 
   return (
-    <>
+    <div className={`flex-1 flex flex-col ${locale === 'en' ? 'text-[17px]' : ''}`}>
       <PageLoader />
       <Header
         home={{ label: dict.home.title, href: dict.home.href }}
@@ -109,6 +109,6 @@ export default async function LocaleLayout({
         }}
       />
       <ChatWidget />
-    </>
+    </div>
   );
 }
