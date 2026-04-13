@@ -250,7 +250,7 @@
       "Localization": {
         "title": "Localization",
         "description": "Go beyond translation—together with S-Loka, craft a localized version of your products, services and brand that feels friendly and familiar to foreign markets.",
-        "serviceHeading": "Popular localization services we offer for this solution",
+        "serviceHeading": "POPULAR LOCALIZATION SERVICES WE OFFER FOR THIS SOLUTION",
         "serviceEnding": "And many more localization services tailored to your needs",
         "processHeading": "S-Loka translation process",
         "reasonTitle": "Why choose S-Loka for translation services?",
@@ -529,7 +529,7 @@
           },
           "MediaPublication": {
             "Hero": {
-              "title": "Media publications",
+              "title": "Media Publications",
               "description": "Explore our translation services for media publication localization at S-Loka"
             },
             "items": {
@@ -615,7 +615,7 @@
       "Translation": {
         "title": "Translation",
         "description": "Grow your brand globally with S‑Loka's professional translation solutions. Contact us today to kick‑start your journey toward linguistic excellence and worldwide success!",
-        "serviceHeading": "Popular translation services for this solution",
+        "serviceHeading": "POPULAR TRANSLATION SERVICES FOR THIS SOLUTION",
         "serviceEnding": "And many more notarized translation services tailored to your needs",
         "processHeading": "S‑Loka translation workflow",
         "reasonTitle": "Why choose S‑Loka for translation services?",
@@ -623,7 +623,7 @@
         "services": {
           "Notary": {
             "Hero": {
-              "title": "Notarized translation",
+              "title": "Notarized Translation",
               "description": "Discover S‑Loka's notarized translation services"
             },
             "items": {
@@ -1325,7 +1325,7 @@
         "services": {
           "Definition": {
             "Hero": {
-              "title": "What is creative translation?",
+              "title": "What Is Creative Translation?",
               "description": "Learn what creative translation means at S‑Loka"
             },
             "serviceHeading": "",
@@ -1361,7 +1361,7 @@
           },
           "Process": {
             "Hero": {
-              "title": "Creative translation process",
+              "title": "Creative Translation Process",
               "description": "Explore S‑Loka's creative translation workflow"
             },
             "serviceHeading": "",
@@ -1547,10 +1547,10 @@
           },
           "LocalizationGame": {
             "Hero": {
-              "title": "Game localization",
+              "title": "Game Localization",
               "description": "The key to unlocking global success!"
             },
-            "serviceHeading": "Popular translation services we offer for this solution",
+            "serviceHeading": "POPULAR TRANSLATION SERVICES WE OFFER FOR THIS SOLUTION",
             "serviceEnding": "And we have many more localization services that can be deployed according to your needs",
             "items": {
               "01": {
@@ -1640,7 +1640,7 @@
               "title": "UI/UX App Localization",
               "description": "Ready to take your mobile or web app global?"
             },
-            "serviceHeading": "Popular services for this solution",
+            "serviceHeading": "POPULAR SERVICES FOR THIS SOLUTION",
             "serviceEnding": "And many more localization services tailored to your needs",
             "items": {
               "01": {
@@ -1734,7 +1734,7 @@
               "title": "Copywriting",
               "description": "Craft persuasive, culturally‑native copy that converts"
             },
-            "serviceHeading": "Popular services for this solution",
+            "serviceHeading": "POPULAR SERVICES FOR THIS SOLUTION",
             "serviceEnding": "And many more localization services tailored to your needs",
             "items": {
               "01": {
@@ -1824,7 +1824,7 @@
               "title": "Content Writing",
               "description": "Deliver your message effectively with native, on‑brand content"
             },
-            "serviceHeading": "Popular services for this solution",
+            "serviceHeading": "POPULAR SERVICES FOR THIS SOLUTION",
             "serviceEnding": "And many more localization services tailored to your needs",
             "items": {
               "01": {
@@ -2052,7 +2052,7 @@
           },
           "Digitization": {
             "Hero": {
-              "title": "Document digitization",
+              "title": "Document Digitization",
               "description": "Explore translation services for document digitization solutions at S-Loka"
             },
             "serviceHeading": "Our popular services for this solution",
@@ -2148,7 +2148,7 @@
       "title": "Industries",
       "description": "S-Loka provides translation services across every industry you need"
     },
-    "servicesHeading": "Popular translation services for this industry",
+    "servicesHeading": "POPULAR TRANSLATION SERVICES FOR THIS INDUSTRY",
     "servicesEnding": "And we offer many more translation services tailored to your needs",
     "reasonsHeading": "Why choose S-Loka for your translation needs?",
     "reasonsDescription": "In a fast-moving global market, S-Loka understands the need for accuracy and cultural fit. We ensure your brand message resonates naturally with local audiences worldwide.",
@@ -2422,10 +2422,10 @@
         }
       },
       "carManufacturing": {
-        "title": "Car manufacturing",
+        "title": "Car Manufacturing",
         "href": "/en/service/car-manufacturing",
         "Hero": {
-          "title": "Car manufacturing",
+          "title": "Car Manufacturing",
           "description": "Accelerate your growth with S‑Loka's creative translation services for the automotive manufacturing industry"
         },
         "services": {
@@ -2526,10 +2526,10 @@
         }
       },
       "lifeScience": {
-        "title": "Life sciences/Healthcare",
+        "title": "Life Sciences/Healthcare",
         "href": "/en/service/life-science",
         "Hero": {
-          "title": "Life sciences & Healthcare",
+          "title": "Life Sciences & Healthcare",
           "description": "Discover S‑Loka's translation services for life sciences and healthcare"
         },
         "services": {
@@ -2903,11 +2903,11 @@
           "href": "/en/solution/translation",
           "sub": {
             "major": {
-              "title": "Industry translation",
+              "title": "Industry Translation",
               "href": "/en/solution/translation/industry"
             },
             "notary": {
-              "title": "Notarized translation",
+              "title": "Notarized Translation",
               "href": "/en/solution/translation/notarized"
             }
           }
@@ -2959,19 +2959,19 @@
               "href": "/en/solution/creativeTranslation/marketing-localization"
             },
             "localizationGame": {
-              "title": "Game localization",
+              "title": "Game Localization",
               "href": "/en/solution/creativeTranslation/game-localization"
             },
             "localizationUIUX": {
-              "title": "UI/UX App localization",
+              "title": "UI/UX App Localization",
               "href": "/en/solution/creativeTranslation/ui-ux-localization"
             },
             "copywriting": {
-              "title": "Copy writing",
+              "title": "Copy Writing",
               "href": "/en/solution/creativeTranslation/copy-writing"
             },
             "contentWriting": {
-              "title": "Content writing",
+              "title": "Content Writing",
               "href": "/en/solution/creativeTranslation/content-writing"
             }
           }
@@ -3013,11 +3013,11 @@
           "href": "/en/service/automation"
         },
         "carManufacturing": {
-          "title": "Car manufacturing",
+          "title": "Car Manufacturing",
           "href": "/en/service/car-manufacturing"
         },
         "lifeScience": {
-          "title": "Life sciences",
+          "title": "Life Sciences",
           "href": "/en/service/life-science"
         },
         "retail": {

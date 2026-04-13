@@ -24,7 +24,7 @@ export function Records({
         <div className="sm:mt-18 mx-auto mt-16 grid grid-cols-2 sm:grid-cols-4 place-items-center lg:mt-20 gap-8">
           <div className="rounded-2xl shadow-[0_0_5px_0_#00000040] flex flex-col justify-center bg-gray-50 h-full w-full max-w-72 aspect-[4/3]">
             <span className="sm:my-3 sm:text-2xl text-lg font-semibold text-[#0052B4] tabular-nums">
-              <AnimatedNumber value={74} />+
+              <AnimatedNumber value={200} />+
             </span>
             <div className="text-md font-light leading-7 text-sky-900">
               <p className="flex-auto whitespace-pre-line md:whitespace-normal">
@@ -34,7 +34,7 @@ export function Records({
           </div>
           <div className="rounded-2xl shadow-[0_0_5px_0_#00000040] flex flex-col justify-center bg-gray-50 h-full w-full max-w-72 aspect-[4/3]">
             <span className="sm:my-3 sm:text-2xl text-lg font-semibold text-[#0052B4] tabular-nums">
-              <AnimatedNumber value={197265} />+
+              <AnimatedNumber value={10000000} />+
             </span>
             <div className="text-md font-light leading-7 text-sky-900">
               <p className="flex-auto whitespace-pre-line md:whitespace-normal">

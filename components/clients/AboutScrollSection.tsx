@@ -32,7 +32,7 @@ export function AboutScrollSection({
         <div className="text-center relative before:absolute before:-inset-24 before:-z-10 before:bg-[radial-gradient(ellipse_at_center,_var(--color-primary)_0%,_transparent_70%)] before:opacity-20">
           <MissionRounded className="w-24 h-auto" />
           <div className="top-12 left-10 absolute">
-            <h3 className="font-light text-2xl leading-relaxed">
+            <h3 className="font-semibold text-2xl leading-relaxed">
               {mission.title}
             </h3>
           </div>
@@ -45,7 +45,7 @@ export function AboutScrollSection({
         <div className="text-center relative before:absolute before:-inset-24 before:-z-10 before:bg-[radial-gradient(ellipse_at_center,_var(--color-primary)_0%,_transparent_70%)] before:opacity-20">
           <MissionRounded className="w-24 h-auto" />
           <div className="top-12 left-10 absolute">
-            <h3 className="font-light text-2xl leading-relaxed">
+            <h3 className="font-semibold text-2xl leading-relaxed">
               {vision.title}
             </h3>
           </div>
@@ -58,7 +58,7 @@ export function AboutScrollSection({
         <div className="text-center relative before:absolute before:-inset-24 before:-z-10 before:bg-[radial-gradient(ellipse_at_center,_var(--color-primary)_0%,_transparent_70%)] before:opacity-20">
           <MissionRounded className="w-24 h-auto" />
           <div className="top-14 left-4 absolute">
-            <h3 className="font-light text-2xl w-24 leading-relaxed">
+            <h3 className="font-semibold text-2xl w-24 leading-relaxed">
               {values.title}
             </h3>
           </div>
