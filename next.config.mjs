@@ -9,6 +9,18 @@ if (process.env.NODE_ENV === 'development') {
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  experimental: {
+    optimizePackageImports: [
+      'framer-motion',
+      '@headlessui/react',
+      '@headlessui/tailwindcss',
+      '@heroicons/react',
+      'embla-carousel',
+      'embla-carousel-react',
+      'react-share-kit',
+      'lucide-react',
+    ],
+  },
   images: {
     remotePatterns: [
       {
