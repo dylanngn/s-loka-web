@@ -1,6 +1,6 @@
 "use server";
 import { getCloudflareContext } from "@opennextjs/cloudflare";
-import parsePhoneNumber from "libphonenumber-js";
+import parsePhoneNumber from "libphonenumber-js/min";
 import { revalidatePath } from "next/cache";
 import { z } from "zod";
 
