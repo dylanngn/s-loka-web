@@ -25,7 +25,7 @@ import sawacoImg from '@/images/brands/sawaco.png';
 import sysmexImg from '@/images/brands/sysmex.png';
 import totalImg from '@/images/brands/total.png';
 import translinkImg from '@/images/brands/translink.svg';
-import vedastechImg from '@/images/brands/vedastech.avif';
+import vedastechImg from '@/images/brands/vedastech.png';
 import vifahomeImg from '@/images/brands/vifahome.png';
 import vinexadImg from '@/images/brands/vinexad.png';
 import wordsinvideoImg from '@/images/brands/wordsinvideo.webp';

@@ -3,7 +3,6 @@ import { Inter, Lexend } from 'next/font/google';
 import clsx from 'clsx';
 import '@/styles/tailwind.css';
 import { i18n } from '@/i18n-config';
-export const runtime = 'edge';
 
 // export async function generateStaticParams() {
 //   return i18n.locales.map((locale) => ({ lang: locale }));
