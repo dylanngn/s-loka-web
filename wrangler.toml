@@ -4,9 +4,6 @@ pages_build_output_dir = ".open-next/assets"
 compatibility_date = "2024-09-23"
 compatibility_flags = ["nodejs_compat", "global_fetch_strictly_public"]
 
-[build]
-command = "yarn pages:build"
-
 [[kv_namespaces]]
 binding = "CONTACT_REQUESTS"
 id = "56eab930bf814b3487f225f712a6da2e"
