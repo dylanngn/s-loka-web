@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "yarn pages:build",
-    "next:build": "next build --webpack",
+    "next:build": "next build",
     "start": "next start",
     "lint": "next lint",
     "pages:build": "opennextjs-cloudflare build && rm -rf .open-next/assets/_worker.js .open-next/assets/cloudflare .open-next/assets/middleware .open-next/assets/server-functions .open-next/assets/.build && cp .open-next/worker.js .open-next/assets/_worker.js && cp -R .open-next/cloudflare .open-next/middleware .open-next/server-functions .open-next/.build .open-next/assets/",
@@ -26,7 +26,7 @@
     "framer-motion": "^11.1.7",
     "libphonenumber-js": "^1.10.61",
     "negotiator": "^0.6.3",
-    "next": "^16.2.9",
+    "next": "15.5.15",
     "next-nprogress-bar": "^2.3.12",
     "react": "^18",
     "react-dom": "^18",
