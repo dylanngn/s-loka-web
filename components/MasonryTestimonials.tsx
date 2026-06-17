@@ -1,9 +1,14 @@
+'use client';
+
+import React, { useCallback, useEffect, useState } from 'react';
+import useEmblaCarousel from 'embla-carousel-react';
+import { ArrowLongLeftIcon, ArrowLongRightIcon } from '@heroicons/react/24/outline';
+import clsx from 'clsx';
+import Image from "next/image";
 import { Container } from "./Container";
 import { Quote } from "./icons/Quote";
-import Image from "next/image";
 import maleImg from "@/images/avatars/male.png";
 import femaleImg from "@/images/avatars/female.jpg";
-import clsx from "clsx";
 
 export type Testimonial = {
   name: string;
@@ -12,8 +17,6 @@ export type Testimonial = {
   message: string;
 };
 
-import { MobileTestimonialCarousel } from "@/components/MobileTestimonialCarousel";
-
 export default function MasonryTestimonials({
   title,
   description,
@@ -21,51 +24,123 @@ export default function MasonryTestimonials({
 }: {
   title: string;
   description: string;
-  testimonials: [Testimonial];
+  testimonials: Testimonial[];
 }) {
+  const [emblaRef, emblaApi] = useEmblaCarousel({
+    loop: true,
+    align: 'start',
+  });
+  const [selectedIndex, setSelectedIndex] = useState(0);
+  const [isPaused, setIsPaused] = useState(false);
+
+  const scrollPrev = useCallback(() => emblaApi && emblaApi.scrollPrev(), [emblaApi]);
+  const scrollNext = useCallback(() => emblaApi && emblaApi.scrollNext(), [emblaApi]);
+
+  const onSelect = useCallback(() => {
+    if (!emblaApi) return;
+    setSelectedIndex(emblaApi.selectedScrollSnap());
+  }, [emblaApi]);
+
+  useEffect(() => {
+    if (!emblaApi) return;
+    onSelect();
+    emblaApi.on('select', onSelect);
+  }, [emblaApi, onSelect]);
+
+  // Autoplay functionality
+  useEffect(() => {
+    if (!emblaApi || isPaused) return;
+
+    const autoplay = setInterval(() => {
+      emblaApi.scrollNext();
+    }, 4000); // Scroll every 4 seconds
+
+    return () => clearInterval(autoplay);
+  }, [emblaApi, isPaused]);
+
   return (
     <>
       <Container className="text-center mt-32">
-        <h2 className="relative text-xl maw font-semibold text-slate-900 before:absolute before:left-[calc(50%-12rem)] before:-top-7 before:h-24 before:w-96 before:inset-0 before:-z-10 before:bg-[radial-gradient(ellipse_at_center,_var(--color-primary)_0%,_transparent_90%)] before:opacity-10">{title}</h2>
-        <p className="text-lg mt-12 font-light mb-28 text-center">
+        <h2 className="relative text-xl font-semibold text-slate-900 before:absolute before:left-[calc(50%-12rem)] before:-top-7 before:h-24 before:w-96 before:inset-0 before:-z-10 before:bg-[radial-gradient(ellipse_at_center,_var(--color-primary)_0%,_transparent_90%)] before:opacity-10">
+          {title}
+        </h2>
+        <p className="text-lg mt-12 font-light mb-20 text-center">
           {description}
         </p>
       </Container>
 
-      <div className="hidden md:flex flex-row justify-center gap-8 xl:gap-16 mx-auto mb-20 py-5 px-4 xl:px-10 max-w-full">
-        {Array.from({ length: 4 }).map((_, colIndex) => (
-          <div
-            key={colIndex}
-            className={clsx(
-              "flex flex-col gap-16 w-[280px] xl:w-[300px]",
-              colIndex % 2 === 0 && "mt-16"
-            )}
-          >
-            {testimonials
-              .filter((_, index) => index % 4 === colIndex)
-              .map(({ name, gender, position, message }, index) => (
+      <div 
+        className="w-full mb-20 max-w-7xl px-4 md:px-12 mx-auto"
+        onMouseEnter={() => setIsPaused(true)}
+        onMouseLeave={() => setIsPaused(false)}
+      >
+        <div className="overflow-hidden py-8 px-2" ref={emblaRef}>
+          <div className="flex touch-pan-y -ml-4">
+            {testimonials.map((item, index) => (
+              <div
+                className="flex-[0_0_100%] sm:flex-[0_0_50%] md:flex-[0_0_33.333333%] lg:flex-[0_0_25%] min-w-0 pl-4 py-4"
+                key={index}
+              >
                 <div
-                  key={index}
-                  className="relative rounded-2xl shadow-[0_4px_25px_0_#0000001A] pt-9 pb-6 px-10 xl:px-12 before:absolute before:inset-0 before:-z-10 before:bg-[radial-gradient(ellipse_at_center,_var(--color-primary)_0%,_transparent_60%)] before:opacity-20"
+                  className={clsx(
+                    "relative rounded-2xl pt-9 pb-6 px-8 h-full flex flex-col bg-white border border-transparent shadow-[0px_4px_20px_0px_rgba(0,0,0,0.08)]",
+                    "transition-all duration-300 ease-out hover:-translate-y-2 hover:shadow-[0px_12px_28px_0px_rgba(0,0,0,0.12)] hover:border-[#f1aa04]/30",
+                    "before:absolute before:inset-0 before:-z-10 before:bg-[radial-gradient(ellipse_at_center,_var(--color-primary)_0%,_transparent_60%)] before:opacity-15"
+                  )}
                 >
                   <Quote className="absolute top-5 left-5 w-10 text-[#D9D9D980]" />
-                  <div className="flex justify-center items-center mx-auto mb-3 p-1 h-16 w-16 rounded-full border border-blue-700 overflow-hidden">
+                  <div className="flex justify-center items-center mx-auto mb-3 p-1 h-16 w-16 rounded-full border border-blue-700 overflow-hidden shrink-0">
                     <Image
-                      className={clsx("", gender === "male" && "scale-150")}
+                      className={clsx("", item.gender === "male" && "scale-150")}
                       alt="avatar"
-                      src={gender === "female" ? femaleImg : maleImg}
+                      src={item.gender === "female" ? femaleImg : maleImg}
                     />
                   </div>
-                  <p className="mb-3 text-center font-semibold">{name}</p>
-                  <p className="mb-8 text-center font-semibold text-blue-800">{position}</p>
-                  <p className="text-start font-light">{message}</p>
+                  <p className="mb-1 text-center font-semibold text-slate-900">{item.name}</p>
+                  <p className="mb-6 text-center text-sm font-semibold text-blue-800">{item.position}</p>
+                  <p className="text-start font-light text-slate-900 flex-grow text-sm leading-relaxed">{item.message}</p>
                 </div>
-              ))}
+              </div>
+            ))}
           </div>
-        ))}
-      </div>
+        </div>
 
-      <MobileTestimonialCarousel testimonials={testimonials} />
+        {/* Navigation: Arrows & Dots */}
+        <div className="flex items-center justify-center gap-4 mt-8 px-4">
+          {/* Prev Arrow */}
+          <button
+            onClick={scrollPrev}
+            className="p-2 text-slate-400 hover:text-slate-900 transition-colors"
+            aria-label="Previous slide"
+          >
+            <ArrowLongLeftIcon className="w-6 h-6" />
+          </button>
+
+          {/* Dots */}
+          <div className="flex space-x-2">
+            {testimonials.map((_, index) => (
+              <button
+                key={index}
+                className={clsx(
+                  "h-0.5 rounded-full transition-all duration-300",
+                  index === selectedIndex ? "w-5 bg-slate-900" : "w-2 bg-slate-300"
+                )}
+                onClick={() => emblaApi?.scrollTo(index)}
+                aria-label={`Go to slide ${index + 1}`}
+              />
+            ))}
+          </div>
+
+          {/* Next Arrow */}
+          <button
+            onClick={scrollNext}
+            className="p-2 text-slate-400 hover:text-slate-900 transition-colors"
+            aria-label="Next slide"
+          >
+            <ArrowLongRightIcon className="w-6 h-6" />
+          </button>
+        </div>
+      </div>
     </>
   );
 }
