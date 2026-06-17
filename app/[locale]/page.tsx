@@ -1,24 +1,23 @@
 import { getDictionary } from '@/server/get-dictionary';
-import { Locale } from '@/i18n-config';
 import { Hero } from '@/components/Hero';
 import { Records } from '@/components/Records';
 import { Missions } from '@/components/Missions';
 import { Partners } from '@/components/Partners';
 import { Solutions } from '@/components/Solutions';
-import ContactForm from '@/components/ContactForm';
-import { Testimonials } from '@/components/Testimonials';
+import MasonryTestimonials, { Testimonial } from '@/components/MasonryTestimonials';
 
 export default async function IndexPage({
-  params: { lang },
+  params,
 }: {
-  params: { lang: Locale };
+  params: Promise<{ locale: string }>;
 }) {
-  const dict = await getDictionary(lang);
+  const { locale } = await params;
+  const dict = await getDictionary(locale);
   return (
     <>
       <Hero {...dict.Home.Hero} />
-      <Missions lang={lang} />
-      <Solutions lang={lang} />
+      <Missions dict={dict.Home.Missions} />
+      <Solutions dict={dict.Home.Solutions} />
       <Records
         title={dict.Home.Records.title}
         items={{
@@ -29,8 +28,11 @@ export default async function IndexPage({
         }}
       />
       <Partners title={dict.Partners.title} />
-      <Testimonials {...dict.Testimonial} />
-      <ContactForm {...dict.ContactForm} />
+      <MasonryTestimonials
+        title={dict.Testimonial.title}
+        description={dict.Testimonial.description}
+        testimonials={Object.values(dict.Testimonial.masonry) as [Testimonial]}
+      />
     </>
   );
 }

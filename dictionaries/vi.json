@@ -9,7 +9,7 @@
       "title": "Những con số ấn tượng",
       "items": {
         "partners": {
-          "title": "Cộng tác viên dịch thuật"
+          "title": "Cộng tác viên \ndịch thuật"
         },
         "words": {
           "title": "Số từ đã dịch"
@@ -22,13 +22,12 @@
         }
       }
     },
-
     "Missions": {
-      "title": "Khai phóng tất cả sức mạnh ngôn ngữ",
+      "title": "Khai phóng tất cả sức mạnh\nngôn ngữ",
       "items": {
         "understand": {
           "title": "Hiểu về yêu cầu",
-          "description": "Luôn tìm các thấu hiểu doanh nghiệp và đối tượng thị trường chuyển đổi ngôn ngữ"
+          "description": "Luôn tìm các thấu hiểu doanh nghiệp và \nđối tượng thị trường chuyển đổi ngôn ngữ"
         },
         "provide": {
           "title": "Cung cấp giải pháp",
@@ -133,7 +132,7 @@
   "About": {
     "Hero": {
       "title": "Về S-LOKA",
-      "description": "Công ty cổ phần dịch vụ S-Loka đã hình thành và phát triển như thế nào?"
+      "description": "Công ty cổ phần dịch vụ S-Loka đã \nhình thành và phát triển như thế nào?"
     },
     "Introduction": {
       "description1": "S-Loka được hình thành từ mong muốn xây dựng một công ty cung cấp dịch vụ dịch thuật chuyên nghiệp, lấy chất lượng làm uy tín và xây dựng một môi trường làm việc như ngôi nhà thứ hai cho các nhân sự tại S-Loka.",
@@ -198,7 +197,7 @@
   "Post": {
     "Hero": {
       "title": "Bài đọc",
-      "description": "Cùng S-Loka mở rộng kiến thức dịch thuật và các chủ đề khác"
+      "description": "Cùng S-Loka mở rộng kiến thức \ndịch thuật và các chủ đề khác"
     },
     "Detail": {
       "button": {
@@ -219,9 +218,9 @@
   },
   "Cooperation": {
     "Hero": {
-      "title": "Hợp Tác",
+      "title": "Hợp Tác \n",
       "message": "với S-LOKA",
-      "description" : "Đồng hành để cùng thành công trên con đường cung cấp giải pháp ngôn ngữ"
+      "description": "Đồng hành để cùng thành công trên \ncon đường cung cấp giải pháp ngôn ngữ"
     },
     "Content": {
       "title": "Hợp tác, dành chiến thắng",
@@ -264,7 +263,7 @@
             },
             "items": {
               "01": {
-                "title": "DỊCH PHỤ ĐỀ & LỒNG TIẾNG NHÂN VẬT, HỘI THOẠI",
+                "title": "DỊCH PHỤ ĐỀ & LỒNG TIẾNG \nNHÂN VẬT, HỘI THOẠI",
                 "description": "Chúng tôi hợp tác với một đội ngũ tài năng về giọng nói, đảm bảo rằng dịch vụ đồng bộ\n giọng nói, lồng tiếng, thuyết minh và phụ đề của chúng tôi mang lại sự sống động và\n chất lượng tối đa cho trò chơi của bạn"
               },
               "02": {
@@ -897,7 +896,7 @@
           },
           "Tour": {
             "Hero": {
-              "title": "Phiên dịch lữ hành",
+              "title": "Phiên dịch \nlữ hành",
               "description": "Hãy cùng tìm hiểu giải pháp phiên dịch lữ hành tại S-Loka"
             },
             "items": {
@@ -981,7 +980,7 @@
           },
           "Travel": {
             "Hero": {
-              "title": "Phiên dịch du lịch",
+              "title": "Phiên dịch \ndu lịch",
               "description": "Hãy cùng tìm hiểu giải pháp phiên dịch du lịch tại S-Loka"
             },
             "items": {
@@ -1065,7 +1064,7 @@
           },
           "Business": {
             "Hero": {
-              "title": "Phiên dịch kinh doanh",
+              "title": "Phiên dịch \nkinh doanh",
               "description": "Hãy cùng tìm hiểu giải pháp phiên dịch kinh doanh tại S-Loka"
             },
             "items": {
@@ -1267,7 +1266,7 @@
                 "title": "Tiếp nhận yêu cầu",
                 "descriptions": {
                   "1": "S-Loka sẽ nhận những yêu cầu từ phía khách hàng thông qua những thông tin như: cặp ngôn ngữ cần phiên dịch, chuyên môn, lĩnh vực phiên dịch, thời gian và địa điểm diễn ra, số người tham gia..."
-                } 
+                }
               },
               "2": {
                 "title": "Kế hoạch và hợp đồng",
@@ -1363,7 +1362,7 @@
           "Process": {
             "Hero": {
               "title": "Quy trình dịch sáng tạo",
-              "description": "Hãy cùng tìm hiểu quy trình dịch sáng tạo tại S-Loka"
+              "description": "Hãy cùng tìm hiểu quy trình dịch \n sáng tạo tại S-Loka"
             },
             "serviceHeading": "",
             "serviceEnding": "",
@@ -1479,49 +1478,49 @@
               }
             },
             "processes": {
-            "1": {
-              "title": "Phân tích dự án",
-              "descriptions": {
-                "1": "Tiếp nhận yêu cầu: Nhận thông tin từ khách hàng về nội dung cần bản địa hóa, bao gồm ngôn ngữ mục tiêu, phạm vi nội dung, và yêu cầu đặc biệt.",
-                "2": "Phân tích nội dung: Đánh giá nội dung gốc để xác định các yếu tố ngôn ngữ, văn hóa, và pháp lý cần điều chỉnh. Hiểu rõ đối tượng người dùng cuối để đảm bảo nội dung bản địa hóa phù hợp với phong cách và ngôn ngữ của họ."
+              "1": {
+                "title": "Phân tích dự án",
+                "descriptions": {
+                  "1": "Tiếp nhận yêu cầu: Nhận thông tin từ khách hàng về nội dung cần bản địa hóa, bao gồm ngôn ngữ mục tiêu, phạm vi nội dung, và yêu cầu đặc biệt.",
+                  "2": "Phân tích nội dung: Đánh giá nội dung gốc để xác định các yếu tố ngôn ngữ, văn hóa, và pháp lý cần điều chỉnh. Hiểu rõ đối tượng người dùng cuối để đảm bảo nội dung bản địa hóa phù hợp với phong cách và ngôn ngữ của họ."
+                }
+              },
+              "2": {
+                "title": "Lập kế hoạch",
+                "descriptions": {
+                  "1": "Lựa chọn nhóm dịch thuật: Chọn những dịch giả và chuyên gia ngôn ngữ có kinh nghiệm phù hợp với ngôn ngữ và văn hóa của thị trường mục tiêu.",
+                  "2": "Xây dựng lịch trình: Thiết lập thời gian biểu chi tiết cho các giai đoạn dịch thuật, chỉnh sửa, và kiểm tra chất lượng.",
+                  "3": "Chuẩn bị tài liệu hỗ trợ: Tạo và cung cấp glossaries (danh mục thuật ngữ) và style guides (hướng dẫn phong cách) để đảm bảo tính nhất quán trong toàn bộ quy trình."
+                }
+              },
+              "3": {
+                "title": "Tiến hành bản địa hoá",
+                "descriptions": {
+                  "1": "Dịch nội dung: Dịch nội dung từ ngôn ngữ nguồn sang ngôn ngữ mục tiêu, chú ý đến việc chuyển ngữ sao cho phù hợp với văn hóa và ngữ cảnh của thị trường đích.",
+                  "2": "Xử lý các yếu tố văn hóa: Đảm bảo rằng tất cả các yếu tố văn hóa, từ ngữ đặc thù, và các khía cạnh pháp lý được dịch một cách chính xác và phù hợp."
+                }
+              },
+              "4": {
+                "title": "Chỉnh sửa & đánh giá",
+                "descriptions": {
+                  "1": "Biên tập: Biên tập viên sẽ xem xét lại toàn bộ bản dịch, chỉnh sửa lỗi ngữ pháp, chính tả, và ngữ điệu để đảm bảo tính mượt mà và tự nhiên.",
+                  "2": "Đánh giá chất lượng: Thực hiện các bước đánh giá kỹ lưỡng để đảm bảo tính chính xác và phù hợp về mặt văn hóa. Kiểm tra soát lỗi và đánh giá tính nhất quán với glossaries và style guides đã đề ra."
+                }
+              },
+              "5": {
+                "title": "Rà soát & kiểm tra",
+                "descriptions": {
+                  "1": "Kiểm tra hiển thị và định dạng: Đảm bảo rằng nội dung hiển thị đúng cách trên tất cả các thiết bị và trình duyệt, không có lỗi về định dạng, font chữ, hoặc hình ảnh.",
+                  "2": "Kiểm tra liên kết và tương tác: Đảm bảo rằng tất cả các liên kết, nút bấm, và các chức năng tương tác trên website đều hoạt động chính xác sau khi bản địa hóa."
+                }
+              },
+              "6": {
+                "title": "Phê duyệt & bàn giao",
+                "descriptions": {
+                  "1": "Gửi bản cuối cùng: Cung cấp bản dịch cuối cùng cho khách hàng để họ xem xét và phê duyệt. Thực hiện các điều chỉnh cần thiết nếu có yêu cầu từ khách hàng.",
+                  "2": "Bàn giao nội dung hoàn thiện: Sau khi nhận được sự phê duyệt cuối cùng, nội dung sẽ được bàn giao để ứng dụng."
+                }
               }
-            },
-            "2": {
-              "title": "Lập kế hoạch",
-              "descriptions": {
-                "1": "Lựa chọn nhóm dịch thuật: Chọn những dịch giả và chuyên gia ngôn ngữ có kinh nghiệm phù hợp với ngôn ngữ và văn hóa của thị trường mục tiêu.",
-                "2": "Xây dựng lịch trình: Thiết lập thời gian biểu chi tiết cho các giai đoạn dịch thuật, chỉnh sửa, và kiểm tra chất lượng.",
-                "3": "Chuẩn bị tài liệu hỗ trợ: Tạo và cung cấp glossaries (danh mục thuật ngữ) và style guides (hướng dẫn phong cách) để đảm bảo tính nhất quán trong toàn bộ quy trình."
-              }
-            },
-            "3": {
-              "title": "Tiến hành bản địa hoá",
-              "descriptions": {
-                "1": "Dịch nội dung: Dịch nội dung từ ngôn ngữ nguồn sang ngôn ngữ mục tiêu, chú ý đến việc chuyển ngữ sao cho phù hợp với văn hóa và ngữ cảnh của thị trường đích.",
-                "2": "Xử lý các yếu tố văn hóa: Đảm bảo rằng tất cả các yếu tố văn hóa, từ ngữ đặc thù, và các khía cạnh pháp lý được dịch một cách chính xác và phù hợp."
-              }
-            },
-            "4": {
-              "title": "Chỉnh sửa & đánh giá",
-              "descriptions": {
-                "1": "Biên tập: Biên tập viên sẽ xem xét lại toàn bộ bản dịch, chỉnh sửa lỗi ngữ pháp, chính tả, và ngữ điệu để đảm bảo tính mượt mà và tự nhiên.",
-                "2": "Đánh giá chất lượng: Thực hiện các bước đánh giá kỹ lưỡng để đảm bảo tính chính xác và phù hợp về mặt văn hóa. Kiểm tra soát lỗi và đánh giá tính nhất quán với glossaries và style guides đã đề ra."
-              }
-            },
-            "5": {
-              "title": "Rà soát & kiểm tra",
-              "descriptions": {
-                "1": "Kiểm tra hiển thị và định dạng: Đảm bảo rằng nội dung hiển thị đúng cách trên tất cả các thiết bị và trình duyệt, không có lỗi về định dạng, font chữ, hoặc hình ảnh.",
-                "2": "Kiểm tra liên kết và tương tác: Đảm bảo rằng tất cả các liên kết, nút bấm, và các chức năng tương tác trên website đều hoạt động chính xác sau khi bản địa hóa."
-              }
-            },
-            "6": {
-              "title": "Phê duyệt & bàn giao",
-              "descriptions": {
-                "1": "Gửi bản cuối cùng: Cung cấp bản dịch cuối cùng cho khách hàng để họ xem xét và phê duyệt. Thực hiện các điều chỉnh cần thiết nếu có yêu cầu từ khách hàng.",
-                "2": "Bàn giao nội dung hoàn thiện: Sau khi nhận được sự phê duyệt cuối cùng, nội dung sẽ được bàn giao để ứng dụng."
-              }
-            }
             },
             "reasons": {
               "reasonTitle": "Tại sao chọn S-Loka cho nhu cầu dịch vụ phiên dịch?",
@@ -1733,7 +1732,7 @@
           "CopyWriting": {
             "Hero": {
               "title": "Copywriting",
-              "description": "Tạo ra một bài viết hấp dẫn và thuyết phục với từ ngữ bản địa"
+              "description": "Tạo ra một bài viết hấp dẫn và \nthuyết phục với từ ngữ bản địa"
             },
             "serviceHeading": "Các dịch vụ dịch thuật phổ biến của chúng tôi cho giải pháp này",
             "serviceEnding": "Và chúng tôi còn rất nhiều dịch vụ bản địa hoá khác có thể triển khai theo nhu cầu của bạn",
@@ -1922,7 +1921,7 @@
           "AIAssistant": {
             "Hero": {
               "title": "Hỗ trợ AI",
-              "description": "Hãy cùng tìm hiểu dịch vụ dịch thuật cho giải pháp bản địa hoá call center tại S-Loka"
+              "description": "Hãy cùng tìm hiểu dịch vụ dịch thuật cho giải pháp bản địa hoá call center tại \nS-Loka"
             },
             "serviceHeading": "Khi nào cần sử dụng dịch vụ dịch Thuật BPO cho Hỗ Trợ AI?",
             "serviceEnding": "Và chúng tôi còn rất nhiều dịch vụ bản địa hoá khác có thể triển khai theo nhu cầu của bạn",
@@ -1973,7 +1972,7 @@
           "CallCenter": {
             "Hero": {
               "title": "Call Center",
-              "description": "Hãy cùng tìm hiểu dịch vụ dịch thuật cho giải pháp bản địa hoá call center tại S-Loka"
+              "description": "Hãy cùng tìm hiểu dịch vụ dịch thuật cho giải pháp bản địa hoá call center tại \nS-Loka"
             },
             "serviceHeading": "Các dịch vụ phổ biến của chúng tôi cho giải pháp này",
             "serviceEnding": "Và chúng tôi còn rất nhiều dịch vụ BPO khác có thể triển khai theo nhu cầu của bạn",
@@ -2158,7 +2157,7 @@
         "title": "Dịch vụ khách sạn",
         "href": "/vi/chuyen-nganh/dich-vu-khach-san",
         "Hero": {
-          "title": "Dịch vụ khách sạn",
+          "title": "Dịch vụ \nkhách sạn",
           "description": "Hãy cùng tìm hiểu dịch vụ dịch thuật cho chuyên ngành dịch vụ khách sạn tại S-Loka"
         },
         "services": {
@@ -2211,7 +2210,7 @@
         "href": "/vi/chuyen-nganh/quang-cao",
         "Hero": {
           "title": "Quảng cáo & Marketing",
-          "description": "Bứt phá và chinh phục trái tim khách hàng với dịch vụ dịch thuật tại S-Loka"
+          "description": "Bứt phá và chinh phục trái tim \nkhách hàng với dịch vụ dịch thuật tại S-Loka"
         },
         "services": {
           "01": {
@@ -2315,7 +2314,7 @@
         "href": "/vi/chuyen-nganh/thuong-mai-dien-tu",
         "Hero": {
           "title": "Thương mại điện tử",
-          "description": "Hãy cùng tìm hiểu dịch vụ dịch thuật cho chuyên ngành thương mại điện tử tại S-Loka"
+          "description": "Hãy cùng tìm hiểu dịch vụ dịch thuật cho chuyên ngành thương mại điện tử tại \nS-Loka"
         },
         "services": {
           "01": {
@@ -2427,7 +2426,7 @@
         "href": "/vi/chuyen-nganh/san-xuat-o-to",
         "Hero": {
           "title": "Sản xuất ô tô",
-          "description": "Đưa doanh nghiệp bứt phá với dịch vụ dịch sáng tạo ngành sản xuất ô tô của S-Loka"
+          "description": "Đưa doanh nghiệp bứt phá với dịch vụ dịch sáng tạo ngành sản xuất ô tô của \nS-Loka"
         },
         "services": {
           "01": {
@@ -2506,7 +2505,7 @@
         "reasons": {
           "1": {
             "title": "Đội ngũ dịch giả giàu kinh nghiệm",
-            "description": "Đội ngũ dịch giả của S-Loka không chỉ thành thạo nhiều ngôn ngữ mà còn có kiến thức chuyên sâu về các lĩnh vực liên quan đến năng lượng như là: năng lượng tái tạo, dầu khí, năng lượng hạt nhân. Điều này đảm bảo tính chính xác và trung thực của bản dịch."
+            "description": "Đội ngũ dịch giả của S-Loka không chỉ thành thạo nhiều ngôn ngữ mà còn có kiến thức chuyên sâu về các lĩnh vực liên quan đến năng lượng như: năng lượng tái tạo, dầu khí, năng lượng hạt nhân. Điều này đảm bảo tính chính xác và trung thực của bản dịch."
           },
           "2": {
             "title": "Quy trình dịch thuật chuyên nghiệp, kiểm soát chất lượng nghiêm ngặt",
@@ -2518,7 +2517,7 @@
           },
           "4": {
             "title": "Đáp ứng tốt các dự án quy mô lớn",
-            "description": "S-Loka có nguồn lực dồi dào về nhân sự và công nghệ để xử lý các dự án dịch thuật lớn với khối lượng hàng chục nghìn hoặc hàng trăm nghìn từ, vẫn đảm bảo giao dịch đúng tiến độ."
+            "description": "S-Loka có nguồn lực dồi dào về nhân sự và công nghệ để xử lý các dự án dịch thuật lớn với khối lượng hàng chục nghìn hoặc hàng trăm nghìn từ, vẫn đảm bảo giao hàng đúng tiến độ."
           },
           "5": {
             "title": "Bảo mật thông tin, đáp ứng các tiêu chuẩn về an toàn thông tin",
@@ -2530,7 +2529,7 @@
         "title": "Khoa học đời sống/Y tế",
         "href": "/vi/chuyen-nganh/khoa-hoc-doi-song",
         "Hero": {
-          "title": "Khoa học đời sống & Y tế",
+          "title": "Khoa học \nđời sống \n& Y tế",
           "description": "Hãy cùng tìm hiểu dịch vụ dịch thuật cho chuyên ngành khoa học đời sống & y tế tại S-Loka"
         },
         "services": {
@@ -2591,7 +2590,7 @@
         "href": "/vi/chuyen-nganh/cong-nghe-thong-tin",
         "Hero": {
           "title": "Công nghệ thông tin",
-          "description": "Hãy cùng tìm hiểu dịch vụ dịch thuật cho chuyên ngành công nghệ thông tin tại S-Loka"
+          "description": "Hãy cùng tìm hiểu dịch vụ dịch thuật cho chuyên ngành công nghệ thông tin tại \nS-Loka"
         },
         "services": {
           "01": {
@@ -2852,7 +2851,7 @@
     }
   },
   "ContactForm": {
-    "title": "Biểu mẫu điền thông tin liên hệ báo giá",
+    "title": "Biểu mẫu điền thông tin liên hệ \nbáo giá",
     "fields": {
       "name": "Họ và tên",
       "email": "Email",
@@ -2862,6 +2861,10 @@
       "message": "Để lại lời nhắn cho chúng tôi"
     },
     "buttonLabel": "Gửi yêu cầu"
+  },
+  "Footer": {
+    "address": "284/34B Lê Văn Sỹ, Phường Nhiêu Lộc, TP.Hồ Chí Minh, Việt Nam",
+    "copyright": "Bản quyền thuộc về CÔNG TY CỔ PHẦN DỊCH VỤ \nS-LOKA"
   },
   "Menu": {
     "priceButton": "BÁO GIÁ",

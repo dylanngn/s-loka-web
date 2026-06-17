@@ -1,18 +1,18 @@
 import styles from "./style.module.css"
 import { BackButton } from '@/components/CareerBackButton';
 import { Container } from '@/components/Container';
-import { Locale } from '@/i18n-config';
 import { getJobDetail } from '@/server/get-all-job';
 import { getDictionary } from '@/server/get-dictionary';
 import clsx from "clsx";
 import Image from 'next/image';
 
 export default async function CareerDetailPage({
-  params: { slug, lang },
+  params,
 }: {
-  params: { slug: string; lang: Locale };
+  params: Promise<{ slug: string; locale: string }>;
 }) {
-  const dict = (await getDictionary(lang))['Career']['Detail'];
+  const { slug, locale } = await params;
+  const dict = (await getDictionary(locale))['Career']['Detail'];
   const job = await getJobDetail(slug);
   const header = job?.content_html.split('***')[0];
   const body = job?.content_html.split('***')[1];

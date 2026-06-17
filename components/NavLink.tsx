@@ -15,7 +15,7 @@ export function NavLink({
       href={href}
       className={clsx(
         className,
-        'decoration-primary inline-block px-1 py-1 text-sm font-normal underline-offset-8 hover:font-medium hover:underline'
+        'decoration-primary inline-block px-1 py-1 text-sm font-normal underline-offset-8 hover:font-medium hover:underline whitespace-nowrap'
       )}
     >
       {children}

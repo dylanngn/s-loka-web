@@ -1,5 +1,4 @@
 import { Container } from '@/components/Container';
-import { Locale } from '@/i18n-config';
 import { getDictionary } from '@/server/get-dictionary';
 import {
   UserPlusIcon,
@@ -21,11 +20,12 @@ const ICONS = {
 } as any;
 
 export default async function CareerPage({
-  params: { lang },
+  params,
 }: {
-  params: { lang: Locale };
+  params: Promise<{ locale: string }>;
 }) {
-  const dict = (await getDictionary(lang))['Career']['Main'];
+  const { locale } = await params;
+  const dict = (await getDictionary(locale))['Career']['Main'];
   return (
     <>
       <Container className="text-center">

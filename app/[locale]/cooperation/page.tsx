@@ -9,15 +9,15 @@ import { Like } from '@/components/icons/Like';
 import MasonryTestimonials, { Testimonial } from '@/components/MasonryTestimonials';
 import { Partners } from '@/components/Partners';
 import { Records } from '@/components/Records';
-import { Locale } from '@/i18n-config';
 import { getDictionary } from '@/server/get-dictionary';
 
 export default async function CooperationPage({
-  params: { lang },
+  params,
 }: {
-  params: { lang: Locale };
+  params: Promise<{ locale: string }>;
 }) {
-  const dict = await getDictionary(lang);
+  const { locale } = await params;
+  const dict = await getDictionary(locale);
   const cooperation = dict.Cooperation
   const items = Object.entries(cooperation.Content.items)
   const testimonials = Object.values(dict.Testimonial.masonry) as [Testimonial];

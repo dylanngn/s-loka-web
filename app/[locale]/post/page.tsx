@@ -1,16 +1,16 @@
 import { Container } from "@/components/Container";
 import { Hero } from "@/components/Hero";
 import { PostTabs } from "@/components/PostTabs";
-import { Locale } from "@/i18n-config";
 import { getCategorizedPosts } from "@/server/get-all-post";
 import { getDictionary } from "@/server/get-dictionary";
 
 export default async function AboutPage({
-  params: { lang },
+  params,
 }: {
-  params: { lang: Locale };
+  params: Promise<{ locale: string }>;
 }) {
-  const dict = await getDictionary(lang);
+  const { locale } = await params;
+  const dict = await getDictionary(locale);
   const posts = await getCategorizedPosts()
   return (
     <>
@@ -21,7 +21,7 @@ export default async function AboutPage({
           posts={posts}
           leading={dict.Post.topicLeading}
           topics={dict.Post.topics}
-          lang={lang}
+          lang={locale}
           readTimeText={dict.Post.Detail.minRead}
         />
       </Container>

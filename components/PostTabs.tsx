@@ -4,7 +4,6 @@ import clsx from "clsx";
 import { Fragment, useState } from "react";
 import { Pagination } from "./Pagination";
 import { PostSnippet } from "@/components/PostSnippet";
-import { Locale } from "@/i18n-config";
 import { calculateReadTime } from "@/server/get-all-post";
 
 type Topics = Record<string, string>;
@@ -12,7 +11,7 @@ type Props = {
   posts: any;
   leading: string;
   topics: Topics;
-  lang: Locale;
+  lang: string;
   readTimeText: string;
 };
 

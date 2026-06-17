@@ -74,13 +74,13 @@ export function Hero({ title, message, description }: HeroProps) {
       before:z-10 before:absolute before:h-screen before:pointer-events-none before:inset-0 before:bg-[radial-gradient(circle_farthest-side_at_var(--x,0px)_var(--y,_0px),_var(--color-primary)_0%,_transparent_50%)] before:opacity-40"
     >
       <div className="relative z-10">
-        <h1 className="mx-auto max-w-4xl font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-7xl">
+        <h1 className="mx-auto max-w-4xl font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-7xl whitespace-pre-line md:whitespace-normal">
           {title}
-          <span className="text-primary relative -bottom-8 sm:ml-10 text-3xl">
+          <span className="text-primary relative -bottom-8 sm:ml-10 text-3xl whitespace-nowrap">
             {message}
           </span>
         </h1>
-        <p className="mt-16 text-lg font-light">{description}</p>
+        <p className="mt-16 text-lg font-light whitespace-pre-line md:whitespace-normal">{description}</p>
       </div>
     </motion.section>
   );

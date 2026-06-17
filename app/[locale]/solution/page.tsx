@@ -1,19 +1,19 @@
-import ContactForm from '@/components/ContactForm';
 import { Container } from '@/components/Container';
 import { Hero } from '@/components/Hero';
 import { NavLink } from '@/components/NavLink';
 import { Partners } from '@/components/Partners';
-import { Testimonials } from '@/components/Testimonials';
-import { Locale } from '@/i18n-config';
+import MasonryTestimonials, { Testimonial } from '@/components/MasonryTestimonials';
 import { getDictionary } from '@/server/get-dictionary';
 import Link from 'next/link';
 
 export default async function SolutionPage({
-  params: { lang },
+  params,
 }: {
-  params: { lang: Locale };
+  params: Promise<{ locale: string }>;
 }) {
-  const dict = await getDictionary(lang);
+  const { locale } = await params;
+  const dict = await getDictionary(locale);
+  const testimonials = Object.values(dict.Testimonial.masonry) as [Testimonial];
   return (
     <>
       <Hero {...dict.Solution.Hero} />
@@ -59,8 +59,11 @@ export default async function SolutionPage({
         </div>
       </Container>
       <Partners title={dict.Partners.title} />
-      <Testimonials {...dict.Testimonial} />
-      <ContactForm {...dict.ContactForm} />
+      <MasonryTestimonials
+        title={dict.Testimonial.title}
+        description={dict.Testimonial.description}
+        testimonials={testimonials}
+      />
     </>
   );
 }

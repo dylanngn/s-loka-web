@@ -1,21 +1,27 @@
 import '@/styles/tailwind.css';
-import { Locale, i18n } from '@/i18n-config';
 import { Footer } from '@/components/Footer';
 import { Header } from '@/components/Header';
+import ContactForm from '@/components/ContactForm';
 import { getDictionary } from '@/server/get-dictionary';
-export const runtime = 'edge';
+import { PageLoader } from '@/components/clients/PageLoader';
+import { ChatWidget } from '@/components/ChatWidget';
 
 export default async function LocaleLayout({
   children,
-  params: { lang },
+  params,
 }: Readonly<{
   children: React.ReactNode;
-  params: { lang: Locale };
+  params: Promise<{ locale: string }>;
 }>) {
-  const dict = (await getDictionary(lang))['Menu'];
+  const { locale } = await params;
+  const dictionary = await getDictionary(locale);
+  const dict = dictionary['Menu'];
+  const contactFormDict = dictionary['ContactForm'];
+  const footerDict = dictionary['Footer'];
 
   return (
-    <>
+    <div className={`flex-1 flex flex-col ${locale === 'en' ? 'text-[18px]' : ''}`}>
+      <PageLoader />
       <Header
         home={{ label: dict.home.title, href: dict.home.href }}
         about={{
@@ -48,14 +54,14 @@ export default async function LocaleLayout({
         }}
       />
       <main>{children}</main>
+      <ContactForm {...contactFormDict} />
       <Footer
         info={{
-          address:
-            '47 Trương Quyền, Phường Võ Thị Sáu, Quận 03, TP.HCM, Việt Nam',
+          address: footerDict.address,
           phone: '+84 342 445 442',
           email: 'hello@s-loka.com',
         }}
-        copyRight="Bản quyền thuộc về CÔNG TY CỔ PHẦN DỊCH VỤ S-LOKA"
+        copyRight={footerDict.copyright}
         menu1={{
           label: dict.solution.sub.localization.title,
           items: Object.values(dict.solution.sub.localization.sub).map(
@@ -100,6 +106,7 @@ export default async function LocaleLayout({
             })),
         }}
       />
-    </>
+      <ChatWidget />
+    </div>
   );
 }

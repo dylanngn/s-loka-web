@@ -1,10 +1,9 @@
-import ContactForm from '@/components/ContactForm';
 import { Container } from '@/components/Container';
 import { Hero } from '@/components/Hero';
 import { Partners } from '@/components/Partners';
-import { Testimonials } from '@/components/Testimonials';
-import { Locale } from '@/i18n-config';
+import MasonryTestimonials, { Testimonial } from '@/components/MasonryTestimonials';
 import { getDictionary } from '@/server/get-dictionary';
+import Link from 'next/link';
 import { Banking } from '@/components/icons/Banking';
 import { Ecommerce } from '@/components/icons/Ecommerce';
 import { Energy } from '@/components/icons/Energy';
@@ -31,11 +30,13 @@ const ICONS = {
 } as any;
 
 export default async function ServicePage({
-  params: { lang },
+  params,
 }: {
-  params: { lang: Locale };
+  params: Promise<{ locale: string }>;
 }) {
-  const dict = await getDictionary(lang);
+  const { locale } = await params;
+  const dict = await getDictionary(locale);
+  const testimonials = Object.values(dict.Testimonial.masonry) as [Testimonial];
   return (
     <>
       <Hero {...dict.Service.Hero} />
@@ -49,18 +50,19 @@ export default async function ServicePage({
             .map(([key, value]) => {
               const Icon = ICONS[key] ?? null;
               return (
-                <div
+                <Link
                   key={key}
-                  className="flex flex-col sm:w-72 w-full sm:h-32 h-36  text-left hover:border-primary border-slate-400 border-2 gap-2 px-4 py-6 rounded-xl items-center justify-center"
+                  href={value.href}
+                  className="flex flex-col sm:w-72 w-full sm:h-32 h-36  text-left hover:border-primary border-slate-400 border-2 gap-2 px-4 py-6 rounded-xl items-center justify-center cursor-pointer"
                 >
                   <div className="block">
                     {Icon && <Icon className="w-6 block" />}
                   </div>
-                  <a href={value.href} className="font-sm flex gap-2 flex-col sm:flex-row items-center font-light text-center mt-2">
+                  <span className="font-sm flex gap-2 flex-col sm:flex-row items-center font-light text-center mt-2">
                     {value.title}
                     <ServiceArrow className="w-6 inline-block" />
-                  </a>
-                </div>
+                  </span>
+                </Link>
               );
             })}
         </div>
@@ -70,9 +72,10 @@ export default async function ServicePage({
             .map(([key, value]) => {
               const Icon = ICONS[key] ?? null;
               return (
-                <div
+                <Link
                   key={key}
-                  className="flex flex-col sm:w-72 w-full sm:h-32 h-36 text-left sm:mx-4 hover:border-primary border-slate-400 border-2 gap-2 px-4 py-6 rounded-xl items-center justify-center"
+                  href={value.href}
+                  className="flex flex-col sm:w-72 w-full sm:h-32 h-36 text-left sm:mx-4 hover:border-primary border-slate-400 border-2 gap-2 px-4 py-6 rounded-xl items-center justify-center cursor-pointer"
                 >
                   <div className="block">
                     {Icon && <Icon className="w-6 block" />}
@@ -81,7 +84,7 @@ export default async function ServicePage({
                     {value.title}
                     <ServiceArrow className="w-6 inline-block" />
                   </span>
-                </div>
+                </Link>
               );
             })}
         </div>
@@ -103,8 +106,11 @@ export default async function ServicePage({
         })}
       </Container>
       <Partners title={dict.Partners.title} />
-      <Testimonials {...dict.Testimonial} />
-      <ContactForm {...dict.ContactForm} />
+      <MasonryTestimonials
+        title={dict.Testimonial.title}
+        description={dict.Testimonial.description}
+        testimonials={testimonials}
+      />
     </>
   );
 }
